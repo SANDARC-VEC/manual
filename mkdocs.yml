@@ -1,5 +1,6 @@
 site_name: SANDARC VEC Manual
-site_url: https://manual.sandarc.org
+site_url: https://vec.sandarc.org/manual/
+
 theme:
   name: material
   palette:
