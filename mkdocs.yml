@@ -1,0 +1,4 @@
+site_name: SANDARC VEC Manual
+site_url: https://manual.sandarc.org
+theme:
+  name: material
