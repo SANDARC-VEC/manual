@@ -2,3 +2,17 @@ site_name: SANDARC VEC Manual
 site_url: https://manual.sandarc.org
 theme:
   name: material
+  palette:
+
+    - scheme: sandarc-light
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+
+    - scheme: sandarc-dark
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+extra_css:
+  - stylesheets/extra.css
