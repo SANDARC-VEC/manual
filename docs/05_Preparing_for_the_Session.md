@@ -1,8 +1,6 @@
-# San Diego County Amateur Radio Council
-# SANDARC Volunteer Examiner Manual
+# Preparing for the Session
 
-*The Coolest VEC*
-vec@sandarc.org
+*San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org*
 
 ---
 
