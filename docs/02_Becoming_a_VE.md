@@ -6,8 +6,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 - Be 18 years of age or older
 - Hold a valid General, Advanced, or Amateur Extra class amateur radio license
-- Never have had your amateur station or operator license suspended or revoked
-- Be accredited by the coordinating VEC (SANDARC)
+- Never have had your amateur radio license suspended or revoked
 
 ### VE Eligibility by License Class
 
@@ -38,6 +37,4 @@ SANDARC does not impose a minimum number of sessions per year. However, SANDARC 
 
 > **Any VE who's emails are rejected by SANDARC will have their accreditation suspended until communication can be restored**
 
-VEs must keep their contact information current. If your FCC license is renewed or your call sign changes, notify your Team Lead so your accreditation record can be updated.
-
-A VE whose FCC license has expired is not eligible to administer examinations. Renew your license promptly and notify your Team Lead when it is updated in the FCC ULS.
+VEs must keep their contact information current. Please inform your team lead if your contact information needs to be updated.
