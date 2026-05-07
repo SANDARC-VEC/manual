@@ -297,6 +297,17 @@ body:has(.hero-landing) .md-container {
   user-select: none;
 }
 
+.hero-photo-credit a {
+  color: inherit !important;
+  text-decoration: none;
+  pointer-events: auto;
+  transition: color 0.2s ease;
+}
+
+.hero-photo-credit a:hover {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
 /* ── Responsive ── */
 @media screen and (max-width: 600px) {
   .hero-landing {
