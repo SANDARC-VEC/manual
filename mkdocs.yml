@@ -3,6 +3,7 @@ site_url: https://vec.sandarc.org/manual/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
 
     - scheme: sandarc-light
