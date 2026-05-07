@@ -1,9 +1,3 @@
-# Becoming a SANDARC Volunteer Examiner
-
-*San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org*
-
----
-
 ## 2. Becoming a SANDARC Volunteer Examiner
 
 ### FCC VE Qualifications
@@ -38,14 +32,12 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 > ⚠ **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
 
-### Maintaining Your Accreditation
+### Maintaining Your Accreditation Or Your Team
 
-SANDARC does not impose a minimum number of sessions per year. However, SANDARC reserves the right to discontinue a team due to prolonged inactivity or if it appears a team exists solely for credential-collection purposes. VE Teams should be engaged in helping new amateurs enter the hobby by joining a club or engagement in other activities that promotes amateur radio.
+SANDARC does not impose a minimum number of sessions per year. However, SANDARC reserves the right to discontinue a team due to prolonged inactivity or if it appears a team exists solely for credential-collection purposes("Factory Teams"). VE Teams should be fully engaged in helping new amateurs enter the hobby by joining a club or engagement in other activities that promotes amateur radio.
 
 > **Any VE who's emails are rejected by SANDARC will have their accreditation suspended until communication can be restored**
 
 VEs must keep their contact information current. If your FCC license is renewed or your call sign changes, notify your Team Lead so your accreditation record can be updated.
 
 A VE whose FCC license has expired is not eligible to administer examinations. Renew your license promptly and notify your Team Lead when it is updated in the FCC ULS.
-
----
