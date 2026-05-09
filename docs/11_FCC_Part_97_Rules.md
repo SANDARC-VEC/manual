@@ -1,9 +1,3 @@
-# FCC Part 97 Rules Reference
-
-*San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org*
-
----
-
 ## 11. FCC Part 97 Rules Reference
 
 | Rule | Provision |

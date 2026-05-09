@@ -1,9 +1,3 @@
-# Certificates of Successful Completion of Examination (CSCEs)
-
-*San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org*
-
----
-
 ## 8. Certificates of Successful Completion of Examination (CSCEs)
 
 ### What Is a CSCE?
@@ -26,14 +20,11 @@ Temporary identifiers for upgrades (appended after the call sign):
 - `/AG` — Technician upgrading to General class privileges
 - `/AE` — General or Advanced upgrading to Amateur Extra class privileges
 
-When operating outside the privileges of the previous license class, the identifier must be appended to the call sign preceded by a slant mark (/) for telegraphy/digital, or spoken as "temporary," "stroke," or "slash" for voice.
-
 ### Completing the CSCE
 
-- ExamTools populates and distributes the CSCE automatically for electronic sessions. For paper sessions, complete the CSCE form manually.
-- All three certifying VEs must sign the CSCE — the same VEs who certify Section 2 of Form 605.
+- ExamTools populates and distributes the CSCE automatically for electronic sessions.
+- Three VEs must sign the CSCE
 - The applicant must sign the CSCE in the presence of a VE.
-- Circle all elements passed at this session. Cross out elements and license classes not earned.
 - Give the applicant their copy of the CSCE immediately. Advise them to retain it as permanent proof of exam credit.
 - The team retains a copy for its records.
 

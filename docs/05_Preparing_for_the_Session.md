@@ -1,16 +1,9 @@
-# Preparing for the Session
-
-*San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org*
-
----
-
 ## 5. Preparing for the Session
 
 ### Scheduling & Advertising
 
-- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and amateur radio social media groups in the San Diego area.
+- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and amateur radio social media groups.
 - When practical, announce the date, time, location, and Team Lead contact information. Walk-in applicants are welcome if space and VE coverage permit.
-- Contact vec@sandarc.org to register your session and receive your session number before the session takes place.
 
 ### ExamTools — Required Platform
 
@@ -37,5 +30,3 @@ ExamTools supports three in-person exam formats:
 - Applicants should be seated as far apart from each other as practical to prevent distraction and reduce the opportunity for cheating.
 - If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity must be conducted as quietly as possible.
 - Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
-
----

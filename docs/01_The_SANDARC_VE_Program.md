@@ -2,7 +2,12 @@
 
 The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate amateur radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego amateur radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
 
-The VEC program was established by Congress (Public Law 97-259, 1982) and began operation in 1984 when the FCC transferred exam administration to the volunteer community. SANDARC VEs are the face of amateur radio for many applicants taking their first exam, and that responsibility is taken seriously.
+### SANDARC Mission & Values
+
+- Free exams for all applicants — no fees, no exceptions.
+- Professional, welcoming sessions that make every applicant feel comfortable, regardless of background or experience level.
+- Strict exam integrity — SANDARC maintains high standards to ensure that every license earned is a license deserved.
+- Service to the San Diego amateur radio community and beyond.
 
 ### Program Structure
 
@@ -20,10 +25,3 @@ The VEC program was established by Congress (Public Law 97-259, 1982) and began 
 | Technician | Element 2 — 35 questions | 26 correct (74%) |
 | General | Elements 2 & 3 — 35 questions each | 26 correct each (74%) |
 | Amateur Extra | Elements 2, 3 & 4 — Element 4 = 50 questions | 37 correct (74%) |
-
-### SANDARC Mission & Values
-
-- Free exams for all applicants — no fees, no exceptions.
-- Professional, welcoming sessions that make every applicant feel comfortable, regardless of background or experience level.
-- Strict exam integrity — SANDARC maintains high standards to ensure that every license earned is a license deserved.
-- Service to the San Diego amateur radio community and beyond.
