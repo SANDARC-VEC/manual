@@ -1,13 +1,13 @@
 ## 1. The SANDARC VE Program
 
-The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate amateur radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego amateur radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
+The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate Amateur Radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego Amateur Radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
 
 ### SANDARC Mission & Values
 
 - Free exams for all applicants — no fees, no exceptions.
 - Professional, welcoming sessions that make every applicant feel comfortable, regardless of background or experience level.
 - Strict exam integrity — SANDARC maintains high standards to ensure that every license earned is a license deserved.
-- Service to the San Diego amateur radio community and beyond.
+- Service to the San Diego Amateur Radio community and beyond.
 
 ### Program Structure
 
@@ -20,8 +20,8 @@ The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coo
 
 ### License Classes & Exam Elements
 
-| License Class | Elements Required | Passing Score |
-|---------------|-------------------|---------------|
-| Technician | Element 2 — 35 questions | 26 correct (74%) |
-| General | Elements 2 & 3 — 35 questions each | 26 correct each (74%) |
-| Amateur Extra | Elements 2, 3 & 4 — Element 4 = 50 questions | 37 correct (74%) |
+| License Class | Elements Required                            | Passing Score         |
+|---------------|----------------------------------------------|-----------------------|
+| Technician    | Element 2 — 35 questions                     | 26 correct (74%)      |
+| General       | Elements 2 & 3 — 35 questions each           | 26 correct each (74%) |
+| Amateur Extra | Elements 2, 3 & 4 — Element 4 = 50 questions | 37 correct (74%)      |

@@ -2,7 +2,7 @@
 
 ### Scheduling & Advertising
 
-- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and amateur radio social media groups.
+- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and Amateur Radio social media groups.
 - When practical, announce the date, time, location, and Team Lead contact information. Walk-in applicants are welcome if space and VE coverage permit.
 
 ### ExamTools — Required Platform

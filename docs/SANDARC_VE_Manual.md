@@ -26,9 +26,9 @@ vec@sandarc.org
 
 ## 1. The SANDARC VE Program
 
-The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate amateur radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego amateur radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
+The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate Amateur Radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego Amateur Radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
 
-The VEC program was established by Congress (Public Law 97-259, 1982) and began operation in 1984 when the FCC transferred exam administration to the volunteer community. SANDARC VEs are the face of amateur radio for many applicants taking their first exam, and that responsibility is taken seriously.
+The VEC program was established by Congress (Public Law 97-259, 1982) and began operation in 1984 when the FCC transferred exam administration to the volunteer community. SANDARC VEs are the face of Amateur Radio for many applicants taking their first exam, and that responsibility is taken seriously.
 
 ### Program Structure
 
@@ -47,14 +47,14 @@ The VEC program was established by Congress (Public Law 97-259, 1982) and began 
 | General | Elements 2 & 3 — 35 questions each | 26 correct each (74%) |
 | Amateur Extra | Elements 2, 3 & 4 — Element 4 = 50 questions | 37 correct (74%) |
 
->  **NOTE:** Morse code is no longer required for any U.S. amateur radio license. The FCC no longer issues new Novice or Advanced class licenses, though existing ones may be renewed indefinitely.
+>  **NOTE:** Morse code is no longer required for any U.S. Amateur Radio license. The FCC no longer issues new Novice or Advanced class licenses, though existing ones may be renewed indefinitely.
 
 ### SANDARC Mission & Values
 
 - Free exams for all applicants — no fees, no exceptions. See Section 3.
 - Professional, welcoming sessions that make every applicant feel comfortable, regardless of background or experience level.
 - Strict exam integrity — SANDARC maintains high standards to ensure that every license earned is a license deserved.
-- Service to the San Diego amateur radio community and beyond.
+- Service to the San Diego Amateur Radio community and beyond.
 
 ---
 
@@ -65,7 +65,7 @@ The VEC program was established by Congress (Public Law 97-259, 1982) and began 
 To qualify as a Volunteer Examiner under FCC rules you must:
 
 - Be 18 years of age or older
-- Hold a valid General, Advanced, or Amateur Extra class amateur radio license
+- Hold a valid General, Advanced, or Amateur Extra class Amateur Radio license
 - Never have had your amateur station or operator license suspended or revoked
 - Be accredited by the coordinating VEC (SANDARC)
 
@@ -94,7 +94,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 ### Maintaining Your Accreditation
 
-SANDARC does not impose a minimum number of sessions per year. However, SANDARC reserves the right to discontinue a team due to prolonged inactivity or if it appears a team exists solely for credential-collection purposes. VE Teams should be engaged in helping new amateurs enter the hobby by joining a club or engagement in other activities that promotes amateur radio.
+SANDARC does not impose a minimum number of sessions per year. However, SANDARC reserves the right to discontinue a team due to prolonged inactivity or if it appears a team exists solely for credential-collection purposes. VE Teams should be engaged in helping new amateurs enter the hobby by joining a club or engagement in other activities that promotes Amateur Radio.
 
 > **Any VE who's emails are rejected by SANDARC will have their accreditation suspended until communication can be restored**
 
@@ -158,7 +158,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 
 ### Scheduling & Advertising
 
-- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and amateur radio social media groups in the San Diego area.
+- SANDARC sessions should be publicly advertised in advance. Recommended channels include the HamStudy session calendar (ham.study/sessions), local club newsletters, repeater nets, and Amateur Radio social media groups in the San Diego area.
 - When practical, announce the date, time, location, and Team Lead contact information. Walk-in applicants are welcome if space and VE coverage permit.
 - Contact vec@sandarc.org to register your session and receive your session number before the session takes place.
 
