@@ -19,7 +19,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 ### SANDARC Accreditation Process
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > SANDARC accreditation is gained through existing teams. Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team.
 >
@@ -29,7 +29,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 >
 > Interested in joining a team or starting a new one? Reach out to vec@sandarc.org.
 
-> ⚠ **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
+>  **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
 
 ### Maintaining Your Accreditation Or Your Team
 

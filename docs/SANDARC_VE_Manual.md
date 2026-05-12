@@ -47,7 +47,7 @@ The VEC program was established by Congress (Public Law 97-259, 1982) and began 
 | General | Elements 2 & 3 — 35 questions each | 26 correct each (74%) |
 | Amateur Extra | Elements 2, 3 & 4 — Element 4 = 50 questions | 37 correct (74%) |
 
-> ⚠ **NOTE:** Morse code is no longer required for any U.S. amateur radio license. The FCC no longer issues new Novice or Advanced class licenses, though existing ones may be renewed indefinitely.
+>  **NOTE:** Morse code is no longer required for any U.S. amateur radio license. The FCC no longer issues new Novice or Advanced class licenses, though existing ones may be renewed indefinitely.
 
 ### SANDARC Mission & Values
 
@@ -80,7 +80,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 ### SANDARC Accreditation Process
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > SANDARC accreditation is gained through existing teams. Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team.
 >
@@ -90,7 +90,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 >
 > Interested in joining a team or starting a new one? Reach out to vec@sandarc.org.
 
-> ⚠ **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
+>  **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
 
 ### Maintaining Your Accreditation
 
@@ -116,7 +116,7 @@ FCC rules allow VECs and VEs to collect reimbursement for out-of-pocket expenses
 
 Any expenses beyond this narrow list require explicit prior approval from the SANDARC VEC. Requests should be directed to vec@sandarc.org before the expense is incurred.
 
-> ⚠ **NOTE — FCC Application Fee:** All applicants for a new or upgraded license must pay a mandatory $35 fee directly to the FCC — this is entirely separate from any VEC exam fee. Applicants will receive an email from the FCC with payment instructions after SANDARC submits their session data. The payment link is https://apps.fcc.gov/cores/paymentFrnLogin.do and the fee must be paid within 10 calendar days or the FCC will dismiss the application. Remind every new and upgrading applicant of this requirement at the end of the session.
+>  **NOTE — FCC Application Fee:** All applicants for a new or upgraded license must pay a mandatory $35 fee directly to the FCC — this is entirely separate from any VEC exam fee. Applicants will receive an email from the FCC with payment instructions after SANDARC submits their session data. The payment link is https://apps.fcc.gov/cores/paymentFrnLogin.do and the fee must be paid within 10 calendar days or the FCC will dismiss the application. Remind every new and upgrading applicant of this requirement at the end of the session.
 
 ---
 
@@ -137,7 +137,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 | Certifying VEs | The three VEs who sign Form 605s and CSCEs. All three are equally accountable for the accuracy and integrity of the session, even if other VEs assisted. |
 | Administering VEs | VEs who proctor and observe applicants during the exam. May include certifying VEs. Must hold the appropriate license class for the elements being administered. |
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > - Only Team Owners in ExamTools receive the Team Lead permission. Team Owners may add Co-Owners to their team at their discretion.
 > - For teams that will have multiple Team Leads for submitting sessions those members will also receive the Team Lead permission in Exam Tools but may not create new teams unless prior authorization is granted from SANDARC.
@@ -146,7 +146,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 
 ### SANDARC Branding & Other VEC Rules
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > - No branding of any other VEC organization is permitted at SANDARC exam sessions.
 > - Running concurrent sessions with another VEC at the same time and place is prohibited, except in cases of minor/youth reimbursement programs with other VECs.
@@ -164,7 +164,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 
 ### ExamTools — Required Platform
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > ExamTools (exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from ExamTools.
 >
@@ -213,7 +213,7 @@ The NCVEC Quick-Form 605 is the license application used at all VE exam sessions
 - Enter the examination session date (MM-DD-YY format), location (city and state), and VEC organization name: **SANDARC**.
 - Three VEs with the appropriate license class must each print their name and call sign, sign, and date this section. All three certifying VEs must hold a license class equal to or higher than the highest element being certified.
 
-> ⚠ **NOTE:** Errors on Form 605: draw a single line through the error, write the correction above it, and initial. Review all forms early so corrections can be made before exams begin.
+>  **NOTE:** Errors on Form 605: draw a single line through the error, write the correction above it, and initial. Review all forms early so corrections can be made before exams begin.
 
 ### FCC Registration Number (FRN)
 
@@ -239,7 +239,7 @@ The BQQ asks whether the applicant has ever been convicted of a felony. If the a
 - Do not write down any numbers or data from an applicant's photo ID — this is a legal requirement.
 - Use applicant personal information only for the purpose of administering the exam. Do not contact applicants after the session for any other reason without their explicit permission.
 
-> ★ **SANDARC POLICY:** All video recording at SANDARC sessions — whether in-person or online — is prohibited. This includes recording applicant IDs or any personally identifiable information. No pictures or videos of applicant IDs are allowed.
+>  **SANDARC POLICY:** All video recording at SANDARC sessions — whether in-person or online — is prohibited. This includes recording applicant IDs or any personally identifiable information. No pictures or videos of applicant IDs are allowed.
 
 ---
 
@@ -254,7 +254,7 @@ The BQQ asks whether the applicant has ever been convicted of a felony. If the a
 5. Review any element credit documents the applicant has brought. Make a photocopy for your records; return all originals to the applicant.
 6. Add the applicant to the ExamTools session roster.
 
-> ⚠ **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back.
+>  **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back.
 
 ### Element Credit
 
@@ -270,7 +270,7 @@ Applicants may receive credit for exam elements based on their current or former
 | Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit. |
 | Valid CSCE from a prior session (within 365 days) | Credit for elements shown on the CSCE. |
 
-> ⚠ **NOTE:** A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
+>  **NOTE:** A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
 
 ### Acceptable Documents for Element Credit
 
@@ -379,7 +379,7 @@ An applicant who holds a currently valid Technician license that was originally 
 
 SANDARC supports remote exam sessions conducted via ExamTools combined with a video conferencing platform (Zoom recommended). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > - Online/remote sessions require that the SANDARC President and VEC Manager be added to the ExamTools team as Co-Owners before the session begins.
 > - All video recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
@@ -420,7 +420,7 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 
 ### Submitting to SANDARC
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > - Submit the VEC Archive file generated by ExamTools to vec@sandarc.org as soon as possible after the session concludes.
 > - Include any supporting documents (e.g., element credit evidence) in the same email.
@@ -439,7 +439,7 @@ After completing the session in ExamTools, the Team Lead should:
 - Copies of any element credit documents reviewed at the session (expired license copies, prior CSCEs)
 - Notes on any scoring overrides or unusual circumstances
 
-> ⚠ **NOTE:** SANDARC does not need Form 605s for applicants who did not earn a license or upgrade. However, the Team Lead must retain records of failed exams (including which version was used) so that a different question set is used if the applicant retests at a future session. [§97.509(f)]
+>  **NOTE:** SANDARC does not need Form 605s for applicants who did not earn a license or upgrade. However, the Team Lead must retain records of failed exams (including which version was used) so that a different question set is used if the applicant retests at a future session. [§97.509(f)]
 
 ### Record Retention
 

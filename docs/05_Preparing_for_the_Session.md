@@ -7,7 +7,7 @@
 
 ### ExamTools — Required Platform
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 >
 > ExamTools (exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from ExamTools.
 >

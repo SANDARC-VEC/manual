@@ -9,7 +9,7 @@
 5. Review any element credit documents the applicant has brought. If element credit is required update exam tools with the credit.
 6. Add the applicant to the ExamTools session roster.
 
-> ⚠ **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decison on wether to proceed with the applicant testing.
+>  **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decison on wether to proceed with the applicant testing.
 
 ### Element Credit
 
@@ -25,7 +25,7 @@ Applicants may receive credit for exam elements based on their current or former
 | Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit.                                                  |
 | Valid CSCE from a prior session (within 365 days)                                     | Credit for elements shown on the CSCE.                      |
 
-> ⚠ **NOTE:** A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
+>  **NOTE:** A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
 
 ### Acceptable Documents for Element Credit
 

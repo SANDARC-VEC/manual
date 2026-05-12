@@ -13,7 +13,7 @@
 | Team Lead | The Team Lead is the VE designated to manage the session and serve as the primary point of contact with SANDARC. The Team Lead is responsible for session integrity, test material security, and submitting session results to vec@sandarc.org. In FCC rules, this role is called the Session Manager (§97.513). |
 | VEs       | VEs who proctor and observe applicants during the exam. Must hold the appropriate license class for the elements being administered.                                                                                                                                                                             |
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 
 > - Only Team Owners and Co-Owners in ExamTools receive the Team Lead permission. Team Owners may add Co-Owners to their team at their discretion but must notify the VEC of additional Co-Owners so the VEC database can be updated.
 > - For teams that will have multiple Team Leads for submitting sessions those members will also receive the Team Lead permission in Exam Tools but may not create new teams unless prior authorization is granted from SANDARC.
@@ -23,7 +23,7 @@
 
 ### SANDARC Branding & Other VEC Rules
 
-> ★ **SANDARC POLICY:**
+>  **SANDARC POLICY:**
 
 > - No branding of any other VEC organization is permitted at SANDARC exam sessions. Team Branding and Club Branding is always authorized!
 > - Running concurrent sessions with another VEC at the same time and place is prohibited, except in cases of minor/youth reimbursement programs with other VECs.
