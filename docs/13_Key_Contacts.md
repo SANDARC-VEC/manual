@@ -1,4 +1,4 @@
-## 13. Key Contacts & Resources
+## Key Contacts & Resources
 
 ### SANDARC VEC
 

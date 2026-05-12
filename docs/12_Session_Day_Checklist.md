@@ -4,7 +4,7 @@
 
 ---
 
-## 12. Session Day Quick Reference Checklist
+## Session Day Quick Reference Checklist
 
 ### Before Candidates Arrive
 

@@ -1,4 +1,4 @@
-## 7. Conducting the Session
+## Conducting the Session
 
 ### Applicant Check-In
 

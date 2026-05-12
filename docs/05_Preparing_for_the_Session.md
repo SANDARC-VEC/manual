@@ -1,4 +1,4 @@
-## 5. Preparing for the Session
+## Preparing for the Session
 
 ### Scheduling & Advertising
 

@@ -1,4 +1,4 @@
-## 4. The VE Team
+## The VE Team
 
 ### Team Composition
 

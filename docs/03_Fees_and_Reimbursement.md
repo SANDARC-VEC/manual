@@ -4,7 +4,7 @@
 
 ---
 
-## 3. Fees & Expense Reimbursement
+## Fees & Expense Reimbursement
 
 > ⛔ **IMPORTANT:** SANDARC charges NO exam fees. All examinations are completely free of charge to all applicants. No fees may be assessed against any applicant for any SANDARC exam session.
 

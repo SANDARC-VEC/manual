@@ -24,7 +24,7 @@ vec@sandarc.org
 
 ---
 
-## 1. The SANDARC VE Program
+## The SANDARC VE Program
 
 The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coordinator (VEC) operating under an agreement with the Federal Communications Commission (FCC) to coordinate Amateur Radio license examinations. SANDARC is one of fourteen VECs authorized by the FCC to carry out this function, and takes great pride in serving the San Diego Amateur Radio community — and applicants everywhere — with free, professional, and welcoming exam sessions.
 
@@ -58,7 +58,7 @@ The VEC program was established by Congress (Public Law 97-259, 1982) and began 
 
 ---
 
-## 2. Becoming a SANDARC Volunteer Examiner
+## Becoming a SANDARC Volunteer Examiner
 
 ### FCC VE Qualifications
 
@@ -104,7 +104,7 @@ A VE whose FCC license has expired is not eligible to administer examinations. R
 
 ---
 
-## 3. Fees & Expense Reimbursement
+## Fees & Expense Reimbursement
 
 > ⛔ **IMPORTANT:** SANDARC charges NO exam fees. All examinations are completely free of charge to all applicants. No fees may be assessed against any applicant for any SANDARC exam session.
 
@@ -120,7 +120,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 
 ---
 
-## 4. The VE Team
+## The VE Team
 
 ### Team Composition
 
@@ -154,7 +154,7 @@ Any expenses beyond this narrow list require explicit prior approval from the SA
 
 ---
 
-## 5. Preparing for the Session
+## Preparing for the Session
 
 ### Scheduling & Advertising
 
@@ -190,7 +190,7 @@ ExamTools supports three in-person exam formats:
 
 ---
 
-## 6. The Application — NCVEC Quick-Form 605
+## The Application — NCVEC Quick-Form 605
 
 The NCVEC Quick-Form 605 is the license application used at all VE exam sessions. It is not the same as the FCC Form 605 (which applicants use for renewals and other administrative actions directly with the FCC). ExamTools populates this form automatically when applicants register online — review it for completeness before the exam begins.
 
@@ -243,7 +243,7 @@ The BQQ asks whether the applicant has ever been convicted of a felony. If the a
 
 ---
 
-## 7. Conducting the Session
+## Conducting the Session
 
 ### Applicant Check-In
 
@@ -336,7 +336,7 @@ VE teams must accommodate applicants whose physical disabilities require a speci
 
 ---
 
-## 8. Certificates of Successful Completion of Examination (CSCEs)
+## Certificates of Successful Completion of Examination (CSCEs)
 
 ### What Is a CSCE?
 
@@ -375,7 +375,7 @@ An applicant who holds a currently valid Technician license that was originally 
 
 ---
 
-## 9. Remote Testing
+## Remote Testing
 
 SANDARC supports remote exam sessions conducted via ExamTools combined with a video conferencing platform (Zoom recommended). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 
@@ -416,7 +416,7 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 
 ---
 
-## 10. After the Session — Submission & Records
+## After the Session — Submission & Records
 
 ### Submitting to SANDARC
 
@@ -449,7 +449,7 @@ After completing the session in ExamTools, the Team Lead should:
 
 ---
 
-## 11. FCC Part 97 Rules Reference
+## FCC Part 97 Rules Reference
 
 | Rule | Provision |
 |------|-----------|
@@ -479,7 +479,7 @@ After completing the session in ExamTools, the Team Lead should:
 
 ---
 
-## 12. Session Day Quick Reference Checklist
+## Session Day Quick Reference Checklist
 
 ### Before Candidates Arrive
 
@@ -527,7 +527,7 @@ After completing the session in ExamTools, the Team Lead should:
 
 ---
 
-## 13. Key Contacts & Resources
+## Key Contacts & Resources
 
 ### SANDARC VEC
 

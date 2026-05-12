@@ -1,4 +1,4 @@
-## 2. Becoming a SANDARC Volunteer Examiner
+## Becoming a SANDARC Volunteer Examiner
 
 ### FCC VE Qualifications
 

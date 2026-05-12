@@ -1,4 +1,4 @@
-## 9. Remote Testing
+## Remote Testing
 
 SANDARC supports remote exam sessions conducted via ExamTools combined with a video conferencing platform (Zoom or Google Meets). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 

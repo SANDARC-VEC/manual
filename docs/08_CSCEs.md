@@ -1,4 +1,4 @@
-## 8. Certificates of Successful Completion of Examination (CSCEs)
+## Certificates of Successful Completion of Examination (CSCEs)
 
 ### What Is a CSCE?
 
