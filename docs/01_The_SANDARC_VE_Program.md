@@ -11,12 +11,12 @@ The San Diego County Amateur Radio Council (SANDARC) is a Volunteer Examiner Coo
 
 ### Program Structure
 
-| Role | Function |
-|------|----------|
-| FCC | Regulates the Amateur Radio Service; grants licenses; retains oversight of the VEC/VE system. |
-| SANDARC VEC | Coordinates VE efforts; screens session paperwork; forwards data to the FCC electronically; retains records per FCC requirements. Contact: vec@sandarc.org |
-| VE Team (minimum 3 VEs) | Administers exams to candidates at in-person or remote sessions. |
-| Candidates / Applicants | Take written examinations for new or upgraded licenses. |
+| Role                    | Function                                                                                                                                                   |
+|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| FCC                     | Regulates the Amateur Radio Service; grants licenses; retains oversight of the VEC/VE system.                                                              |
+| SANDARC VEC             | Coordinates VE efforts; screens session paperwork; forwards data to the FCC electronically; retains records per FCC requirements. Contact: vec@sandarc.org |
+| VE Team (minimum 3 VEs) | Administers exams to candidates at in-person or remote sessions.                                                                                           |
+| Candidates / Applicants | Take written examinations for new or upgraded licenses.                                                                                                    |
 
 ### License Classes & Exam Elements
 

@@ -10,12 +10,12 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 ### VE Eligibility by License Class
 
-| VE License Class | May Administer |
-|------------------|----------------|
-| General Class | Element 2 (Technician exam only) |
-| Advanced Class | Elements 2 and 3 (Technician & General exams) |
-| Amateur Extra Class | Elements 2, 3, and 4 (all exams) |
-| Technician Class | Cannot serve as a VE — not eligible for accreditation |
+| VE License Class    | May Administer                                        |
+|---------------------|-------------------------------------------------------|
+| General Class       | Element 2 (Technician exam only)                      |
+| Advanced Class      | Elements 2 and 3 (Technician & General exams)         |
+| Amateur Extra Class | Elements 2, 3, and 4 (all exams)                      |
+| Technician Class    | Cannot serve as a VE — not eligible for accreditation |
 
 ### SANDARC Accreditation Process
 

@@ -8,11 +8,11 @@ A CSCE is valid for 365 days from the date of issue, or until the FCC updates th
 
 ### Operating Authority From a CSCE
 
-| Situation | Operating Authority |
-|-----------|---------------------|
-| New applicant (previously unlicensed) who passes exam | **NO** transmitting authority. Must wait until a license grant appears in the FCC ULS database. |
-| Expired licensee who passes exam | **NO** renewed privileges from the CSCE alone. Must wait for FCC ULS to show an active license. |
-| Currently licensed applicant who earns an upgrade | May operate under the new (higher) license class privileges immediately, using a temporary identifier appended to their call sign. |
+| Situation                                             | Operating Authority                                                                                                                |
+|-------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| New applicant (previously unlicensed) who passes exam | **NO** transmitting authority. Must wait until a license grant appears in the FCC ULS database.                                    |
+| Expired licensee who passes exam                      | **NO** renewed privileges from the CSCE alone. Must wait for FCC ULS to show an active license.                                    |
+| Currently licensed applicant who earns an upgrade     | May operate under the new (higher) license class privileges immediately, using a temporary identifier appended to their call sign. |
 
 Temporary identifiers for upgrades (appended after the call sign):
 

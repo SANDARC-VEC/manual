@@ -8,10 +8,10 @@
 
 ### Team Roles
 
-| Role | Description |
-|------|-------------|
+| Role      | Description                                                                                                                                                                                                                                                                                                      |
+|-----------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Team Lead | The Team Lead is the VE designated to manage the session and serve as the primary point of contact with SANDARC. The Team Lead is responsible for session integrity, test material security, and submitting session results to vec@sandarc.org. In FCC rules, this role is called the Session Manager (§97.513). |
-| VEs | VEs who proctor and observe applicants during the exam. Must hold the appropriate license class for the elements being administered.
+| VEs       | VEs who proctor and observe applicants during the exam. Must hold the appropriate license class for the elements being administered.                                                                                                                                                                             |
 
 > ★ **SANDARC POLICY:**
 
