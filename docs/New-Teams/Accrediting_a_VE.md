@@ -1,6 +1,6 @@
 ## Becoming a SANDARC Volunteer Examiner
 
-### FCC VE Qualifications
+### FCC VE Qualifications [(47 CFR 97.501)](https://www.ecfr.gov/current/title-47/section-97.501)
 
 To qualify as a Volunteer Examiner under FCC rules you must:
 
@@ -10,31 +10,60 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 
 ### VE Eligibility by License Class
 
-| VE License Class    | May Administer                                        |
-|---------------------|-------------------------------------------------------|
-| General Class       | Element 2 (Technician exam only)                      |
-| Advanced Class      | Elements 2 and 3 (Technician & General exams)         |
-| Amateur Extra Class | Elements 2, 3, and 4 (all exams)                      |
-| Technician Class    | Cannot serve as a VE — not eligible for accreditation |
+| VE License Class    | May Administer       |
+|---------------------|----------------------|
+| General Class       | Element 2            |
+| Advanced Class      | Elements 2 and 3     |
+| Amateur Extra Class | Elements 2, 3, and 4 |
 
-### SANDARC Accreditation Process
+Those holding a technician class license may not take part in administering or grading exams.
+However, they may assist with tasks such as responding to inquiries, setting up the exam room or printing exam materials.
 
->  **SANDARC POLICY:**
->
-> SANDARC accreditation is gained through existing teams. Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team.
->
-> - **Step 1** — The prospective VE fills out the current SANDARC VE application form.
-> - **Step 2** — The Team Lead submits the completed application to vec@sandarc.org.
-> - **Step 3** — Upon approval, the new VE is accredited in ExamTools and assigned to that team lead as a mentor to learn from.
->
-> Interested in joining a team or starting a new one? Reach out to vec@sandarc.org.
+### Examiner Accreditation Process
 
->  **NOTE:** A VE accredited by another VEC is NOT automatically accredited by SANDARC. Each VEC is independent. Any VE participating in a SANDARC session must be SANDARC-accredited.
+SANDARC does not directly recruit examiners as accreditation is gained through existing teams. 
+Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team at their sole discretion.
 
-### Maintaining Your Accreditation Or Your Team
+To add a new examiner to your team:
 
-SANDARC does not impose a minimum number of sessions per year. However, SANDARC reserves the right to discontinue a team due to prolonged inactivity or if it appears a team exists solely for credential-collection purposes("Factory Teams"). VE Teams should be fully engaged in helping new amateurs enter the hobby by joining a club or engagement in other activities that promotes Amateur Radio.
+1. Have the prospective examiner fill out the current accreditation form.
+2. Submit the form to vec@sandarc.org
 
-> **Any VE who's emails are rejected by SANDARC will have their accreditation suspended until communication can be restored**
+> Please encourage your new team members to fill out the form digitally. Some handwriting really do hurt our eyes 😫.
 
-VEs must keep their contact information current. Please inform your team lead if your contact information needs to be updated.
+We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
+Team leads will receive an email as soon as their new examiner has been accredited. 
+New examiners may have to wait up to four hours before ExamTools reflects their SANDARC credentials and allows them to be added to SANDARC sessions.
+
+> Each team is issued an accreditation form that is digitally unique to that team. Please do not use forms that are not issued to your team.
+> If you need a copy of your team's accreditation form, kindly let us know.
+
+### Deactivations
+We reserve the right to deactivate examiners for the following reasons:
+- Not having participated in a session in two years
+- Unable to be reached via email (bounced email / no contact info)
+- Canceled or expired licenses
+
+Inactive examiners wishing to be reactivated should contact us at [vec@sandarc.org](mailto:vec@sandarc.org).
+
+> Deactivation is NOT accreditation. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on ExamTools.
+
+### Verifying Accreditation Status
+
+Team leads can determine whether a given person is an active (or inactive) SANDARC examiner using the below methods:
+
+- Use the `/lookup` command on our Discord server.
+- Try adding them to a SANDARC session on ExamTools (may have a four-hour lag for new examiners)
+- Using the verification link on the certificate of accreditation issued to examiners.
+
+### Updating your examiner records
+
+SANDARC automatically syncs its records with the ULS Database. Therefore, you do not need to notify us for changes to the following items:
+- Name
+- Callsign
+- License Class
+- Zip code
+If your VE certificate needs to be updated as well, we will send you a new one automatically!
+
+Examiners must always maintain a valid email address on record with the VEC. 
+If your email address needs to be updated, please let your team lead know so that they can notify us accordingly.
