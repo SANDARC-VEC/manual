@@ -42,4 +42,5 @@
     background-color: var(--md-callout-bg-color);
     border-radius: 0 4px 4px 0;
     color: var(--md-typeset-color);
+    padding: 0.6rem 1rem;
 }
