@@ -16,7 +16,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 | Advanced Class      | Elements 2 and 3     |
 | Amateur Extra Class | Elements 2, 3, and 4 |
 
-Those holding a technician class license may not take part in administering or grading exams.
+Those holding a Technician class license may not take part in administering or grading exams.
 However, they may assist with tasks such as responding to inquiries, setting up the exam room or printing exam materials.
 
 ### Examiner Accreditation Process
@@ -56,13 +56,15 @@ Team leads can determine whether a given person is an active (or inactive) SANDA
 - Try adding them to a SANDARC session on ExamTools (may have a four-hour lag for new examiners)
 - Using the verification link on the certificate of accreditation issued to examiners.
 
-### Updating your examiner records
+### Updating Your Examiner Records
 
 SANDARC automatically syncs its records with the ULS Database. Therefore, you do not need to notify us for changes to the following items:
+
 - Name
 - Callsign
 - License Class
-- Zip code
+- Zip Code
+
 If your VE certificate needs to be updated as well, we will send you a new one automatically!
 
 Examiners must always maintain a valid email address on record with the VEC. 
