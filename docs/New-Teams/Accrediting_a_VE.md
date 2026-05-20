@@ -46,7 +46,7 @@ We reserve the right to deactivate examiners for the following reasons:
 
 Inactive examiners wishing to be reactivated should contact us at [vec@sandarc.org](mailto:vec@sandarc.org).
 
-> Deactivation is NOT accreditation. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on ExamTools.
+> Deactivation does not constitute disaccreditaiton. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on ExamTools.
 
 ### Verifying Accreditation Status
 
