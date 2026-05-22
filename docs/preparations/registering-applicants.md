@@ -16,6 +16,14 @@ ExamTools in conjunction with HamStudy is the only authorized platform to regist
 Teams are encouraged to use other appropriate means to advertise their sessions such as your club's website and local nets,
 in which case you should direct applicants to HamStudy to register for your session.
 
+## ARRL VEC Session Listing
+A substantial number of applicants use the ARRL VEC Session listing to find local exam sessions.
+The ARRL VEC will list non-ARRL sessions on their website as a courtesy and we encourage all teams to
+take advantage of this opportunity.
+All you need to do is submit a [session registration form](https://www.arrl.org/non-arrl-exam-session-form) to the ARRL VEC.
+It is best to submit your team email along with this form and when applicants get in touch with you, please direct them to your session
+on HamStudy to complete their registration.
+
 ## Registering Walk-in Applicants
 
 If your team allows applicants to walk in, they should register similar to other applicants via HamStudy.
