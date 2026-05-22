@@ -18,7 +18,7 @@ in which case you should direct applicants to HamStudy to register for your sess
 
 ## ARRL VEC Session Listing
 A substantial number of applicants use the ARRL VEC Session listing to find local exam sessions.
-The ARRL VEC will list non-ARRL sessions on their website as a courtesy and we encourage all teams to
+The ARRL VEC will list non-ARRL sessions on their website as a courtesy, and we encourage all teams to
 take advantage of this opportunity.
 All you need to do is submit a [session registration form](https://www.arrl.org/non-arrl-exam-session-form) to the ARRL VEC.
 It is best to submit your team email along with this form and when applicants get in touch with you, please direct them to your session
