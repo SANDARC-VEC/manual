@@ -47,7 +47,7 @@ At the start of each session, inform all applicants of the following:
 
 ### During the Exam
 
-- Issue the exam through ExamTools. For tablet sessions, lock the device to ExamTools before handing it to the applicant. For printed exams, verify the applicant receives the correct element and exam version.
+- Issue the exam through ExamTools. For tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
 - At least three VEs must observe every candidate actively and continuously throughout the exam.
 - VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter — please do not talk unless necessary and if it is necessary please talk quietly.
 - Provide the next element exam only after the previous one has been graded and passed.
