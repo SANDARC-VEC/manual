@@ -11,7 +11,7 @@
 >
 > ExamTools (exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from ExamTools.
 >
-> Any deviation from this requirement must receive explicit prior written approval from the SANDARC VEC Manager. Sessions conducted outside of ExamTools without that approval will not be processed.
+> Any deviation from this requirement must receive explicit prior written approval from the SANDARC VEC Manager. Sessions conducted outside of ExamTools without that approval will NOT be processed.
 >
 > ExamTools handles applicant registration, Form 605 generation, exam delivery (tablet, computer, or printed/GradeCam), grading, CSCE generation, and the session archive file that is submitted to SANDARC after the session.
 >
@@ -26,7 +26,6 @@ ExamTools supports three in-person exam formats:
 
 ### Test Site Requirements
 
-- The testing environment must be quiet and free from distractions. Make every effort to keep non-participants out of the exam area while testing is in progress.
-- Applicants should be seated as far apart from each other as practical to prevent distraction and reduce the opportunity for cheating.
-- If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity must be conducted as quietly as possible.
+- The testing environment MUST be quiet and free from distractions. Make every effort to keep non-participants out of the exam area while testing is in progress.
+- If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity MUST be conducted as quietly as possible.
 - Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
