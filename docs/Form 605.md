@@ -25,7 +25,6 @@ The BQQ asks whether the applicant has ever been convicted of a felony. If the a
 
 - The applicant may still sit for and take the exam — do not turn them away.
 - Grade the exam normally and issue a CSCE if they pass.
-- Inform the applicant that SANDARC will be in touch via email with further instructions, and that they will need to provide additional information to the FCC.
 - Do not ask about the nature or details of the conviction. Do not request or accept any related documents.
 
 ### Application Types — Key Notes
