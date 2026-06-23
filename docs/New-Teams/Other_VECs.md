@@ -13,7 +13,7 @@ Scheduling sessions on top of each other will just pollute the HamStudy listing 
 > Still, you should hide the other session to avoid creating duplicate sessions on the HamStudy listing.
 
 SANDARC reserves the right to take action against teams who run concurrent sessions, a single session under multiple VECs, 
-spread applicants across multiple sessions, or employ other *innovative means to game the system*.
+spreading applicants across multiple sessions, or employing other *innovative means to game the system*.
 
 ## Branding and Publications
 
