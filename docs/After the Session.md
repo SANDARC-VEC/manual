@@ -12,7 +12,7 @@
 
 ### What to Send
 
-- VEC Archive file from ExamTools (required for all sessions)
+- VEC Archive file from ExamTools (required for all sessions) (DO NOT OPEN THE ARCHIVE FILE FROM EXAM TOOLS)
 - Copies of any element credit documents reviewed at the session (expired license copies, prior CSCEs)
 - Notes on any scoring overrides or unusual circumstances
 
