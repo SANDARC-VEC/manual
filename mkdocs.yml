@@ -18,6 +18,32 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+nav:
+  - Home: index.md
+  - Overview:
+    - 605 Overview: Overview/605 Overview.md
+    - CSCE Overview: Overview/CSCE Overview.md
+    - FCC Part 97 Rules: Overview/FCC Part 97 Rules.md
+  - Session:
+    - Preparing for the Session: Session/Preparing for the Session.md
+    - Session Day Checklist: Session/Session Day Checklist.md
+    - Conducting the Session: Session/Conducting the Session.md
+    - After the Session: Session/After the Session.md
+  - Preparations:
+    - Exam Materials: Preparations/Exam Materials.md
+    - Registering Applicants: Preparations/registering-applicants.md
+  - Remote Testing:
+    - Remote Testing: Remote Testing/Remote Testing.md
+  - Team Leads:
+    - The VE Team: Team Leads/The VE Team.md
+    - Accrediting a VE: Team Leads/Accrediting a VE.md
+    - Start a New Team: Team Leads/Start-A-New-Team.md
+    - Other VECs: Team Leads/Other_VECs.md
+  - Admin:
+    - Fees and Reimbursement: Admin/Fees and Reimbursement.md
+    - Key Contacts: Admin/Key Contacts.md
+    - SANDARC Policies: Admin/SANDARC_Policies.md
+
 markdown_extensions:
   - md_in_html
   - attr_list
