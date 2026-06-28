@@ -20,29 +20,27 @@ extra_css:
 
 nav:
   - Home: index.md
-  - Overview:
-    - Felony Question Information: Overview/Felony_Question.md
-    - CSCE Overview: Overview/CSCE Overview.md
-    - FCC Part 97 Rules: Overview/FCC Part 97 Rules.md
-  - Session:
-    - Preparing for the Session: Session/Preparing for the Session.md
-    - Session Day Checklist: Session/Session Day Checklist.md
-    - Conducting the Session: Session/Conducting the Session.md
-    - After the Session: Session/After the Session.md
-  - Preparations:
-    - Exam Materials: Prepare For A Session/Exam Materials.md
+  - Intro:
+    - Being A Cool VE: Intro/Being_A_Cool_VE.md
+    - Key Contacts: Intro/Key_Contacts.md
+    - Other VECs: Intro/Other_VECs.md
+  - Prepare For A Session:
+    - Preparing for the Session: Prepare For A Session/Preparing_for_the_Session.md
+    - Session Day Checklist: Prepare For A Session/Session_Day_Checklist.md
+    - Exam Materials: Prepare For A Session/Exam_Materials.md
     - Registering Applicants: Prepare For A Session/registering-applicants.md
-  - Remote Testing:
-    - Remote Testing: Remote Testing/Remote Testing.md
-  - Team Leads:
-    - The VE Team: Team Leads/The VE Team.md
-    - Accrediting a VE: Team Leads/Accrediting a VE.md
-    - Start a New Team: Team Leads/Start-A-New-Team.md
-    - Other VECs: Team Leads/Other_VECs.md
-  - Admin:
-    - Fees and Reimbursement: Admin/Fees and Reimbursement.md
-    - Key Contacts: Admin/Key Contacts.md
-    - SANDARC Policies: Admin/SANDARC_Policies.md
+  - Conduct A Session:
+    - CSCE Overview: Conduct A Session/CSCE_Overview.md
+    - Felony Question: Conduct A Session/Felony_Question.md
+    - Conducting the Session: Conduct A Session/Conducting_the_Session.md
+    - Remote Testing: Conduct A Session/Remote Testing/Remote_Testing.md
+    - Fees and Reimbursement: Conduct A Session/Fees_and_Reimbursement.md
+  - Post Session Information:
+    - After the Session: Post Session Information/After_the_Session.md
+  - Start A Team:
+    - The VE Team: Start A Team/The_VE_Team.md
+    - Accrediting a VE: Start A Team/Accrediting_a_VE.md
+    - Start a New Team: Start A Team/Start-A-New-Team.md
 
 markdown_extensions:
   - md_in_html
