@@ -4,7 +4,7 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 
 >  **SANDARC POLICY:**
 
-> - Online/remote sessions require that the SANDARC President and VEC Manager be added to the ExamTools team as Co-Owners before the session begins.
+> 
 > - All video recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
 
 ### VE Technical Requirements for Remote Sessions
@@ -12,7 +12,6 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 - Working computer or laptop with a webcam, microphone, and speaker.
 - Reliable internet connection.
 - Zoom (or other agreed platform) installed and tested before the session.
-- Good lighting, quiet room.
 - Test your camera, microphone, and speaker before each remote session.
 
 ### Applicant Technical Requirements for Remote Sessions
