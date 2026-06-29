@@ -19,7 +19,6 @@ Applicants may receive credit for exam elements based on their current or former
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------|
 | Unexpired Amateur Extra                                                               | Already holds that class — no new credit needed.            |
 | Unexpired General, Advanced, or Technician issued before 3/21/1987                    | Elements 2 & 3 — must still pass Element 4 for Extra.       |
-| Unexpired Technician Plus or Technician issued on/after 3/21/1987                     | Element 2 only.                                             |
 | Expired Amateur Extra (beyond 2-year grace period)                                    | Elements 3 & 4 credit — must still take and pass Element 2. |
 | Expired General, Advanced, or pre-3/21/1987 Technician (beyond grace period)          | Element 3 credit — must still take and pass Element 2.      |
 | Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit.                                                  |
