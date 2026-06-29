@@ -9,7 +9,6 @@
 | New Team Inquiries          | vec@sandarc.org                                  |
 | Session Submissions         | VEC Archive file via email to vec@sandarc.org    |
 | SANDARC Website             | sandarc.org                                      |
-| SANDARC VE Website          | vec.sandarc.org                                  |
 
 ### FCC & Exam Platform Resources
 
