@@ -19,4 +19,4 @@
 | FCC $35 Application Fee Payment                      | https://apps.fcc.gov/cores/paymentFrnLogin.do           |
 | ExamTools — Session Platform                         | https://exam.tools                                      |
 | HamStudy — Session Calendar & Applicant Registration | https://hamstudy.org/sessions                           |
-| FCC Electronic CFR — Part 97                         | https://www.ecfr.gov (search Part 97)                   |
+| FCC Electronic CFR — Part 97                         | https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-97 |
