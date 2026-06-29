@@ -25,5 +25,5 @@ After completing the session in ExamTools, the Team Lead should:
 
 ## Session Submission Process
 
-![sandarc_session_submission_org_chart.svg](assets/images/sandarc_session_submission_org_chart.svg)
+![sandarc_session_submission_org_chart.svg](../assets/images/sandarc_session_submission_org_chart.svg)
 
