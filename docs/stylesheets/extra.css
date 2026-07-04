@@ -44,3 +44,329 @@
     color: var(--md-typeset-color);
     padding: 0.6rem 1rem;
 }
+
+
+/* ============================================================
+   LANDING PAGE – HERO
+   ============================================================ */
+
+/* Hide Material chrome on the landing page */
+body:has(.hero-landing) .md-main,
+body:has(.hero-landing) .md-footer {
+  display: none !important;
+}
+
+/* ── Transparent header — landing page only ── */
+body:has(.hero-landing) .md-header {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: transparent !important;
+  box-shadow: none !important;
+  --md-primary-bg-color: rgba(255, 255, 255, 0.92);
+  --md-primary-bg-color--light: rgba(255, 255, 255, 0.65);
+}
+
+/* Remove top offset that Material adds for the sticky header */
+body:has(.hero-landing),
+body:has(.hero-landing) .md-container {
+  padding-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* Skip link – hidden until focused by keyboard */
+.hero-skip-link {
+  position: absolute;
+  top: -4rem;
+  left: 1rem;
+  z-index: 9999;
+  padding: 0.45rem 1rem;
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  font-size: 0.85rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: top 0.18s ease;
+}
+
+.hero-skip-link:focus {
+  top: 0.6rem;
+}
+
+/* Screen-reader-only utility */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Hero section */
+.hero-landing {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: clamp(1.8rem, 4vh, 3rem);
+  padding: calc(var(--md-header-height, 2.4rem) + 2.5rem) 3rem 3rem;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Edge vignette for depth */
+.hero-landing::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at 50% 50%,
+    transparent 28%,
+    rgba(0, 0, 0, 0.38) 100%
+  );
+  pointer-events: none;
+}
+
+/* ── Tagline — centered ── */
+.hero-tagline {
+  position: relative;
+  z-index: 1;
+  margin: 0 !important;
+  font-family: 'Raleway', Georgia, serif !important;
+  font-size: clamp(1.1rem, 3vw, 1.65rem) !important;
+  text-align: center;
+}
+
+/* Gradient shimmer + bold italic uppercase on the inner em */
+.hero-tagline em {
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  background: linear-gradient(
+    110deg,
+    #ffffff    0%,
+    #c6f5df   28%,
+    #ffffff   52%,
+    #aeecd0   76%,
+    #ffffff  100%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 10px rgba(60, 198, 102, 0.3))
+          drop-shadow(0 2px 14px rgba(0, 0, 0, 0.7));
+}
+
+/* Typewriter cursor — added/removed by JS */
+.hero-tagline-cursor {
+  display: inline-block;
+  border-right: 2px solid rgba(255, 255, 255, 0.8);
+  padding-right: 2px;
+  animation: hero-cursor-blink 0.7s step-end infinite;
+}
+
+@keyframes hero-cursor-blink {
+  0%, 100% { border-right-color: rgba(255, 255, 255, 0.8); }
+  50%       { border-right-color: transparent; }
+}
+
+/* ── Navigation cards grid ── */
+.hero-cards {
+  position: relative;
+  z-index: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  width: 100%;
+  max-width: 800px;
+}
+
+.hero-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.65rem;
+  padding: 1.6rem 1.2rem 1.4rem;
+  background: rgba(5, 5, 20, 0.50);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  text-decoration: none !important;
+  color: #fff !important;
+  transition:
+    background 0.2s ease,
+    border-color 0.2s ease,
+    transform 0.18s ease;
+}
+
+.hero-card:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.28);
+  transform: translateY(-4px);
+  text-decoration: none !important;
+}
+
+.hero-card:active {
+  transform: translateY(-1px);
+}
+
+.hero-card:focus-visible {
+  outline: 2px solid rgba(255, 255, 255, 0.8);
+  outline-offset: 3px;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.hero-card__icon {
+  width: 2.2rem;
+  height: 2.2rem;
+  fill: rgba(255, 255, 255, 0.82);
+  flex-shrink: 0;
+}
+
+.hero-card__title {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 0.88rem !important;
+  font-weight: 600 !important;
+  color: #fff !important;
+  letter-spacing: 0.02em;
+  line-height: 1.3 !important;
+  border: none !important;
+}
+
+/* Remove MkDocs typeset underline from card headings */
+.hero-card__title::after {
+  display: none !important;
+}
+
+.hero-card__desc {
+  margin: 0 !important;
+  font-size: 0.75rem !important;
+  color: rgba(255, 255, 255, 0.62) !important;
+  line-height: 1.55;
+}
+
+/* ── Full manual link ── */
+.hero-manual-link {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.hero-manual-link a {
+  font-size: 0.82rem !important;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.82) !important;
+  text-decoration: none !important;
+  letter-spacing: 0.06em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  padding-bottom: 2px;
+  transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+.hero-manual-link a::after {
+  content: ' →';
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.hero-manual-link a:hover {
+  color: #fff !important;
+  border-bottom-color: rgba(255, 255, 255, 0.75);
+}
+
+.hero-manual-link a:hover::after {
+  transform: translateX(4px);
+}
+
+/* ── Photo credit ── */
+.hero-photo-credit {
+  position: absolute;
+  bottom: 0.8rem;
+  right: 1rem;
+  z-index: 2;
+  margin: 0 !important;
+  font-size: 0.65rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.5) !important;
+  letter-spacing: 0.04em;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+  pointer-events: none;
+  user-select: none;
+}
+
+.hero-photo-credit a {
+  color: inherit !important;
+  text-decoration: none;
+  pointer-events: auto;
+  transition: color 0.2s ease;
+}
+
+.hero-photo-credit a:hover {
+  color: rgba(255, 255, 255, 0.85) !important;
+}
+
+/* ── Responsive ── */
+@media screen and (max-width: 600px) {
+  .hero-landing {
+    padding: 5rem 1rem 2rem;
+    gap: 1.6rem;
+  }
+
+  /* Each card on its own row on small screens */
+  .hero-cards {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .hero-card {
+    flex-direction: row;
+    text-align: left;
+    padding: 1rem 1.1rem;
+    gap: 1rem;
+    border-radius: 10px;
+  }
+
+  .hero-card__icon {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+    align-self: flex-start;
+    margin-top: 0.1rem;
+  }
+
+  .hero-card__body {
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .hero-card__title {
+    font-size: 0.85rem !important;
+  }
+
+  .hero-card__desc {
+    font-size: 0.72rem !important;
+  }
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  .hero-card,
+  .hero-skip-link {
+    transition: none;
+  }
+}

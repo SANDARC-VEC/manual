@@ -3,6 +3,7 @@ site_url: https://vec.sandarc.org/manual/
 
 theme:
   name: material
+  custom_dir: overrides
   palette:
 
     - scheme: sandarc-light
@@ -14,6 +15,19 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.footer
+    - navigation.instant
+    - navigation.instant.prefetch
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.sandarc.org
+
+copyright: Copyright &copy; 2026 San Diego County Amateur Radio Council
 
 extra_css:
   - stylesheets/extra.css
