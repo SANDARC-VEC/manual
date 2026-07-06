@@ -17,7 +17,7 @@
 - At the bottom of that certificate is a verification link if you paste that into a browser you will confirm your accreditation is valid, each url is unique to each VE.
 
 # Maintaining Accreditation
-- Once you have become accredited you will be for as long as your license is active however you will only maintain access to exam tools if you have participated in an exam every 2 years and once that two years has passed you will loose access and will need to reach back out to your team lead to regain access again.
+- Once you have become accredited you will be for as long as your license is active however you will only maintain access to exam tools if you have participated in an exam every 2 years and once that two years has passed you will lose access and will need to reach back out to your team lead to regain access again.
 
 # SANDARC VE Badge's
 - In your accreditation email will be a link to order a badge but please note a badge is NOT required to participate in any VE session!

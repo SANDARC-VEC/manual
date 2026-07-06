@@ -9,7 +9,7 @@
 5. Review any element credit documents the applicant has brought. If element credit is required update exam tools with the credit.
 6. Add the applicant to the ExamTools session roster.
 
->  **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decison on wether to proceed with the applicant testing.
+>  **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decision on whether to proceed with the applicant testing.
 
 ### Element Credit
 
