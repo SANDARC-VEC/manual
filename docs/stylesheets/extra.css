@@ -594,6 +594,18 @@ body:has(.hero-landing) .md-content__inner {
   text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
+.hero-footer__copy a {
+  color: inherit !important;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
+  transition: color 0.2s ease;
+}
+
+.hero-footer__copy a:hover {
+  color: #fff !important;
+  text-decoration-color: currentcolor;
+}
+
 .hero-footer__discord {
   display: flex;
   align-items: center;
