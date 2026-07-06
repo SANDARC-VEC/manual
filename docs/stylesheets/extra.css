@@ -122,6 +122,22 @@
   fill: currentcolor;
 }
 
+/* Below the drawer breakpoint the hamburger also joins the header row —
+   with the logo doubled in size, logo + text + hamburger + search icon +
+   theme toggle + Discord no longer all fit on a phone-width screen (the
+   Discord icon was getting pushed off the right edge). Drop the text
+   label and shrink the logo just at these widths to make room; it stays
+   at full size everywhere the row has space for it. */
+@media screen and (max-width: 76.2344em) {
+  .md-header__logo-text {
+    display: none;
+  }
+
+  .md-logo__image {
+    height: 40px !important;
+  }
+}
+
 @media screen and (min-width: 76.25em) {
   .md-search {
     flex: 1 1 auto;
@@ -173,6 +189,24 @@
 
 .md-sidebar--primary {
   width: 270px;
+}
+
+/* Material hides/reveals the mobile drawer with a left offset and a
+   translateX that both match its own default 12.1rem width. We changed
+   the width to a fixed 270px without updating those two, so at narrower
+   viewports (where Material also shrinks the root font-size, shrinking
+   12.1rem in px) the drawer no longer travels far enough — a sliver of
+   it stays stuck on screen when "closed", cutting into the page. Pin
+   the offset/travel distance to the same fixed 270px so it always
+   fully hides and fully reveals regardless of root font-size. */
+@media screen and (max-width: 76.2344em) {
+  [dir="ltr"] .md-sidebar--primary {
+    left: -270px;
+  }
+
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(270px);
+  }
 }
 
 .md-nav--primary > .md-nav__list {
@@ -260,6 +294,15 @@
    navigating between Home and the rest of the manual. */
 .md-main__inner.md-grid {
   max-width: none;
+}
+
+/* Material reserves an extra 0.4rem strip above the content for the
+   "edit this page" button, which we don't use (no repo_url configured).
+   It's dead space on every page, and on the hero it shows as a visible
+   white seam between the header and the (differently-colored) content
+   below — drop it everywhere. */
+.md-content__inner::before {
+  display: none;
 }
 
 /* Only the hero itself needs to drop the typeset gutter/margins to bleed
