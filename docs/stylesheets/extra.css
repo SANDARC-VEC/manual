@@ -162,6 +162,15 @@
     background-color: rgba(255, 255, 255, 0.28) !important;
   }
 
+  /* Material's results panel defaults to a fixed 34.4rem (~756px) width,
+     wider than our 420px search bar — the panel's own overflow:hidden
+     was clipping the extra width instead of letting it wrap, cutting
+     result snippets off mid-line. Match it to the bar's width instead,
+     same as the mockup, so text wraps within it. */
+  .md-search__scrollwrap {
+    width: 100% !important;
+  }
+
   .md-search__input {
     color: #fff;
   }
@@ -189,6 +198,10 @@
 
 .md-sidebar--primary {
   width: 270px;
+  /* Material adds its own 1.2rem top padding on top of the nav list's
+     own padding below, doubling up the gap above "Home" — drop it so
+     only our own (smaller, mockup-matched) padding remains. */
+  padding-top: 0;
 }
 
 /* Material hides/reveals the mobile drawer with a left offset and a
