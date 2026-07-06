@@ -24,4 +24,5 @@ After completing the session in [ExamTools](https://exam.tools), the Team Lead s
 
 ## Session Submission Process
 
-![sandarc_session_submission_org_chart.svg](../assets/images/sandarc_session_submission_org_chart.svg)
+![sandarc_session_submission_org_chart.svg](../assets/images/sandarc_session_submission_org_chart.svg#only-light)
+![sandarc_session_submission_org_chart.svg](../assets/images/sandarc_session_submission_org_chart_dark.svg#only-dark)

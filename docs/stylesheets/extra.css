@@ -53,6 +53,18 @@
     --md-typeset-table-color--light:    rgba(255, 255, 255, 0.035);
 }
 
+/* Light/dark image switching. Material's built-in #only-light / #only-dark
+   support keys off the default "default"/"slate" scheme names; our custom
+   schemes (sandarc-light / sandarc-dark) need these rules to hide the image
+   that doesn't match the active scheme. */
+[data-md-color-scheme="sandarc-light"] img[src$="#only-dark"],
+[data-md-color-scheme="default"] img[src$="#only-dark"] {
+    display: none;
+}
+[data-md-color-scheme="sandarc-dark"] img[src$="#only-light"] {
+    display: none;
+}
+
 [data-md-color-scheme="default"],
 [data-md-color-scheme="sandarc-light"] {
     --md-primary-fg-color:              #1e7a3e;
