@@ -4,8 +4,14 @@
    from --md-text-font via a rule declared directly on <body>, which beats
    any --md-text-font-family set on :root (a locally-declared value always
    wins over an inherited one) — so set the input variable instead. */
+/* READABILITY REDESIGN: the manual body/UI now uses IBM Plex Sans and code
+   uses IBM Plex Mono, loaded here since theme.font is false. The hero keeps
+   its own Exo 2 / Raleway accents (set explicitly further down). */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 :root {
-  --md-text-font: system-ui, "Segoe UI";
+  --md-text-font: "IBM Plex Sans", system-ui, "Segoe UI";
+  --md-code-font: "IBM Plex Mono", ui-monospace, monospace;
 }
 
 /* Material adds a 1.5rem (33px) top margin to the row that holds the
@@ -31,6 +37,12 @@
     --md-code-bg-color:                 #0e0e1e;
     --md-code-fg-color:                 #3cc666;
     --md-typeset-color:                 #f0f0f0;
+    /* Material colors admonition BODY text with --md-admonition-fg-color, NOT
+       --md-typeset-color. Our custom "sandarc-dark" scheme must redefine it or
+       callout bodies fall back to Material's light-mode default (near-black
+       rgba(0,0,0,.87)) — unreadable on the dark callout cards. Follow the
+       scheme ink instead so NOTE/IMPORTANT bodies stay legible in dark mode. */
+    --md-admonition-fg-color:           var(--md-typeset-color);
     --md-callout-border-color:          #3cc666;
     --md-callout-bg-color:              rgba(60, 198, 102, 0.12);
     /* Material only re-tints table borders for its built-in "slate" scheme
@@ -57,6 +69,8 @@
     --md-code-bg-color:                 #f4faf7;
     --md-code-fg-color:                 #1e7a3e;
     --md-typeset-color:                 #0d1f14;
+    /* Keep callout body text on the scheme ink (see the dark-scheme note). */
+    --md-admonition-fg-color:           var(--md-typeset-color);
     --md-callout-border-color:          #1e7a3e;
     --md-callout-bg-color:              rgba(30, 122, 62, 0.09);
 }
@@ -661,4 +675,319 @@ body:has(.hero-landing) .md-content__inner {
   .hero-skip-link {
     transition: none;
   }
+}
+
+
+/* ============================================================
+   DOCUMENTATION PAGES — READABILITY REDESIGN  ("Modern Docs")
+
+   Applies to every content page (the hero landing opts out of the
+   parts it needs to via body:has(.hero-landing) below). Every size is
+   in px, matching this file's convention of dodging Material's 137.5%
+   typeset root scaling. Preview with `mkdocs serve` before shipping.
+
+   Two small MARKDOWN tweaks unlock the full effect (pure CSS can't do
+   them) — see the two "AUTHORING" notes further down:
+     1. Normalize each page to ONE h1 title (#) + h2 sections (##).
+     2. Convert the `> **NOTE:**` / `> ⛔ **IMPORTANT:**` blockquotes to
+        Material admonitions (`!!! note` / `!!! danger`) for the
+        colored NOTE vs IMPORTANT chips.
+   ============================================================ */
+
+/* 1 — READING MEASURE ---------------------------------------------------
+   The grid cap is removed site-wide (.md-main__inner.md-grid above), which
+   let article text run edge-to-edge — the #1 readability complaint. Cap the
+   content column to a comfortable ~72-char measure; the sidebar stays docked
+   left and the "on this page" TOC sits to its right. The hero opts out so it
+   can still bleed full width. */
+body:not(:has(.hero-landing)) .md-content {
+  max-width: 768px;
+}
+
+/* Keep the right-hand table of contents legible */
+.md-sidebar--secondary {
+  width: 234px;
+}
+.md-nav--secondary .md-nav__title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-nav--secondary .md-nav__link {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* 2 — TYPE SCALE & RHYTHM ----------------------------------------------
+   Larger, denser-leading body copy and REAL heading weights (Material
+   defaults h1/h2 to a thin 300, which reads as weak hierarchy). */
+.md-typeset {
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+.md-typeset h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+  margin: 0 0 0.5em;
+}
+.md-typeset h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  color: var(--md-default-fg-color);
+  /* generous space ABOVE each section = clear visual breaks */
+  margin: 2.1em 0 0.7em;
+  padding-top: 0;
+  border: 0;
+}
+.md-typeset h3 {
+  font-weight: 600;
+  font-size: 16.5px;
+  line-height: 1.35;
+  color: var(--md-default-fg-color);
+  margin: 1.6em 0 0.5em;
+}
+.md-typeset p,
+.md-typeset li {
+  line-height: 1.7;
+}
+
+/* Optional divider you can drop between major sections in markdown with a
+   `---` rule — rendered as an airy hairline instead of a hard bar. */
+.md-typeset hr {
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin: 2.4em 0;
+}
+
+/* 3 — NUMBERED STEPS ----------------------------------------------------
+   Procedures (`1.` `2.` …) render as rounded green step badges. */
+.md-typeset ol {
+  counter-reset: step;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.md-typeset ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 0.85em;
+}
+.md-typeset ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color);
+  font-family: var(--md-code-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* 4 — BULLET LISTS ------------------------------------------------------
+   Crisp square green markers. Task-list items (the Session Day Checklist
+   `- [ ]` boxes) keep Material's own checkbox and are excluded. */
+.md-typeset ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.md-typeset ul > li:not(.task-list-item) {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 0.5em;
+}
+.md-typeset ul > li:not(.task-list-item)::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: var(--md-primary-fg-color);
+}
+.md-typeset ul li.task-list-item {
+  padding-left: 0;
+  margin-bottom: 0.5em;
+}
+
+/* 5 — TABLES ------------------------------------------------------------
+   Rounded container, dark-green header, zebra rows, roomy cells so the
+   Element-Credit tables are scannable. */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-typeset-table-color);
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+.md-typeset table:not([class]) th {
+  background: #0f2e1e;
+  color: #a9e3c1;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  border: 0;
+}
+.md-typeset table:not([class]) td {
+  padding: 12px 15px;
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset table:not([class]) tbody td:first-child {
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+}
+
+/* 6 — INLINE CODE -------------------------------------------------------
+   Mono chips for identifiers like `T1E01`, `NaN`, `Grade Exam`. */
+.md-typeset code {
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.86em;
+}
+
+/* 7 — CALLOUTS ----------------------------------------------------------
+   AUTHORING: for distinct NOTE vs IMPORTANT chips, convert the two
+   blockquote callouts to Material admonitions and enable the extensions:
+       markdown_extensions:
+         - admonition
+         - pymdownx.details
+   then in markdown:
+       !!! note
+           Do not write down any numbers from the applicant's ID …
+       !!! danger "Important"
+           All video recording is prohibited …
+   The styling below covers both admonitions AND the current blockquotes,
+   so nothing looks broken before the content is migrated. */
+
+/* Current blockquote callouts → soft green card (already partly styled
+   above; this rounds the whole card rather than only the left edge). */
+.md-typeset blockquote {
+  border: 1px solid var(--md-callout-border-color);
+  border-left-width: 4px;
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+/* Material admonitions (note / tip / info → green, danger / warning →
+   red) once the content is migrated. */
+.md-typeset .admonition,
+.md-typeset details.admonition {
+  border: 1px solid var(--md-callout-border-color);
+  border-left-width: 4px;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 14.5px;
+  background: var(--md-callout-bg-color);
+}
+.md-typeset .admonition-title {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: transparent;
+  padding-left: 18px;
+}
+.md-typeset .admonition-title::before {
+  display: none;
+}
+/* Material assigns each admonition TYPE its own keyline color (e.g.
+   .md-typeset .admonition.note → blue #448aff, .danger → #ff1744) at a HIGHER
+   specificity (3 classes) than our base .admonition rule (2 classes), so left
+   alone a NOTE card would render blue instead of the intended green. The
+   [class] attribute selector lifts our rule to match that specificity (and it
+   loads later), so the callout colors driven by --md-callout-border-color —
+   green for note/info/tip, brand red for danger/warning — win for every type.
+   The same trick keeps the title bar transparent over Material's faint
+   per-type title tint. */
+.md-typeset .admonition[class],
+.md-typeset details.admonition[class] {
+  border-color: var(--md-callout-border-color);
+}
+.md-typeset .admonition[class] > .admonition-title {
+  background: transparent;
+}
+/* Red keyline + tint only — the body text keeps --md-typeset-color so it
+   stays readable in BOTH light and dark schemes (a hardcoded dark ink here
+   would be invisible on the dark background). */
+.md-typeset .admonition.danger,
+.md-typeset .admonition.warning,
+.md-typeset .admonition.failure {
+  --md-callout-border-color: #c0432b;
+  --md-callout-bg-color: rgba(192, 67, 43, 0.10);
+}
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset .admonition.failure > .admonition-title {
+  color: #c0432b;
+}
+.md-typeset .admonition:not(.danger):not(.warning):not(.failure) > .admonition-title {
+  color: var(--md-primary-fg-color);
+}
+
+/* Dark scheme: the brand red (#c0432b) is a little low-contrast on the
+   near-black background — brighten the danger keyline + title so warnings
+   stay legible in dark mode. */
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.danger,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.warning,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.failure {
+  --md-callout-border-color: #e0715a;
+  --md-callout-bg-color: rgba(224, 113, 90, 0.12);
+}
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.danger > .admonition-title,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.warning > .admonition-title,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.failure > .admonition-title {
+  color: #e0715a;
+}
+
+/* 8 — PAGE META (reading time) -----------------------------------------
+   Rendered by the no-dependency hook at hooks/reading_time.py (wired in
+   mkdocs.yml), which injects a `.page-meta` element right after each page's
+   H1. Styled here as the muted meta row under the title. */
+.md-content .page-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 20px;
+  margin: 0 0 12px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-meta svg {
+  flex: 0 0 auto;
+  stroke: var(--md-primary-fg-color);
+}
+.md-content .page-meta .page-meta__dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--md-default-fg-color--lighter);
 }

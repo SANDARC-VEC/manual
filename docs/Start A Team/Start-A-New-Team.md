@@ -1,4 +1,4 @@
-## Where to Start?
+# Where to Start?
 
 Organizations wishing to host an Amateur Radio exam session should delegate one of their members as the VE Team Lead.
 The Team Lead will serve as the main point of contact between SANDARC, examiners, and your organization.
@@ -15,9 +15,8 @@ If you are new to ExamTools, please refer to [ExamTools documentation](https://d
 If you are migrating an existing team to SANDARC, there is no need to create a new team. Simply add SANDARC to your existing team.
 SANDARC only accepts sessions that are conducted via ExamTools AND by the team that we have on file.
 
-> Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file.
-> In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges
-> to a team that SANDARC has not approved.
+!!! note
+    Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file. In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges to a team that SANDARC has not approved.
 
 **All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on ExamTools as a co-owner.
 Failure to do so will result in immediate suspension.**
@@ -36,4 +35,3 @@ Please note that co-leads are not granted team lead privileges and may not indep
 It could be the team lead's email address or an email address belonging to your organization. 
 SANDARC will not use this email address to contact your team as we use the team lead's personal email address for that purpose.
 - **Zip Code**: This zip code corresponds to the approximate location of where your exam sessions are held.
-

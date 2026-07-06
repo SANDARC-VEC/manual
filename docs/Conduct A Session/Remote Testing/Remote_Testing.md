@@ -1,20 +1,18 @@
-## Remote Testing
+# Remote Testing
 
 SANDARC supports remote exam sessions conducted via ExamTools combined with a video conferencing platform (Zoom, Google Meets, Or any other suitable platform). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 
->  **SANDARC POLICY:**
+!!! info "SANDARC Policy"
+    - All video recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
 
-> 
-> - All video recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
-
-### VE Technical Requirements for Remote Sessions
+## VE Technical Requirements for Remote Sessions
 
 - Working computer or laptop with a webcam, microphone, and speaker.
 - Reliable internet connection.
 - Zoom (or another agreed platform) is installed and tested before the session.
 - Test your camera, microphone, and speaker before each remote session.
 
-### Applicant Technical Requirements for Remote Sessions
+## Applicant Technical Requirements for Remote Sessions
 
 - Working computer, laptop, tablet, or phone with a webcam, microphone, and speaker. No headphones or earbuds are permitted.
 - Reliable internet connection.
@@ -22,7 +20,7 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 - Only one active monitor or screen. Additional monitors must be disconnected or covered.
 - No virtual or blurred backgrounds.
 
-### Remote Session Procedures
+## Remote Session Procedures
 
 1. Start the video conference early so VEs can convene before applicants arrive.
 2. Verify the applicant's identity via camera — inspect their photo ID visually. Do not record or photograph the ID.

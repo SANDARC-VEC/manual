@@ -1,6 +1,6 @@
-## Becoming a SANDARC Volunteer Examiner
+# Becoming a SANDARC Volunteer Examiner
 
-### FCC VE Qualifications [(47 CFR 97.501)](https://www.ecfr.gov/current/title-47/section-97.501)
+## FCC VE Qualifications [(47 CFR 97.501)](https://www.ecfr.gov/current/title-47/section-97.501)
 
 To qualify as a Volunteer Examiner under FCC rules you must:
 
@@ -8,7 +8,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 - Hold a valid General, Advanced, or Amateur Extra class Amateur Radio license
 - Never have had your Amateur Radio license suspended or revoked
 
-### VE Eligibility by License Class
+## VE Eligibility by License Class
 
 | VE License Class    | May Administer       |
 |---------------------|----------------------|
@@ -19,7 +19,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 Those holding a Technician class license may not take part in administering or grading exams.
 However, they may assist with tasks such as responding to inquiries, setting up the exam room or printing exam materials.
 
-### Examiner Accreditation Process
+## Examiner Accreditation Process
 
 SANDARC does not directly recruit examiners as accreditation is gained through existing teams. 
 Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team at their sole discretion.
@@ -29,26 +29,30 @@ To add a new examiner to your team:
 1. Have the prospective examiner fill out the current accreditation form.
 2. Submit the form to vec@sandarc.org
 
-> Please encourage your new team members to fill out the form digitally. Some handwriting really do hurt our eyes 😫.
+!!! note
+    Please encourage your new team members to fill out the form digitally. Some handwriting really do hurt our eyes 😫.
 
 We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
 Team leads will receive an email as soon as their new examiner has been accredited. 
 New examiners may have to wait up to four hours before ExamTools reflects their SANDARC credentials and allows them to be added to SANDARC sessions.
 
-> Each team is issued an accreditation form that is digitally unique to that team. Please do not use forms that are not issued to your team.
-> If you need a copy of your team's accreditation form, kindly let us know.
+!!! note
+    Each team is issued an accreditation form that is digitally unique to that team. Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
 
-### Deactivations
+## Deactivations
+
 We reserve the right to deactivate examiners for the following reasons:
+
 - Not having participated in a session in two years
 - Unable to be reached via email (bounced email / no contact info)
 - Canceled or expired licenses
 
 Inactive examiners wishing to be reactivated should contact us at [vec@sandarc.org](mailto:vec@sandarc.org).
 
-> Deactivation does not constitute disaccreditaiton. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on ExamTools.
+!!! note
+    Deactivation does not constitute disaccreditaiton. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on ExamTools.
 
-### Verifying Accreditation Status
+## Verifying Accreditation Status
 
 Team leads can determine whether a given person is an active (or inactive) SANDARC examiner using the below methods:
 
@@ -56,7 +60,7 @@ Team leads can determine whether a given person is an active (or inactive) SANDA
 - Try adding them to a SANDARC session on ExamTools (may have a four-hour lag for new examiners)
 - Using the verification link on the certificate of accreditation issued to examiners.
 
-### Updating Your Examiner Records
+## Updating Your Examiner Records
 
 SANDARC automatically syncs its records with the ULS Database. Therefore, you do not need to notify us for changes to the following items:
 

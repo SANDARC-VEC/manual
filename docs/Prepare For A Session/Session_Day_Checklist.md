@@ -4,9 +4,7 @@
 
 ---
 
-## Session Day Quick Reference Checklist
-
-### Before Candidates Arrive
+## Before Candidates Arrive
 
 - [ ] Confirm all VEs present are SANDARC-accredited (check with Team Lead if unsure)
 - [ ] ExamTools session created and accessible
@@ -15,7 +13,7 @@
 - [ ] **NO recording equipment active** — video recording is prohibited at all SANDARC sessions
 - [ ] No other VEC branding visible at the session location
 
-### Candidate Check-In
+## Candidate Check-In
 
 - [ ] Greet each applicant warmly
 - [ ] Verify photo ID — do not write down any numbers from the ID; do not photograph or video the ID
@@ -24,7 +22,7 @@
 - [ ] Add applicant to ExamTools roster
 - [ ] Remind applicant: SANDARC charges no exam fee, but the FCC charges a separate $35 fee after submission of any new license!
 
-### During the Exam
+## During the Exam
 
 - [ ] Announce session policies to all applicants before exams begin
 - [ ] Issue exam via ExamTools (tablet, computer, or printed)
@@ -37,7 +35,7 @@
 - [ ] Advise upgrading applicants about temporary identifier (/AG, /AE)
 - [ ] Advise new licensees they cannot transmit until a license appears in FCC ULS
 
-### After the Last Candidate Leaves
+## After the Last Candidate Leaves
 
 - [ ] Finalize session in ExamTools; download VEC Archive file (DO NOT OPEN THE ARCHIVE ONCE DOWNLOADED)
 - [ ] Email VEC Archive file and supporting documents to vec@sandarc.org

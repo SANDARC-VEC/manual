@@ -1,6 +1,6 @@
-## Conducting the Session
+# Conducting the Session
 
-### Applicant Check-In
+## Applicant Check-In
 
 1. Greet each applicant warmly. Many are nervous — a friendly welcome goes a long way.
 2. Verify photo identification. Acceptable forms include any government-issued photo ID (driver's license, passport, state ID card, military ID, etc.). For applicants under 18 who do not have a government-issued photo ID, a parent or guardian may present their own ID and confirm the applicant's identity.
@@ -9,9 +9,10 @@
 5. Review any element credit documents the applicant has brought. If element credit is required update exam tools with the credit.
 6. Add the applicant to the ExamTools session roster.
 
->  **NOTE:** Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decision on whether to proceed with the applicant testing.
+!!! note
+    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decison on wether to proceed with the applicant testing.
 
-### Element Credit
+## Element Credit
 
 Applicants may receive credit for exam elements based on their current or former license class, or a valid CSCE from a previous session. The applicant is responsible for providing documentation — not the VE team.
 
@@ -24,9 +25,10 @@ Applicants may receive credit for exam elements based on their current or former
 | Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit.                                                  |
 | Valid CSCE from a prior session (within 365 days)                                     | Credit for elements shown on the CSCE.                      |
 
->  **NOTE:** A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
+!!! note
+    A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
 
-### Acceptable Documents for Element Credit
+## Acceptable Documents for Element Credit
 
 - Current unexpired FCC amateur license (or ULS reference copy)
 - Expired FCC license copy, or a ULS reference copy or screenshot showing the expired license record
@@ -34,7 +36,7 @@ Applicants may receive credit for exam elements based on their current or former
 - Radio Amateur Callbook listing (Fall 1967 or later editions show license class)
 - CSCE from a prior VE session, issued within the last 365 days
 
-### Session Announcements
+## Session Announcements
 
 At the start of each session, inform all applicants of the following:
 
@@ -44,7 +46,7 @@ At the start of each session, inform all applicants of the following:
 - No written notes, books, or study materials in the exam area.
 - Cell phones must be silenced or turned off.
 
-### During the Exam
+## During the Exam
 
 - Issue the exam through ExamTools. For tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
 - At least three VEs must observe every candidate actively and continuously throughout the exam.
@@ -52,14 +54,15 @@ At the start of each session, inform all applicants of the following:
 - Provide the next element exam only after the previous one has been graded and passed.
 - VE's Shall NOT authorize exams to applicants unless they have direct contact with that applicant!
 
-> ⛔ **IMPORTANT:** All video recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
+!!! danger "Important"
+    All video recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
 
-### Grading
+## Grading
 
 - ExamTools grades computerized exams automatically when the applicant clicks "Grade Exam" and a VE authorizes grading. For printed exams use GradeCam on Exam Tools.
 - Inform the applicant of their score (number correct out of total) promptly after grading. If the applicant asks which questions they missed, you may share/email the question identifier to them (e.g., T1E01).
 
-### Retesting
+## Retesting
 
 There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion — it is the team's decision, not the applicant's right.
 
@@ -67,7 +70,7 @@ There is no mandatory waiting period before retaking a failed exam. Whether to a
 - The VE team should consider the applicant's score on the failed attempt and the team's remaining availability when deciding whether to allow a retest.
 - If a retest is granted, the applicant continues under SANDARC's free-exam policy — no additional fee is charged.
 
-### Cheating & Misconduct
+## Cheating & Misconduct
 
 - If cheating is suspected or observed, immediately inform the Team Lead.
 - The Team Lead should involve all VEs present in assessing the situation. If the team determines cheating has occurred, terminate the exam immediately and record a failing grade regardless of the applicant's score at that point.
@@ -75,7 +78,7 @@ There is no mandatory waiting period before retaking a failed exam. Whether to a
 - The VE team's role is to document and report, not to penalize. Any final determination of guilt rests with the FCC.
 - Report all confirmed cheating incidents to SANDARC immediately at vec@sandarc.org. Any other misconduct by an applicant or VE that cannot be resolved at the team level should also be escalated to vec@sandarc.org or by calling (619)215-1886.
 
-### Accommodating Applicants with Disabilities
+## Accommodating Applicants with Disabilities
 
 VE teams MUST accommodate applicants whose physical disabilities require a special examination procedure. [§97.509(j)] No applicant with a disability may be refused service. If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
 

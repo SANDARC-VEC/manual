@@ -1,6 +1,6 @@
-## Key Contacts & Resources
+# Key Contacts & Resources
 
-### SANDARC VEC
+## SANDARC VEC
 
 | Resource                    | Contact / URL                                    |
 |-----------------------------|--------------------------------------------------|
@@ -10,7 +10,7 @@
 | Session Submissions         | VEC Archive file via email to vec@sandarc.org    |
 | SANDARC Website             | sandarc.org                                      |
 
-### FCC & Exam Platform Resources
+## FCC & Exam Platform Resources
 
 | Resource                                             | Contact / URL                                           |
 |------------------------------------------------------|---------------------------------------------------------|
