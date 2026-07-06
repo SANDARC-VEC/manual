@@ -4,6 +4,7 @@ site_url: https://vec.sandarc.org/manual/
 theme:
   name: material
   custom_dir: overrides
+  font: false
   palette:
 
     - scheme: sandarc-light
@@ -59,3 +60,6 @@ markdown_extensions:
   - md_in_html
   - attr_list
   - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
