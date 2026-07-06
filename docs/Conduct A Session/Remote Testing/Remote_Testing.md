@@ -11,7 +11,7 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 
 - Working computer or laptop with a webcam, microphone, and speaker.
 - Reliable internet connection.
-- Zoom (or other agreed platform) installed and tested before the session.
+- Zoom (or another agreed platform) is installed and tested before the session.
 - Test your camera, microphone, and speaker before each remote session.
 
 ### Applicant Technical Requirements for Remote Sessions
@@ -32,4 +32,4 @@ SANDARC supports remote exam sessions conducted via ExamTools combined with a vi
 6. Instruct the applicant of the exam rules and begin the exam.
 7. VEs will turn off cameras while the applicant is taking the exam; mute microphones unless speaking.
 8. If the applicant looks away from the exam area repeatedly, warn them — further violations terminate the exam.
-9. If the video connection drops please contact the team lead immediately then you can evict the applicant until they rejoin the video chat or if the connection drop is too long you may need to invalidate the exam entirely!
+9. If the video connection drops please contact the team lead immediately. You can evict the applicant until they rejoin the video chat, or if the connection drop is too long you may need to invalidate the exam entirely!
