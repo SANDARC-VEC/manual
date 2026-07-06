@@ -6,6 +6,12 @@
       "runtimeExecutable": ".venv/Scripts/mkdocs.exe",
       "runtimeArgs": ["serve", "-a", "127.0.0.1:8123"],
       "port": 8123
+    },
+    {
+      "name": "mkdocs-serve-mac",
+      "runtimeExecutable": ".venv/bin/mkdocs",
+      "runtimeArgs": ["serve", "-a", "127.0.0.1:8123"],
+      "port": 8123
     }
   ]
 }

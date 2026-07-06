@@ -2,7 +2,7 @@
 
 ## What Is a CSCE?
 
-A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. ExamTools generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
+A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. [ExamTools](https://exam.tools) generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
 
 A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record — whichever comes first.
 
@@ -22,7 +22,7 @@ Temporary identifiers for upgrades (appended after the call sign):
 
 ## Completing the CSCE
 
-- ExamTools populates and distributes the CSCE automatically for electronic sessions.
+- [ExamTools](https://exam.tools) populates and distributes the CSCE automatically for electronic sessions.
 - Three VEs must sign the CSCE
 - The applicant must sign the CSCE in the presence of a VE.
 - Give the applicant their copy of the CSCE immediately. Advise them to retain it as permanent proof of exam credit.

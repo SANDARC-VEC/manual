@@ -6,11 +6,11 @@
 2. Verify photo identification. Acceptable forms include any government-issued photo ID (driver's license, passport, state ID card, military ID, etc.). For applicants under 18 who do not have a government-issued photo ID, a parent or guardian may present their own ID and confirm the applicant's identity.
 3. Confirm the applicant's name on Form 605 matches their ID. For upgrades, confirm that the ID, existing license, and Form 605 all refer to the same person.
 4. Confirm the FRN is present on Form 605 and that the applicant has answered the BQQ.
-5. Review any element credit documents the applicant has brought. If element credit is required update exam tools with the credit.
-6. Add the applicant to the ExamTools session roster.
+5. Review any element credit documents the applicant has brought. If element credit is required, update [ExamTools](https://exam.tools) with the credit.
+6. Add the applicant to the [ExamTools](https://exam.tools) session roster.
 
 !!! note
-    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented please let the team lead make the decison on wether to proceed with the applicant testing.
+    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented, please let the team lead make the decision on whether to proceed with the applicant testing.
 
 ## Element Credit
 
@@ -48,25 +48,25 @@ At the start of each session, inform all applicants of the following:
 
 ## During the Exam
 
-- Issue the exam through ExamTools. For tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
+- Issue the exam through [ExamTools](https://exam.tools) for tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
 - At least three VEs must observe every candidate actively and continuously throughout the exam.
 - VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter — please do not talk unless necessary and if it is necessary please talk quietly.
 - Provide the next element exam only after the previous one has been graded and passed.
-- VE's Shall NOT authorize exams to applicants unless they have direct contact with that applicant!
+- VEs shall NOT authorize exams to applicants unless they have direct contact with that applicant!
 
 !!! danger "Important"
     All video recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
 
 ## Grading
 
-- ExamTools grades computerized exams automatically when the applicant clicks "Grade Exam" and a VE authorizes grading. For printed exams use GradeCam on Exam Tools.
+- [ExamTools](https://exam.tools) grades computerized exams automatically when the applicant clicks "Grade Exam" and a VE authorizes grading. For printed exams use GradeCam on [ExamTools](https://exam.tools).
 - Inform the applicant of their score (number correct out of total) promptly after grading. If the applicant asks which questions they missed, you may share/email the question identifier to them (e.g., T1E01).
 
 ## Retesting
 
 There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion — it is the team's decision, not the applicant's right.
 
-- An applicant may not be given the same exam version they previously failed. [§97.509(f)] ExamTools generates a new, unique exam automatically for retakes.
+- An applicant may not be given the same exam version they previously failed. [§97.509(f)] [ExamTools](https://exam.tools) generates a new, unique exam automatically for retakes.
 - The VE team should consider the applicant's score on the failed attempt and the team's remaining availability when deciding whether to allow a retest.
 - If a retest is granted, the applicant continues under SANDARC's free-exam policy — no additional fee is charged.
 
@@ -82,6 +82,6 @@ There is no mandatory waiting period before retaking a failed exam. Whether to a
 
 VE teams MUST accommodate applicants whose physical disabilities require a special examination procedure. [§97.509(j)] No applicant with a disability may be refused service. If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
 
-- For visually impaired applicants, exams may be read aloud. ExamTools can generate exams without figures/schematics for this purpose.
+- For visually impaired applicants, exams may be read aloud. [ExamTools](https://exam.tools) can generate exams without figures/schematics for this purpose.
 - For applicants with hearing impairment or group sensitivity, consider a separate room.
 - If testing in the applicant's home is necessary, this is permitted as long as at least three SANDARC-accredited VEs are present in-person or remote.

@@ -1,11 +1,11 @@
 # Exam Materials
 
-ExamTools is the only authorized source for generating question booklets, NCVEC Form 605, and CSCE.
+[ExamTools](https://exam.tools) is the only authorized source for generating question booklets, NCVEC Form 605, and CSCE.
 SANDARC does not supply any of the above and prohibits the use of materials acquired from other sources. 
 
 ## Exam Booklets
 
-Team Leads can print Exam booklets directly from ExamTools.
+Team Leads can print Exam booklets directly from [ExamTools](https://exam.tools).
 Please make sure you download exams that are suited for GradeCam™ use.
 SANDARC does not allow manual grading or pre-determined keys. 
 
@@ -15,10 +15,10 @@ as long as you don't administer the same exam to an applicant more than once.
 
 ### Bubble Forms (aka scantrons)
 
-Use the 35/50 question combo form downloadable from ExamTools
+Use the 35/50 question combo form downloadable from [ExamTools](https://exam.tools)
 
 !!! warning "Exam Validity"
-    The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on ExamTools.
+    The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
 
 ### Administering Exams on Tablets
 Teams are encouraged to use tablets to administer exams. 
@@ -29,9 +29,9 @@ That being said, the team is responsible for properly locking down the device to
 
 ## Form NCVEC 605
 
-Form NCVEC 605 is automatically generated for each applicant via ExamTools. 
+Form NCVEC 605 is automatically generated for each applicant via [ExamTools](https://exam.tools). 
 Teams do not need to print nor fill out any physical form.
 
 ## Certificate of Successful Completion of Examination (CSCE)
 
-Similar to Form NCVEC 605, ExamTools will also handle generating CSCE's for you. 
+Similar to Form NCVEC 605, [ExamTools](https://exam.tools) will also handle generating CSCEs for you. 

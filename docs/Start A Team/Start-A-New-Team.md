@@ -10,15 +10,15 @@ SANDARC favors in-person teams that are attached to a club, organization, or a r
 
 ## Create Your Team on ExamTools
 
-Upon approving your request, you will be asked to provide some information about your team on ExamTools.
-If you are new to ExamTools, please refer to [ExamTools documentation](https://docs.exam.tools) to get set up with their platform.
+Upon approving your request, you will be asked to provide some information about your team on [ExamTools](https://exam.tools).
+If you are new to [ExamTools](https://exam.tools), please refer to [ExamTools documentation](https://docs.exam.tools) to get set up with their platform.
 If you are migrating an existing team to SANDARC, there is no need to create a new team. Simply add SANDARC to your existing team.
-SANDARC only accepts sessions that are conducted via ExamTools AND by the team that we have on file.
+SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.tools) AND by the team that we have on file.
 
 !!! note
     Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file. In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges to a team that SANDARC has not approved.
 
-**All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on ExamTools as a co-owner.
+**All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on [ExamTools](https://exam.tools) as a co-owner.
 Failure to do so will result in immediate suspension.**
 
 ## Information We Need About Your Team
@@ -29,7 +29,7 @@ are well taken care of, and that the exam session adheres to FCC Part 97 rules a
 SANDARC policies.
 - **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
 in case we are unable to reach the team lead. 
-Usually, Co-Leads are the co-owners of your ExamTools team.
+Usually, Co-Leads are the co-owners of your [ExamTools](https://exam.tools) team.
 Please note that co-leads are not granted team lead privileges and may not independently conduct exam sessions.
 - **Team Email Address**: This email will be shared with potential applicants looking for an exam session in your area.
 It could be the team lead's email address or an email address belonging to your organization. 
