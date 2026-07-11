@@ -44,24 +44,24 @@ hooks:
 nav:
   - Home: index.md
   - Intro:
-    - Being A Cool VE: Intro/Being_A_Cool_VE.md
-    - Key Contacts: Intro/Key_Contacts.md
-    - Other VECs: Intro/Other_VECs.md
+    - Being A Cool VE: Intro/Being-A-Cool-VE.md
+    - Key Contacts: Intro/Key-Contacts.md
+    - Other VECs: Intro/Other-VECs.md
   - Prepare For A Session:
-    - Preparing for the Session: Prepare For A Session/Preparing_for_the_Session.md
-    - Session Day Checklist: Prepare For A Session/Session_Day_Checklist.md
-    - Exam Materials: Prepare For A Session/Exam_Materials.md
+    - Preparing for the Session: Prepare For A Session/Preparing-for-the-Session.md
+    - Session Day Checklist: Prepare For A Session/Session-Day-Checklist.md
+    - Exam Materials: Prepare For A Session/Exam-Materials.md
     - Registering Applicants: Prepare For A Session/registering-applicants.md
   - Conduct A Session:
-    - Conducting the Session: Conduct A Session/Conducting_the_Session.md
-    - Remote Testing: Conduct A Session/Remote Testing/Remote_Testing.md
-    - Fees and Reimbursement: Conduct A Session/Fees_and_Reimbursement.md
-    - CSCE Overview: Conduct A Session/CSCE_Overview.md
-    - Felony Question: Conduct A Session/Felony_Question.md
+    - Conducting the Session: Conduct A Session/Conducting-the-Session.md
+    - Remote Testing: Conduct A Session/Remote Testing/Remote-Testing.md
+    - Fees and Reimbursement: Conduct A Session/Fees-and-Reimbursement.md
+    - CSCE Overview: Conduct A Session/CSCE-Overview.md
+    - Felony Question: Conduct A Session/Felony-Question.md
   - Post Session Information:
-    - After the Session: Post Session Information/After_the_Session.md
+    - After the Session: Post Session Information/After-the-Session.md
   - Start A Team:
-    - Accrediting a VE: Start A Team/Accrediting_a_VE.md
+    - Accrediting a VE: Start A Team/Accrediting-a-VE.md
     - Start a New Team: Start A Team/Start-A-New-Team.md
 
 markdown_extensions:
