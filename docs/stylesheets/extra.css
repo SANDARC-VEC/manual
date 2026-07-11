@@ -1,3 +1,26 @@
+/* The mockup uses the OS system-font stack everywhere except the hero's
+   Exo 2 / Raleway accents, not Material's default Roboto (loaded via
+   theme.font: false in mkdocs.yml). Material builds --md-text-font-family
+   from --md-text-font via a rule declared directly on <body>, which beats
+   any --md-text-font-family set on :root (a locally-declared value always
+   wins over an inherited one) — so set the input variable instead. */
+/* READABILITY REDESIGN: the manual body/UI now uses IBM Plex Sans and code
+   uses IBM Plex Mono, loaded here since theme.font is false. The hero keeps
+   its own Exo 2 / Raleway accents (set explicitly further down). */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --md-text-font: "IBM Plex Sans", system-ui, "Segoe UI";
+  --md-code-font: "IBM Plex Mono", ui-monospace, monospace;
+}
+
+/* Material adds a 1.5rem (33px) top margin to the row that holds the
+   sidebar + content, pushing both down below the header — the mockup has
+   them start flush against it. */
+.md-main__inner {
+  margin-top: 0;
+}
+
 [data-md-color-scheme="sandarc-dark"] {
     --md-primary-fg-color:              #3cc666;
     --md-primary-fg-color--light:       #5dd984;
@@ -7,12 +30,39 @@
     --md-accent-fg-color--transparent:  rgba(60,198,102,0.1);
     --md-default-bg-color:              #07070f;
     --md-default-fg-color:              #f0f0f0;
-    --md-default-fg-color--light:       #a0a0a0;
-    --md-default-fg-color--lighter:     #606060;
+    --md-default-fg-color--light:       #9db8a8;
+    --md-default-fg-color--lighter:     #6e8a7c;
+    --md-default-fg-color--lightest:    rgba(240, 240, 240, 0.12);
     --md-typeset-a-color:               #3cc666;
     --md-code-bg-color:                 #0e0e1e;
     --md-code-fg-color:                 #3cc666;
     --md-typeset-color:                 #f0f0f0;
+    /* Material colors admonition BODY text with --md-admonition-fg-color, NOT
+       --md-typeset-color. Our custom "sandarc-dark" scheme must redefine it or
+       callout bodies fall back to Material's light-mode default (near-black
+       rgba(0,0,0,.87)) — unreadable on the dark callout cards. Follow the
+       scheme ink instead so NOTE/IMPORTANT bodies stay legible in dark mode. */
+    --md-admonition-fg-color:           var(--md-typeset-color);
+    --md-callout-border-color:          #3cc666;
+    --md-callout-bg-color:              rgba(60, 198, 102, 0.12);
+    /* Material only re-tints table borders for its built-in "slate" scheme
+       name — our custom "sandarc-dark" scheme falls back to the light-mode
+       default (semi-transparent black), which is invisible on a dark
+       background. Use a light tint instead, same as Material's own slate. */
+    --md-typeset-table-color:           rgba(255, 255, 255, 0.12);
+    --md-typeset-table-color--light:    rgba(255, 255, 255, 0.035);
+}
+
+/* Light/dark image switching. Material's built-in #only-light / #only-dark
+   support keys off the default "default"/"slate" scheme names; our custom
+   schemes (sandarc-light / sandarc-dark) need these rules to hide the image
+   that doesn't match the active scheme. */
+[data-md-color-scheme="sandarc-light"] img[src$="#only-dark"],
+[data-md-color-scheme="default"] img[src$="#only-dark"] {
+    display: none;
+}
+[data-md-color-scheme="sandarc-dark"] img[src$="#only-light"] {
+    display: none;
 }
 
 [data-md-color-scheme="default"],
@@ -26,42 +76,286 @@
     --md-default-bg-color:              #ffffff;
     --md-default-fg-color:              #0d1f14;
     --md-default-fg-color--light:       #5a7a66;
-    --md-default-fg-color--lighter:     #a0b8aa;
+    --md-default-fg-color--lighter:     #698078;
     --md-typeset-a-color:               #1e7a3e;
     --md-code-bg-color:                 #f4faf7;
     --md-code-fg-color:                 #1e7a3e;
     --md-typeset-color:                 #0d1f14;
+    /* Keep callout body text on the scheme ink (see the dark-scheme note). */
+    --md-admonition-fg-color:           var(--md-typeset-color);
+    --md-callout-border-color:          #1e7a3e;
+    --md-callout-bg-color:              rgba(30, 122, 62, 0.09);
+}
 
+.md-typeset blockquote {
+    border-left: 4px solid var(--md-callout-border-color);
+    background-color: var(--md-callout-bg-color);
+    border-radius: 0 4px 4px 0;
+    color: var(--md-typeset-color);
+    padding: 0.6rem 1rem;
 }
 
 
 /* ============================================================
-   LANDING PAGE – HERO
+   HEADER — full-width bar, logo label, centered search pill,
+   Discord icon (site-wide, matches Home.dc.html)
+
+   NOTE: sizes below are hardcoded in px, not rem. Material sets the
+   typeset root font-size to 137.5% (22px), so a naive "2rem" here would
+   render at 44px instead of the mockup's intended 32px. Every value is
+   the mockup's own rem figure resolved against ITS 16px root.
    ============================================================ */
 
-/* Hide Material chrome on the landing page */
-body:has(.hero-landing) .md-main,
-body:has(.hero-landing) .md-footer {
+/* The site title/page-topic ellipsis isn't in the mockup — drop it so the
+   search bar can take its place and sit centered in the header. */
+.md-header__title {
   display: none !important;
 }
 
-/* ── Transparent header — landing page only ── */
-body:has(.hero-landing) .md-header {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  right: 0;
-  background-color: transparent !important;
-  box-shadow: none !important;
-  --md-primary-bg-color: rgba(255, 255, 255, 0.92);
-  --md-primary-bg-color--light: rgba(255, 255, 255, 0.65);
+/* The mockup's header spans edge-to-edge; Material centers it inside a
+   61rem grid by default, leaving big empty margins on wide screens. */
+.md-header__inner.md-grid {
+  max-width: none;
 }
 
-/* Remove top offset that Material adds for the sticky header */
-body:has(.hero-landing),
-body:has(.hero-landing) .md-container {
-  padding-top: 0 !important;
-  margin-top: 0 !important;
+.md-header__inner {
+  min-height: 56px;
+  padding: 0 16px;
+}
+
+/* The mockup always shows the logo + label, adding the hamburger alongside
+   on mobile rather than swapping the logo out for a title. */
+.md-header__button.md-logo {
+  display: flex !important;
+  align-items: center;
+  gap: 9.6px;
+}
+
+.md-logo__image {
+  height: 64px !important;
+  width: auto !important;
+  max-width: none !important;
+}
+
+.md-header__logo-text {
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 0.01em;
+  white-space: nowrap;
+}
+
+.md-header__discord svg {
+  fill: currentcolor;
+}
+
+/* Below the drawer breakpoint the hamburger also joins the header row —
+   with the logo doubled in size, logo + text + hamburger + search icon +
+   theme toggle + Discord no longer all fit on a phone-width screen (the
+   Discord icon was getting pushed off the right edge). Drop the text
+   label and shrink the logo just at these widths to make room; it stays
+   at full size everywhere the row has space for it. */
+@media screen and (max-width: 76.2344em) {
+  .md-header__logo-text {
+    display: none;
+  }
+
+  .md-logo__image {
+    height: 40px !important;
+  }
+
+  /* Logo stays left; the hamburger and everything after it (search,
+     theme toggle, Discord) group on the right. The hidden
+     .md-header__title normally provides this flex spacing. */
+  .md-header__button[for="__drawer"] {
+    margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-search {
+    flex: 1 1 auto;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  .md-search__inner {
+    width: 100% !important;
+  }
+
+  [data-md-toggle="search"]:checked ~ .md-header .md-search__inner {
+    width: 100% !important;
+  }
+
+  .md-search__form {
+    background-color: rgba(255, 255, 255, 0.18) !important;
+    border-radius: 8px !important;
+  }
+
+  .md-search__form:hover {
+    background-color: rgba(255, 255, 255, 0.28) !important;
+  }
+
+  /* Material's results panel defaults to a fixed 34.4rem (~756px) width,
+     wider than our 420px search bar — the panel's own overflow:hidden
+     was clipping the extra width instead of letting it wrap, cutting
+     result snippets off mid-line. Match it to the bar's width instead,
+     same as the mockup, so text wraps within it. */
+  .md-search__scrollwrap {
+    width: 100% !important;
+  }
+
+  .md-search__input {
+    color: #fff;
+  }
+
+  .md-search__input::placeholder {
+    color: rgba(255, 255, 255, 0.72);
+    -webkit-text-fill-color: rgba(255, 255, 255, 0.72);
+  }
+
+  .md-search__input + .md-search__icon {
+    color: #fff;
+  }
+}
+
+/* ============================================================
+   SIDEBAR — flat list, house icon on Home, uppercase section
+   labels, pill active state (site-wide, matches Home.dc.html)
+   ============================================================ */
+
+/* The mockup's sidebar has no repeated site-name title bar up top —
+   it goes straight into the "Home" link. */
+.md-nav--primary > .md-nav__title {
+  display: none !important;
+}
+
+.md-sidebar--primary {
+  width: 270px;
+  /* Material adds its own 1.2rem top padding on top of the nav list's
+     own padding below, doubling up the gap above "Home" — drop it so
+     only our own (smaller, mockup-matched) padding remains. */
+  padding-top: 0;
+}
+
+/* Material hides/reveals the mobile drawer with a left offset and a
+   translateX that both match its own default 12.1rem width. We changed
+   the width to a fixed 270px without updating those two, so at narrower
+   viewports (where Material also shrinks the root font-size, shrinking
+   12.1rem in px) the drawer no longer travels far enough — a sliver of
+   it stays stuck on screen when "closed", cutting into the page. Pin
+   the offset/travel distance to the same fixed 270px so it always
+   fully hides and fully reveals regardless of root font-size. */
+@media screen and (max-width: 76.2344em) {
+  [dir="ltr"] .md-sidebar--primary {
+    left: -270px;
+  }
+
+  [data-md-toggle="drawer"]:checked ~ .md-container .md-sidebar--primary {
+    transform: translateX(270px);
+  }
+}
+
+.md-nav--primary > .md-nav__list {
+  padding: 22.4px 11.2px;
+}
+
+/* Section group labels: Material already shows this outer link as the
+   heading (nested .md-nav__title is a duplicate it hides by default —
+   leave that hidden and restyle this one instead). */
+.md-nav--primary .md-nav__item--section > .md-nav__link {
+  padding: 0 12px 5.6px;
+  margin: 0;
+  font-size: 11.52px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--md-default-fg-color);
+  opacity: 0.62;
+}
+
+.md-nav--primary .md-nav__item--section {
+  margin-bottom: 18.4px;
+}
+
+/* Flat item rows with a pill hover/active treatment */
+.md-nav--primary .md-nav__link {
+  padding: 6.4px 12px;
+  margin: 1px 0;
+  border-radius: 6px;
+  border-left: 2px solid transparent;
+  font-size: 14.4px;
+  line-height: 1.35;
+}
+
+.md-nav--primary .md-nav__link:hover {
+  background-color: var(--md-accent-fg-color--transparent);
+}
+
+.md-nav--primary .md-nav__link--active {
+  color: var(--md-primary-fg-color) !important;
+  background-color: var(--md-accent-fg-color--transparent);
+  font-weight: 700;
+  border-left-color: var(--md-primary-fg-color);
+}
+
+/* "Home" (always the first top-level item) gets a house icon and stays
+   semi-bold even when it isn't the active page, matching the mockup. */
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child {
+  margin-bottom: 14.4px;
+}
+
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child > .md-nav__link {
+  display: flex;
+  align-items: center;
+  gap: 8.8px;
+  font-weight: 600;
+}
+
+.md-nav--primary > .md-nav__list > .md-nav__item:first-child > .md-nav__link::before {
+  content: '';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  flex-shrink: 0;
+  background-color: currentcolor;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E");
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z'/%3E%3C/svg%3E");
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+/* ============================================================
+   LANDING PAGE – HERO
+
+   NOTE: same px-not-rem rule as the header above — every size here is
+   the mockup's rem value resolved against its 16px root, written in px
+   so it isn't inflated by Material's 137.5% typeset root font-size.
+   ============================================================ */
+
+/* Material centers the sidebar+content row inside a 61rem grid by default.
+   The mockup docks the sidebar to the left edge on every page, not just
+   Home — scope this site-wide so the sidebar doesn't shift position when
+   navigating between Home and the rest of the manual. */
+.md-main__inner.md-grid {
+  max-width: none;
+}
+
+/* Material reserves an extra 0.4rem strip above the content for the
+   "edit this page" button, which we don't use (no repo_url configured).
+   It's dead space on every page, and on the hero it shows as a visible
+   white seam between the header and the (differently-colored) content
+   below — drop it everywhere. */
+.md-content__inner::before {
+  display: none;
+}
+
+/* Only the hero itself needs to drop the typeset gutter/margins to bleed
+   its background edge-to-edge — other pages keep normal reading padding. */
+body:has(.hero-landing) .md-content__inner {
+  margin: 0;
+  padding-top: 0;
 }
 
 /* Skip link – hidden until focused by keyboard */
@@ -84,55 +378,70 @@ body:has(.hero-landing) .md-container {
   top: 0.6rem;
 }
 
-/* Screen-reader-only utility */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
-}
-
-/* Hero section */
+/* Hero section — fills the content column beside the sidebar */
 .hero-landing {
   position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: clamp(1.8rem, 4vh, 3rem);
-  padding: calc(var(--md-header-height, 2.4rem) + 2.5rem) 3rem 3rem;
+  min-height: calc(100vh - var(--md-header-height, 56px));
+  overflow: hidden;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 
-/* Edge vignette for depth */
+/* Radial vignette for depth */
 .hero-landing::after {
   content: '';
   position: absolute;
   inset: 0;
   background: radial-gradient(
-    ellipse at 50% 50%,
-    transparent 28%,
-    rgba(0, 0, 0, 0.38) 100%
+    ellipse at 50% 34%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.42) 100%
   );
   pointer-events: none;
+}
+
+.hero-landing__inner {
+  position: relative;
+  z-index: 1;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: clamp(38.4px, 6vh, 64px) 32px 56px;
+}
+
+/* ── Logo, title, tagline, CTA ── */
+.hero-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 16px;
+  margin-bottom: 41.6px;
+}
+
+.hero-header__logo {
+  height: 217.6px !important;
+  width: auto !important;
+  max-width: none !important;
+  filter: drop-shadow(0 4px 14px rgba(0, 0, 0, 0.5));
+}
+
+.hero-header__title {
+  font-family: 'Exo 2', system-ui, sans-serif !important;
+  font-size: clamp(30.4px, 5vw, 46.4px) !important;
+  font-weight: 800 !important;
+  color: #fff !important;
+  margin: 0 !important;
+  letter-spacing: 0.01em;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.6);
 }
 
 /* ── Tagline — centered ── */
 .hero-tagline {
   position: relative;
-  z-index: 1;
   margin: 0 !important;
   font-family: 'Raleway', Georgia, serif !important;
-  font-size: clamp(1.1rem, 3vw, 1.65rem) !important;
+  font-size: clamp(15.2px, 2.4vw, 20.8px) !important;
   text-align: center;
 }
 
@@ -153,21 +462,54 @@ body:has(.hero-landing) .md-container {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
-  filter: drop-shadow(0 0 10px rgba(60, 198, 102, 0.3))
-          drop-shadow(0 2px 14px rgba(0, 0, 0, 0.7));
+  filter: drop-shadow(0 0 10px rgba(60, 198, 102, 0.35))
+          drop-shadow(0 2px 12px rgba(0, 0, 0, 0.6));
 }
 
 /* Typewriter cursor — added/removed by JS */
 .hero-tagline-cursor {
   display: inline-block;
-  border-right: 2px solid rgba(255, 255, 255, 0.8);
+  border-right: 2px solid rgba(255, 255, 255, 0.85);
   padding-right: 2px;
   animation: hero-cursor-blink 0.7s step-end infinite;
 }
 
 @keyframes hero-cursor-blink {
-  0%, 100% { border-right-color: rgba(255, 255, 255, 0.8); }
+  0%, 100% { border-right-color: rgba(255, 255, 255, 0.85); }
   50%       { border-right-color: transparent; }
+}
+
+/* ── "Read the manual" CTA ── */
+.hero-cta {
+  margin-top: 6.4px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6.4px;
+  padding: 9.92px 20.8px;
+  border-radius: 9px;
+  background: rgba(255, 255, 255, 0.96);
+  color: #12331f !important;
+  font-weight: 700;
+  font-size: 14.4px;
+  text-decoration: none !important;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.28);
+  transition: background 0.2s ease, transform 0.18s ease;
+}
+
+.hero-cta:hover {
+  background: #ffffff;
+  transform: translateY(-1px);
+}
+
+/* ── Intro paragraph ── */
+.hero-desc {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.82) !important;
+  max-width: 640px;
+  margin: 0 auto 38.4px !important;
+  line-height: 1.75;
+  font-size: 16.32px !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.5);
 }
 
 /* ── Navigation cards grid ── */
@@ -175,24 +517,20 @@ body:has(.hero-landing) .md-container {
   position: relative;
   z-index: 1;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-  width: 100%;
-  max-width: 800px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 17.6px;
 }
 
 .hero-card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  text-align: center;
-  gap: 0.65rem;
-  padding: 1.6rem 1.2rem 1.4rem;
-  background: rgba(5, 5, 20, 0.50);
+  gap: 11.2px;
+  padding: 24px 22.4px;
+  background: rgba(8, 12, 24, 0.5);
   backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border: 1px solid rgba(255, 255, 255, 0.12);
-  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 14px;
   text-decoration: none !important;
   color: #fff !important;
   transition:
@@ -202,9 +540,10 @@ body:has(.hero-landing) .md-container {
 }
 
 .hero-card:hover {
-  background: rgba(255, 255, 255, 0.1);
-  border-color: rgba(255, 255, 255, 0.28);
+  background: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.34);
   transform: translateY(-4px);
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.32);
   text-decoration: none !important;
 }
 
@@ -215,23 +554,48 @@ body:has(.hero-landing) .md-container {
 .hero-card:focus-visible {
   outline: 2px solid rgba(255, 255, 255, 0.8);
   outline-offset: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.hero-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-card__icon {
-  width: 2.2rem;
-  height: 2.2rem;
-  fill: rgba(255, 255, 255, 0.82);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.13);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #c9f5d9;
   flex-shrink: 0;
+}
+
+.hero-card__icon svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.hero-card__num {
+  font-family: 'Exo 2', system-ui, sans-serif;
+  font-size: 27.2px;
+  font-weight: 800;
+  color: #fff;
+  opacity: 0.22;
 }
 
 .hero-card__title {
   margin: 0 !important;
   padding: 0 !important;
-  font-size: 0.88rem !important;
-  font-weight: 600 !important;
+  font-family: 'Exo 2', system-ui, sans-serif !important;
+  font-size: 18.4px !important;
+  font-weight: 700 !important;
   color: #fff !important;
-  letter-spacing: 0.02em;
   line-height: 1.3 !important;
   border: none !important;
 }
@@ -243,119 +607,619 @@ body:has(.hero-landing) .md-container {
 
 .hero-card__desc {
   margin: 0 !important;
-  font-size: 0.75rem !important;
-  color: rgba(255, 255, 255, 0.62) !important;
-  line-height: 1.55;
+  font-size: 13.76px !important;
+  color: rgba(255, 255, 255, 0.68) !important;
+  line-height: 1.6;
 }
 
-/* ── Full manual link ── */
-.hero-manual-link {
+.hero-card__open {
+  margin-top: auto;
+  padding-top: 6.4px;
+  font-size: 12.8px;
+  font-weight: 700;
+  color: #8fe6ad;
+}
+
+/* ── In-page footer ── */
+.hero-footer {
   position: relative;
   z-index: 1;
-  text-align: center;
+  margin-top: 56px;
+  padding-top: 22.4px;
+  border-top: 1px solid rgba(255, 255, 255, 0.16);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
 }
 
-.hero-manual-link a {
-  font-size: 0.82rem !important;
-  font-weight: 700;
-  color: rgba(255, 255, 255, 0.82) !important;
-  text-decoration: none !important;
-  letter-spacing: 0.06em;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
-  padding-bottom: 2px;
-  transition: color 0.2s ease, border-color 0.2s ease;
+.hero-footer__copy {
+  font-size: 12.8px;
+  color: rgba(255, 255, 255, 0.62);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.5);
 }
 
-.hero-manual-link a::after {
-  content: ' →';
-  display: inline-block;
-  transition: transform 0.2s ease;
-}
-
-.hero-manual-link a:hover {
-  color: #fff !important;
-  border-bottom-color: rgba(255, 255, 255, 0.75);
-}
-
-.hero-manual-link a:hover::after {
-  transform: translateX(4px);
-}
-
-/* ── Photo credit ── */
-.hero-photo-credit {
-  position: absolute;
-  bottom: 0.8rem;
-  right: 1rem;
-  z-index: 2;
-  margin: 0 !important;
-  font-size: 0.65rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.5) !important;
-  letter-spacing: 0.04em;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
-  pointer-events: none;
-  user-select: none;
-}
-
-.hero-photo-credit a {
+.hero-footer__copy a {
   color: inherit !important;
-  text-decoration: none;
-  pointer-events: auto;
+  text-decoration: underline;
+  text-decoration-color: rgba(255, 255, 255, 0.35);
   transition: color 0.2s ease;
 }
 
-.hero-photo-credit a:hover {
-  color: rgba(255, 255, 255, 0.85) !important;
+.hero-footer__copy a:hover {
+  color: #fff !important;
+  text-decoration-color: currentcolor;
+}
+
+.hero-footer__discord {
+  display: flex;
+  align-items: center;
+  gap: 6.4px;
+  color: rgba(255, 255, 255, 0.68) !important;
+  text-decoration: none !important;
+  font-size: 12.8px;
+  transition: color 0.2s ease;
+}
+
+.hero-footer__discord svg {
+  width: 18px;
+  height: 18px;
+  fill: currentColor;
+}
+
+.hero-footer__discord:hover {
+  color: #8fe6ad !important;
 }
 
 /* ── Responsive ── */
 @media screen and (max-width: 600px) {
-  .hero-landing {
-    padding: 5rem 1rem 2rem;
-    gap: 1.6rem;
+  .hero-landing__inner {
+    padding: clamp(38.4px, 6vh, 64px) 17.6px 38.4px;
   }
 
-  /* Each card on its own row on small screens */
-  .hero-cards {
-    grid-template-columns: 1fr;
-    gap: 0.7rem;
+  .hero-header {
+    margin-bottom: 32px;
   }
 
-  .hero-card {
-    flex-direction: row;
-    text-align: left;
-    padding: 1rem 1.1rem;
-    gap: 1rem;
-    border-radius: 10px;
-  }
-
-  .hero-card__icon {
-    width: 2rem;
-    height: 2rem;
-    flex-shrink: 0;
-    align-self: flex-start;
-    margin-top: 0.1rem;
-  }
-
-  .hero-card__body {
-    display: flex;
-    flex-direction: column;
-    gap: 0.3rem;
-  }
-
-  .hero-card__title {
-    font-size: 0.85rem !important;
-  }
-
-  .hero-card__desc {
-    font-size: 0.72rem !important;
+  .hero-footer {
+    justify-content: flex-start;
   }
 }
 
 /* ── Reduced motion ── */
 @media (prefers-reduced-motion: reduce) {
   .hero-card,
+  .hero-cta,
   .hero-skip-link {
     transition: none;
+  }
+}
+
+
+/* ============================================================
+   DOCUMENTATION PAGES — READABILITY REDESIGN  ("Modern Docs")
+
+   Applies to every content page (the hero landing opts out of the
+   parts it needs to via body:has(.hero-landing) below). Every size is
+   in px, matching this file's convention of dodging Material's 137.5%
+   typeset root scaling. Preview with `mkdocs serve` before shipping.
+
+   Two small MARKDOWN tweaks unlock the full effect (pure CSS can't do
+   them) — see the two "AUTHORING" notes further down:
+     1. Normalize each page to ONE h1 title (#) + h2 sections (##).
+     2. Convert the `> **NOTE:**` / `> ⛔ **IMPORTANT:**` blockquotes to
+        Material admonitions (`!!! note` / `!!! danger`) for the
+        colored NOTE vs IMPORTANT chips.
+   ============================================================ */
+
+/* 1 — READING MEASURE ---------------------------------------------------
+   The grid cap is removed site-wide (.md-main__inner.md-grid above), which
+   let article text run edge-to-edge — the #1 readability complaint. Cap the
+   content column to a comfortable ~72-char measure; the sidebar stays docked
+   left and the "on this page" TOC sits to its right. The hero opts out so it
+   can still bleed full width. */
+body:not(:has(.hero-landing)) .md-content {
+  max-width: 768px;
+}
+
+/* Keep the right-hand table of contents legible */
+.md-sidebar--secondary {
+  width: 234px;
+}
+.md-nav--secondary .md-nav__title {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-nav--secondary .md-nav__link {
+  font-size: 13px;
+  line-height: 1.4;
+}
+.md-nav--secondary .md-nav__link--active,
+.md-nav--secondary .md-nav__link:hover {
+  color: var(--md-primary-fg-color);
+  font-weight: 600;
+}
+
+/* 2 — TYPE SCALE & RHYTHM ----------------------------------------------
+   Larger, denser-leading body copy and REAL heading weights (Material
+   defaults h1/h2 to a thin 300, which reads as weak hierarchy). */
+.md-typeset {
+  font-size: 15.5px;
+  line-height: 1.7;
+}
+.md-typeset h1 {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.18;
+  letter-spacing: -0.02em;
+  color: var(--md-default-fg-color);
+  margin: 0 0 0.5em;
+}
+.md-typeset h2 {
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 1.3;
+  color: var(--md-default-fg-color);
+  /* generous space ABOVE each section = clear visual breaks */
+  margin: 2.1em 0 0.7em;
+  padding-top: 0;
+  border: 0;
+}
+.md-typeset h3 {
+  font-weight: 600;
+  font-size: 16.5px;
+  line-height: 1.35;
+  color: var(--md-default-fg-color);
+  margin: 1.6em 0 0.5em;
+}
+.md-typeset p,
+.md-typeset li {
+  line-height: 1.7;
+}
+
+/* Optional divider you can drop between major sections in markdown with a
+   `---` rule — rendered as an airy hairline instead of a hard bar. */
+.md-typeset hr {
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+  margin: 2.4em 0;
+}
+
+/* 3 — NUMBERED STEPS ----------------------------------------------------
+   Procedures (`1.` `2.` …) render as rounded green step badges. */
+.md-typeset ol {
+  counter-reset: step;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.md-typeset ol > li {
+  counter-increment: step;
+  position: relative;
+  padding-left: 40px;
+  margin-bottom: 0.85em;
+}
+.md-typeset ol > li::before {
+  content: counter(step);
+  position: absolute;
+  left: 0;
+  top: 0.05em;
+  width: 26px;
+  height: 26px;
+  border-radius: 7px;
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-primary-fg-color);
+  font-family: var(--md-code-font);
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 26px;
+  text-align: center;
+}
+
+/* 4 — BULLET LISTS ------------------------------------------------------
+   Crisp square green markers. Task-list items (the Session Day Checklist
+   `- [ ]` boxes) keep Material's own checkbox and are excluded. */
+.md-typeset ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+.md-typeset ul > li:not(.task-list-item) {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 0.5em;
+}
+.md-typeset ul > li:not(.task-list-item)::before {
+  content: '';
+  position: absolute;
+  left: 2px;
+  top: 0.62em;
+  width: 6px;
+  height: 6px;
+  border-radius: 2px;
+  background: var(--md-primary-fg-color);
+}
+.md-typeset ul li.task-list-item {
+  padding-left: 0;
+  margin-bottom: 0.5em;
+}
+
+/* 5 — TABLES ------------------------------------------------------------
+   Rounded container, dark-green header, zebra rows, roomy cells so the
+   Element-Credit tables are scannable. */
+.md-typeset table:not([class]) {
+  border: 1px solid var(--md-typeset-table-color);
+  border-radius: 10px;
+  border-collapse: separate;
+  border-spacing: 0;
+  overflow: hidden;
+  font-size: 13.5px;
+  line-height: 1.55;
+}
+.md-typeset table:not([class]) th {
+  background: #0f2e1e;
+  color: #a9e3c1;
+  font-weight: 600;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  border: 0;
+}
+.md-typeset table:not([class]) td {
+  padding: 12px 15px;
+  border: 0;
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-typeset table:not([class]) tbody tr:nth-child(even) {
+  background: var(--md-accent-fg-color--transparent);
+}
+.md-typeset table:not([class]) tbody td:first-child {
+  font-weight: 500;
+  color: var(--md-default-fg-color);
+}
+
+/* 6 — INLINE CODE -------------------------------------------------------
+   Mono chips for identifiers like `T1E01`, `NaN`, `Grade Exam`. */
+.md-typeset code {
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.86em;
+}
+
+/* 7 — CALLOUTS ----------------------------------------------------------
+   AUTHORING: for distinct NOTE vs IMPORTANT chips, convert the two
+   blockquote callouts to Material admonitions and enable the extensions:
+       markdown_extensions:
+         - admonition
+         - pymdownx.details
+   then in markdown:
+       !!! note
+           Do not write down any numbers from the applicant's ID …
+       !!! danger "Important"
+           All video recording is prohibited …
+   The styling below covers both admonitions AND the current blockquotes,
+   so nothing looks broken before the content is migrated. */
+
+/* Current blockquote callouts → soft green card (already partly styled
+   above; this rounds the whole card rather than only the left edge). */
+.md-typeset blockquote {
+  border: 1px solid var(--md-callout-border-color);
+  border-left-width: 4px;
+  border-radius: 10px;
+  padding: 14px 18px;
+}
+
+/* Material admonitions (note / tip / info → green, danger / warning →
+   red) once the content is migrated. */
+.md-typeset .admonition,
+.md-typeset details.admonition {
+  border: 1px solid var(--md-callout-border-color);
+  border-left-width: 4px;
+  border-radius: 10px;
+  box-shadow: none;
+  font-size: 14.5px;
+  background: var(--md-callout-bg-color);
+}
+.md-typeset .admonition-title {
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  background: transparent;
+  padding-left: 40px;
+}
+/* Material's built-in per-type icon (info circle, warning triangle,
+   danger zap, …) — resized to sit beside the compact uppercase title
+   and tinted with the title color via currentColor, so it goes green
+   for note/info/tip and red for danger/warning automatically. */
+/* Material positions/colors the icon per-type at higher specificity
+   ([dir] + 3 classes) — the [class] trick from below lifts ours over it. */
+.md-typeset .admonition[class] > .admonition-title::before {
+  top: 50%;
+  left: 18px;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  background-color: currentColor;
+}
+/* Material assigns each admonition TYPE its own keyline color (e.g.
+   .md-typeset .admonition.note → blue #448aff, .danger → #ff1744) at a HIGHER
+   specificity (3 classes) than our base .admonition rule (2 classes), so left
+   alone a NOTE card would render blue instead of the intended green. The
+   [class] attribute selector lifts our rule to match that specificity (and it
+   loads later), so the callout colors driven by --md-callout-border-color —
+   green for note/info/tip, brand red for danger/warning — win for every type.
+   The same trick keeps the title bar transparent over Material's faint
+   per-type title tint. */
+.md-typeset .admonition[class],
+.md-typeset details.admonition[class] {
+  border-color: var(--md-callout-border-color);
+}
+.md-typeset .admonition[class] > .admonition-title {
+  background: transparent;
+}
+/* Red keyline + tint only — the body text keeps --md-typeset-color so it
+   stays readable in BOTH light and dark schemes (a hardcoded dark ink here
+   would be invisible on the dark background). */
+.md-typeset .admonition.danger,
+.md-typeset .admonition.warning,
+.md-typeset .admonition.failure {
+  --md-callout-border-color: #c0432b;
+  --md-callout-bg-color: rgba(192, 67, 43, 0.10);
+}
+.md-typeset .admonition.danger > .admonition-title,
+.md-typeset .admonition.warning > .admonition-title,
+.md-typeset .admonition.failure > .admonition-title {
+  color: #c0432b;
+}
+.md-typeset .admonition:not(.danger):not(.warning):not(.failure) > .admonition-title {
+  color: var(--md-primary-fg-color);
+}
+
+/* Dark scheme: the brand red (#c0432b) is a little low-contrast on the
+   near-black background — brighten the danger keyline + title so warnings
+   stay legible in dark mode. */
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.danger,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.warning,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.failure {
+  --md-callout-border-color: #e0715a;
+  --md-callout-bg-color: rgba(224, 113, 90, 0.12);
+}
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.danger > .admonition-title,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.warning > .admonition-title,
+[data-md-color-scheme="sandarc-dark"] .md-typeset .admonition.failure > .admonition-title {
+  color: #e0715a;
+}
+
+/* 8 — PAGE META (reading time) -----------------------------------------
+   Rendered by the no-dependency hook at hooks/reading_time.py (wired in
+   mkdocs.yml), which injects a `.page-meta` element right after each page's
+   H1. Styled here as the muted meta row under the title. */
+.md-content .page-meta {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding-bottom: 20px;
+  margin: 0 0 12px;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-meta svg {
+  flex: 0 0 auto;
+  stroke: var(--md-primary-fg-color);
+}
+.md-content .page-meta .page-meta__dot {
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: var(--md-default-fg-color--lighter);
+}
+
+/* Page changelog — injected by the git-changelog hook (see hooks/
+   git_changelog.py in mkdocs.yml). A "History" disclosure button in the
+   .page-meta row that opens a popover listing the page's git commits. */
+.md-content .page-changelog,
+.md-typeset details.page-changelog {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  overflow: visible;
+  font-size: 13px;
+}
+/* Strip Material's admonition-style summary chrome (background, icon,
+   chevron) — the button is styled below instead. */
+.md-typeset details.page-changelog > summary {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.md-typeset details.page-changelog > summary::before,
+.md-typeset details.page-changelog > summary::after {
+  display: none;
+}
+.md-content .page-changelog > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  list-style: none;
+  color: var(--md-default-fg-color--light);
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+.md-content .page-changelog > summary::-webkit-details-marker {
+  display: none;
+}
+.md-content .page-changelog > summary:hover,
+.md-content .page-changelog[open] > summary {
+  color: var(--md-primary-fg-color);
+}
+.md-content .page-changelog__panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  min-width: min(360px, calc(100vw - 48px));
+  max-width: min(480px, calc(100vw - 48px));
+  max-height: min(420px, 60vh);
+  overflow-y: auto;
+  padding: 14px 16px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+.md-content .page-changelog__title {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-changelog__panel ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.md-content .page-changelog__panel li {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+/* Neutralize the site-wide numbered-step badges (section 3 above) inside
+   the changelog list. */
+.md-typeset .page-changelog__panel ol > li::before {
+  content: none;
+}
+.md-content .page-changelog__panel li + li {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-content .page-changelog__date {
+  flex: 0 0 auto;
+  width: 7.2em;
+  white-space: nowrap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color--light);
+}
+/* Rows: label-only revisions ("Page created", renames)… */
+.md-content .page-changelog__item--label {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+}
+.md-content .page-changelog__label {
+  color: var(--md-default-fg-color);
+}
+/* …and expandable revisions showing the actual text edits. Strip
+   Material's admonition-style details chrome first. */
+.md-typeset details.page-changelog__entry {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  font-size: 13px;
+}
+.md-typeset .page-changelog__entry > summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 6px 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.md-typeset .page-changelog__entry > summary::before,
+.md-typeset .page-changelog__entry > summary::after,
+.md-typeset .page-changelog__entry > summary::-webkit-details-marker {
+  display: none;
+}
+.md-content .page-changelog__chev {
+  margin-left: auto;
+  color: var(--md-default-fg-color--lighter);
+  font-weight: 700;
+  transition: transform 0.15s;
+}
+.md-content .page-changelog__entry[open] .page-changelog__chev {
+  transform: rotate(90deg);
+}
+.md-content .page-changelog__stats {
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-changelog__added {
+  color: #1a7f37;
+  font-weight: 600;
+}
+.md-content .page-changelog__removed {
+  color: #cf222e;
+  font-weight: 600;
+}
+[data-md-color-scheme="sandarc-dark"] .md-content .page-changelog__added {
+  color: #3fb950;
+}
+[data-md-color-scheme="sandarc-dark"] .md-content .page-changelog__removed {
+  color: #f85149;
+}
+/* Edit snippets: removed words struck through, added words highlighted. */
+.md-content .page-changelog__diff {
+  padding: 0 0 8px;
+}
+.md-content .page-changelog__region {
+  margin: 4px 0;
+  color: var(--md-default-fg-color--light);
+  overflow-wrap: anywhere;
+}
+.md-typeset .page-changelog__diff ins {
+  background: rgba(46, 160, 67, 0.18);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.md-typeset .page-changelog__diff del {
+  background: rgba(248, 81, 73, 0.12);
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.md-content .page-changelog__more {
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+/* On phones, anchor the popover to the full meta row instead of the
+   button so it can't spill past the right edge. */
+@media screen and (max-width: 44.9375em) {
+  .md-content .page-meta {
+    position: relative;
+  }
+  .md-content .page-changelog,
+  .md-typeset details.page-changelog {
+    position: static;
+  }
+  .md-content .page-changelog__panel {
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: none;
   }
 }

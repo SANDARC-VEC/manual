@@ -4,6 +4,7 @@ site_url: https://vec.sandarc.org/manual/
 theme:
   name: material
   custom_dir: overrides
+  font: false
   palette:
 
     - scheme: sandarc-light
@@ -21,6 +22,7 @@ theme:
     - navigation.footer
     - navigation.instant
     - navigation.instant.prefetch
+    - toc.follow
 
 extra:
   social:
@@ -31,3 +33,44 @@ copyright: Copyright &copy; 2026 San Diego County Amateur Radio Council
 
 extra_css:
   - stylesheets/extra.css
+
+plugins:
+  - search
+  - offline
+
+hooks:
+  - hooks/reading_time.py
+  - hooks/git_changelog.py
+
+nav:
+  - Home: index.md
+  - Intro:
+    - Being A Cool VE: Intro/Being-A-Cool-VE.md
+    - Key Contacts: Intro/Key-Contacts.md
+    - Other VECs: Intro/Other-VECs.md
+  - Prepare For A Session:
+    - Preparing for the Session: Prepare For A Session/Preparing-for-the-Session.md
+    - Session Day Checklist: Prepare For A Session/Session-Day-Checklist.md
+    - Exam Materials: Prepare For A Session/Exam-Materials.md
+    - Registering Applicants: Prepare For A Session/registering-applicants.md
+  - Conduct A Session:
+    - Conducting the Session: Conduct A Session/Conducting-the-Session.md
+    - Remote Testing: Conduct A Session/Remote Testing/Remote-Testing.md
+    - Fees and Reimbursement: Conduct A Session/Fees-and-Reimbursement.md
+    - CSCE Overview: Conduct A Session/CSCE-Overview.md
+    - Felony Question: Conduct A Session/Felony-Question.md
+  - Post Session Information:
+    - After the Session: Post Session Information/After-the-Session.md
+  - Start A Team:
+    - Accrediting a VE: Start A Team/Accrediting-a-VE.md
+    - Start a New Team: Start A Team/Start-A-New-Team.md
+
+markdown_extensions:
+  - md_in_html
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
