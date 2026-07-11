@@ -18,8 +18,9 @@ SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.to
 !!! note
     Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file. In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges to a team that SANDARC has not approved.
 
-**All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on [ExamTools](https://exam.tools) as a co-owner.
-Failure to do so will result in immediate suspension.**
+!!! danger "Important"
+    **All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on [ExamTools](https://exam.tools) as a co-owner.
+    Failure to do so will result in immediate suspension.**
 
 ## Information We Need About Your Team
 

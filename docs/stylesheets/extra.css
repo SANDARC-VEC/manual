@@ -162,6 +162,13 @@
   .md-logo__image {
     height: 40px !important;
   }
+
+  /* Logo stays left; the hamburger and everything after it (search,
+     theme toggle, Discord) group on the right. The hidden
+     .md-header__title normally provides this flex spacing. */
+  .md-header__button[for="__drawer"] {
+    margin-left: auto;
+  }
 }
 
 @media screen and (min-width: 76.25em) {
@@ -924,10 +931,21 @@ body:not(:has(.hero-landing)) .md-content {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   background: transparent;
-  padding-left: 18px;
+  padding-left: 40px;
 }
-.md-typeset .admonition-title::before {
-  display: none;
+/* Material's built-in per-type icon (info circle, warning triangle,
+   danger zap, …) — resized to sit beside the compact uppercase title
+   and tinted with the title color via currentColor, so it goes green
+   for note/info/tip and red for danger/warning automatically. */
+/* Material positions/colors the icon per-type at higher specificity
+   ([dir] + 3 classes) — the [class] trick from below lifts ours over it. */
+.md-typeset .admonition[class] > .admonition-title::before {
+  top: 50%;
+  left: 18px;
+  width: 15px;
+  height: 15px;
+  transform: translateY(-50%);
+  background-color: currentColor;
 }
 /* Material assigns each admonition TYPE its own keyline color (e.g.
    .md-typeset .admonition.note → blue #448aff, .danger → #ff1744) at a HIGHER
@@ -1002,4 +1020,206 @@ body:not(:has(.hero-landing)) .md-content {
   height: 3px;
   border-radius: 50%;
   background: var(--md-default-fg-color--lighter);
+}
+
+/* Page changelog — injected by the git-changelog hook (see hooks/
+   git_changelog.py in mkdocs.yml). A "History" disclosure button in the
+   .page-meta row that opens a popover listing the page's git commits. */
+.md-content .page-changelog,
+.md-typeset details.page-changelog {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  overflow: visible;
+  font-size: 13px;
+}
+/* Strip Material's admonition-style summary chrome (background, icon,
+   chevron) — the button is styled below instead. */
+.md-typeset details.page-changelog > summary {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: transparent;
+}
+.md-typeset details.page-changelog > summary::before,
+.md-typeset details.page-changelog > summary::after {
+  display: none;
+}
+.md-content .page-changelog > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  list-style: none;
+  color: var(--md-default-fg-color--light);
+  font-size: 13px;
+  font-weight: 500;
+  -webkit-tap-highlight-color: transparent;
+}
+.md-content .page-changelog > summary::-webkit-details-marker {
+  display: none;
+}
+.md-content .page-changelog > summary:hover,
+.md-content .page-changelog[open] > summary {
+  color: var(--md-primary-fg-color);
+}
+.md-content .page-changelog__panel {
+  position: absolute;
+  top: calc(100% + 10px);
+  left: 0;
+  z-index: 5;
+  width: max-content;
+  min-width: min(360px, calc(100vw - 48px));
+  max-width: min(480px, calc(100vw - 48px));
+  max-height: min(420px, 60vh);
+  overflow-y: auto;
+  padding: 14px 16px;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  background: var(--md-default-bg-color);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+}
+.md-content .page-changelog__title {
+  margin-bottom: 8px;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-changelog__panel ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.md-content .page-changelog__panel li {
+  padding: 0;
+  margin: 0;
+  font-size: 13px;
+  line-height: 1.45;
+}
+/* Neutralize the site-wide numbered-step badges (section 3 above) inside
+   the changelog list. */
+.md-typeset .page-changelog__panel ol > li::before {
+  content: none;
+}
+.md-content .page-changelog__panel li + li {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+.md-content .page-changelog__date {
+  flex: 0 0 auto;
+  width: 7.2em;
+  white-space: nowrap;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  color: var(--md-default-fg-color--light);
+}
+/* Rows: label-only revisions ("Page created", renames)… */
+.md-content .page-changelog__item--label {
+  display: flex;
+  gap: 12px;
+  padding: 6px 0;
+}
+.md-content .page-changelog__label {
+  color: var(--md-default-fg-color);
+}
+/* …and expandable revisions showing the actual text edits. Strip
+   Material's admonition-style details chrome first. */
+.md-typeset details.page-changelog__entry {
+  margin: 0;
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background: transparent;
+  font-size: 13px;
+}
+.md-typeset .page-changelog__entry > summary {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 0;
+  padding: 6px 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  list-style: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.md-typeset .page-changelog__entry > summary::before,
+.md-typeset .page-changelog__entry > summary::after,
+.md-typeset .page-changelog__entry > summary::-webkit-details-marker {
+  display: none;
+}
+.md-content .page-changelog__chev {
+  margin-left: auto;
+  color: var(--md-default-fg-color--lighter);
+  font-weight: 700;
+  transition: transform 0.15s;
+}
+.md-content .page-changelog__entry[open] .page-changelog__chev {
+  transform: rotate(90deg);
+}
+.md-content .page-changelog__stats {
+  color: var(--md-default-fg-color--light);
+}
+.md-content .page-changelog__added {
+  color: #1a7f37;
+  font-weight: 600;
+}
+.md-content .page-changelog__removed {
+  color: #cf222e;
+  font-weight: 600;
+}
+[data-md-color-scheme="sandarc-dark"] .md-content .page-changelog__added {
+  color: #3fb950;
+}
+[data-md-color-scheme="sandarc-dark"] .md-content .page-changelog__removed {
+  color: #f85149;
+}
+/* Edit snippets: removed words struck through, added words highlighted. */
+.md-content .page-changelog__diff {
+  padding: 0 0 8px;
+}
+.md-content .page-changelog__region {
+  margin: 4px 0;
+  color: var(--md-default-fg-color--light);
+  overflow-wrap: anywhere;
+}
+.md-typeset .page-changelog__diff ins {
+  background: rgba(46, 160, 67, 0.18);
+  color: var(--md-default-fg-color);
+  text-decoration: none;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.md-typeset .page-changelog__diff del {
+  background: rgba(248, 81, 73, 0.12);
+  color: var(--md-default-fg-color--light);
+  text-decoration: line-through;
+  border-radius: 3px;
+  padding: 0 2px;
+}
+.md-content .page-changelog__more {
+  font-style: italic;
+  color: var(--md-default-fg-color--light);
+}
+/* On phones, anchor the popover to the full meta row instead of the
+   button so it can't spill past the right edge. */
+@media screen and (max-width: 44.9375em) {
+  .md-content .page-meta {
+    position: relative;
+  }
+  .md-content .page-changelog,
+  .md-typeset details.page-changelog {
+    position: static;
+  }
+  .md-content .page-changelog__panel {
+    left: 0;
+    right: 0;
+    width: auto;
+    max-width: none;
+  }
 }
