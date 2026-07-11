@@ -26,7 +26,7 @@ SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.to
 
 - **Team Lead**: This is the person in charge of communicating with the VEC. Furthermore,
 the team lead is also responsible for conducting the exam session, ensuring the examiners
-are well taken care of, and that the exam session adheres to FCC Part 97 rules and
+are well taken care of, and that the exam session adheres to [FCC Part 97 rules](https://www.ecfr.gov/current/title-47/part-97) and
 SANDARC policies.
 - **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
 in case we are unable to reach the team lead. 

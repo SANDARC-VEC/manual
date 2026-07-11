@@ -10,7 +10,7 @@
 - [ ] [ExamTools](https://exam.tools) session created and accessible
 - [ ] Scratch paper, pencils, calculators - if available (memories cleared)
 - [ ] Testing area quiet and free from distractions; non-participants cleared from the area
-- [ ] **NO recording equipment active** — video recording is prohibited at all SANDARC sessions
+- [ ] **NO recording equipment active** — all recording is prohibited at SANDARC sessions (promotional photos are the one exception — never of IDs, forms, or exam screens)
 - [ ] No other VEC branding visible at the session location
 
 ## Candidate Check-In
@@ -28,7 +28,7 @@
 - [ ] Issue exam via [ExamTools](https://exam.tools) (tablet, computer, or printed)
 - [ ] At least 3 VEs observing all candidates at all times — stop all testing if team drops below 3
 - [ ] VEs not reading, or having unnecessary conversations
-- [ ] **No recording of any kind** — including screen capture
+- [ ] **No recording of any kind** — including screen capture; promotional photos only, never showing IDs, forms, or exam screens
 - [ ] Grade each element immediately after completion; inform applicant of score
 - [ ] If passed: allow applicant to attempt next element if desired or whatever the team policy is
 - [ ] Take the applicant through signing their CSCE and confirming all information is accurate

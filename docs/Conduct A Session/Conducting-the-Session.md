@@ -55,7 +55,9 @@ At the start of each session, inform all applicants of the following:
 - VEs shall NOT authorize exams to applicants unless they have direct contact with that applicant!
 
 !!! danger "Important"
-    All video recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
+    All recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
+
+    The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, exam screens, or answer sheets) and are never used to monitor applicants, document suspected cheating, or for any purpose other than promotion.
 
 ## Grading
 
@@ -66,7 +68,7 @@ At the start of each session, inform all applicants of the following:
 
 There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion — it is the team's decision, not the applicant's right.
 
-- An applicant may not be given the same exam version they previously failed. [§97.509(f)] [ExamTools](https://exam.tools) generates a new, unique exam automatically for retakes.
+- An applicant may not be given the same exam version they previously failed. \[[§97.509(f)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28f%29)\] [ExamTools](https://exam.tools) generates a new, unique exam automatically for retakes.
 - The VE team should consider the applicant's score on the failed attempt and the team's remaining availability when deciding whether to allow a retest.
 - If a retest is granted, the applicant continues under SANDARC's free-exam policy — no additional fee is charged.
 
@@ -80,7 +82,7 @@ There is no mandatory waiting period before retaking a failed exam. Whether to a
 
 ## Accommodating Applicants with Disabilities
 
-VE teams MUST accommodate applicants whose physical disabilities require a special examination procedure. [§97.509(j)] No applicant with a disability may be refused service. If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
+VE teams MUST accommodate applicants whose physical disabilities require a special examination procedure. \[[§97.509(k)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28k%29)\] No applicant with a disability may be refused service. If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
 
 - For visually impaired applicants, exams may be read aloud. [ExamTools](https://exam.tools) can generate exams without figures/schematics for this purpose.
 - For applicants with hearing impairment or group sensitivity, consider a separate room.

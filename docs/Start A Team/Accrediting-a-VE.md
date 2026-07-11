@@ -1,6 +1,6 @@
 # Becoming a SANDARC Volunteer Examiner
 
-## FCC VE Qualifications [(47 CFR 97.501)](https://www.ecfr.gov/current/title-47/section-97.501)
+## FCC VE Qualifications [(47 CFR 97.509(b))](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28b%29)
 
 To qualify as a Volunteer Examiner under FCC rules you must:
 

@@ -3,7 +3,8 @@
 SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.tools) combined with a video conferencing platform (Zoom, Google Meet, or any other suitable platform). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 
 !!! info "SANDARC Policy"
-    - All video recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
+    - All recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
+    - The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, or exam screens) and are never used to monitor applicants or document suspected cheating.
 
 ## VE Technical Requirements for Remote Sessions
 

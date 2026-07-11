@@ -14,9 +14,9 @@
 
 | Resource                                             | Contact / URL                                           |
 |------------------------------------------------------|---------------------------------------------------------|
-| FCC Universal Licensing System (ULS)                 | https://www.fcc.gov/wireless/universal-licensing-system |
-| FCC CORES — FRN Registration                         | https://apps.fcc.gov/cores/userLogin.do                 |
-| FCC $35 Application Fee Payment                      | https://apps.fcc.gov/cores/paymentFrnLogin.do           |
-| ExamTools — Session Platform                         | https://exam.tools                                      |
-| HamStudy — Session Calendar & Applicant Registration | https://hamstudy.org/sessions                           |
-| FCC Electronic CFR — Part 97                         | https://www.ecfr.gov/current/title-14/chapter-I/subchapter-F/part-97 |
+| FCC Universal Licensing System (ULS)                 | [fcc.gov/wireless/universal-licensing-system](https://www.fcc.gov/wireless/universal-licensing-system) |
+| FCC CORES — FRN Registration                         | [apps.fcc.gov/cores/userLogin.do](https://apps.fcc.gov/cores/userLogin.do) |
+| FCC $35 Application Fee Payment                      | [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) |
+| ExamTools — Session Platform                         | [exam.tools](https://exam.tools)                        |
+| HamStudy — Session Calendar & Applicant Registration | [hamstudy.org/sessions](https://hamstudy.org/sessions)  |
+| FCC Electronic CFR — Part 97 (Amateur Radio Service) | [ecfr.gov — 47 CFR Part 97](https://www.ecfr.gov/current/title-47/part-97) |
