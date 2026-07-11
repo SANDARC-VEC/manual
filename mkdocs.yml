@@ -36,7 +36,6 @@ extra_css:
 
 plugins:
   - search
-  - offline
 
 hooks:
   - hooks/reading_time.py
