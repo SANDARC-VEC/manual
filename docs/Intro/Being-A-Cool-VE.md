@@ -3,7 +3,7 @@
 ## A few Requirements the FCC imposes on becoming a Volunteer Examiner:
 - Must be at least 18 years old
 - Never have had your amateur station or operator licenses suspended or revoked
-- hold a valid General, Advanced or Extra Class license
+- Hold a valid General, Advanced or Extra Class license
 
 ## A requirement that SANDARC imposes on you becoming a VE:
 - Be cool

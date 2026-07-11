@@ -2,7 +2,7 @@
 
 - If an applicant marks yes on the felony question these are the steps for them to proceed with so their application can be reviewed by the FCC properly.
 - It is not appropriate for any VE within SANDARC to ask about the circumstances regarding the felony the applicant has indicated yes to on the 605, it is only allowable to explain the process of submitting the statement. An applicant may offer up details of their information, but it is not in the place of any VE to dig further into that information. Any deviation from this policy that is reported to the VEC will result in SANDARC placing the VE under review for possible revocation of their accreditation.
-- After a session is submitted with an applicant that marks yes to the felony question the applicant has a 14 day period to submit a statement to the FCC about why he or she believes they should be granted a license.
+- After a session is submitted with an applicant that marks yes to the felony question the applicant has a 14-day period to submit a statement to the FCC about why he or she believes they should be granted a license.
 - There are no set guidelines of information that need to exist in the explanation but some useful stuff would be:
 
 * List all felony charges of which you were convicted (this part is mandatory)
