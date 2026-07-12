@@ -6,6 +6,12 @@
       "runtimeExecutable": ".venv/bin/mkdocs",
       "runtimeArgs": ["serve", "-a", "127.0.0.1:8000"],
       "port": 8000
+    },
+    {
+      "name": "mkdocs-alt",
+      "runtimeExecutable": ".venv/bin/mkdocs",
+      "runtimeArgs": ["serve", "-a", "127.0.0.1:8001"],
+      "port": 8001
     }
   ]
 }

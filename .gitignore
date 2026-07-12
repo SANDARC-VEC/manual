@@ -1,6 +1,10 @@
 .idea
 __pycache__/
 
+# build outputs (mkdocs build + scripts/build-pdf.py)
+site/
+SANDARC-VEC-Manual.pdf
+
 # wrangler files
 .wrangler
 .dev.vars*

@@ -1,0 +1,194 @@
+/* PDF / print styling for the combined page built by mkdocs-print-site-plugin.
+   Everything is scoped to #print-site-page (the plugin's wrapper) or to
+   @media print, so the normal site is untouched. Colors follow the
+   sandarc-light scheme in extra.css (#1e7a3e green on #0d1f14 ink). */
+
+/* Exo 2 is the hero/display face elsewhere on the site; the cover title
+   uses it too. IBM Plex Sans is already imported by extra.css. */
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@600;700&display=swap');
+
+/* ---------- Cover page ---------- */
+
+#print-site-cover-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* Fill the first printed page; @page margins provide the outer frame. */
+  height: 9in;
+  page-break-after: always;
+  font-family: "IBM Plex Sans", system-ui, sans-serif;
+  color: #0d1f14;
+}
+
+#print-site-cover-page .print-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.print-cover__brand {
+  padding-top: 0.6in;
+}
+
+.print-cover__logo {
+  max-height: 2.6in;
+  max-width: 4.5in;
+}
+
+.print-cover__rule {
+  width: 1.1in;
+  height: 5px;
+  background: #1e7a3e;
+  border-radius: 3px;
+  /* The plugin centers the cover section's content; keep the rule on the
+     same axis as the title. */
+  margin: 0 auto 0.28in;
+}
+
+.print-cover__title {
+  font-family: 'Exo 2', "IBM Plex Sans", system-ui, sans-serif;
+  font-size: 34pt;
+  font-weight: 700;
+  line-height: 1.15;
+  margin: 0 0 0.12in;
+  color: #0d1f14;
+}
+
+.print-cover__subtitle {
+  font-size: 15pt;
+  font-weight: 500;
+  color: #1e7a3e;
+  margin: 0 0 0.3in;
+}
+
+.print-cover__org {
+  font-size: 10.5pt;
+  color: #5a7a66;
+  margin: 0;
+}
+
+.print-cover__footer {
+  border-top: 1px solid rgba(13, 31, 20, 0.15);
+  padding-top: 0.16in;
+  font-size: 9pt;
+  color: #5a7a66;
+}
+
+.print-cover__footer p {
+  margin: 0 0 4px;
+}
+
+.print-cover__url {
+  color: #1e7a3e;
+  font-weight: 500;
+}
+
+/* ---------- Table of contents ---------- */
+
+#print-page-toc .print-page-toc-title {
+  font-family: 'Exo 2', "IBM Plex Sans", system-ui, sans-serif;
+  color: #0d1f14;
+  border-bottom: 3px solid #1e7a3e;
+  padding-bottom: 0.4rem;
+}
+
+#print-site-page .print-page-toc-nav a {
+  color: #0d1f14;
+}
+
+/* ---------- Manual body ---------- */
+
+/* The reading-time / history row is interactive web UI; drop it in the
+   combined page and anywhere in print. */
+#print-site-page .page-meta {
+  display: none !important;
+}
+
+@media print {
+  .page-meta {
+    display: none !important;
+  }
+}
+
+/* Chapter (top-level section) titles: the plugin renders each as a
+   centered, mostly-empty divider page. Restyle as a chapter heading —
+   display face, green rule — with the chapter's first page flowing
+   directly underneath (the page-break override lives in @media print). */
+#print-site-page section.print-page.md-section > h1 {
+  font-family: 'Exo 2', "IBM Plex Sans", system-ui, sans-serif;
+  color: #0d1f14;
+  text-align: left;
+  padding: 0 0 0.5rem;
+  border-bottom: 4px solid #1e7a3e;
+  margin-bottom: 1.6rem;
+}
+
+@media print {
+  /* Chromium supports @page margin boxes; these override the A4 defaults
+     and 'Page N' footer that ship with the plugin (this file loads last).
+     counter(pages) gives the "of M" total. */
+  @page {
+    size: letter;
+    margin: 0.75in 0.75in 0.85in;
+
+    @bottom-left {
+      content: 'SANDARC VEC Manual';
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 8pt;
+      color: rgba(13, 31, 20, 0.55);
+    }
+    @bottom-center {
+      content: none;
+    }
+    @bottom-right {
+      content: 'Page ' counter(page) ' of ' counter(pages);
+      font-family: "IBM Plex Sans", system-ui, sans-serif;
+      font-size: 8pt;
+      font-weight: 500;
+      color: #1e7a3e;
+    }
+  }
+
+  /* The cover stays clean — no footer on the first page. */
+  @page :first {
+    @bottom-left { content: none; }
+    @bottom-right { content: none; }
+  }
+
+  /* Each chapter starts on a new page, but its first page of content
+     follows the chapter title immediately instead of leaving the title
+     stranded on a near-empty divider page. */
+  #print-site-page section.md-section > section.print-page:first-of-type {
+    page-break-before: avoid;
+  }
+
+  /* Force the light scheme's white paper even if the dark palette was
+     active when printing from the browser. */
+  body,
+  .md-container,
+  .md-main,
+  .md-content {
+    background: #ffffff !important;
+  }
+
+  /* Keep blocks that read as one unit on a single page. */
+  #print-site-page .admonition,
+  #print-site-page details,
+  #print-site-page pre,
+  #print-site-page table,
+  #print-site-page figure,
+  #print-site-page img {
+    page-break-inside: avoid;
+  }
+
+  #print-site-page h1,
+  #print-site-page h2,
+  #print-site-page h3 {
+    page-break-after: avoid;
+  }
+
+  #print-site-page img {
+    max-width: 100% !important;
+  }
+}

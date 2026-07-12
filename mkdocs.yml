@@ -33,9 +33,28 @@ copyright: Copyright &copy; 2026 San Diego County Amateur Radio Council
 
 extra_css:
   - stylesheets/extra.css
+  - stylesheets/print-site.css
 
 plugins:
   - search
+  # print-site must stay the LAST plugin: it collects the final rendered
+  # HTML of every page to assemble the single print page.
+  - print-site:
+      add_to_navigation: false
+      print_page_title: "SANDARC VEC Manual"
+      add_table_of_contents: true
+      toc_title: "Contents"
+      toc_depth: 2
+      # Enumeration counts the excluded Home page, so visible numbering
+      # would start at "2" — keep headings unnumbered instead.
+      enumerate_headings: false
+      enumerate_figures: false
+      add_cover_page: true
+      cover_page_template: "docs/assets/templates/cover-page.tpl"
+      exclude:
+        # The hero landing page is web-only chrome; the PDF gets a
+        # branded cover page instead.
+        - index.md
 
 hooks:
   - hooks/reading_time.py
