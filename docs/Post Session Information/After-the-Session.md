@@ -1,4 +1,4 @@
-# After the Session — Submission & Records
+# After the Session: Submission & Records
 
 ## Submitting to SANDARC
 

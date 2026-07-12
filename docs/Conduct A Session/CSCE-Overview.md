@@ -4,7 +4,7 @@
 
 A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. [ExamTools](https://exam.tools) generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
 
-A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record — whichever comes first.
+A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record, whichever comes first.
 
 ## Operating Authority From a CSCE
 
@@ -16,9 +16,9 @@ A CSCE is valid for 365 days from the date of issue, or until the FCC updates th
 
 Temporary identifiers for upgrades (appended after the call sign):
 
-- `/KT` — Novice upgrading to Technician
-- `/AG` — Technician upgrading to General class privileges
-- `/AE` — General or Advanced upgrading to Amateur Extra class privileges
+- `/KT`: Novice upgrading to Technician
+- `/AG`: Technician upgrading to General class privileges
+- `/AE`: General or Advanced upgrading to Amateur Extra class privileges
 
 ## Completing the CSCE
 

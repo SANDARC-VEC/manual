@@ -2,7 +2,7 @@
 
 ## Applicant Check-In
 
-1. Greet each applicant warmly. Many are nervous — a friendly welcome goes a long way.
+1. Greet each applicant warmly. Many are nervous, so a friendly welcome goes a long way.
 2. Verify photo identification. Acceptable forms include any government-issued photo ID (driver's license, passport, state ID card, military ID, etc.). For applicants under 18 who do not have a government-issued photo ID, a parent or guardian may present their own ID and confirm the applicant's identity.
 3. Confirm the applicant's name on Form 605 matches their ID. For upgrades, confirm that the ID, existing license, and Form 605 all refer to the same person.
 4. Confirm the FRN is present on Form 605 and that the applicant has answered the BQQ.
@@ -10,23 +10,23 @@
 6. Add the applicant to the [ExamTools](https://exam.tools) session roster.
 
 !!! note
-    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice — some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented, please let the team lead make the decision on whether to proceed with the applicant testing.
+    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice, since some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented, please let the team lead make the decision on whether to proceed with the applicant testing.
 
 ## Element Credit
 
-Applicants may receive credit for exam elements based on their current or former license class, or a valid CSCE from a previous session. The applicant is responsible for providing documentation — not the VE team.
+Applicants may receive credit for exam elements based on their current or former license class, or a valid CSCE from a previous session. The applicant is responsible for providing documentation, not the VE team.
 
 | Applicant's License Status                                                            | Credit Given                                                |
 |---------------------------------------------------------------------------------------|-------------------------------------------------------------|
-| Unexpired Amateur Extra                                                               | Already holds that class — no new credit needed.            |
-| Unexpired General, Advanced, or Technician issued before 3/21/1987                    | Elements 2 & 3 — must still pass Element 4 for Extra.       |
-| Expired Amateur Extra (beyond 2-year grace period)                                    | Elements 3 & 4 credit — must still take and pass Element 2. |
-| Expired General, Advanced, or pre-3/21/1987 Technician (beyond grace period)          | Element 3 credit — must still take and pass Element 2.      |
+| Unexpired Amateur Extra                                                               | Already holds that class; no new credit needed.             |
+| Unexpired General, Advanced, or Technician issued before 3/21/1987                    | Elements 2 & 3; must still pass Element 4 for Extra.        |
+| Expired Amateur Extra (beyond 2-year grace period)                                    | Elements 3 & 4 credit; must still take and pass Element 2.  |
+| Expired General, Advanced, or pre-3/21/1987 Technician (beyond grace period)          | Element 3 credit; must still take and pass Element 2.       |
 | Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit.                                                  |
 | Valid CSCE from a prior session (within 365 days)                                     | Credit for elements shown on the CSCE.                      |
 
 !!! note
-    A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record — whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
+    A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record, whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
 
 ## Acceptable Documents for Element Credit
 
@@ -40,7 +40,7 @@ Applicants may receive credit for exam elements based on their current or former
 
 At the start of each session, inform all applicants of the following:
 
-- Retest policy (VE team's discretion — see Retesting below)
+- Retest policy (VE team's discretion; see Retesting below)
 - Rules about leaving the exam room: once the exam has started, the applicant may not leave until all materials are turned in; leaving prematurely voids the exam
 - Calculators must have memory cleared. Cell phones and smart devices may not be used as calculators.
 - No written notes, books, or study materials in the exam area.
@@ -50,7 +50,7 @@ At the start of each session, inform all applicants of the following:
 
 - Issue the exam through [ExamTools](https://exam.tools) for tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
 - At least three VEs must observe every candidate actively and continuously throughout the exam.
-- VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter — please do not talk unless necessary and if it is necessary please talk quietly.
+- VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - Provide the next element exam only after the previous one has been graded and passed.
 - VEs shall NOT authorize exams to applicants unless they have direct contact with that applicant!
 
@@ -66,17 +66,17 @@ At the start of each session, inform all applicants of the following:
 
 ## Retesting
 
-There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion — it is the team's decision, not the applicant's right.
+There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion: it is the team's decision, not the applicant's right.
 
 - An applicant may not be given the same exam version they previously failed. \[[§97.509(f)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28f%29)\] [ExamTools](https://exam.tools) generates a new, unique exam automatically for retakes.
 - The VE team should consider the applicant's score on the failed attempt and the team's remaining availability when deciding whether to allow a retest.
-- If a retest is granted, the applicant continues under SANDARC's free-exam policy — no additional fee is charged.
+- If a retest is granted, the applicant continues under SANDARC's free-exam policy, so no additional fee is charged.
 
 ## Cheating & Misconduct
 
 - If cheating is suspected or observed, immediately inform the Team Lead.
 - The Team Lead should involve all VEs present in assessing the situation. If the team determines cheating has occurred, terminate the exam immediately and record a failing grade regardless of the applicant's score at that point.
-- Do not confiscate original documents — make a copy and include it with the session materials submitted to SANDARC.
+- Do not confiscate original documents. Make a copy and include it with the session materials submitted to SANDARC.
 - The VE team's role is to document and report, not to penalize. Any final determination of guilt rests with the FCC.
 - Report all confirmed cheating incidents to SANDARC immediately at vec@sandarc.org. Any other misconduct by an applicant or VE that cannot be resolved at the team level should also be escalated to vec@sandarc.org or by calling (619)215-1886.
 

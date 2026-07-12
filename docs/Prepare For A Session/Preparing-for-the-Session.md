@@ -1,6 +1,6 @@
 # Preparing for the Session
 
-## ExamTools — Required Platform
+## ExamTools: Required Platform
 
 !!! info "SANDARC Policy"
     [ExamTools](https://exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from [ExamTools](https://exam.tools).
@@ -14,9 +14,9 @@
 
 [ExamTools](https://exam.tools) supports three in-person exam formats:
 
-- **Tablet/laptop** — applicants log in and take the exam in a browser; preferred method. Tablets locked to the [ExamTools](https://exam.tools) site are strongly recommended.
-- **Printed/GradeCam** — exams printed from [ExamTools](https://exam.tools), graded by photographing the answer sheet with the GradeCam feature.
-- **Hybrid** — some applicants use tablets, others use printed exams in the same session.
+- **Tablet/laptop:** applicants log in and take the exam in a browser; preferred method. Tablets locked to the [ExamTools](https://exam.tools) site are strongly recommended.
+- **Printed/GradeCam:** exams printed from [ExamTools](https://exam.tools), graded by photographing the answer sheet with the GradeCam feature.
+- **Hybrid:** some applicants use tablets, others use printed exams in the same session.
 
 ## Test Site Requirements
 
