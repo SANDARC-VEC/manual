@@ -59,6 +59,7 @@ plugins:
 hooks:
   - hooks/reading_time.py
   - hooks/git_changelog.py
+  - hooks/copy_pdf.py
 
 nav:
   - Home: index.md
