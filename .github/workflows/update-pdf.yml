@@ -1,0 +1,63 @@
+name: Update PDF manual
+
+# Rebuild SANDARC-VEC-Manual.pdf whenever manual content changes on main,
+# and commit the refreshed PDF back to the repo. Cloudflare's git-connected
+# build then redeploys the site with the new PDF (hooks/copy_pdf.py ships
+# the checked-in PDF with every build).
+#
+# No trigger loop: this workflow's own commit only touches the PDF (which
+# is not in the paths filter), and pushes made with GITHUB_TOKEN do not
+# trigger workflows anyway.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "docs/**"
+      - "overrides/**"
+      - "hooks/**"
+      - "mkdocs.yml"
+      - "scripts/build-pdf.py"
+      - "requirements.txt"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-pdf
+  cancel-in-progress: true
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # Full history so the git-changelog hook sees real page history.
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --only-shell --with-deps
+
+      - name: Build PDF
+        run: python scripts/build-pdf.py
+
+      - name: Commit updated PDF
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add SANDARC-VEC-Manual.pdf
+          if git diff --cached --quiet; then
+            echo "PDF unchanged; nothing to commit."
+          else
+            git commit -m "AUTO regenerate PDF manual after content change"
+            git push
+          fi
