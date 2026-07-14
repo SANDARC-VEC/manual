@@ -4,6 +4,7 @@ site_url: https://vec.sandarc.org/manual/
 theme:
   name: material
   custom_dir: overrides
+  favicon: https://assets.sandarc.org/logo/current-logo.png
   font: false
   palette:
 
