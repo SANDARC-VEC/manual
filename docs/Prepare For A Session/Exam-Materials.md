@@ -7,7 +7,7 @@ SANDARC does not supply any of the above and prohibits the use of materials acqu
 
 Team Leads can print Exam booklets directly from [ExamTools](https://exam.tools).
 Please make sure you download exams that are suited for GradeCam™ use.
-SANDARC does not allow manual grading or pre-determined keys. 
+SANDARC does not allow manual grading or pre-determined keys.
 
 ### Re-using Question Booklets
 It is perfectly acceptable to reuse exams from one session across multiple sessions
@@ -17,8 +17,12 @@ as long as you don't administer the same exam to an applicant more than once.
 
 Use the 35/50 question combo form downloadable from [ExamTools](https://exam.tools)
 
+You may optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants to help them correctly complete the bubble sheet.
+
 !!! warning "Exam Validity"
     The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
+
+*You can optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants, ensuring they understand how to fill out the bubble form.
 
 ### Administering Exams on Tablets
 Teams are encouraged to use tablets to administer exams. 
