@@ -22,7 +22,7 @@ You may optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SA
 !!! warning "Exam Validity"
     The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
 
-*You can optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants, ensuring they understand how to fill out the bubble sheet.
+*You can optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants, ensuring they understand how to fill out the bubble form.
 
 ### Administering Exams on Tablets
 Teams are encouraged to use tablets to administer exams. 
