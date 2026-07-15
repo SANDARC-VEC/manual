@@ -17,6 +17,8 @@ as long as you don't administer the same exam to an applicant more than once.
 
 Use the 35/50 question combo form downloadable from [ExamTools](https://exam.tools)
 
+You may optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants to help them correctly complete the bubble sheet.
+
 !!! warning "Exam Validity"
     The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
 
