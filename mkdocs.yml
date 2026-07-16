@@ -69,21 +69,21 @@ nav:
     - Key Contacts: Intro/Key-Contacts.md
     - Other VECs: Intro/Other-VECs.md
   - Prepare For A Session:
-    - Preparing for the Session: Prepare For A Session/Preparing-for-the-Session.md
-    - Session Day Checklist: Prepare For A Session/Session-Day-Checklist.md
-    - Exam Materials: Prepare For A Session/Exam-Materials.md
-    - Registering Applicants: Prepare For A Session/registering-applicants.md
+    - Preparing for the Session: prepare-for-a-session/Preparing-for-the-Session.md
+    - Session Day Checklist: prepare-for-a-session/Session-Day-Checklist.md
+    - Exam Materials: prepare-for-a-session/Exam-Materials.md
+    - Registering Applicants: prepare-for-a-session/registering-applicants.md
   - Conduct A Session:
-    - Conducting the Session: Conduct A Session/Conducting-the-Session.md
-    - Remote Testing: Conduct A Session/Remote Testing/Remote-Testing.md
-    - Fees and Reimbursement: Conduct A Session/Fees-and-Reimbursement.md
-    - CSCE Overview: Conduct A Session/CSCE-Overview.md
-    - Felony Question: Conduct A Session/Felony-Question.md
+    - Conducting the Session: conduct-a-session/Conducting-the-Session.md
+    - Remote Testing: conduct-a-session/remote-testing/Remote-Testing.md
+    - Fees and Reimbursement: conduct-a-session/Fees-and-Reimbursement.md
+    - CSCE Overview: conduct-a-session/CSCE-Overview.md
+    - Felony Question: conduct-a-session/Felony-Question.md
   - Post Session Information:
-    - After the Session: Post Session Information/After-the-Session.md
+    - After the Session: post-session-information/After-the-Session.md
   - Start A Team:
-    - Accrediting a VE: Start A Team/Accrediting-a-VE.md
-    - Start a New Team: Start A Team/Start-A-New-Team.md
+    - Accrediting a VE: start-a-team/Accrediting-a-VE.md
+    - Start a New Team: start-a-team/Start-A-New-Team.md
 
 markdown_extensions:
   - md_in_html
