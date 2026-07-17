@@ -13,16 +13,23 @@ highlighted — parsed from `git log -p --word-diff=porcelain`.
       - hooks/reading_time.py
       - hooks/git_changelog.py
 
-Pages with no git history (untracked files, builds outside a git repo,
-shallow clones with no relevant commits) are left untouched. Styled in
+Pages with no git history (untracked files, builds outside a git repo)
+are left untouched. Shallow clones — Cloudflare's git-connected builds
+clone at depth 1, which would collapse every page's history into a
+single "created today" boundary commit — are deepened with
+`git fetch --unshallow` on first use; if that fails, the widget is
+omitted entirely rather than showing wrong dates. Styled in
 docs/stylesheets/extra.css under "Page changelog".
 """
 
 import html as html_mod
+import logging
 import os
 import re
 import subprocess
 from datetime import datetime
+
+logger = logging.getLogger("mkdocs.hooks.git_changelog")
 
 # Cap the popover at this many revisions so ancient pages stay readable.
 MAX_ENTRIES = 30
@@ -70,6 +77,64 @@ def _clean_word(word):
     if not _WORDY.search(word):
         return ""
     return word
+
+
+# Tri-state, resolved once per build: None = not yet checked, True =
+# full history available, False = shallow clone we could not deepen.
+_history_ready = None
+
+
+def _ensure_full_history(cwd):
+    """Deepen a shallow clone so page history is real, once per build.
+
+    Cloudflare's git-connected builds clone at depth 1; without this,
+    git log shows every page as created in the latest commit. The origin
+    remote stays credentialed during those builds, so fetching the rest
+    of the history works. Returns False when the repo is still shallow
+    (fetch failed) — the caller then omits the History widget instead of
+    rendering wrong dates.
+    """
+    global _history_ready
+    if _history_ready is not None:
+        return _history_ready
+
+    def _git(*args, timeout):
+        return subprocess.run(
+            ["git", *args],
+            cwd=cwd,
+            capture_output=True,
+            text=True,
+            timeout=timeout,
+        )
+
+    try:
+        probe = _git("rev-parse", "--is-shallow-repository", timeout=15)
+        if probe.returncode != 0 or probe.stdout.strip() != "true":
+            # Full clone, or not a git repo at all (the per-page git log
+            # handles that case by returning no revisions).
+            _history_ready = True
+            return True
+        logger.info(
+            "Shallow clone detected; fetching full history for the "
+            "page History widgets."
+        )
+        fetch = _git("fetch", "--quiet", "--unshallow", timeout=300)
+        if fetch.returncode == 0:
+            _history_ready = True
+        else:
+            logger.warning(
+                "git fetch --unshallow failed; omitting the page History "
+                f"widgets rather than showing wrong dates. "
+                f"{fetch.stderr.strip()}"
+            )
+            _history_ready = False
+    except (OSError, subprocess.TimeoutExpired) as exc:
+        logger.warning(
+            f"Could not deepen the shallow git clone ({exc}); omitting "
+            "the page History widgets."
+        )
+        _history_ready = False
+    return _history_ready
 
 
 def _git_word_diffs(abs_src_path):
@@ -267,6 +332,8 @@ def on_page_content(html, page, config, files, **kwargs):
     if page.is_homepage or "hero-landing" in html:
         return html
 
+    if not _ensure_full_history(os.path.dirname(page.file.abs_src_path)):
+        return html
     revisions = _git_word_diffs(page.file.abs_src_path)
     if not revisions:
         return html
