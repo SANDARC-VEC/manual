@@ -26,6 +26,11 @@ theme:
     - toc.follow
 
 extra:
+  # The Download PDF buttons (hero, sidebar, footer) link here: the
+  # rolling "pdf" GitHub release, refreshed by .github/workflows/
+  # update-pdf.yml whenever manual content changes on main. The PDF is
+  # not committed to the repo and is not part of the built site.
+  pdf_url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual.pdf
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.sandarc.org
@@ -60,7 +65,6 @@ plugins:
 hooks:
   - hooks/reading_time.py
   - hooks/git_changelog.py
-  - hooks/copy_pdf.py
 
 nav:
   - Home: index.md

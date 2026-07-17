@@ -17,7 +17,6 @@ Usage (from the repo root):
 One-time setup: .venv/bin/playwright install chromium --only-shell
 """
 
-import shutil
 import subprocess
 import sys
 import tempfile
@@ -94,12 +93,6 @@ def main() -> None:
         print_to_pdf(print_page, raw_pdf)
         pages = add_metadata(raw_pdf, output)
     print(f"==> wrote {output} ({pages} pages)")
-
-    # The site's "Download PDF" links (hero, sidebar, footer) point at
-    # /SANDARC-VEC-Manual.pdf, so ship the PDF with the built site.
-    site_copy = REPO_ROOT / "site" / DEFAULT_OUTPUT.name
-    shutil.copy2(output, site_copy)
-    print(f"==> copied into {site_copy}")
 
 
 if __name__ == "__main__":

@@ -8,7 +8,7 @@
     <div class="md-copyright__highlight">
       {{ config.copyright }}
       &middot;
-      <a class="footer-pdf-link" href="{{ 'SANDARC-VEC-Manual.pdf' | url }}" download>Download PDF</a>
+      <a class="footer-pdf-link" href="{{ config.extra.pdf_url }}" download>Download PDF</a>
     </div>
   {% endif %}
   {% if not config.extra.generator == false %}
