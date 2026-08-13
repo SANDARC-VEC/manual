@@ -11,7 +11,7 @@
 
 ## What to Send
 
-- VEC Archive file from [ExamTools](https://exam.tools) (required for all sessions) (DO NOT OPEN THE ARCHIVE FILE FROM EXAMTOOLS)
+- VEC Archive file from [ExamTools](https://exam.tools) (required for all sessions) (DO NOT MODIFY THE ARCHIVE FILE FROM EXAMTOOLS)
 - Copies of any element credit documents reviewed at the session (expired license copies, prior CSCEs)
 - Notes on any scoring overrides or unusual circumstances
 
@@ -19,7 +19,7 @@ After completing the session in [ExamTools](https://exam.tools), the Team Lead s
 
 1. Click "Finish Session" in [ExamTools](https://exam.tools) to finalize all paperwork.
 2. Download the VEC Archive file.
-3. Email the VEC Archive file and any supporting documents to vec@sandarc.org.
+3. Email the VEC Archive file and any supporting documents to vec@sandarc.org within **24 hours** of the session conclusion.
 4. Sit back, relax and enjoy the services of The Coolest VEC!
 
 ## Session Submission Process
