@@ -11,9 +11,12 @@
 
 ## What to Send
 
-- VEC Archive file from [ExamTools](https://exam.tools) (required for all sessions) (DO NOT MODIFY THE ARCHIVE FILE FROM EXAMTOOLS)
+- VEC Archive file from [ExamTools](https://exam.tools) (required for all sessions) (DO NOT OPEN THE ARCHIVE ONCE DOWNLOADED)
 - Copies of any element credit documents reviewed at the session (expired license copies, prior CSCEs)
 - Notes on any scoring overrides or unusual circumstances
+
+!!! warning "Send the archive exactly as downloaded"
+    Attach the VEC Archive file to your email straight from your downloads folder. Do not open, unzip, rename, or re-save it. Some browsers and operating systems will alter an archive simply by expanding it, and an altered archive may not process.
 
 After completing the session in [ExamTools](https://exam.tools), the Team Lead should:
 
