@@ -1,7 +1,7 @@
 name: Update PDF manual
 
 # Rebuild SANDARC-VEC-Manual.pdf whenever manual content changes on main
-# and upload it to the rolling "pdf" GitHub release. The site's Download
+# and republish the rolling "pdf" GitHub release. The site's Download
 # PDF buttons (extra.pdf_url in mkdocs.yml) link straight to that release
 # asset, so the PDF is never committed to the repo and the site needs no
 # redeploy to pick it up.
@@ -49,9 +49,22 @@ jobs:
       - name: Build PDF
         run: python scripts/build-pdf.py
 
-      - name: Upload to the rolling "pdf" release
+      - name: Republish the rolling "pdf" release
         run: |
-          gh release view pdf >/dev/null 2>&1 || gh release create pdf \
+          # Recreated rather than updated in place: uploading over the old
+          # asset leaves the release's tag, publish date and "Latest" badge
+          # frozen at the commit the release was first cut from, so the
+          # releases page reads as stale even when the attached PDF is
+          # current.
+          if gh release view pdf >/dev/null 2>&1; then
+            gh release delete pdf --yes --cleanup-tag
+          fi
+
+          notes=$(printf '%s\n\n%s\n' \
+            "Always the latest PDF build of the manual, regenerated automatically whenever the manual changes." \
+            "Built from ${GITHUB_SHA} on $(date -u +'%Y-%m-%d %H:%M UTC').")
+
+          gh release create pdf SANDARC-VEC-Manual.pdf \
+            --target "$GITHUB_SHA" \
             --title "SANDARC VEC Manual (PDF)" \
-            --notes "Always the latest PDF build of the manual, regenerated automatically whenever the manual changes."
-          gh release upload pdf SANDARC-VEC-Manual.pdf --clobber
+            --notes "$notes"
