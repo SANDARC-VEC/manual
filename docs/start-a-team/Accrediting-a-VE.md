@@ -17,7 +17,7 @@ To qualify as a Volunteer Examiner under FCC rules you must:
 | Amateur Extra Class | Elements 2, 3, and 4 |
 
 Those holding a Technician class license may not take part in administering or grading exams.
-However, they may assist with tasks such as responding to inquiries, setting up the exam room or printing exam materials.
+However, they may assist with tasks such as responding to inquiries, setting up the exam room, or printing exam materials, including question booklets.
 
 ## Examiner Accreditation Process
 

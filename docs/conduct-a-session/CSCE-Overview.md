@@ -30,4 +30,4 @@ Temporary identifiers for upgrades (appended after the call sign):
 
 ## Pre-1987 Technician "Paper Upgrade" to General
 
-An applicant who holds a currently valid Technician license that was originally issued before March 21, 1987 is entitled to General class credit without taking Element 3. They must appear in person at a VE session with valid proof of the pre-1987 license. Issue a CSCE showing General class earned and process a Form 605. No exam is required for this credit.
+An applicant who holds a currently valid Technician license that was originally issued before March 21, 1987 is entitled to General class credit without taking Element 3. They must appear at a VE session — in person or remote — with valid proof of the pre-1987 license. Issue a CSCE showing General class earned and process a Form 605. No exam is required for this credit.

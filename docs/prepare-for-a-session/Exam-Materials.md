@@ -5,7 +5,7 @@ SANDARC does not supply any of the above and prohibits the use of materials acqu
 
 ## Exam Booklets
 
-Team Leads can print Exam booklets directly from [ExamTools](https://exam.tools).
+Team Leads generate exam booklets directly from [ExamTools](https://exam.tools). Any team member may assist with printing them, including Technician class licensees.
 Please make sure you download exams that are suited for GradeCam™ use.
 SANDARC does not allow manual grading or pre-determined keys.
 
