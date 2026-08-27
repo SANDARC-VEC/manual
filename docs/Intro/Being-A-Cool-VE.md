@@ -24,6 +24,14 @@ How it works:
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
+!!! tip "Not on a team yet?"
+    Find a club or VE team in your area that uses SANDARC as its VEC, go to one of their exam
+    sessions, and ask the Team Lead about joining. SANDARC sessions are listed on
+    [HamStudy](https://hamstudy.org/sessions).
+
+    Team Leads recruit their own members, so this is a conversation to have with them directly —
+    there is nothing to send to SANDARC first.
+
 !!! success "Each application is processed on its own, right away"
     SANDARC does **not** batch accreditations or hold them for a group. Every form is processed
     individually the moment your Team Lead sends it in — usually almost instantly, and within 24
