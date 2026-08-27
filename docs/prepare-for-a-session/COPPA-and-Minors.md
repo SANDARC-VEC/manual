@@ -7,15 +7,45 @@ What changes for a young applicant is not the exam — it is the **registration*
 13 are covered by the Children's Online Privacy Protection Act (COPPA), which restricts how online
 services may collect personal information from children.
 
-## Why COPPA Applies
+## What COPPA Is
 
-COPPA (15 U.S.C. §§ 6501–6506, implemented by the FTC at
-[16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312)) requires an online service to
-obtain **verifiable parental consent** before collecting personal information from a child under 13.
+The **Children's Online Privacy Protection Act (COPPA)** is a federal law that gives parents
+control over what personal information websites and online services may collect from their
+children. It was enacted in 1998 (15 U.S.C. §§ 6501–6506) and is enforced by the
+**Federal Trade Commission (FTC)** through the Children's Online Privacy Protection Rule, or
+"COPPA Rule" ([16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312)).
 
-Registering for an exam session collects exactly that kind of information — legal name, date of
-birth, mailing address, and email address — through HamStudy and
-[ExamTools](https://exam.tools). So when an applicant is under 13:
+COPPA applies to any website or online service — including apps — that is either directed to
+children **under 13**, or that has actual knowledge it is collecting personal information from
+children under 13. That second half matters here: a general-audience service is covered the moment
+it knows a user is under 13.
+
+**"Personal information"** is broader than most people expect. It covers a name, home address,
+email address, telephone number, date of birth, photographs, and persistent identifiers that can
+be used to recognize a user over time.
+
+Before collecting any of it from a child under 13, a covered service must obtain
+**verifiable parental consent** — meaning it has to take reasonable steps to confirm that the
+person consenting really is the child's parent or legal guardian, not the child.
+
+!!! info "Parents keep control after consenting"
+    COPPA is not a one-time checkbox. A parent who has given consent retains the right to:
+
+    - **Review** the personal information the service has collected about their child
+    - **Revoke** their consent at any time
+    - **Require deletion** of the information already collected
+
+    A parent who wants to exercise any of these rights for exam registration data should contact
+    ExamTools directly at [coppa@examtools.org](mailto:coppa@examtools.org).
+
+## Why It Applies to Exam Registration
+
+Registering for an exam session collects exactly the kind of information COPPA covers — legal
+name, date of birth, mailing address, and email address — through HamStudy and
+[ExamTools](https://exam.tools). Both are general-audience services, and once an applicant is
+identified as under 13, they have actual knowledge that triggers the rule.
+
+So when an applicant is under 13:
 
 - The child **cannot** create their own HamStudy account or agree to the Terms of Service on their
   own behalf. A minor cannot form that agreement, and COPPA does not permit the collection.
@@ -92,6 +122,37 @@ requires it — see
 A parent or guardian **may remain in the room and observe**, but must not assist the applicant in
 any way. See
 [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers).
+
+## Learning More About COPPA
+
+These are the authoritative sources, maintained by the FTC. Nothing on this page replaces them,
+and the COPPA Rule has been amended over time — most recently in 2025 — so check the FTC directly
+for the current text.
+
+**For parents and guardians**
+
+- [Protecting Your Child's Privacy Online](https://consumer.ftc.gov/articles/protecting-your-childs-privacy-online)
+  — FTC consumer guidance written for parents: what your rights are and how to exercise them.
+
+**General reference**
+
+- [Children's Privacy](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)
+  — the FTC's main COPPA hub.
+- [Complying with COPPA: Frequently Asked Questions](https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions)
+  — the FTC's detailed FAQ, and the best place to answer an unusual question.
+- [Verifiable Parental Consent and the Children's Online Privacy Rule](https://www.ftc.gov/business-guidance/privacy-security/verifiable-parental-consent-childrens-online-privacy-rule)
+  — what actually counts as verifiable consent.
+
+**The law itself**
+
+- [Children's Online Privacy Protection Rule ("COPPA")](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)
+  — the FTC's rule page.
+- [16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312) — the current regulation text.
+
+!!! question "Questions about a specific applicant"
+    Questions about **ExamTools' consent process** go to
+    [coppa@examtools.org](mailto:coppa@examtools.org). Questions about **SANDARC policy** or how to
+    handle a session go to [vec@sandarc.org](mailto:vec@sandarc.org) or the SANDARC Discord.
 
 !!! note "Be encouraging"
     A nervous ten-year-old who does not pass on the first attempt is a future ham. Keep the tone
