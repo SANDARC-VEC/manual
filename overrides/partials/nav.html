@@ -1,8 +1,8 @@
 {#-
   Copied from mkdocs-material 9.7.6 partials/nav.html with one addition:
-  a "Download PDF" link pinned under the navigation tree (styled in
-  docs/stylesheets/extra.css under "Sidebar PDF link"). The PDF itself is
-  produced by scripts/build-pdf.py, which drops it into site/ for deploy.
+  the "Download PDF" control pinned under the navigation tree (see
+  partials/pdf-download.html; styled in docs/stylesheets/extra.css under
+  "PDF download links").
 -#}
 {% import "partials/nav-item.html" as item with context %}
 {% set class = "md-nav md-nav--primary" %}
@@ -30,8 +30,6 @@
       {{ item.render(nav_item, path, 1) }}
     {% endfor %}
   </ul>
-  <a class="nav-pdf-link" href="{{ config.extra.pdf_url }}" download>
-    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
-    Download PDF manual
-  </a>
+  {% set pdf_variant = "nav" %}
+  {% include "partials/pdf-download.html" %}
 </nav>

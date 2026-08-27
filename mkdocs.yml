@@ -30,7 +30,29 @@ extra:
   # rolling "pdf" GitHub release, refreshed by .github/workflows/
   # update-pdf.yml whenever manual content changes on main. The PDF is
   # not committed to the repo and is not part of the built site.
+  #
+  # pdf_url stays the English asset so anything still linking to it keeps
+  # working; the buttons themselves read pdf_downloads, defaulting to the
+  # PDF for the page's own language. scripts/build-pdf.py derives the
+  # locale list from the i18n plugin config, so a language added there
+  # must be added here too.
   pdf_url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual.pdf
+  pdf_downloads:
+    - locale: en
+      name: English
+      url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual.pdf
+    - locale: es
+      name: Español
+      url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual-es.pdf
+    - locale: ja
+      name: 日本語
+      url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual-ja.pdf
+    - locale: nl
+      name: Nederlands
+      url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual-nl.pdf
+    - locale: ko
+      name: 한국어
+      url: https://github.com/SANDARC-VEC/manual/releases/download/pdf/SANDARC-VEC-Manual-ko.pdf
   social:
     - icon: fontawesome/brands/discord
       link: https://discord.sandarc.org
@@ -43,6 +65,28 @@ extra_css:
 
 plugins:
   - search
+  # Translations live beside their English source as <name>.<locale>.md
+  # (docs_structure: suffix, the plugin default) and are written there by
+  # Crowdin. Pages with no translation yet fall back to the English text
+  # rather than 404ing, so a locale can go live before it is complete.
+  #
+  # The nav: labels below are NOT translated: they live here rather than in
+  # docs/, so Crowdin never sees them and every locale shows the English
+  # section names. Add a per-language nav_translations: block once a native
+  # speaker can review the labels.
+  - i18n:
+      languages:
+        - locale: en
+          name: English
+          default: true
+        - locale: es
+          name: Español
+        - locale: ja
+          name: 日本語
+        - locale: nl
+          name: Nederlands
+        - locale: ko
+          name: 한국어
   # print-site must stay the LAST plugin: it collects the final rendered
   # HTML of every page to assemble the single print page.
   - print-site:

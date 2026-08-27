@@ -1,10 +1,10 @@
 name: Update PDF manual
 
-# Rebuild SANDARC-VEC-Manual.pdf whenever manual content changes on main
-# and republish the rolling "pdf" GitHub release. The site's Download
-# PDF buttons (extra.pdf_url in mkdocs.yml) link straight to that release
-# asset, so the PDF is never committed to the repo and the site needs no
-# redeploy to pick it up.
+# Rebuild one PDF per language whenever manual content changes on main and
+# republish the rolling "pdf" GitHub release. The site's Download PDF
+# buttons (extra.pdf_downloads in mkdocs.yml) link straight to those
+# release assets, so no PDF is ever committed to the repo and the site
+# needs no redeploy to pick up a new build.
 
 on:
   push:
@@ -46,8 +46,8 @@ jobs:
           pip install -r requirements.txt
           playwright install chromium --only-shell --with-deps
 
-      - name: Build PDF
-        run: python scripts/build-pdf.py
+      - name: Build PDFs
+        run: python scripts/build-pdf.py dist-pdf
 
       - name: Republish the rolling "pdf" release
         run: |
@@ -60,11 +60,12 @@ jobs:
             gh release delete pdf --yes --cleanup-tag
           fi
 
-          notes=$(printf '%s\n\n%s\n' \
+          notes=$(printf '%s\n\n%s\n\n%s\n' \
             "Always the latest PDF build of the manual, regenerated automatically whenever the manual changes." \
+            "One asset per language: the unsuffixed file is English, the rest carry their locale code (e.g. -es)." \
             "Built from ${GITHUB_SHA} on $(date -u +'%Y-%m-%d %H:%M UTC').")
 
-          gh release create pdf SANDARC-VEC-Manual.pdf \
+          gh release create pdf dist-pdf/*.pdf \
             --target "$GITHUB_SHA" \
             --title "SANDARC VEC Manual (PDF)" \
             --notes "$notes"

@@ -1225,9 +1225,11 @@ body:not(:has(.hero-landing)) .md-content {
 }
 
 /* ── PDF download links (hero, sidebar, footer) ─────────────────────────
-   All three point at the rolling "pdf" GitHub release asset
-   (extra.pdf_url in mkdocs.yml), refreshed by the update-pdf workflow
-   whenever manual content changes. */
+   All three render overrides/partials/pdf-download.html: a main link to
+   the PDF for the page's own language, plus a disclosure listing every
+   language. The assets are the per-locale files on the rolling "pdf"
+   GitHub release (extra.pdf_downloads in mkdocs.yml), refreshed by the
+   update-pdf workflow whenever manual content changes. */
 
 /* Hero: secondary "ghost" button beside the main CTA. */
 .hero-cta-row {
@@ -1279,4 +1281,145 @@ body:not(:has(.hero-landing)) .md-content {
 
 .md-copyright .footer-pdf-link:hover {
   color: var(--md-footer-fg-color);
+}
+
+/* The language picker beside each of the three links. */
+.pdf-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+/* pymdownx.details styles every <details> inside .md-typeset as a collapsible
+   admonition card — white fill, blue rule, an ::before icon and ~40px of
+   padding. The hero sits inside .md-typeset, so undo all of it here; the
+   .md-typeset-prefixed selectors exist only to outrank those rules. */
+.pdf-download__picker,
+.md-typeset .pdf-download__picker {
+  position: relative;
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: inherit;
+}
+
+.pdf-download__picker > summary,
+.md-typeset .pdf-download__picker > summary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  min-width: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: inherit;
+  font-weight: inherit;
+  opacity: 0.7;
+  /* Suppress the native disclosure triangle; the caret svg replaces it. */
+  list-style: none;
+  transition: background 0.15s ease, opacity 0.15s ease;
+}
+
+.pdf-download__picker > summary::-webkit-details-marker,
+.md-typeset .pdf-download__picker > summary::before,
+.md-typeset .pdf-download__picker > summary::after {
+  display: none;
+}
+
+.pdf-download__picker > summary:hover,
+.md-typeset .pdf-download__picker > summary:hover {
+  opacity: 1;
+  background: var(--md-accent-fg-color--transparent);
+}
+
+.pdf-download__picker > summary svg {
+  transition: transform 0.15s ease;
+}
+
+.pdf-download__picker[open] > summary svg {
+  transform: rotate(180deg);
+}
+
+.pdf-download__list,
+.md-typeset .pdf-download__list {
+  position: absolute;
+  z-index: 5;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  min-width: 9rem;
+  margin: 0;
+  padding: 4px;
+  list-style: none;
+  background: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lightest);
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.18);
+}
+
+.pdf-download__list a,
+.md-typeset .pdf-download__list a {
+  display: block;
+  margin: 0;
+  padding: 6px 10px;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  white-space: nowrap;
+  color: var(--md-default-fg-color);
+}
+
+.pdf-download__list a:hover,
+.md-typeset .pdf-download__list a:hover {
+  background: var(--md-accent-fg-color--transparent);
+  color: var(--md-typeset-a-color);
+}
+
+.pdf-download__list a[aria-current="true"],
+.md-typeset .pdf-download__list a[aria-current="true"] {
+  font-weight: 700;
+  color: var(--md-typeset-a-color);
+}
+
+/* Hero: caret matches the white ghost button, and the panel opens
+   downward because the button sits near the top of the viewport. */
+.pdf-download--hero > .pdf-download__picker > summary {
+  color: #ffffff;
+}
+
+.pdf-download--hero .pdf-download__list {
+  top: calc(100% + 6px);
+  bottom: auto;
+}
+
+/* Sidebar: the control now carries the margin that used to sit on
+   .nav-pdf-link, so the link can stretch to fill the row. */
+.pdf-download--nav {
+  display: flex;
+  margin: 12px;
+}
+
+.pdf-download--nav .nav-pdf-link {
+  flex: 1;
+  margin: 0;
+}
+
+/* .md-sidebar__scrollwrap clips overflow, so a centered panel would lose
+   its right edge. Hang it off the caret's right edge instead, growing
+   leftward into the sidebar. */
+.pdf-download--nav .pdf-download__list {
+  left: auto;
+  right: 0;
+  transform: none;
+}
+
+.pdf-download--footer > .pdf-download__picker > summary {
+  color: var(--md-footer-fg-color--light);
 }

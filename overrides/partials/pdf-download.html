@@ -1,0 +1,55 @@
+{#-
+  Shared "Download PDF" control used by the hero, the sidebar and the
+  footer. The main link points at the PDF for the page's own language;
+  the disclosure beside it lists every language so a reader can pick a
+  different one. URLs come from extra.pdf_downloads in mkdocs.yml; the
+  assets are built by scripts/build-pdf.py and published to the rolling
+  "pdf" GitHub release.
+
+  Labels are English in every locale, like the nav: section names — see
+  the note above the i18n plugin in mkdocs.yml.
+
+  Callers pick the styling and copy with pdf_variant, one of
+  "hero" | "nav" | "footer":
+
+    {% set pdf_variant = "hero" %}
+    {% include "partials/pdf-download.html" %}
+-#}
+{%- set variant = pdf_variant | default("nav", true) -%}
+{%- set locale = i18n_page_locale | default("en", true) -%}
+{%- set downloads = config.extra.pdf_downloads -%}
+{%- set matches = downloads | selectattr("locale", "equalto", locale) | list -%}
+{#- A locale with no PDF of its own falls back to English rather than
+    rendering a dead link. -#}
+{%- set current = matches[0] if matches else downloads[0] -%}
+{#- The sidebar link used to read "Download PDF manual"; the caret now takes
+    part of that row, and the longer copy wraps to two lines in the drawer. -#}
+{%- set label = "Download PDF" -%}
+{%- set link_class = {
+      "hero": "hero-cta hero-cta--ghost",
+      "nav": "nav-pdf-link",
+      "footer": "footer-pdf-link",
+    }[variant] -%}
+<span class="pdf-download pdf-download--{{ variant }}">
+  <a class="{{ link_class }}" href="{{ current.url }}" download>
+    {%- if variant != "footer" %}
+      {%- set icon_size = 15 if variant == "hero" else 16 %}
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="{{ icon_size }}" height="{{ icon_size }}" fill="currentColor" aria-hidden="true" focusable="false"><path d="M19 9h-4V3H9v6H5l7 7 7-7zM5 18v2h14v-2H5z"/></svg>
+    {%- endif %}
+    {{ label }}
+  </a>
+  <details class="pdf-download__picker">
+    <summary title="Choose another language" aria-label="Choose another language">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="currentColor" aria-hidden="true" focusable="false"><path d="M7 10l5 5 5-5z"/></svg>
+    </summary>
+    {#- Deliberately divs, not a <ul>: .md-typeset restyles every list item
+        in the theme (square green bullets, indents, margins), and a plain
+        container avoids having to unwind all of it here. -#}
+    <div class="pdf-download__list">
+      {%- for entry in downloads %}
+        <a href="{{ entry.url }}" lang="{{ entry.locale }}" download
+          {%- if entry.locale == current.locale %} aria-current="true"{% endif %}>{{ entry.name }}</a>
+      {%- endfor %}
+    </div>
+  </details>
+</span>
