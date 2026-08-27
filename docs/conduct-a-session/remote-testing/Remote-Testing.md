@@ -26,7 +26,7 @@ SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.too
 1. Start the video conference early so VEs can convene before applicants arrive.
 2. Verify the applicant's identity via camera by visually inspecting their photo ID. Do not record or photograph the ID.
 3. Conduct a 360° slow camera pan of the room to verify no unauthorized materials are present. Check the desk, floor near the testing area, and walls for notes, posters, or whiteboards.
-4. Verify the desktop is clear: only the computer, keyboard, mouse, one sheet of scratch paper, a writing instrument, physical calculators for remote exams are not authorized.
+4. Verify the desktop is clear. The only items permitted are the computer, keyboard, mouse, one sheet of scratch paper, and a writing instrument. Physical calculators are **not** authorized for remote exams.
 5. Have the applicant share their screen and open [ExamTools](https://exam.tools). Verify no unauthorized programs are running.
 6. Instruct the applicant of the exam rules and begin the exam.
 7. VEs will turn off cameras while the applicant is taking the exam; mute microphones unless speaking.

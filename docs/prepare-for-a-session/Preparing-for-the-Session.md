@@ -9,8 +9,8 @@
 
     [ExamTools](https://exam.tools) handles applicant registration, Form 605 generation, exam delivery (tablet, computer, or printed/GradeCam), grading, CSCE generation, and the session archive file that is submitted to SANDARC after the session.
 
-    - Team Leads: create your session at https://exam.tools
-    - Applicants register and complete their application through HamStudy (hamstudy.org/sessions)
+    - Team Leads: create your session at [exam.tools](https://exam.tools)
+    - Applicants register and complete their application through [HamStudy](https://hamstudy.org/sessions)
 
 [ExamTools](https://exam.tools) supports three in-person exam formats:
 
@@ -20,6 +20,6 @@
 
 ## Test Site Requirements
 
-- The testing environment MUST be quiet and free from distractions. Make every effort to keep non-participants out of the exam area while testing is in progress.
+- The testing environment MUST be quiet and free from distractions. Observers are permitted (see [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), but anyone whose presence disrupts the exam should be asked to step out.
 - If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity MUST be conducted as quietly as possible.
 - Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
