@@ -25,9 +25,9 @@ How it works:
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
 !!! tip "Not on a team yet?"
-    Find a club or VE team in your area that uses SANDARC as its VEC, go to one of their exam
-    sessions, and ask the Team Lead about joining. SANDARC sessions are listed on
-    [HamStudy](https://hamstudy.org/sessions).
+    Clubs affiliated with SANDARC are listed on the [SANDARC website](https://sandarc.org). Find one
+    in your area, go to one of their exam sessions, and ask the Team Lead about joining. Upcoming
+    sessions are listed on [HamStudy](https://hamstudy.org/sessions).
 
     Team Leads recruit their own members, so this is a conversation to have with them directly —
     there is nothing to send to SANDARC first.
