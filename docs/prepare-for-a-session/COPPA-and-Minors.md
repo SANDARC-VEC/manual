@@ -58,10 +58,20 @@ So when an applicant is under 13:
 
 ## The COPPA Process
 
-An applicant under 13 **cannot register for any session** on HamStudy or
-[ExamTools](https://exam.tools) until their parent or guardian has submitted the ExamTools COPPA
-Parental Consent Form. Registration is blocked until the consent is on file — this is a
-prerequisite, not a step during sign-up.
+!!! danger "VEs and Team Leads: consent is required BEFORE registration"
+    An applicant under 13 **cannot register for any session** on HamStudy or
+    [ExamTools](https://exam.tools) until their parent or guardian has emailed the ExamTools COPPA
+    Parental Consent Form to [coppa@examtools.org](mailto:coppa@examtools.org).
+
+    This is a **prerequisite to registration**, not a step during sign-up. Registration is blocked
+    until the consent is on file.
+
+    **The VE team cannot complete this at the session, and it cannot be done on session day.**
+    If an under-13 applicant is not registered, they **cannot test** — reschedule them and have the
+    parent send the form.
+
+The parent or guardian handles this well before session day. The VE team's job is to recognize the
+requirement early and point the family at it.
 
 1. The parent or guardian downloads the
    [ExamTools COPPA Parental Consent Form](https://blog.hamstudy.org/wp-content/uploads/2020/05/ExamTools_COPPA_form.pdf).
@@ -77,14 +87,11 @@ The consent covers exactly what the exam process requires: the information is us
 the examination and, if the applicant passes, is submitted to the VEC as part of the NCVEC Form 605
 application and from there to the FCC.
 
-!!! warning "Have the parent send the form well before session day"
-    The form has to be emailed and processed before registration is even possible, so a parent who
-    waits until the last minute will not get their child registered in time. When a team is
-    contacted by a family with an under-13 applicant, point them at this page immediately.
-
-    If an under-13 applicant somehow reaches session day without a registration, they cannot test.
-    Reschedule them and have the parent send the form to
-    [coppa@examtools.org](mailto:coppa@examtools.org).
+!!! warning "Point families at this page as soon as they make contact"
+    The form has to be emailed and processed before registration is even possible, so a family that
+    waits until the last minute will not get their child registered in time. As soon as your team
+    hears from a family with an under-13 applicant, send them here — do not wait until they try to
+    register.
 
 !!! danger "Never register a child on your own"
     A VE must never create the account, submit the consent form, or agree to the Terms of Service
