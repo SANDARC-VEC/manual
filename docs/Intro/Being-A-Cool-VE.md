@@ -24,6 +24,14 @@ How it works:
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
+!!! success "Each application is processed on its own, right away"
+    SANDARC does **not** batch accreditations or hold them for a group. Every form is processed
+    individually the moment your Team Lead sends it in — usually almost instantly, and within 24
+    hours at the very outside.
+
+    Going through your Team Lead is about **who submits** the form, not about waiting for other
+    applicants.
+
 !!! note "Why accreditation goes through a team"
     SANDARC only accepts sessions run by teams it has on file, so accreditation is tied to team
     membership rather than granted to individuals.
