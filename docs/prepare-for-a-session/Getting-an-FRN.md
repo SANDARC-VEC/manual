@@ -62,37 +62,63 @@ the trustee personally. The trustee's individual FRN is not a substitute.
 
 ### Before You Start
 
-The club needs an **Employer Identification Number (EIN)** from the IRS. The FCC will not issue an
-organizational FRN without one. An EIN is free and can be applied for online through the IRS; the
-number is issued at the end of the application.
-
-Under [§97.5](https://www.ecfr.gov/current/title-47/part-97), a club station license also requires:
+Under [§97.5](https://www.ecfr.gov/current/title-47/part-97), a club station license requires:
 
 - At least **four members**
 - A **name**, a document of organization, and management
 - A primary purpose devoted to amateur service activities
 - A **trustee** who holds a valid FCC amateur operator license
 
+!!! note "A club does not need an EIN"
+    An Employer Identification Number is **not** required to register a club FRN. CORES has a
+    registration path built for amateur clubs that have no taxpayer ID.
+
+    A club that already has an EIN — typically an incorporated club — can use it. A club that does
+    not simply selects the amateur club option instead. Some unincorporated clubs are asked for the
+    trustee's TIN during registration.
+
 ### Registering the Club FRN
 
 1. Sign in to [FCC CORES](https://apps.fcc.gov/cores/userLogin.do). The trustee may use their
    existing CORES account — the account holder and the FRN registrant are separate things.
-2. Choose to **register a new FRN** and select the **Business / Organization** registration type.
-3. Provide the club's legal name, EIN, mailing address, and a contact person.
-4. Submit. The club FRN is issued immediately.
+2. Choose to **register a new FRN** and select these registration options:
+    - Registration Type: **Business**
+    - Business Type: **Private Sector**
+    - Business Subtype: **Amateur Club**
+3. Provide the club's name, mailing address, and a contact person.
+4. If the club has no taxpayer ID, select **Amateur Club** as the reason when CORES asks for one.
+5. Submit. The club FRN is issued immediately.
+
+Keep the club FRN and the CORES credentials with the club's records, not only with the current
+trustee. The club will need them again to pay FCC fees and whenever the trustee changes.
 
 ### Getting the Club Call Sign
 
 !!! warning "Clubs cannot apply to the FCC directly"
-    A club **cannot** file for a club station call sign with the FCC on its own. The application
-    must be filed through a **Club Station Call Sign Administrator (CSCSA)**. The ARRL VEC and
-    W5YI-VEC both act as CSCSAs.
+    A club **cannot** file for a club station call sign with the FCC on its own. Every club license
+    transaction — a new license, a change of trustee, a renewal, or a cancellation — must be filed
+    through a **Club Station Call Sign Administrator (CSCSA)** on **Form NCVEC 605-C**.
 
     SANDARC is **not** a Club Station Call Sign Administrator and cannot process club station
-    applications. Direct clubs to a CSCSA.
+    applications.
 
-Once the club FRN exists, the club submits its application — club name, EIN, FRN, trustee's call
-sign, and proof of organization — to a CSCSA, which files it with the FCC.
+!!! info "SANDARC Policy"
+    Direct clubs to the **Central Alabama VEC (CAVEC)**, an FCC-authorized CSCSA:
+
+    - Website: [cavec.us/cscsa](https://cavec.us/cscsa/)
+    - Email: [vec@cavec.us](mailto:vec@cavec.us)
+
+**How the process works:**
+
+1. The club registers its FRN first — the FRN goes on the 605-C application.
+2. The club contacts [CAVEC](https://cavec.us/cscsa/) to start the application.
+3. CAVEC sends an electronic Form 605 for signature.
+4. The form needs **two signatures**: the named **trustee** and an **authorizing club official**.
+   For a new license, change of trustee, or cancellation, the trustee **cannot** also be the
+   authorizing official — these must be two different people.
+5. Once the completed form is returned, CAVEC files the application with the FCC.
+6. The FCC invoices the **$35 application fee**, paid through the CORES account tied to the club's
+   FRN.
 
 ## Common Problems at Sessions
 
