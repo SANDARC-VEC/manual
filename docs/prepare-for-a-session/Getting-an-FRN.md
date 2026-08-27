@@ -5,7 +5,7 @@ does business with it. Every amateur license applicant needs one before their ap
 processed, and the FRN is what the FCC ties the $35 application fee to.
 
 !!! info "SANDARC Policy"
-    Applicants should arrive at the session **already holding an FRN**. HamStudy asks for it during
+    Applicants should arrive at the session **already holding an FRN**. [HamStudy](https://hamstudy.org/) asks for it during
     registration, and [ExamTools](https://exam.tools) needs it to generate a valid Form NCVEC 605.
 
     Helping an applicant register for an FRN on session day is allowed, but it slows the session

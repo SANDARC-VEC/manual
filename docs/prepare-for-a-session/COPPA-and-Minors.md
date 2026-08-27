@@ -41,13 +41,13 @@ person consenting really is the child's parent or legal guardian, not the child.
 ## Why It Applies to Exam Registration
 
 Registering for an exam session collects exactly the kind of information COPPA covers — legal
-name, date of birth, mailing address, and email address — through HamStudy and
+name, date of birth, mailing address, and email address — through [HamStudy](https://hamstudy.org/) and
 [ExamTools](https://exam.tools). Both are general-audience services, and once an applicant is
 identified as under 13, they have actual knowledge that triggers the rule.
 
 So when an applicant is under 13:
 
-- The child **cannot** create their own HamStudy account or agree to the Terms of Service on their
+- The child **cannot** create their own [HamStudy](https://hamstudy.org/) account or agree to the Terms of Service on their
   own behalf. A minor cannot form that agreement, and COPPA does not permit the collection.
 - A **parent or legal guardian** must provide verifiable consent before registration can proceed.
 
@@ -59,7 +59,7 @@ So when an applicant is under 13:
 ## The COPPA Process
 
 !!! danger "VEs and Team Leads: consent is required BEFORE registration"
-    An applicant under 13 **cannot register for any session** on HamStudy or
+    An applicant under 13 **cannot register for any session** on [HamStudy](https://hamstudy.org/) or
     [ExamTools](https://exam.tools) until their parent or guardian has emailed the ExamTools COPPA
     Parental Consent Form to [coppa@examtools.org](mailto:coppa@examtools.org).
 

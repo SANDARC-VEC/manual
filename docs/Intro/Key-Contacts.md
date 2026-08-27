@@ -20,7 +20,7 @@
 | FCC CORES (FRN Registration)                         | [apps.fcc.gov/cores/userLogin.do](https://apps.fcc.gov/cores/userLogin.do) |
 | FCC $35 Application Fee Payment                      | [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) |
 | ExamTools (Session Platform)                         | [exam.tools](https://exam.tools)                        |
-| HamStudy (Session Calendar & Applicant Registration) | [hamstudy.org/sessions](https://hamstudy.org/sessions)  |
+| HamStudy (Session Calendar & Applicant Registration)  | [hamstudy.org/sessions](https://hamstudy.org/sessions)  |
 | ExamTools COPPA Consent (applicants under 13)         | [coppa@examtools.org](mailto:coppa@examtools.org)        |
 | Club Call Signs — Central Alabama VEC (CSCSA)         | [cavec.us/cscsa](https://cavec.us/cscsa/) — [vec@cavec.us](mailto:vec@cavec.us) |
 | FCC Electronic CFR: Part 97 (Amateur Radio Service)  | [ecfr.gov: 47 CFR Part 97](https://www.ecfr.gov/current/title-47/part-97) |

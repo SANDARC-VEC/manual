@@ -7,10 +7,10 @@ However, please be mindful of the following circumstances:**
 
 There is no benefit in running one session under multiple VECs.
 Please decide which VEC your team is affiliated with, and stick with it.
-Scheduling sessions on top of each other will just pollute the HamStudy listing and ultimately confuse applicants.
+Scheduling sessions on top of each other will just pollute the [HamStudy](https://hamstudy.org/) listing and ultimately confuse applicants.
 
 !!! note
-    The only exception is when the other VEC reimburses students/youths for their FCC application fee. Still, you should hide the other session to avoid creating duplicate sessions on the HamStudy listing.
+    The only exception is when the other VEC reimburses students/youths for their FCC application fee. Still, you should hide the other session to avoid creating duplicate sessions on the [HamStudy](https://hamstudy.org/) listing.
 
 SANDARC reserves the right to take action against teams who run concurrent sessions, a single session under multiple VECs,
 spreading applicants across multiple sessions, or employing other *innovative means to game the system*.
