@@ -25,7 +25,7 @@ How it works:
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
 !!! tip "Not on a team yet?"
-    Clubs affiliated with SANDARC are listed on the [SANDARC website](https://sandarc.org). Find one
+    Clubs affiliated with SANDARC are listed at [sandarc.org/clubs](https://sandarc.org/clubs). Find one
     in your area, go to one of their exam sessions, and ask the Team Lead about joining. Upcoming
     sessions are listed on [HamStudy](https://hamstudy.org/sessions).
 
