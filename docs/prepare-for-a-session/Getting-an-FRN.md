@@ -127,7 +127,7 @@ trustee. The club will need them again to pay FCC fees and whenever the trustee 
 | Applicant does not know their FRN | Recover it via "Forgot FRN" in CORES, or look up their call sign in ULS. Do not register a new one. |
 | Applicant created a second FRN | Note it on the session paperwork and email vec@sandarc.org. The duplicate must be consolidated by the FCC. |
 | Name on FRN does not match photo ID | The FRN record must match the legal name on the ID. The applicant updates it in CORES before the session data is submitted. |
-| Applicant forgot their CORES password | They must reset it themselves — the FCC will not release it to a VE, and they need it to pay the $35 fee. |
+| Applicant forgot their CORES password | They reset it themselves through CORES — the FCC will not release it to a VE. A password reset is free and changes nothing about their application. They will need CORES access later to pay the FCC fee, but forgetting the password does not cost them anything or make them pay the fee twice. |
 | Applicant has no SSN | Refer to FCC support; this cannot be resolved at the session. |
 
 ## After the Session
