@@ -8,6 +8,11 @@ Once you have a set date and time for your session(s), you must create these ses
 [ExamTools](https://exam.tools) will give a handful of options to customize how your sessions are displayed on HamStudy.
 Please make use of these options to create a smooth user experience for your applicants.
 
+!!! warning "Applicants under 13"
+    An applicant under 13 cannot register on HamStudy until their parent or guardian has submitted
+    the ExamTools COPPA Parental Consent Form. See
+    [Minors and the COPPA Process](COPPA-and-Minors.md) before scheduling a young applicant.
+
 !!! warning "Known Bug"
     [ExamTools](https://exam.tools) sets the SANDARC session fee to `NaN` by default. This is a known bug. Please manually reset this field to `0`.
 
@@ -34,3 +39,4 @@ It is worth noting that there is a feature on [ExamTools](https://exam.tools) th
 **Please refrain from using this feature unless under extenuating circumstances.**
 Applicants must complete the entirety of the registration process on HamStudy which entails agreeing to [ExamTools](https://exam.tools) ToS,
 providing personal info, which later will be used on their form NCVEC 605 and answering the felony question.
+Applicants also need an FRN before their application can be processed — see [Getting an FRN](Getting-an-FRN.md).

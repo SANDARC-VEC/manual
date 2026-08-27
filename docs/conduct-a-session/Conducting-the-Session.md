@@ -5,7 +5,7 @@
 1. Greet each applicant warmly. Many are nervous, so a friendly welcome goes a long way.
 2. Verify photo identification. Acceptable forms include any government-issued photo ID (driver's license, passport, state ID card, military ID, etc.). For applicants under 18 who do not have a government-issued photo ID, a parent or guardian may present their own ID and confirm the applicant's identity.
 3. Confirm the applicant's name on Form 605 matches their ID. For upgrades, confirm that the ID, existing license, and Form 605 all refer to the same person.
-4. Confirm the FRN is present on Form 605 and that the applicant has answered the BQQ.
+4. Confirm the FRN is present on Form 605 and that the applicant has answered the Basic Qualification Question (BQQ), the felony question. If the applicant answered **yes**, see [Felony Question Information](Felony-Question.md) for the steps they must follow.
 5. Review any element credit documents the applicant has brought. If element credit is required, update [ExamTools](https://exam.tools) with the credit.
 6. Add the applicant to the [ExamTools](https://exam.tools) session roster.
 
@@ -60,6 +60,34 @@ At the start of each session, inform all applicants of the following:
 
     The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, exam screens, or answer sheets) and are never used to monitor applicants, document suspected cheating, or for any purpose other than promotion.
 
+## Family Members and Observers
+
+FCC rules prohibit a VE from administering an examination to their spouse, children,
+grandchildren, stepchildren, parents, grandparents, stepparents, brothers, sisters, stepbrothers,
+stepsisters, aunts, uncles, nieces, nephews, or in-laws.
+\[[§97.509](https://www.ecfr.gov/current/title-47/section-97.509)\]
+
+That restriction applies to the three VEs who administer and certify that specific
+applicant's exam. It does not remove the related VE from the session.
+
+!!! info "SANDARC Policy"
+    So long as three VEs who are **not** barred by the FCC from administering that applicant's
+    exam are present and observing, there are no further restrictions on who else may be in the room.
+
+    - A VE who is related to an applicant may remain in the session and watch.
+    - That VE may continue to serve as an administering VE for **other** applicants in the same
+      session, provided they are not related to those applicants either.
+    - Family members and other guests may sit and observe.
+
+The three certifying VEs for each exam must always be unrelated to that applicant. Record the
+three unrelated VEs as the administering VEs for that applicant in [ExamTools](https://exam.tools).
+
+!!! warning "Observers are still bound by session rules"
+    Anyone present — related or not — must not disrupt the exam, communicate with a testing
+    applicant, or assist them in any way. The testing area must stay quiet, and the recording
+    prohibition above applies to observers exactly as it does to VEs. The Team Lead may ask
+    anyone whose presence is affecting the exam to step out.
+
 ## Grading
 
 - [ExamTools](https://exam.tools) grades computerized exams automatically when the applicant clicks "Grade Exam" and a VE authorizes grading. For printed exams use GradeCam on [ExamTools](https://exam.tools).
@@ -79,7 +107,7 @@ There is no mandatory waiting period before retaking a failed exam. Whether to a
 - The Team Lead should involve all VEs present in assessing the situation. If the team determines cheating has occurred, terminate the exam immediately and record a failing grade regardless of the applicant's score at that point.
 - Do not confiscate original documents. Make a copy and include it with the session materials submitted to SANDARC.
 - The VE team's role is to document and report, not to penalize. Any final determination of guilt rests with the FCC.
-- Report all confirmed cheating incidents to SANDARC immediately at vec@sandarc.org. Any other misconduct by an applicant or VE that cannot be resolved at the team level should also be escalated to vec@sandarc.org or by calling (619)215-1886.
+- Report all confirmed cheating incidents to SANDARC immediately at vec@sandarc.org. Any other misconduct by an applicant or VE that cannot be resolved at the team level should also be escalated to vec@sandarc.org or by calling (619) 215-1886.
 
 ## Accommodating Applicants with Disabilities
 

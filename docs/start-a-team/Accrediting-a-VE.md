@@ -21,7 +21,7 @@ However, they may assist with tasks such as responding to inquiries, setting up 
 
 ## Examiner Accreditation Process
 
-SANDARC does not directly recruit examiners as accreditation is gained through existing teams. 
+SANDARC does not directly recruit examiners as accreditation is gained through existing teams.
 Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team at their sole discretion.
 
 To add a new examiner to your team:
@@ -33,7 +33,7 @@ To add a new examiner to your team:
     Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
-Team leads will receive an email as soon as their new examiner has been accredited. 
+Team leads will receive an email as soon as their new examiner has been accredited.
 New examiners may have to wait up to four hours before [ExamTools](https://exam.tools) reflects their SANDARC credentials and allows them to be added to SANDARC sessions.
 
 !!! note
@@ -71,5 +71,5 @@ SANDARC automatically syncs its records with the ULS Database. Therefore, you do
 
 If your VE certificate needs to be updated as well, we will send you a new one automatically!
 
-Examiners must always maintain a valid email address on record with the VEC. 
+Examiners must always maintain a valid email address on record with the VEC.
 If your email address needs to be updated, please let your team lead know so that they can notify us accordingly.

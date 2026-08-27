@@ -29,10 +29,10 @@ the team lead is also responsible for conducting the exam session, ensuring the 
 are well taken care of, and that the exam session adheres to [FCC Part 97 rules](https://www.ecfr.gov/current/title-47/part-97) and
 SANDARC policies.
 - **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
-in case we are unable to reach the team lead. 
+in case we are unable to reach the team lead.
 Usually, Co-Leads are the co-owners of your [ExamTools](https://exam.tools) team.
 Please note that co-leads are not granted team lead privileges and may not independently conduct exam sessions.
 - **Team Email Address**: This email will be shared with potential applicants looking for an exam session in your area.
-It could be the team lead's email address or an email address belonging to your organization. 
+It could be the team lead's email address or an email address belonging to your organization.
 SANDARC will not use this email address to contact your team as we use the team lead's personal email address for that purpose.
 - **Zip Code**: This zip code corresponds to the approximate location of where your exam sessions are held.
