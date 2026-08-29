@@ -11,7 +11,8 @@
 - [ ] [ExamTools](https://exam.tools) session created and accessible
 - [ ] Scratch paper, pencils, calculators - if available (memories cleared)
 - [ ] Testing area quiet and free from distractions ([observers are permitted](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers))
-- [ ] **NO recording equipment active:** all recording is prohibited at SANDARC sessions (promotional photos are the one exception; never of IDs, forms, or exam screens)
+- [ ] **NO recording equipment active:** all recording is prohibited at SANDARC sessions for everyone present - VEs, applicants, family, and observers (promotional photos are the one exception; never of IDs, forms, or exam screens)
+- [ ] **Remote sessions:** recording, live transcription, and AI note-taking turned off in the conferencing platform; uninvited note-taking bots blocked or removed ([details](../conduct-a-session/remote-testing/Remote-Testing.md))
 - [ ] No other VEC branding visible at the session location
 
 ## Candidate Check-In
@@ -30,7 +31,7 @@
 - [ ] Issue exam via [ExamTools](https://exam.tools) (tablet, computer, or printed)
 - [ ] At least 3 VEs observing all candidates at all times; stop all testing if team drops below 3
 - [ ] VEs not reading, or having unnecessary conversations
-- [ ] **No recording of any kind**, including screen capture; promotional photos only, never showing IDs, forms, or exam screens
+- [ ] **No recording of any kind** by anyone present, including screen capture and AI note-taking agents; promotional photos only, never showing IDs, forms, or exam screens
 - [ ] Grade each element immediately after completion; inform applicant of score
 - [ ] If passed: allow applicant to attempt next element if desired or whatever the team policy is ([retesting](../conduct-a-session/Conducting-the-Session.md#retesting))
 - [ ] Take the applicant through signing their CSCE and confirming all information is accurate ([CSCE overview](../conduct-a-session/CSCE-Overview.md))

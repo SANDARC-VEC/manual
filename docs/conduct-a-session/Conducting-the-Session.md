@@ -45,6 +45,7 @@ At the start of each session, inform all applicants of the following:
 - Calculators must have memory cleared. Cell phones and smart devices may not be used as calculators.
 - No written notes, books, or study materials in the exam area.
 - Cell phones must be silenced or turned off.
+- No recording of any kind by anyone present, including AI note-taking agents and meeting assistants on remote sessions.
 
 ## During the Exam
 
@@ -56,9 +57,11 @@ At the start of each session, inform all applicants of the following:
 - The team lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Important"
-    All recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
+    All recording — audio, video, and screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity. AI note-taking agents and meeting assistants count as recording and are prohibited; see [Remote Testing](remote-testing/Remote-Testing.md) for the online specifics.
 
-    The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, exam screens, or answer sheets) and are never used to monitor applicants, document suspected cheating, or for any purpose other than promotion.
+    This applies to **everyone present**: VEs, applicants, family members, observers, and any automated participant.
+
+    The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, exam screens, or answer sheets) and are never used to monitor applicants, document suspected cheating, or for any purpose other than promotion. Photography for any other purpose is not permitted.
 
 ## Family Members and Observers
 

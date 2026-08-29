@@ -3,7 +3,9 @@
 SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.tools) combined with a video conferencing platform (Zoom, Google Meet, or any other suitable platform). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
 
 !!! info "SANDARC Policy"
-    - All recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
+    - All recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity.
+    - **AI note-taking agents and meeting assistants are prohibited as well.** This covers any bot, add-on, or built-in platform feature that joins, listens to, transcribes, or summarizes the session — for example Otter.ai, Fireflies, Read.ai, Zoom AI Companion, Google Meet "take notes for me", or Microsoft Copilot.
+    - This applies to **everyone present**: VEs, applicants, family members, observers, and any automated participant.
     - The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, or exam screens) and are never used to monitor applicants or document suspected cheating.
 
 ## VE Technical Requirements for Remote Sessions
@@ -23,7 +25,7 @@ SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.too
 
 ## Remote Session Procedures
 
-1. Start the video conference early so VEs can convene before applicants arrive.
+1. Start the video conference early so VEs can convene before applicants arrive. Before admitting anyone, the host confirms that cloud and local recording, live transcription, and AI note-taking features are turned off, and — where the platform supports it — that uninvited note-taking bots are blocked from joining. If such a bot appears in the participant list at any point, remove it before the session continues.
 2. Verify the applicant's identity via camera by visually inspecting their photo ID. Do not record or photograph the ID.
 3. Conduct a 360° slow camera pan of the room to verify no unauthorized materials are present. Check the desk, floor near the testing area, and walls for notes, posters, or whiteboards.
 4. Verify the desktop is clear. The only items permitted are the computer, keyboard, mouse, one sheet of scratch paper, and a writing instrument. Physical calculators are **not** authorized for remote exams.
