@@ -1,12 +1,19 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sandarc-manual",
+  // Rewrites asset-layer redirects into relative Locations so they
+  // survive the /manual prefix the public site is mounted under.
+  "main": "worker/index.js",
   "compatibility_date": "2026-05-05",
   "observability": {
     "enabled": true
   },
   "assets": {
-    "directory": "site"
+    "directory": "site",
+    "binding": "ASSETS",
+    // The Worker must see requests before asset serving does, or the
+    // auto-trailing-slash redirects go out with unfixed Locations.
+    "run_worker_first": true
   },
   "compatibility_flags": [
     "nodejs_compat"
