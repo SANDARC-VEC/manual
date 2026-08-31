@@ -1,25 +1,25 @@
-# Felony Question Information
+# 重罪に関する質問についての情報
 
-- If an applicant marks yes on the felony question these are the steps for them to proceed with so their application can be reviewed by the FCC properly.
+- 申請者が重罪に関する質問に「はい」と記入した場合、FCCが申請を適切に審査できるようにするため、申請者は以下の手順に従って手続きを進める必要があります。
 
-- It is not appropriate for any VE within SANDARC to ask about the circumstances regarding the felony the applicant has indicated yes to on the 605; it is only allowable to explain the process of submitting the statement. An applicant may offer up details of their information, but it is not the place of any VE to dig further into that information. Any deviation from this policy that is reported to the VEC will result in SANDARC placing the VE under review for possible revocation of their accreditation.
+- SANDARCに所属するVEが、申請者が605で「はい」と記入した重罪の事情について尋ねることは適切ではありません。認められるのは、陳述書の提出手続きについて説明することのみです。 申請者が自らその内容の詳細を申し出ることはあり得ますが、VEがその内容についてさらに深く掘り下げて尋ねる立場にはありません。 この方針からの逸脱がVECに報告された場合、SANDARCは当該VEを審査対象とし、認定の取り消しを検討することになります。
 
-- After a session is submitted with an applicant that marks yes to the felony question the applicant has a 14-day period to submit a statement to the FCC about why they believe they should be granted a license.
+- 重罪に関する質問に「はい」と記入した申請者を含むセッションが提出された後、その申請者には、なぜ免許を付与されるべきと考えるかについての陳述書をFCCに提出するための14日間の期間が与えられます。
 
 - There are no set guidelines of information that need to exist in the explanation but some useful stuff would be:
 
 - List all felony charges of which you were convicted (this part is mandatory)
 
-- A detailed description of the conduct that resulted in the conviction or guilty plea, including time and place
+- 有罪判決または有罪答弁に至った行為の詳細な説明。日時および場所を含む
 
-- The date of the conviction or guilty plea
+- 有罪判決または有罪答弁の日付
 
-- The punishment that was imposed, and whether the sentence has been completed, or the applicant is still under any restriction or condition resulting from the conviction or guilty plea
+- 科された刑罰、および刑の執行が完了しているか、または申請者が有罪判決もしくは有罪答弁に起因する制限や条件の下に依然として置かれているかどうか
 
-- Any efforts taken to remedy the wrongs committed and ensure that the applicant will not engage in such conduct in the future.
+- 犯した過ちを是正し、今後そのような行為に及ばないことを確保するために講じた取り組み。
 
-## Steps for Applicant
+## 申請者が行う手順
 
-1. Applicant will need to find their application number as it MUST be included in the statement to the FCC and it can be found using the [FCC ULS Advanced Application Search](https://wireless2.fcc.gov/UlsApp/ApplicationSearch/searchAdvanced.jsp)
-2. Applicant will need to email their explanation to attach605@fcc.gov.
+1. 申請者は自身の申請番号を確認する必要があります。この番号はFCCへの陳述書に必ず記載しなければならず、[FCC ULS Advanced Application Search](https://wireless2.fcc.gov/UlsApp/ApplicationSearch/searchAdvanced.jsp)を使って調べることができます
+2. 申請者は、説明文をattach605@fcc.govまでメールで送信する必要があります。
 3. Wait for the FCC to make a decision....There is no set minimum or maximum amount of time they can take to make this determination so sit back and wait.
