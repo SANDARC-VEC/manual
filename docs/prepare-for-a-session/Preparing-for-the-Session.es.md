@@ -1,9 +1,9 @@
-# Preparing for the Session
+# Preparación de la sesión
 
-## ExamTools: Required Platform
+## ExamTools: plataforma obligatoria
 
-!!! info "SANDARC Policy"
-    [ExamTools](https://exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from [ExamTools](https://exam.tools).
+!!! info "Política de SANDARC"
+    [ExamTools](https://exam.tools) es la **ÚNICA** plataforma autorizada para generar y administrar exámenes en las sesiones de SANDARC. No se puede utilizar ningún otro software de exámenes, material impreso de fuentes externas ni exámenes creados manualmente bajo ninguna circunstancia. Todo el contenido de los exámenes —ya sea que se administre en una tableta, en una computadora o impreso mediante GradeCam— debe proceder de [ExamTools](https://exam.tools).
 
     Any deviation from this requirement must receive explicit prior written approval from the SANDARC VEC Manager. Sessions conducted outside of [ExamTools](https://exam.tools) without that approval will NOT be processed.
     
@@ -12,14 +12,14 @@
     - Team Leads: create your session at [exam.tools](https://exam.tools)
     - Applicants register and complete their application through [HamStudy](https://hamstudy.org/sessions)
 
-[ExamTools](https://exam.tools) supports three in-person exam formats:
+[ExamTools](https://exam.tools) admite tres formatos de examen presencial:
 
-- **Tablet/laptop:** applicants log in and take the exam in a browser; preferred method. Tablets locked to the [ExamTools](https://exam.tools) site are strongly recommended.
-- **Printed/GradeCam:** exams printed from [ExamTools](https://exam.tools), graded by photographing the answer sheet with the GradeCam feature.
-- **Hybrid:** some applicants use tablets, others use printed exams in the same session.
+- **Tableta/portátil:** los solicitantes inician sesión y realizan el examen en un navegador; es el método preferido. Se recomienda encarecidamente utilizar tabletas bloqueadas en el sitio de [ExamTools](https://exam.tools).
+- **Impreso/GradeCam:** exámenes impresos desde [ExamTools](https://exam.tools), calificados fotografiando la hoja de respuestas con la función GradeCam.
+- **Híbrido:** algunos solicitantes usan tabletas y otros exámenes impresos en la misma sesión.
 
-## Test Site Requirements
+## Requisitos del lugar de examen
 
-- The testing environment MUST be quiet and free from distractions. Observers are permitted (see [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), but anyone whose presence disrupts the exam should be asked to step out.
-- If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity MUST be conducted as quietly as possible.
-- Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
+- El entorno de examen DEBE ser silencioso y estar libre de distracciones. Se permiten observadores (consulte [Familiares y observadores](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), pero se debe pedir que salga a cualquier persona cuya presencia interrumpa el examen.
+- Si los solicitantes que completan la documentación después del examen se encuentran en la misma sala que quienes todavía están examinándose, toda la actividad posterior al examen DEBE realizarse con el mayor silencio posible.
+- Entre los lugares adecuados se incluyen escuelas, bibliotecas, centros comunitarios, estaciones de bomberos y salas de reuniones de clubes.
