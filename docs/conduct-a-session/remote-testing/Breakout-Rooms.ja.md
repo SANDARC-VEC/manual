@@ -1,153 +1,100 @@
-# Breakout Rooms
+# ブレイクアウトルーム
 
-Breakout rooms let you split one video conference into separate private rooms, which maps
-naturally onto a remote exam session:
+ブレイクアウトルームを使うと、ひとつのビデオ会議を個別のプライベートな部屋に分割できます。これはリモート試験セッションの構成にそのまま当てはまります：
 
-- **Main room:** the lobby. Applicants arrive here, are greeted, and wait their turn.
-- **One breakout room per applicant under exam:** the applicant plus the three VEs
-  observing them. Audio, video, and chat in a breakout room are private to that room, so
-  multiple applicants can test simultaneously without disturbing each other.
-- **A spare room** is handy for private ID verification or VE-only discussion.
+- **メインルーム:** ロビーとして使用します。 Applicants arrive here, are greeted, and wait their turn.
+- **試験を受ける受験者ごとにブレイクアウトルームをひとつ:** 受験者と、その受験者を監督する三名のVEが入ります。 ブレイクアウトルーム内の音声、映像、チャットはその部屋だけのものになるため、複数の受験者が互いに邪魔することなく同時に受験できます。
+- **予備の部屋**を用意しておくと、個別の本人確認やVEだけでの協議に便利です。
 
-Both Zoom and Google Meet support breakout rooms, but they behave differently in ways
-that matter for an exam session. Details for each platform are below.
+ZoomとGoogle Meetはどちらもブレイクアウトルームに対応していますが、試験セッションにおいて重要となる点で挙動が異なります。 各プラットフォームの詳細は以下のとおりです。
 
 ## Zoom
 
-Zoom's breakout rooms are the more capable of the two: rooms can be pre-built before the
-meeting, participants can be locked into their rooms, and hosts can broadcast to every
-room at once. See Zoom's
-[Managing meeting breakout rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062540)
-for the full reference.
+Zoomのブレイクアウトルームは両者のうちより高機能です。会議前に部屋をあらかじめ作成でき、参加者を部屋に固定でき、ホストは全部屋へ一斉にアナウンスを配信できます。 詳しい情報はZoomの[ミーティングのブレイクアウトルームの管理](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062540)を参照してください。
 
-### Before the meeting
+### 会議の前に
 
-Breakout rooms must be enabled for your account before they appear in a meeting. In the
+ブレイクアウトルームは、アカウントで有効化しておかないと会議中に表示されません。 In the
 Zoom **web portal** (not the desktop app), go to **Settings → Meeting → In Meeting
 (Advanced)** and confirm **Meeting breakout rooms** is on. Enable the
 **Assign participants to breakout rooms when scheduling** sub-option if you want to
 pre-build rooms.
 
-With that enabled, you can pre-assign rooms while scheduling the meeting: check
-**Breakout Room pre-assign** in the meeting options, then either build rooms in the
-web portal (add participants by email) or import a CSV using Zoom's template. Limits are
-100 rooms and 1,000 pre-assigned participants.
+有効化しておけば、会議をスケジュールする際に部屋を事前割り当てできます。会議オプションで**ブレイクアウトルームの事前割り当て**にチェックを入れ、Webポータル上で部屋を作成する(メールアドレスで参加者を追加)か、Zoomのテンプレートを使ってCSVをインポートします。 上限は100部屋、事前割り当て参加者1,000人です。
 
-!!! warning "Pre-assignment only works for signed-in Zoom users"
-    A pre-assignment only takes effect if the participant joins **signed in to the Zoom
-    account matching the email you pre-assigned**. Applicants frequently join from a
-    bare meeting link without a Zoom account, so their pre-assignment silently fails and
-    they land in the main room. Pre-assignments are also only applied the **first** time
-    rooms are opened.
+!!! warning "事前割り当てはサインイン済みのZoomユーザーにのみ有効"
+    事前割り当てが機能するのは、参加者が**事前割り当てに使用したメールアドレスと一致するZoomアカウントにサインインした状態**で参加した場合のみです。 受験者はZoomアカウントを持たずに会議リンクだけで参加することが多いため、事前割り当ては何の通知もなく失敗し、メインルームに入ってしまいます。 また、事前割り当てが適用されるのは部屋を**最初に**開いたときだけです。
 
-    The reliable pattern: pre-assign only your **VEs** (who can be told to sign in), and
-    drag applicants into rooms manually during the session.
+    確実な運用方法は、事前割り当ての対象を(サインインを指示できる)**VE**だけに限り、受験者はセッション中に手動でドラッグして部屋へ移動させることです。
 
-### During the meeting
+### 会議中に
 
-1. Click **Breakout Rooms** in the meeting toolbar.
-2. Choose the number of rooms and an assignment mode: **Assign automatically**,
-   **Assign manually**, or **Let participants choose room**. For an exam session, choose
-   **Assign manually**.
-3. Click **Create**. Rooms are built but not opened yet — you can rename rooms
-   (e.g. "Exam Room 1") and drag participants in.
-4. Click **Open All Rooms** when ready.
+1. 会議のツールバーで**ブレイクアウトルーム**をクリックします。
+2. 部屋の数と割り当て方法を選びます。**自動で割り当てる**、**手動で割り当てる**、**参加者によるルーム選択を許可**のいずれかです。 試験セッションでは**手動で割り当てる**を選択してください。
+3. **作成**をクリックします。 この時点で部屋は作成されますがまだ開かれていません。部屋の名前を変更したり(例:「試験ルーム1」)、参加者をドラッグして入れたりできます。
+4. 準備ができたら**すべてのルームを開く**をクリックします。
 
-While rooms are open, the host and co-hosts can move freely between rooms, move
-participants between rooms, and **broadcast a text message or their microphone audio to
-every room at once** — useful for announcements like "session ends in 15 minutes."
-Participants in a room can click **Ask for Help**, which pings the host to join their
-room. Make your VE team co-hosts so they share these controls.
+部屋が開いている間、ホストと共同ホストは部屋の間を自由に移動でき、参加者を別の部屋へ移動させることもでき、さらに**テキストメッセージや自分のマイク音声を全部屋へ一斉に配信**できます。「セッションは15分後に終了します」といったアナウンスに便利です。
+部屋にいる参加者は**ヘルプを求める**をクリックでき、ホストに自分の部屋へ来るよう通知できます。 VEチームを共同ホストにしておけば、これらの操作を共有できます。
 
-Clicking **Close All Rooms** starts a 60-second countdown visible to everyone, after
-which participants return to the main room.
+**すべてのルームを閉じる**をクリックすると、全員に見える60秒のカウントダウンが始まり、その後参加者はメインルームに戻ります。
 
-### Recommended Zoom settings for exam sessions
+### 試験セッションに推奨されるZoomの設定
 
-In the breakout rooms **Options** panel (gear icon), change these defaults:
+ブレイクアウトルームの**オプション**パネル(歯車アイコン)で、次の初期設定を変更してください：
 
-- **Uncheck "Allow participants to choose room"** — applicants go where VEs put them.
-- **Uncheck "Allow participants to return to the main session at any time"** — the
-  applicant stays in their exam room until the VEs release them; they use **Ask for
-  Help** if they need the host.
-- **Check "Automatically move all assigned participants into breakout rooms"** — without
-  this, each participant must click an invitation to join, which confuses first-timers.
-- **Leave "Auto close breakout rooms after X minutes" off** — exams are untimed; a
-  countdown timer appearing mid-exam is exactly the distraction you don't want.
+- **「参加者によるルーム選択を許可」のチェックを外す** — 受験者はVEが指定した部屋に入ります。
+- **「参加者がいつでもメインセッションに戻ることを許可」のチェックを外す** — 受験者はVEが解放するまで試験ルームに留まります。ホストが必要な場合は**ヘルプを求める**を使います。
+- **「割り当て済みの参加者を自動的にブレイクアウトルームに移動」にチェックを入れる** — これを設定しないと、各参加者が招待をクリックして参加する必要があり、初めての人が戸惑います。
+- **「X分後にブレイクアウトルームを自動的に閉じる」はオフのままにする** — 試験に制限時間はなく、試験中にカウントダウンタイマーが表示されるのはまさに避けたい妨げです。
 
-In the meeting itself:
+会議自体では、次の設定を行います：
 
-- **Enable the Waiting Room** so applicants can be admitted one at a time for check-in.
-- **Mute participants upon entry.**
-- Set screen sharing to **All Participants** (**Security** menu or **Share Screen**
-  arrow → Advanced Sharing Options). Some accounts default to host-only sharing, which
-  blocks the applicant screen-share required by the
-  [Remote Session Procedures](Remote-Testing.md#remote-session-procedures).
+- **待機室を有効にする**ことで、受験者をひとりずつ入室させて受付を行えます。
+- **入室時に参加者をミュートにする。**
+- 画面共有を**全参加者**に設定します(**セキュリティ**メニュー、または**画面の共有**の矢印 → 詳細な共有オプション)。 アカウントによってはホストのみ共有可能が初期設定になっており、[リモートセッション手順](Remote-Testing.md#remote-session-procedures)で必要となる受験者の画面共有ができなくなります。
 
 ## Google Meet
 
-!!! warning "Breakout rooms require a paid Google Workspace edition"
-    Breakout rooms are **not available on free personal Google accounts** or Business
-    Starter. The meeting host needs an eligible edition such as Business Standard/Plus,
-    Enterprise, Education Plus, the Teaching and Learning Upgrade, or Workspace
-    Individual. Anyone (including free accounts) can _join_ a breakout room; only
-    creating them is restricted.
+!!! warning "ブレイクアウトルームには有料のGoogle Workspaceエディションが必要"
+    ブレイクアウトルームは**無料の個人用Googleアカウント**やBusiness Starterでは**利用できません**。 会議のホストには、Business Standard/Plus、Enterprise、Education Plus、Teaching and Learning Upgrade、Workspace Individualなど、対象となるエディションが必要です。 ブレイクアウトルームへ&#x306E;_&#x53C2;&#x52A0;_&#x306F;誰でも(無料アカウントでも)可能で、制限されるのは作成のみです。
 
-    SANDARC maintains a paid account that teams can use to host sessions with Meet
-    breakout rooms — contact the VEC at [vec@sandarc.org](mailto:vec@sandarc.org) (see
-    [Key Contacts](../../Intro/Key-Contacts.md)) to arrange access.
+    SANDARC は、各チームが Meet のブレイクアウト ルームを使ってセッションを主催できる有料アカウントを保有しています。利用を希望する場合は [vec@sandarc.org](mailto:vec@sandarc.org) 宛に VEC までご連絡ください（[主要連絡先](../../Intro/Key-Contacts.md)を参照）。
 
-See Google's
-[Use breakout rooms in Google Meet](https://support.google.com/meet/answer/13054147)
-host guide for the full reference.
+詳細は Google のホスト向けガイド[「Google Meet でブレイクアウト ルームを使用する」](https://support.google.com/meet/answer/13054147)を参照してください。
 
-### Before the meeting
+### 会議の前に
 
-Rooms can be pre-built from Google Calendar when creating or editing the event:
+ルームは、Google カレンダーで予定を作成または編集する際に、あらかじめ用意しておくことができます：
 
-1. In the event, click **Add Google Meet video conferencing**, then the gear icon
-   (**Change conference settings**).
-2. Select **Breakout rooms** in the left menu.
-3. Choose the number of rooms (up to 100), then drag invitees into rooms, type names
-   directly, or shuffle randomly.
+1. 予定の中で **[Google Meet のビデオ会議を追加]** をクリックし、続いて歯車アイコン（**[会議の設定を変更]**）をクリックします。
+2. 左側のメニューで **[ブレイクアウト ルーム]** を選択します。
+3. ルーム数（最大 100）を指定し、招待者をルームにドラッグするか、名前を直接入力するか、ランダムにシャッフルします。
 4. Save.
 
-This works well for pre-assigning VEs to their exam rooms. As with Zoom, applicants who
-join by link rather than as signed-in invitees will need to be placed manually.
+この方法は、VE を各試験ルームにあらかじめ割り当てておくのに便利です。 Zoom と同様に、サインイン済みの招待者としてではなくリンクから参加した受験者は、手動で割り当てる必要があります。
 
-### During the meeting
+### 会議の実施中
 
-1. Click the **Meeting tools** button (bottom right), then **Breakout rooms**. This is
-   only available to the **meeting host**, and only from a **computer browser** — rooms
-   cannot be created or managed from the mobile app.
-2. Choose the number of rooms, distribute participants manually or shuffle, and click
-   **Open rooms**.
+1. **[会議ツール]** ボタン(右下)をクリックし、**[ブレイクアウト ルーム]** を選択します。 この機能は **会議の主催者** のみが利用でき、しかも **パソコンのブラウザ** からのみ操作できます。モバイルアプリではルームの作成も管理もできません。
+2. ルーム数を指定し、参加者を手動またはシャッフルで割り当てて、**[ルームを開く]** をクリックします。
 
-The host can join any room to observe, edit assignments while rooms are open, and click
-**End rooms** to bring everyone back. Participants get an **Ask for help** button that
-notifies the host. An optional timer can auto-end rooms with a 30-second warning — as
-with Zoom, **leave the timer off** for untimed exams.
+主催者は任意のルームに参加して様子を確認でき、ルームが開いている間も割り当てを編集できます。**[ルームを終了]** をクリックすると全員が元の会議に戻ります。 参加者には **[ヘルプを求める]** ボタンが表示され、押すと主催者に通知が届きます。 タイマーを設定すると 30 秒前の警告付きでルームを自動終了できますが、Zoom の場合と同様に、時間制限のない試験では **タイマーはオフのままにしてください**。
 
-### Google Meet limitations to plan around
+### 考慮すべき Google Meet の制限事項
 
-- **Participants can always leave their room.** Meet shows every breakout participant a
-  **Return to main call** control and there is no way to lock them in. VEs in each exam
-  room must watch that their applicant stays put; an applicant bouncing to the main room
-  mid-exam should be treated like any other exam-area violation.
-- **There is no broadcast to all rooms.** To make an announcement, visit each room in
-  turn or end the rooms.
-- **Breakout chat is ephemeral** — messages sent in a room are deleted when the room
-  ends, and the host cannot see messages sent while they were not in the room.
-- Dial-in phone participants cannot use **Ask for help**, and third-party conferencing
-  hardware cannot join breakout rooms at all.
+- **参加者はいつでもルームから退出できます。** Meet ではブレイクアウトの参加者全員に **[メインの通話に戻る]** の操作が表示され、ルーム内に固定しておく方法はありません。 各試験ルームの VE は、担当する受験者がその場にとどまっているか注意して見守る必要があります。試験の途中でメインルームに移動した受験者は、他の試験エリア違反と同様に扱ってください。
+- **全ルームへの一斉配信はできません。** アナウンスを行う場合は、各ルームを順番に訪問するか、ルームを終了してください。
+- **ブレイクアウトのチャットは一時的なものです。** ルーム内で送信されたメッセージはルーム終了時に削除され、主催者はそのルームにいなかった間に送信されたメッセージを見ることができません。
+- 電話でダイヤルイン参加している人は **[ヘルプを求める]** を使用できず、サードパーティ製の会議用ハードウェアはブレイクアウト ルームに参加すること自体ができません。
 
-## Zoom vs. Google Meet at a glance
+## Zoom と Google Meet の比較早見表
 
-| Capability                         | Zoom                                       | Google Meet                                                                 |
-| ---------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------- |
-| Pre-build rooms before the meeting | Yes (web portal or CSV) | Yes (Calendar event)                                     |
-| Who can manage rooms               | Host and co-hosts                          | Host only, computer browser only                                            |
-| Keep applicants in their room      | Yes (option)            | No — participants can always return                                         |
-| Broadcast to all rooms             | Yes (text and audio)    | No                                                                          |
-| Ask for help button                | Yes                                        | Yes (not for dial-in)                                    |
-| Extra cost                         | Included in free and paid plans            | Paid Workspace editions only (SANDARC account available) |
+| 機能            | Zoom                | Google Meet                                 |
+| ------------- | ------------------- | ------------------------------------------- |
+| 会議前にルームを準備する  | 可（ウェブポータルまたは CSV）   | 可（カレンダーの予定）                                 |
+| ルームを管理できる人    | ホストと共同ホスト           | 主催者のみ、パソコンのブラウザのみ                           |
+| 受験者をルーム内にとどめる | 可（オプション）            | 不可 — 参加者はいつでも戻れる                            |
+| 全ルームへの一斉配信    | 可（テキストと音声）          | 不可                                          |
+| ヘルプを求めるボタン    | あり                  | あり（ダイヤルイン参加は不可）                             |
+| 追加費用          | 無料プラン・有料プランの両方に含まれる | 有料の Workspace エディションのみ（SANDARC のアカウントを利用可能） |
