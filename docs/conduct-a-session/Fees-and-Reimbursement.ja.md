@@ -1,9 +1,9 @@
-# Fees & Expense Reimbursement
+# 手数料と費用の払い戻し
 
 !!! danger "Important"
-    SANDARC charges NO exam fees. All examinations are completely free of charge to all applicants. No fees may be assessed against any applicant for any SANDARC exam session.
+    SANDARC は試験手数料を一切徴収しません。 すべての試験は、すべての受験者に対して完全に無料です。 SANDARC の試験セッションにおいて、いかなる受験者からもいかなる手数料も徴収してはなりません。
 
-SANDARC does not provide reimbursement to VE teams for any session-related expenses. All costs associated with running a SANDARC exam session are the responsibility of the team. SANDARC may provide materials to teams as non-reimbursable expenses but these will be limited in scope and at the discretion of SANDARC.
+SANDARC は、セッションに関連するいかなる費用についても VE チームに払い戻しを行いません。 SANDARC の試験セッションの運営に伴うすべての費用は、チームの負担となります。 SANDARC は、払い戻し対象外の費用として資材をチームに提供する場合がありますが、その範囲は限定的であり、提供は SANDARC の裁量によります。
 
-!!! warning "FCC Application Fee"
-    All applicants for a new license must pay a mandatory $35 fee directly to the FCC. Applicants will receive an email from the FCC with payment instructions after SANDARC submits their session data. The payment link is [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) and the fee must be paid within 10 calendar days or the FCC will dismiss the application.
+!!! warning "FCC 申請手数料"
+    新規免許の申請者は全員、35 ドルの手数料を FCC に直接支払う必要があります。 SANDARC がセッションデータを提出した後、申請者は FCC から支払い手続きの案内メールを受け取ります。 支払いリンクは [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) です。手数料は 10 暦日以内に支払わなければならず、支払われない場合、FCC は申請を却下します。
