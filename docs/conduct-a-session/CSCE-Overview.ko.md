@@ -1,33 +1,33 @@
-# Certificates of Successful Completion of Examination (CSCEs)
+# 시험 합격 증명서(CSCE)
 
-## What Is a CSCE?
+## CSCE란 무엇인가?
 
-A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. [ExamTools](https://exam.tools) generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
+하나 이상의 시험 요소에 합격한 모든 응시자에게는 반드시 CSCE를 발급해야 합니다. 합격한 요소(들)와 취득한 면허 등급이 기재됩니다. [ExamTools](https://exam.tools)는 세션이 최종 확정되고 VE가 전자 서명을 완료하면 CSCE를 자동으로 생성하여 이메일로 발송합니다.
 
-A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record, whichever comes first.
+CSCE는 발급일로부터 365일 동안, 또는 FCC가 응시자의 ULS 기록을 갱신할 때까지 중 먼저 도래하는 시점까지 유효합니다.
 
-## Operating Authority From a CSCE
+## CSCE로 부여되는 운용 권한
 
-| Situation                                                                | Operating Authority                                                                                                                                                   |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| New applicant (previously unlicensed) who passes exam | **NO** transmitting authority. Must wait until a license grant appears in the FCC ULS database.                                       |
-| Expired licensee who passes exam                                         | **NO** renewed privileges from the CSCE alone. Must wait for FCC ULS to show an active license.                                       |
-| Currently licensed applicant who earns an upgrade                        | May operate under the new (higher) license class privileges immediately, using a temporary identifier appended to their call sign. |
+| Situation                                     | 운용 권한                                                                                               |
+| --------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 시험에 합격한 신규 응시자(이전에 면허 미보유) | 송신 권한 **없음**. FCC ULS 데이터베이스에 면허 부여 기록이 나타날 때까지 기다려야 합니다.           |
+| 시험에 합격한 면허 만료자                                | CSCE만으로는 권한이 갱신되지 **않습니다**. FCC ULS에 유효한 면허가 표시될 때까지 기다려야 합니다.      |
+| 상위 등급을 취득한 기존 면허 보유 응시자                       | 호출부호 뒤에 임시 식별자를 덧붙여 사용하면, 새로 취득한 (상위) 면허 등급의 권한으로 즉시 운용할 수 있습니다. |
 
-Temporary identifiers for upgrades (appended after the call sign):
+등급 상향 시 사용하는 임시 식별자(호출부호 뒤에 덧붙임):
 
-- `/KT`: Novice upgrading to Technician
-- `/AG`: Technician upgrading to General class privileges
-- `/AE`: General or Advanced upgrading to Amateur Extra class privileges
+- `/KT`: Novice에서 Technician으로 상향
+- `/AG`: Technician에서 General 등급 권한으로 상향
+- `/AE`: General 또는 Advanced에서 Amateur Extra 등급 권한으로 상향
 
-## Completing the CSCE
+## CSCE 작성
 
-- [ExamTools](https://exam.tools) populates and distributes the CSCE automatically for electronic sessions.
-- Three VEs must sign the CSCE
-- The applicant must sign the CSCE in the presence of a VE.
+- 전자 세션의 경우 [ExamTools](https://exam.tools)가 CSCE를 자동으로 작성하여 배부합니다.
+- 세 명의 VE가 CSCE에 서명해야 합니다
+- 응시자는 VE가 입회한 상태에서 CSCE에 서명해야 합니다.
 - Give the applicant their copy of the CSCE immediately. Advise them to retain it as permanent proof of exam credit.
-- The team retains a copy for its records.
+- 팀은 기록 보관용으로 사본을 보관합니다.
 
-## Pre-1987 Technician "Paper Upgrade" to General
+## 1987년 이전 Technician의 General 등급 "서류 상향"
 
-An applicant who holds a currently valid Technician license that was originally issued before March 21, 1987 is entitled to General class credit without taking Element 3. They must appear at a VE session — in person or remote — with valid proof of the pre-1987 license. Issue a CSCE showing General class earned and process a Form 605. No exam is required for this credit.
+1987년 3월 21일 이전에 최초 발급된 유효한 Technician 면허를 현재 보유하고 있는 응시자는 Element 3을 치르지 않고도 General 등급 인정을 받을 수 있습니다. 해당 응시자는 1987년 이전 면허임을 입증하는 유효한 증빙을 지참하고 대면 또는 원격으로 VE 세션에 출석해야 합니다. Issue a CSCE showing General class earned and process a Form 605. 이 인정에는 시험이 필요하지 않습니다.
