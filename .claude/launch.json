@@ -8,6 +8,12 @@
       "port": 8000
     },
     {
+      "name": "wrangler",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["wrangler", "dev", "--port", "8787"],
+      "port": 8787
+    },
+    {
       "name": "mkdocs-alt",
       "runtimeExecutable": ".venv/bin/mkdocs",
       "runtimeArgs": ["serve", "-a", "127.0.0.1:8001"],

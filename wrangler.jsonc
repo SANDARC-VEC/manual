@@ -5,8 +5,14 @@
   "observability": {
     "enabled": true
   },
+  // The script only repairs redirect Location headers (see src/index.js);
+  // run_worker_first is required because trailing-slash 307s are generated
+  // during asset matching, which otherwise bypasses the script entirely.
+  "main": "src/index.js",
   "assets": {
-    "directory": "site"
+    "directory": "site",
+    "binding": "ASSETS",
+    "run_worker_first": true
   },
   "compatibility_flags": [
     "nodejs_compat"
