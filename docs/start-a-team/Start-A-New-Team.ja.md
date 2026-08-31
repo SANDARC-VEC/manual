@@ -1,38 +1,37 @@
 # Where to Start?
 
-Organizations wishing to host an Amateur Radio exam session should delegate one of their members as the VE Team Lead.
-The Team Lead will serve as the main point of contact between SANDARC, examiners, and your organization.
+アマチュア無線の試験セッションを開催したい団体は、メンバーのうち一名をVEチームリーダーとして指名してください。
+チームリーダーは、SANDARC、試験官、および貴団体の間の主たる連絡窓口を務めます。
 
-Your designated team lead should then contact SANDARC VEC via email at [vec@sandarc.org](mailto:vec@sandarc.org) on behalf of your organization.
-We reserve the right to accept or deny requests to start a new team at our sole discretion.
+指名されたチームリーダーは、貴団体を代表して、SANDARC VECまでメール [vec@sandarc.org](mailto:vec@sandarc.org) にてご連絡ください。
+新規チーム設立の申請については、当方の単独の裁量により受理または却下する権利を留保します。
 
-SANDARC favors in-person teams that are attached to a club, organization, or a recurring tech-related event.
+SANDARCは、クラブ、団体、または定期開催される技術関連イベントに付随する対面形式のチームを優先します。
 
-## Create Your Team on ExamTools
+## ExamToolsでチームを作成する
 
-Upon approving your request, you will be asked to provide some information about your team on [ExamTools](https://exam.tools).
-If you are new to [ExamTools](https://exam.tools), please refer to [ExamTools documentation](https://docs.exam.tools) to get set up with their platform.
-If you are migrating an existing team to SANDARC, there is no need to create a new team. Simply add SANDARC to your existing team.
-SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.tools) AND by the team that we have on file.
+申請が承認されると、[ExamTools](https://exam.tools) 上でチームに関する情報のご提供をお願いします。
+[ExamTools](https://exam.tools) を初めてご利用になる場合は、[ExamToolsのドキュメント](https://docs.exam.tools) を参照して、プラットフォームの初期設定を行ってください。
+既存のチームをSANDARCへ移行する場合、新たにチームを作成する必要はありません。 既存のチームにSANDARCを追加するだけで結構です。
+SANDARCは、[ExamTools](https://exam.tools) を通じて、かつ当方に登録されているチームによって実施されたセッションのみを受け付けます。
 
 !!! note
-    Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file. In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges to a team that SANDARC has not approved.
+    SANDARCは、当方に登録されているチームによって運営されたセッションのみを受け付けますので、ご留意ください。 つまり、SANDARCのチームリーダーが、SANDARCの承認を受けていないチームにチームリーダー権限を委譲することは固く禁じられています。
 
 !!! danger "Important"
-    **All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on [ExamTools](https://exam.tools) as a co-owner.
-    Failure to do so will result in immediate suspension.**
+    **すべてのSANDARCチームは、[ExamTools](https://exam.tools) 上の自チームに Austin Smith, W4PBL を共同オーナーとして追加する必要があります。
+    これを怠った場合、直ちに資格停止となります。**
 
-## Information We Need About Your Team
+## チームについて必要な情報
 
-- **Team Lead**: This is the person in charge of communicating with the VEC. Furthermore,
-  the team lead is also responsible for conducting the exam session, ensuring the examiners
-  are well taken care of, and that the exam session adheres to [FCC Part 97 rules](https://www.ecfr.gov/current/title-47/part-97) and
-  SANDARC policies.
-- **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
-  in case we are unable to reach the team lead.
-  Usually, Co-Leads are the co-owners of your [ExamTools](https://exam.tools) team.
-  Please note that co-leads are not granted team lead privileges and may not independently conduct exam sessions.
-- **Team Email Address**: This email will be shared with potential applicants looking for an exam session in your area.
-  It could be the team lead's email address or an email address belonging to your organization.
-  SANDARC will not use this email address to contact your team as we use the team lead's personal email address for that purpose.
-- **Zip Code**: This zip code corresponds to the approximate location of where your exam sessions are held.
+- **チームリーダー**: VECとの連絡を担当する責任者です。 さらに、
+  チームリーダーは試験セッションの実施、試験官への適切な対応、および試験セッションが [FCC Part 97 規則](https://www.ecfr.gov/current/title-47/part-97) と
+  SANDARCのポリシーに準拠していることの確保についても責任を負います。
+- **副リーダー**: 副リーダーは、チームリーダーと連絡が取れない場合に当方が連絡するチーム内のSANDARC VE
+  で、一名以上を指定できます。
+  通常、副リーダーは [ExamTools](https://exam.tools) のチームにおける共同オーナーです。
+  副リーダーにはチームリーダー権限は付与されず、単独で試験セッションを実施することはできませんのでご注意ください。
+- **チームのメールアドレス**: このメールアドレスは、貴地域で試験セッションを探している受験希望者に公開されます。
+  チームリーダーのメールアドレスでも、貴団体のメールアドレスでも構いません。
+  チームへの連絡にはチームリーダーの個人メールアドレスを使用するため、SANDARCがこのメールアドレスを連絡に使用することはありません。
+- **郵便番号**: 試験セッションを開催するおおよその場所に対応する郵便番号です。
