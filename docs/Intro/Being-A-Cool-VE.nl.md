@@ -1,64 +1,64 @@
 # Being A Cool VE
 
-## A few Requirements the FCC imposes on becoming a Volunteer Examiner:
+## Enkele eisen die de FCC stelt om Volunteer Examiner te worden:
 
-- Must be at least 18 years old
-- Never have had your amateur station or operator licenses suspended or revoked
-- Hold a valid General, Advanced or Extra Class license
+- Je moet minimaal 18 jaar oud zijn
+- Je amateurstation- of operatorvergunning mag nooit geschorst of ingetrokken zijn geweest
+- Je moet een geldige licentie van de klasse General, Advanced of Extra hebben
 
-## A requirement that SANDARC imposes on you becoming a VE:
+## Een eis die SANDARC stelt om VE te worden:
 
 - Be cool
 
-## Becoming Accredited
+## Geaccrediteerd worden
 
-**Accreditation comes through a VE team. You cannot apply to SANDARC on your own.**
+**Accreditatie loopt via een VE-team. Je kunt je niet op eigen houtje bij SANDARC aanmelden.**
 
-SANDARC does not accept accreditation applications directly from individuals and does not recruit
-examiners itself. You become accredited by joining an existing SANDARC team, and your Team Lead
-submits the application on your behalf.
+SANDARC accepteert geen accreditatieaanvragen rechtstreeks van individuen en werft ook zelf geen
+examinatoren. Je wordt geaccrediteerd door lid te worden van een bestaand SANDARC-team, en je Team Lead
+dient de aanvraag namens jou in.
 
-How it works:
+Zo werkt het:
 
-1. **Join a SANDARC VE team.** Team Leads identify and recruit their own members at their discretion.
-2. **Your Team Lead gives you their team's accreditation form.** Each team has a form unique to that
-   team — a form issued to a different team will not be accepted.
+1. **Word lid van een VE-team van SANDARC.** Team Leads zoeken en werven hun eigen leden naar eigen inzicht.
+2. **Je Team Lead geeft je het accreditatieformulier van zijn team.** Elk team heeft een uniek
+   formulier — een formulier dat aan een ander team is uitgegeven, wordt niet geaccepteerd.
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
-4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
+4. **Je Team Lead dient het in bij SANDARC.** Je stuurt het niet zelf op.
 
-!!! tip "Not on a team yet?"
-    Clubs affiliated with SANDARC are listed at [sandarc.org/clubs](https://sandarc.org/clubs). Find one
-    in your area, go to one of their exam sessions, and ask the Team Lead about joining. Upcoming
-    sessions are listed on [HamStudy](https://hamstudy.org/sessions).
+!!! tip "Nog geen team?"
+    Clubs die zijn aangesloten bij SANDARC vind je op [sandarc.org/clubs](https://sandarc.org/clubs). Find one
+    in your area, go to one of their exam sessions, and ask the Team Lead about joining. Aankomende
+    sessies staan vermeld op [HamStudy](https://hamstudy.org/sessions).
 
-    Team Leads recruit their own members, so this is a conversation to have with them directly —
-    there is nothing to send to SANDARC first.
+    Team Leads werven hun eigen leden, dus dit is een gesprek dat je rechtstreeks met hen voert —
+    je hoeft vooraf niets naar SANDARC te sturen.
 
-!!! success "Each application is processed on its own, right away"
-    SANDARC does **not** batch accreditations or hold them for a group. Every form is processed
-    individually the moment your Team Lead sends it in — usually almost instantly, and within 24
-    hours at the very outside.
+!!! success "Elke aanvraag wordt afzonderlijk en direct verwerkt"
+    SANDARC bundelt accreditaties **niet** en houdt ze niet vast voor een groep. Elk formulier wordt
+    individueel verwerkt op het moment dat je Team Lead het instuurt — meestal vrijwel direct, en in het
+    allerslechtste geval binnen 24 uur.
 
-    Going through your Team Lead is about **who submits** the form, not about waiting for other
-    applicants.
+    Dat het via je Team Lead loopt, gaat over **wie het formulier indient**, niet over wachten op andere
+    aanvragers.
 
-!!! note "Why accreditation goes through a team"
-    SANDARC only accepts sessions run by teams it has on file, so accreditation is tied to team
-    membership rather than granted to individuals.
+!!! note "Waarom accreditatie via een team loopt"
+    SANDARC accepteert alleen sessies die worden georganiseerd door teams die bij haar geregistreerd staan; daarom is accreditatie gekoppeld aan
+    teamlidmaatschap in plaats van dat ze aan individuen wordt verleend.
 
 See [Becoming a SANDARC Volunteer Examiner](../start-a-team/Accrediting-a-VE.md) for the full
 process, including how long it takes and how to verify your status.
 
-## Checking Accreditation
+## Accreditatie controleren
 
 - Once your Team Lead has submitted your VE application it will be processed within 24 hrs or your next accreditation is free!
-- You will receive an email from SANDARC with the accreditation certificate attached.
-- At the bottom of that certificate is a verification link if you paste that into a browser you will confirm your accreditation is valid, each url is unique to each VE.
+- Je ontvangt een e-mail van SANDARC met het accreditatiecertificaat als bijlage.
+- Onderaan dat certificaat staat een verificatielink; plak je die in een browser, dan krijg je bevestigd dat je accreditatie geldig is. Elke url is uniek voor elke VE.
 
-## Maintaining Accreditation
+## Accreditatie behouden
 
 - Once you have become accredited you will be for as long as your license is active however you will only maintain access to [ExamTools](https://exam.tools) if you have participated in an exam every 2 years and once that two years has passed you will lose access and will need to reach back out to your team lead to regain access again.
 
-## SANDARC VE Badges
+## SANDARC VE-badges
 
 - In your accreditation email will be a link to order a badge but please note a badge is NOT required to participate in any VE session!
