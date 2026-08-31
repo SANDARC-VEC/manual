@@ -1,33 +1,33 @@
-# Certificates of Successful Completion of Examination (CSCEs)
+# 試験合格証明書（CSCE）
 
-## What Is a CSCE?
+## CSCEとは？
 
-A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. [ExamTools](https://exam.tools) generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
+CSCEは、1つ以上の試験エレメントに合格したすべての受験者に発行しなければなりません。 合格したエレメント(複数の場合もあり)および取得した免許クラスが記載されます。 [ExamTools](https://exam.tools)では、セッションを確定してVEが電子的に署名すると、CSCEが自動的に作成され、メールで送信されます。
 
-A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record, whichever comes first.
+CSCEの有効期間は発行日から365日間、またはFCCが申請者のULS記録を更新するまでのいずれか早い方までです。
 
-## Operating Authority From a CSCE
+## CSCEによる運用権限
 
-| Situation                                                                | Operating Authority                                                                                                                                                   |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| New applicant (previously unlicensed) who passes exam | **NO** transmitting authority. Must wait until a license grant appears in the FCC ULS database.                                       |
-| Expired licensee who passes exam                                         | **NO** renewed privileges from the CSCE alone. Must wait for FCC ULS to show an active license.                                       |
-| Currently licensed applicant who earns an upgrade                        | May operate under the new (higher) license class privileges immediately, using a temporary identifier appended to their call sign. |
+| Situation             | 運用権限                                                   |
+| --------------------- | ------------------------------------------------------ |
+| 試験に合格した新規申請者（従来無免許の方） | 送信権限は**ありません**。 FCCのULSデータベースに免許の付与が表示されるまで待つ必要があります。  |
+| 試験に合格した免許失効者          | CSCEだけでは権限は**復活しません**。 FCCのULSに有効な免許が表示されるまで待つ必要があります。 |
+| アップグレードを取得した現免許保有者    | コールサインの後ろに一時的な識別子を付加することで、新しい（上位の）免許クラスの権限で直ちに運用できます。  |
 
-Temporary identifiers for upgrades (appended after the call sign):
+アップグレード時の一時的な識別子（コールサインの後ろに付加）：
 
-- `/KT`: Novice upgrading to Technician
-- `/AG`: Technician upgrading to General class privileges
-- `/AE`: General or Advanced upgrading to Amateur Extra class privileges
+- `/KT`：NoviceからTechnicianへのアップグレード
+- `/AG`：TechnicianからGeneralクラスの権限へのアップグレード
+- `/AE`：GeneralまたはAdvancedからAmateur Extraクラスの権限へのアップグレード
 
-## Completing the CSCE
+## CSCEの記入
 
-- [ExamTools](https://exam.tools) populates and distributes the CSCE automatically for electronic sessions.
-- Three VEs must sign the CSCE
-- The applicant must sign the CSCE in the presence of a VE.
+- 電子セッションでは、[ExamTools](https://exam.tools)がCSCEの記入と配布を自動的に行います。
+- 3名のVEがCSCEに署名する必要があります
+- 申請者はVEの立ち会いのもとでCSCEに署名しなければなりません。
 - Give the applicant their copy of the CSCE immediately. Advise them to retain it as permanent proof of exam credit.
-- The team retains a copy for its records.
+- チームは記録用に写しを保管します。
 
-## Pre-1987 Technician "Paper Upgrade" to General
+## 1987年以前のTechnicianからGeneralへの「書面によるアップグレード」
 
-An applicant who holds a currently valid Technician license that was originally issued before March 21, 1987 is entitled to General class credit without taking Element 3. They must appear at a VE session — in person or remote — with valid proof of the pre-1987 license. Issue a CSCE showing General class earned and process a Form 605. No exam is required for this credit.
+1987年3月21日より前に最初に発行された、現在も有効なTechnician免許を保有する申請者は、エレメント3を受験することなくGeneralクラスの単位が認められます。 1987年以前の免許であることを示す有効な証明書類を持参し、対面またはリモートでVEセッションに出席する必要があります。 Issue a CSCE showing General class earned and process a Form 605. この単位認定に試験は不要です。
