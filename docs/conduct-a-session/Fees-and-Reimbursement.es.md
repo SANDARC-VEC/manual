@@ -1,9 +1,9 @@
-# Fees & Expense Reimbursement
+# Tarifas y reembolso de gastos
 
 !!! danger "Important"
-    SANDARC charges NO exam fees. All examinations are completely free of charge to all applicants. No fees may be assessed against any applicant for any SANDARC exam session.
+    SANDARC NO cobra tarifas de examen. Todos los exámenes son completamente gratuitos para todos los solicitantes. No se puede cobrar ninguna tarifa a ningún solicitante por ninguna sesión de examen de SANDARC.
 
-SANDARC does not provide reimbursement to VE teams for any session-related expenses. All costs associated with running a SANDARC exam session are the responsibility of the team. SANDARC may provide materials to teams as non-reimbursable expenses but these will be limited in scope and at the discretion of SANDARC.
+SANDARC no reembolsa a los equipos de VE ningún gasto relacionado con la sesión. Todos los costos asociados con la realización de una sesión de examen de SANDARC son responsabilidad del equipo. SANDARC puede proporcionar materiales a los equipos como gastos no reembolsables, pero estos serán de alcance limitado y quedarán a discreción de SANDARC.
 
-!!! warning "FCC Application Fee"
-    All applicants for a new license must pay a mandatory $35 fee directly to the FCC. Applicants will receive an email from the FCC with payment instructions after SANDARC submits their session data. The payment link is [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) and the fee must be paid within 10 calendar days or the FCC will dismiss the application.
+!!! warning "Tarifa de solicitud de la FCC"
+    Todos los solicitantes de una nueva licencia deben pagar una tarifa obligatoria de $35 directamente a la FCC. Los solicitantes recibirán un correo electrónico de la FCC con las instrucciones de pago una vez que SANDARC envíe los datos de su sesión. El enlace de pago es [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) y la tarifa debe pagarse dentro de los 10 días calendario; de lo contrario, la FCC desestimará la solicitud.
