@@ -1,41 +1,41 @@
-# Exam Materials
+# Materiales de examen
 
-[ExamTools](https://exam.tools) is the only authorized source for generating question booklets, NCVEC Form 605, and CSCE.
-SANDARC does not supply any of the above and prohibits the use of materials acquired from other sources.
+[ExamTools](https://exam.tools) es la única fuente autorizada para generar cuadernillos de preguntas, el formulario NCVEC 605 y los CSCE.
+SANDARC no suministra ninguno de los elementos anteriores y prohíbe el uso de materiales obtenidos de otras fuentes.
 
-## Exam Booklets
+## Cuadernillos de examen
 
-Team Leads generate exam booklets directly from [ExamTools](https://exam.tools). Any team member may assist with printing them, including Technician class licensees.
+Los jefes de equipo generan los cuadernillos de examen directamente desde [ExamTools](https://exam.tools). Cualquier miembro del equipo puede ayudar a imprimirlos, incluidos los titulares de licencia de clase Technician.
 Please make sure you download exams that are suited for GradeCam™ use.
-SANDARC does not allow manual grading or pre-determined keys.
+SANDARC no permite la calificación manual ni el uso de claves de respuestas predeterminadas.
 
-### Re-using Question Booklets
+### Reutilización de los cuadernillos de preguntas
 
 It is perfectly acceptable to reuse exams from one session across multiple sessions
 as long as you don't administer the same exam to an applicant more than once.
 
-### Bubble Forms (aka scantrons)
+### Hojas de burbujas (también llamadas scantrons)
 
 Use the 35/50 question combo form downloadable from [ExamTools](https://exam.tools)
 
 You may optionally provide the [SANDARC instruction sheet](../assets/vec-docs/SANDARC-GradeCam-Instructions.odt) to your applicants to help them correctly complete the bubble sheet.
 
-!!! warning "Exam Validity"
-    The Question Pool Committee (QPC) may issue errata, which could invalidate some of the pre-printed exams. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
+!!! warning "Validez del examen"
+    El Comité del Banco de Preguntas (QPC) puede publicar erratas, lo que podría invalidar algunos de los exámenes impresos previamente. **It is crucial to ensure your exams are valid**. You will receive an email from SANDARC upon each new erratum. You can always check the validity of your exams by checking their test IDs on [ExamTools](https://exam.tools).
 
-### Administering Exams on Tablets
+### Administración de exámenes en tabletas
 
-Teams are encouraged to use tablets to administer exams.
+Se recomienda a los equipos utilizar tabletas para administrar los exámenes.
 This way, you won't have to deal with invalidated exams and your applicants will always receive a perfectly valid and random set of questions.
 That being said, the team is responsible for properly locking down the device to ensure the applicants cannot gain any unfair advantage.
 
 _Use tablets if you can. It helps save some trees after all ¯\\(ツ)/¯_
 
-## Form NCVEC 605
+## Formulario NCVEC 605
 
-Form NCVEC 605 is automatically generated for each applicant via [ExamTools](https://exam.tools).
-Teams do not need to print nor fill out any physical form.
+El formulario NCVEC 605 se genera automáticamente para cada solicitante a través de [ExamTools](https://exam.tools).
+Los equipos no necesitan imprimir ni rellenar ningún formulario físico.
 
-## Certificate of Successful Completion of Examination (CSCE)
+## Certificado de Finalización Exitosa del Examen (CSCE)
 
 Similar to Form NCVEC 605, [ExamTools](https://exam.tools) will also handle generating CSCEs for you.
