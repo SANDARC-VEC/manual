@@ -1,33 +1,33 @@
-# Certificates of Successful Completion of Examination (CSCEs)
+# Certificados de Finalización Exitosa del Examen (CSCE)
 
-## What Is a CSCE?
+## ¿Qué es un CSCE?
 
-A CSCE must be issued to every candidate who passes one or more exam elements. It documents the element(s) passed and the license class earned. [ExamTools](https://exam.tools) generates and emails the CSCE automatically when the session is finalized and VEs sign electronically.
+Se debe emitir un CSCE a todo candidato que apruebe uno o más elementos del examen. Documenta el/los elemento(s) aprobado(s) y la clase de licencia obtenida. [ExamTools](https://exam.tools) genera y envía el CSCE por correo electrónico de forma automática cuando la sesión se finaliza y los VE firman electrónicamente.
 
-A CSCE is valid for 365 days from the date of issue, or until the FCC updates the applicant's ULS record, whichever comes first.
+Un CSCE es válido durante 365 días a partir de la fecha de emisión, o hasta que la FCC actualice el registro ULS del solicitante, lo que ocurra primero.
 
-## Operating Authority From a CSCE
+## Autoridad de operación derivada de un CSCE
 
-| Situation                                                                | Operating Authority                                                                                                                                                   |
-| ------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| New applicant (previously unlicensed) who passes exam | **NO** transmitting authority. Must wait until a license grant appears in the FCC ULS database.                                       |
-| Expired licensee who passes exam                                         | **NO** renewed privileges from the CSCE alone. Must wait for FCC ULS to show an active license.                                       |
-| Currently licensed applicant who earns an upgrade                        | May operate under the new (higher) license class privileges immediately, using a temporary identifier appended to their call sign. |
+| Situation                                                                        | Autoridad de operación                                                                                                                                                                   |
+| -------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Solicitante nuevo (sin licencia previa) que aprueba el examen | **NO** tiene autorización para transmitir. Debe esperar hasta que la concesión de la licencia aparezca en la base de datos ULS de la FCC.                |
+| Titular con licencia vencida que aprueba el examen                               | **NO** obtiene privilegios renovados solo con el CSCE. Debe esperar a que el ULS de la FCC muestre una licencia activa.                                  |
+| Solicitante con licencia vigente que obtiene una mejora de clase                 | Puede operar de inmediato con los privilegios de la nueva clase de licencia (superior), utilizando un identificador temporal añadido a su indicativo. |
 
-Temporary identifiers for upgrades (appended after the call sign):
+Identificadores temporales para mejoras de clase (añadidos después del indicativo):
 
-- `/KT`: Novice upgrading to Technician
-- `/AG`: Technician upgrading to General class privileges
-- `/AE`: General or Advanced upgrading to Amateur Extra class privileges
+- `/KT`: Novice que asciende a Technician
+- `/AG`: Technician que asciende a los privilegios de la clase General
+- `/AE`: General o Advanced que asciende a los privilegios de la clase Amateur Extra
 
-## Completing the CSCE
+## Cómo completar el CSCE
 
-- [ExamTools](https://exam.tools) populates and distributes the CSCE automatically for electronic sessions.
-- Three VEs must sign the CSCE
-- The applicant must sign the CSCE in the presence of a VE.
+- [ExamTools](https://exam.tools) rellena y distribuye el CSCE automáticamente en las sesiones electrónicas.
+- Tres VE deben firmar el CSCE
+- El solicitante debe firmar el CSCE en presencia de un VE.
 - Give the applicant their copy of the CSCE immediately. Advise them to retain it as permanent proof of exam credit.
-- The team retains a copy for its records.
+- El equipo conserva una copia para sus registros.
 
-## Pre-1987 Technician "Paper Upgrade" to General
+## «Mejora en papel» de Technician a General para licencias anteriores a 1987
 
-An applicant who holds a currently valid Technician license that was originally issued before March 21, 1987 is entitled to General class credit without taking Element 3. They must appear at a VE session — in person or remote — with valid proof of the pre-1987 license. Issue a CSCE showing General class earned and process a Form 605. No exam is required for this credit.
+Un solicitante que posea una licencia Technician actualmente válida, emitida originalmente antes del 21 de marzo de 1987, tiene derecho al crédito de la clase General sin necesidad de presentar el Elemento 3. Debe presentarse en una sesión de VE —en persona o de forma remota— con una prueba válida de la licencia anterior a 1987. Issue a CSCE showing General class earned and process a Form 605. No se requiere ningún examen para obtener este crédito.
