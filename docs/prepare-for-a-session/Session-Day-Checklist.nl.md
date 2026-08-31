@@ -1,45 +1,45 @@
-# Session Day Quick Reference Checklist
+# Snelle referentiechecklist voor de sessiedag
 
 _San Diego County Amateur Radio Council | The Coolest VEC | vec@sandarc.org_
 
 ---
 
-## Before Candidates Arrive
+## Voordat de kandidaten aankomen
 
-- [ ] Confirm all VEs present are SANDARC-accredited (check with Team Lead if unsure)
-- [ ] Identify any VE related to an applicant; ensure three unrelated VEs will certify that exam ([policy](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers))
-- [ ] [ExamTools](https://exam.tools) session created and accessible
-- [ ] Scratch paper, pencils, calculators - if available (memories cleared)
-- [ ] Testing area quiet and free from distractions ([observers are permitted](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers))
-- [ ] **NO recording equipment active:** all recording is prohibited at SANDARC sessions (promotional photos are the one exception; never of IDs, forms, or exam screens)
-- [ ] No other VEC branding visible at the session location
+- [ ] Bevestig dat alle aanwezige VE's door SANDARC geaccrediteerd zijn (vraag het bij twijfel na bij de teamleider)
+- [ ] Ga na of een VE verwant is aan een kandidaat; zorg ervoor dat drie niet-verwante VE's dat examen certificeren ([beleid](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers))
+- [ ] [ExamTools](https://exam.tools)-sessie aangemaakt en toegankelijk
+- [ ] Kladpapier, potloden, rekenmachines - indien beschikbaar (geheugens gewist)
+- [ ] Examenruimte is stil en vrij van afleiding ([waarnemers zijn toegestaan](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers))
+- [ ] **GEEN actieve opnameapparatuur:** elke vorm van opname is verboden bij SANDARC-sessies (promotiefoto's zijn de enige uitzondering; nooit van identiteitsbewijzen, formulieren of examenschermen)
+- [ ] Geen branding van een andere VEC zichtbaar op de sessielocatie
 
-## Candidate Check-In
+## Inschrijving van kandidaten
 
 - [ ] Greet each applicant warmly
-- [ ] Verify photo ID: do not write down any numbers from the ID; do not photograph or video the ID ([details](../conduct-a-session/Conducting-the-Session.md#applicant-check-in))
-- [ ] For minors without photo ID: parent or guardian may verify identity
-- [ ] For applicants under 13: confirm a parent or guardian registered them and COPPA consent is on file ([COPPA process](COPPA-and-Minors.md))
-- [ ] Review any element credit documents: make a copy, return originals ([credit table](../conduct-a-session/Conducting-the-Session.md#element-credit))
-- [ ] Add applicant to [ExamTools](https://exam.tools) roster
+- [ ] Controleer het identiteitsbewijs met foto: schrijf geen enkel nummer van het identiteitsbewijs op; maak er geen foto's of video's van ([details](../conduct-a-session/Conducting-the-Session.md#applicant-check-in))
+- [ ] Voor minderjarigen zonder identiteitsbewijs met foto: een ouder of voogd mag de identiteit bevestigen
+- [ ] Voor kandidaten onder de 13 jaar: controleer of een ouder of voogd hen heeft ingeschreven en of de COPPA-toestemming is vastgelegd ([COPPA-procedure](COPPA-and-Minors.md))
+- [ ] Beoordeel eventuele documenten voor element credit: maak een kopie en geef de originelen terug ([credittabel](../conduct-a-session/Conducting-the-Session.md#element-credit))
+- [ ] Voeg de kandidaat toe aan de deelnemerslijst in [ExamTools](https://exam.tools)
 - [ ] Remind applicant: SANDARC charges no exam fee, but the FCC charges a separate $35 fee after submission of any new license!
 
-## During the Exam
+## Tijdens het examen
 
-- [ ] Announce session policies to all applicants before exams begin ([what to announce](../conduct-a-session/Conducting-the-Session.md#session-announcements))
-- [ ] Issue exam via [ExamTools](https://exam.tools) (tablet, computer, or printed)
-- [ ] At least 3 VEs observing all candidates at all times; stop all testing if team drops below 3
-- [ ] VEs not reading, or having unnecessary conversations
-- [ ] **No recording of any kind**, including screen capture; promotional photos only, never showing IDs, forms, or exam screens
-- [ ] Grade each element immediately after completion; inform applicant of score
-- [ ] If passed: allow applicant to attempt next element if desired or whatever the team policy is ([retesting](../conduct-a-session/Conducting-the-Session.md#retesting))
+- [ ] Kondig het sessiebeleid aan alle kandidaten aan voordat de examens beginnen ([wat aan te kondigen](../conduct-a-session/Conducting-the-Session.md#session-announcements))
+- [ ] Geef het examen uit via [ExamTools](https://exam.tools) (tablet, computer of op papier)
+- [ ] Ten minste 3 VE's houden alle kandidaten voortdurend in het oog; staak alle examens als het team onder de 3 zakt
+- [ ] VE's lezen niet en voeren geen onnodige gesprekken
+- [ ] **Geen enkele vorm van opname**, ook geen schermopnamen; alleen promotiefoto's, waarop nooit identiteitsbewijzen, formulieren of examenschermen te zien zijn
+- [ ] Beoordeel elk element direct na afronding; deel de score met de kandidaat
+- [ ] Bij een voldoende: laat de kandidaat desgewenst het volgende element proberen, of volg het beleid van het team ([opnieuw examen doen](../conduct-a-session/Conducting-the-Session.md#retesting))
 - [ ] Take the applicant through signing their CSCE and confirming all information is accurate ([CSCE overview](../conduct-a-session/CSCE-Overview.md))
-- [ ] Advise upgrading applicants about temporary identifier (/AG, /AE)
-- [ ] Advise new licensees they cannot transmit until a license appears in FCC ULS
+- [ ] Informeer kandidaten die upgraden over de tijdelijke aanduiding (/AG, /AE)
+- [ ] Wijs nieuwe licentiehouders erop dat zij niet mogen uitzenden totdat hun licentie in FCC ULS verschijnt
 
-## After the Last Candidate Leaves
+## Nadat de laatste kandidaat is vertrokken
 
-- [ ] Finalize session in [ExamTools](https://exam.tools); download VEC Archive file (DO NOT OPEN THE ARCHIVE ONCE DOWNLOADED)
-- [ ] Email VEC Archive file and supporting documents to vec@sandarc.org within **24 hours** ([submission steps](../post-session-information/After-the-Session.md))
+- [ ] Rond de sessie af in [ExamTools](https://exam.tools); download het VEC Archive-bestand (OPEN HET ARCHIEF NIET NA HET DOWNLOADEN)
+- [ ] Mail het VEC Archive-bestand en de bijbehorende documenten binnen **24 uur** naar vec@sandarc.org ([stappen voor inzending](../post-session-information/After-the-Session.md))
 - [ ] Retain your copy of all session records until SANDARC confirms processing
-- [ ] Brief the team on what went well and what to improve for next time
+- [ ] Bespreek met het team wat goed ging en wat de volgende keer beter kan
