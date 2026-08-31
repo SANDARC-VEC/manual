@@ -1,140 +1,115 @@
-# Getting an FRN
+# FRN の取得
 
-An **FCC Registration Number (FRN)** is a 10-digit number the FCC uses to identify everyone who
-does business with it. Every amateur license applicant needs one before their application can be
-processed, and the FRN is what the FCC ties the $35 application fee to.
+**FCC 登録番号 (FRN)** は、FCC が業務上のやり取りを行うすべての相手を識別するために使用する 10 桁の番号です。 アマチュア無線免許の申請者は、申請が処理される前に必ず FRN を取得しておく必要があり、FCC は 35 ドルの申請手数料をこの FRN に紐付けます。
 
-!!! info "SANDARC Policy"
-    Applicants should arrive at the session **already holding an FRN**. [HamStudy](https://hamstudy.org/) asks for it during
-    registration, and [ExamTools](https://exam.tools) needs it to generate a valid Form NCVEC 605.
+!!! info "SANDARC の方針"
+    申請者は **FRN を既に取得した状態で** 試験セッションに来場してください。 [HamStudy](https://hamstudy.org/) は登録時に FRN の入力を求め、[ExamTools](https://exam.tools) は有効な Form NCVEC 605 を生成するために FRN を必要とします。
 
-    Helping an applicant register for an FRN on session day is allowed, but it slows the session
-    down considerably. Direct applicants to this page when they register.
+    セッション当日に申請者の FRN 登録を手伝うことは認められていますが、セッションの進行が大幅に遅れます。申請者が登録する際には、このページを案内してください。
 
 ## Who Already Has One
 
-- **Anyone who already holds an FCC license** — amateur or otherwise — already has an FRN. It is
+- **すでに FCC の免許を保有している人** は、アマチュア無線に限らず、すでに FRN を持っています。 It is
   printed on the license and is searchable in
   [ULS](https://www.fcc.gov/wireless/universal-licensing-system).
-- **Upgrading applicants** always have one. They should not create a second FRN; a duplicate FRN
-  splits their license record and creates work for the VEC and the FCC to unwind.
+- **上級資格へのアップグレード申請者** は必ず FRN を持っています。 二つ目の FRN を作成してはいけません。FRN が重複すると免許記録が分断され、VEC と FCC がそれを解消するための余分な作業が発生します。
 
-!!! warning "Never create a second FRN"
-    If an applicant cannot remember their FRN, recover it rather than registering again. Use the
-    "Forgot FRN" recovery on the CORES sign-in page, or look the licensee up by call sign in ULS.
+!!! warning "二つ目の FRN は絶対に作成しない"
+    申請者が自分の FRN を思い出せない場合は、再登録するのではなく FRN を復元してください。 CORES のサインインページにある「Forgot FRN」による FRN 復元機能を使うか、ULS でコールサインから免許人を検索してください。
 
-## Individual FRN
+## 個人の FRN
 
-An applicant registers for their own FRN directly with the FCC. It is free and takes a few minutes.
+申請者は自分の FRN を FCC に直接登録します。 無料で、数分で完了します。
 
-1. Go to [FCC CORES](https://apps.fcc.gov/cores/userLogin.do) and create a **CORES account**
-   (an email address and password). The account is the login; it is not itself the FRN.
-2. Sign in, then choose to **register a new FRN**.
-3. Select the **Individual** registration type.
-4. Provide the required identifying information:
-   - Full legal name
-   - Social Security Number (see below if the applicant does not have one)
-   - Date of birth
-   - Mailing address, email address, and phone number
-5. Submit. The FRN is issued **immediately** and displayed on screen.
-6. Have the applicant **record the FRN and their CORES password**. They will need both again to pay
-   the FCC application fee and to renew the license in ten years.
+1. [FCC CORES](https://apps.fcc.gov/cores/userLogin.do) にアクセスし、**CORES アカウント**（メールアドレスとパスワード）を作成します。 このアカウントはログイン用であり、それ自体が FRN ではありません。
+2. サインインしてから、**新しい FRN を登録** を選択します。
+3. 登録種別として **Individual**〔個人〕を選択します。
+4. 必要な本人確認情報を入力します：
+   - 戸籍上の氏名（フルネーム）
+   - 社会保障番号（申請者が持っていない場合は下記を参照）
+   - 生年月日
+   - 郵送先住所、メールアドレス、電話番号
+5. Submit. FRN は **即時に** 発行され、画面に表示されます。
+6. 申請者に **FRN と CORES のパスワードを記録** してもらってください。 FCC の申請手数料の支払い時、および十年後の免許更新時に、どちらも再び必要になります。
 
-!!! note "The address becomes public"
-    The mailing address attached to the FRN appears in the public ULS database once a license is
-    granted. Applicants who do not want a home address published should register with a P.O. box
-    or other valid mailing address they can receive mail at. The FCC requires a working mailing
-    address; a license can be revoked for undeliverable mail.
+!!! note "住所は公開されます"
+    FRN に登録された郵送先住所は、免許が付与されると公開データベースである ULS に表示されます。 Applicants who do not want a home address published should register with a P.O. box
+    or other valid mailing address they can receive mail at. FCC は実際に郵便が届く住所を要求しており、郵便が配達不能の場合は免許が取り消されることがあります。
 
-### Applicants Without a Social Security Number
+### 社会保障番号を持たない申請者
 
-The FCC normally requires an SSN or other Taxpayer Identification Number for an individual FRN.
-Applicants who do not have one — foreign nationals, for example — cannot complete the standard
-registration path and must request an alternate registration from the FCC directly.
+FCC は通常、個人の FRN 登録に SSN またはその他の納税者番号を要求します。
+外国籍の方など、これらを持たない申請者は標準の登録手順を完了できないため、FCC に直接、代替の登録手続きを申請する必要があります。
 
-Do not attempt to work around this at the session, and never register an applicant under someone
-else's SSN. Refer the applicant to FCC support and reschedule them for a later session if needed.
+セッションの場でこの問題を回避しようとしてはならず、他人の SSN を使って申請者を登録することは絶対に行わないでください。 申請者を FCC のサポート窓口に案内し、必要であれば後日のセッションに振り替えてください。
 
-## Club FRN
+## クラブの FRN
 
-A club station license needs its own FRN, registered to the **club as an organization** — not to
-the trustee personally. The trustee's individual FRN is not a substitute.
+クラブ局免許には、**組織としてのクラブ** に登録された独自の FRN が必要であり、トラスティー個人に登録されたものは使えません。 トラスティー個人の FRN で代用することはできません。
 
-### Before You Start
+### 始める前に
 
-Under [§97.5](https://www.ecfr.gov/current/title-47/part-97), a club station license requires:
+[§97.5](https://www.ecfr.gov/current/title-47/part-97) に基づき、クラブ局免許には以下が必要です：
 
-- At least **four members**
+- **四名以上のメンバー**
 - A **name**, a document of organization, and management
-- A primary purpose devoted to amateur service activities
-- A **trustee** who holds a valid FCC amateur operator license
+- 主たる目的がアマチュア無線業務の活動に充てられていること
+- 有効な FCC アマチュア無線技士免許を保有する **トラスティー**
 
-!!! note "A club does not need an EIN"
-    An Employer Identification Number is **not** required to register a club FRN. CORES has a
-    registration path built for amateur clubs that have no taxpayer ID.
+!!! note "クラブにEINは不要です"
+    クラブのFRNを登録する際、雇用者識別番号は**不要**です。 CORESには、納税者番号を持たないアマチュア無線クラブ向けの登録手順が用意されています。
 
-    A club that already has an EIN — typically an incorporated club — can use it. A club that does
-    not simply selects the amateur club option instead. Some unincorporated clubs are asked for the
-    trustee's TIN during registration.
+    すでにEINを持っているクラブ、通常は法人化されたクラブは、それを使用できます。EINがないクラブは、代わりにアマチュア無線クラブの選択肢を選ぶだけです。法人化されていないクラブでは、登録時にトラスティのTINの入力を求められる場合があります。
 
-### Registering the Club FRN
+### クラブFRNの登録
 
-1. Sign in to [FCC CORES](https://apps.fcc.gov/cores/userLogin.do). The trustee may use their
-   existing CORES account — the account holder and the FRN registrant are separate things.
-2. Choose to **register a new FRN** and select these registration options:
-   - Registration Type: **Business**
-   - Business Type: **Private Sector**
-   - Business Subtype: **Amateur Club**
-3. Provide the club's name, mailing address, and a contact person.
-4. If the club has no taxpayer ID, select **Amateur Club** as the reason when CORES asks for one.
-5. Submit. The club FRN is issued immediately.
+1. [FCC CORES](https://apps.fcc.gov/cores/userLogin.do) にサインインします。 トラスティは既存のCORESアカウントを使用できます。アカウント保有者とFRNの登録者は別のものです。
+2. **新しいFRNの登録**を選択し、次の登録オプションを選びます：
+   - 登録種別: **Business**
+   - 事業種別: **Private Sector**
+   - 事業サブ種別: **Amateur Club**
+3. クラブの名称、郵送先住所、および連絡担当者を入力します。
+4. クラブに納税者番号がない場合は、CORESから入力を求められた際に理由として **Amateur Club** を選択します。
+5. Submit. クラブFRNは直ちに発行されます。
 
-Keep the club FRN and the CORES credentials with the club's records, not only with the current
-trustee. The club will need them again to pay FCC fees and whenever the trustee changes.
+クラブFRNとCORESのログイン情報は、現在のトラスティだけでなく、クラブの記録として保管してください。 FCCの手数料を支払うときや、トラスティが交代するたびに、クラブはこれらの情報を再び必要とします。
 
-### Getting the Club Call Sign
+### クラブコールサインの取得
 
-!!! warning "Clubs cannot apply to the FCC directly"
-    A club **cannot** file for a club station call sign with the FCC on its own. Every club license
-    transaction — a new license, a change of trustee, a renewal, or a cancellation — must be filed
-    through a **Club Station Call Sign Administrator (CSCSA)** on **Form NCVEC 605-C**.
+!!! warning "クラブはFCCに直接申請できません"
+    クラブが独自にFCCへクラブ局のコールサインを申請することは**できません**。 新規免許、トラスティの変更、更新、取消のいずれであっても、クラブ免許に関するすべての手続きは、**Form NCVEC 605-C** を用いて **クラブ局コールサイン管理者（CSCSA）** を通じて提出しなければなりません。
 
-    SANDARC is **not** a Club Station Call Sign Administrator and cannot process club station
-    applications.
+    SANDARCはクラブ局コールサイン管理者では**なく**、クラブ局の申請を処理することはできません。
 
-!!! info "SANDARC Policy"
-    Direct clubs to the **Central Alabama VEC (CAVEC)**, an FCC-authorized CSCSA:
+!!! info "SANDARCの方針"
+    クラブには、FCC認定のCSCSAである **Central Alabama VEC (CAVEC)** を案内してください：
 
-    - Website: [cavec.us/cscsa](https://cavec.us/cscsa/)
-    - Email: [vec@cavec.us](mailto:vec@cavec.us)
+    - ウェブサイト: [cavec.us/cscsa](https://cavec.us/cscsa/)
+    - メール: [vec@cavec.us](mailto:vec@cavec.us)
 
-**How the process works:**
+**手続きの流れ:**
 
-1. The club registers its FRN first — the FRN goes on the 605-C application.
-2. The club contacts [CAVEC](https://cavec.us/cscsa/) to start the application.
-3. CAVEC sends an electronic Form 605 for signature.
-4. The form needs **two signatures**: the named **trustee** and an **authorizing club official**.
-   For a new license, change of trustee, or cancellation, the trustee **cannot** also be the
-   authorizing official — these must be two different people.
-5. Once the completed form is returned, CAVEC files the application with the FCC.
-6. The FCC invoices the **$35 application fee**, paid through the CORES account tied to the club's
-   FRN.
+1. クラブはまずFRNを登録します。FRNは605-Cの申請書に記載します。
+2. クラブが [CAVEC](https://cavec.us/cscsa/) に連絡して申請を開始します。
+3. CAVECが署名用の電子Form 605を送付します。
+4. この書類には**二つの署名**が必要です。指名された**トラスティ**と、**権限を有するクラブ役員**です。
+   新規免許、トラスティの変更、取消の場合、トラスティが権限を有する役員を兼ねることは**できません**。必ず別々の人物でなければなりません。
+5. 記入済みの書類が返送されると、CAVECがFCCへ申請を提出します。
+6. FCCが **35ドルの申請手数料**を請求し、クラブのFRNに紐付いたCORESアカウントを通じて支払います。
 
-## Common Problems at Sessions
+## 試験セッションでよくある問題
 
-| Problem                               | What to do                                                                                                                                                                                                                                                                                                                                        |
-| ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Applicant does not know their FRN     | Recover it via "Forgot FRN" in CORES, or look up their call sign in ULS. Do not register a new one.                                                                                                                                                                                                               |
-| Applicant created a second FRN        | Note it on the session paperwork and email vec@sandarc.org. The duplicate must be consolidated by the FCC.                                                                                                                                                                           |
-| Name on FRN does not match photo ID   | The FRN record must match the legal name on the ID. The applicant updates it in CORES before the session data is submitted.                                                                                                                                                                                       |
-| Applicant forgot their CORES password | They reset it themselves through CORES — the FCC will not release it to a VE. A password reset is free and changes nothing about their application. They will need CORES access later to pay the FCC fee, but forgetting the password does not cost them anything or make them pay the fee twice. |
-| Applicant has no SSN                  | Refer to FCC support; this cannot be resolved at the session.                                                                                                                                                                                                                                                                     |
+| 問題                     | 対応方法                                                                                                                                               |
+| ---------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 受験者が自分のFRNを把握していない     | CORESの「Forgot FRN」から復元するか、ULSでコールサインを検索します。 新規に登録してはいけません。                                                                                         |
+| 受験者がもう一つのFRNを作成してしまった  | セッションの書類にその旨を記載し、vec@sandarc.org へメールしてください。 重複したFRNはFCCが統合する必要があります。                                                 |
+| FRNの氏名が写真付き身分証明書と一致しない | FRNの登録内容は、身分証明書に記載された法律上の氏名と一致していなければなりません。 受験者は、セッションデータが送信される前にCORESで修正します。                                                                      |
+| 受験者がCORESのパスワードを忘れた    | 受験者自身がCORESでリセットします。FCCはVEにパスワードを開示しません。 パスワードのリセットは無料で、申請内容には一切影響しません。 後でFCCの手数料を支払う際にCORESへのアクセスが必要になりますが、パスワードを忘れても費用は発生せず、手数料を二重に支払うことにもなりません。 |
+| 受験者がSSNを持っていない         | Refer to FCC support; this cannot be resolved at the session.                                                                      |
 
-## After the Session
+## セッション終了後
 
-The FRN is how the FCC contacts the applicant for payment. Once SANDARC submits the session, the
-FCC emails the applicant a payment link, and the **$35 fee must be paid within 10 calendar days**
-or the application is dismissed. See [Fees & Expense Reimbursement](../conduct-a-session/Fees-and-Reimbursement.md).
+FCC は FRN を使って支払いのために申請者に連絡します。 SANDARC がセッションを提出すると、FCC から申請者に支払いリンクがメールで送られ、**35 ドルの手数料を 10 暦日以内に支払う必要があります**。支払われない場合、申請は却下されます。 [手数料と経費精算](../conduct-a-session/Fees-and-Reimbursement.md)を参照してください。
 
 Remind new licensees that they cannot transmit until their license actually appears in
 [ULS](https://www.fcc.gov/wireless/universal-licensing-system).
