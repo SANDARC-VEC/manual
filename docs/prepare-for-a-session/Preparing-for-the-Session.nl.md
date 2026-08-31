@@ -1,25 +1,25 @@
-# Preparing for the Session
+# De sessie voorbereiden
 
-## ExamTools: Required Platform
+## ExamTools: verplicht platform
 
-!!! info "SANDARC Policy"
-    [ExamTools](https://exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from [ExamTools](https://exam.tools).
+!!! info "SANDARC-beleid"
+    [ExamTools](https://exam.tools) is het **ENIGE** geautoriseerde platform voor het genereren en afnemen van examens tijdens SANDARC-sessies. Andere examensoftware, gedrukt materiaal van externe bronnen of handmatig opgestelde examens mogen onder geen enkele omstandigheid worden gebruikt. Alle exameninhoud — of die nu op een tablet of computer wordt aangeboden of via GradeCam wordt afgedrukt — moet afkomstig zijn van [ExamTools](https://exam.tools).
 
-    Any deviation from this requirement must receive explicit prior written approval from the SANDARC VEC Manager. Sessions conducted outside of [ExamTools](https://exam.tools) without that approval will NOT be processed.
+    Elke afwijking van deze eis vereist voorafgaande uitdrukkelijke schriftelijke goedkeuring van de SANDARC VEC-manager. Sessies die buiten [ExamTools](https://exam.tools) worden gehouden zonder die goedkeuring worden NIET verwerkt.
     
-    [ExamTools](https://exam.tools) handles applicant registration, Form 605 generation, exam delivery (tablet, computer, or printed/GradeCam), grading, CSCE generation, and the session archive file that is submitted to SANDARC after the session.
+    [ExamTools](https://exam.tools) verzorgt de registratie van kandidaten, het genereren van Form 605, het aanbieden van het examen (tablet, computer of afgedrukt/GradeCam), het nakijken, het genereren van de CSCE en het sessiearchiefbestand dat na de sessie bij SANDARC wordt ingediend.
     
-    - Team Leads: create your session at [exam.tools](https://exam.tools)
-    - Applicants register and complete their application through [HamStudy](https://hamstudy.org/sessions)
+    - Teamleiders: maak uw sessie aan op [exam.tools](https://exam.tools)
+    - Kandidaten registreren zich en vullen hun aanvraag in via [HamStudy](https://hamstudy.org/sessions)
 
-[ExamTools](https://exam.tools) supports three in-person exam formats:
+[ExamTools](https://exam.tools) ondersteunt drie examenvormen voor sessies op locatie:
 
-- **Tablet/laptop:** applicants log in and take the exam in a browser; preferred method. Tablets locked to the [ExamTools](https://exam.tools) site are strongly recommended.
-- **Printed/GradeCam:** exams printed from [ExamTools](https://exam.tools), graded by photographing the answer sheet with the GradeCam feature.
-- **Hybrid:** some applicants use tablets, others use printed exams in the same session.
+- **Tablet/laptop:** kandidaten melden zich aan en maken het examen in een browser; voorkeursmethode. Tablets die vergrendeld zijn op de site van [ExamTools](https://exam.tools) worden sterk aanbevolen.
+- **Afgedrukt/GradeCam:** examens die vanuit [ExamTools](https://exam.tools) worden afgedrukt en worden nagekeken door het antwoordblad te fotograferen met de GradeCam-functie.
+- **Hybride:** sommige kandidaten gebruiken tablets, andere maken een afgedrukt examen in dezelfde sessie.
 
-## Test Site Requirements
+## Eisen aan de examenlocatie
 
-- The testing environment MUST be quiet and free from distractions. Observers are permitted (see [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), but anyone whose presence disrupts the exam should be asked to step out.
-- If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity MUST be conducted as quietly as possible.
-- Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
+- De examenomgeving MOET rustig zijn en vrij van afleiding. Waarnemers zijn toegestaan (zie [Familieleden en waarnemers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), maar iedereen wiens aanwezigheid het examen verstoort, moet worden verzocht de ruimte te verlaten.
+- Als kandidaten die na het examen hun papierwerk afronden zich in dezelfde ruimte bevinden als kandidaten die nog examen doen, MOETEN alle activiteiten na het examen zo stil mogelijk worden uitgevoerd.
+- Geschikte locaties zijn onder meer scholen, bibliotheken, buurthuizen, brandweerkazernes en vergaderruimtes van clubs.
