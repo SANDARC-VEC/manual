@@ -1,64 +1,64 @@
 # Being A Cool VE
 
-## A few Requirements the FCC imposes on becoming a Volunteer Examiner:
+## ボランティア試験官になるにあたり、FCCが定めている要件をいくつか挙げます：
 
-- Must be at least 18 years old
-- Never have had your amateur station or operator licenses suspended or revoked
-- Hold a valid General, Advanced or Extra Class license
+- 18歳以上であること
+- アマチュア局免許または従事者免許を停止・取り消しされたことが一度もないこと
+- 有効なGeneral級、Advanced級、またはExtra級の免許を保有していること
 
-## A requirement that SANDARC imposes on you becoming a VE:
+## VEになるにあたり、SANDARCが定めている要件：
 
 - Be cool
 
-## Becoming Accredited
+## 認定を受ける
 
-**Accreditation comes through a VE team. You cannot apply to SANDARC on your own.**
+**認定はVEチームを通じて行われます。 個人で直接SANDARCに申請することはできません。**
 
-SANDARC does not accept accreditation applications directly from individuals and does not recruit
-examiners itself. You become accredited by joining an existing SANDARC team, and your Team Lead
-submits the application on your behalf.
+SANDARCは個人からの認定申請を直接受け付けておらず、
+試験官の募集も自ら行っていません。 認定を受けるには、既存のSANDARCチームに加入し、チームリーダーが
+あなたに代わって申請を提出します。
 
-How it works:
+手順は次のとおりです：
 
-1. **Join a SANDARC VE team.** Team Leads identify and recruit their own members at their discretion.
-2. **Your Team Lead gives you their team's accreditation form.** Each team has a form unique to that
-   team — a form issued to a different team will not be accepted.
+1. **SANDARCのVEチームに加入する。** チームリーダーは各自の判断でメンバーを見つけ、勧誘しています。
+2. **チームリーダーからそのチーム専用の認定フォームを受け取る。** フォームはチームごとに固有のもので、
+   別のチームに発行されたフォームは受理されません。
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
-4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
+4. **チームリーダーがSANDARCに提出する。** ご自身で送付する必要はありません。
 
 !!! tip "Not on a team yet?"
-    Clubs affiliated with SANDARC are listed at [sandarc.org/clubs](https://sandarc.org/clubs). Find one
-    in your area, go to one of their exam sessions, and ask the Team Lead about joining. Upcoming
-    sessions are listed on [HamStudy](https://hamstudy.org/sessions).
+    SANDARCに加盟しているクラブは[sandarc.org/clubs](https://sandarc.org/clubs)に掲載されています。 Find one
+    in your area, go to one of their exam sessions, and ask the Team Lead about joining. 今後開催予定の
+    セッションは[HamStudy](https://hamstudy.org/sessions)に掲載されています。
 
-    Team Leads recruit their own members, so this is a conversation to have with them directly —
-    there is nothing to send to SANDARC first.
+    チームリーダーは自らメンバーを勧誘しているため、まずはチームリーダーに直接相談してください。
+    先にSANDARCへ何かを送る必要はありません。
 
-!!! success "Each application is processed on its own, right away"
-    SANDARC does **not** batch accreditations or hold them for a group. Every form is processed
-    individually the moment your Team Lead sends it in — usually almost instantly, and within 24
-    hours at the very outside.
+!!! success "申請は個別に、その場で処理されます"
+    SANDARCは認定をまとめて処理したり、グループ単位で保留したりすることは**ありません**。 すべてのフォームは、チームリーダーが送信した時点で
+    個別に処理されます。通常はほぼ即時、遅くとも24
+    時間以内には完了します。
 
-    Going through your Team Lead is about **who submits** the form, not about waiting for other
-    applicants.
+    チームリーダーを通すのは**誰がフォームを提出するか**という手続き上の問題であり、他の
+    申請者を待つためではありません。
 
-!!! note "Why accreditation goes through a team"
-    SANDARC only accepts sessions run by teams it has on file, so accreditation is tied to team
-    membership rather than granted to individuals.
+!!! note "認定がチームを通じて行われる理由"
+    SANDARCは登録済みのチームが実施するセッションのみを受け付けているため、認定は個人に付与されるものではなく、
+    チームへの所属に紐づいています。
 
-See [Becoming a SANDARC Volunteer Examiner](../start-a-team/Accrediting-a-VE.md) for the full
-process, including how long it takes and how to verify your status.
+所要期間やステータスの確認方法を含む詳しい手順については、
+[SANDARCのボランティア試験官になるには](../start-a-team/Accrediting-a-VE.md)をご覧ください。
 
-## Checking Accreditation
+## 認定状況を確認する
 
 - Once your Team Lead has submitted your VE application it will be processed within 24 hrs or your next accreditation is free!
-- You will receive an email from SANDARC with the accreditation certificate attached.
-- At the bottom of that certificate is a verification link if you paste that into a browser you will confirm your accreditation is valid, each url is unique to each VE.
+- SANDARCから認定証を添付したメールが届きます。
+- 認定証の下部には確認用リンクがあり、ブラウザに貼り付けると認定が有効であることを確認できます。URLはVEごとに固有のものです。
 
-## Maintaining Accreditation
+## 認定を維持する
 
-- Once you have become accredited you will be for as long as your license is active however you will only maintain access to [ExamTools](https://exam.tools) if you have participated in an exam every 2 years and once that two years has passed you will lose access and will need to reach back out to your team lead to regain access again.
+- 一度認定を受ければ、免許が有効である限り認定は維持されます。ただし[ExamTools](https://exam.tools)へのアクセスを維持できるのは、2年ごとに試験に参加している場合に限られます。その2年が経過するとアクセス権を失うため、再度アクセスするにはチームリーダーに連絡する必要があります。
 
-## SANDARC VE Badges
+## SANDARCのVEバッジ
 
-- In your accreditation email will be a link to order a badge but please note a badge is NOT required to participate in any VE session!
+- 認定メールにはバッジを注文するためのリンクが記載されていますが、VEセッションへの参加にバッジは必須ではありませんのでご注意ください！
