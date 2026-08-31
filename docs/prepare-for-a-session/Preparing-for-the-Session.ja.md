@@ -1,25 +1,25 @@
-# Preparing for the Session
+# セッションの準備
 
-## ExamTools: Required Platform
+## ExamTools:必須プラットフォーム
 
-!!! info "SANDARC Policy"
-    [ExamTools](https://exam.tools) is the **ONLY** authorized platform for generating and administering exams at SANDARC sessions. No other exam software, printed materials from outside sources, or manually created exams may be used under any circumstances. All exam content — whether delivered on a tablet, computer, or printed via GradeCam — must originate from [ExamTools](https://exam.tools).
+!!! info "SANDARC の方針"
+    [ExamTools](https://exam.tools) は、SANDARC のセッションで試験を作成・実施するために認められた **唯一** のプラットフォームです。 他の試験ソフトウェア、外部から入手した印刷教材、手作業で作成した試験問題は、いかなる場合も使用できません。 タブレット、コンピューター、GradeCam による印刷のいずれで実施する場合でも、すべての試験内容は [ExamTools](https://exam.tools) から出力されたものでなければなりません。
 
-    Any deviation from this requirement must receive explicit prior written approval from the SANDARC VEC Manager. Sessions conducted outside of [ExamTools](https://exam.tools) without that approval will NOT be processed.
+    この要件から逸脱する場合は、SANDARC VEC マネージャーによる事前の明示的な書面承認を得る必要があります。その承認なしに [ExamTools](https://exam.tools) 以外で実施されたセッションは処理されません。
     
-    [ExamTools](https://exam.tools) handles applicant registration, Form 605 generation, exam delivery (tablet, computer, or printed/GradeCam), grading, CSCE generation, and the session archive file that is submitted to SANDARC after the session.
+    [ExamTools](https://exam.tools) は、受験者の登録、Form 605 の作成、試験の実施(タブレット、コンピューター、印刷/GradeCam)、採点、CSCE の作成、そしてセッション終了後に SANDARC へ提出するセッションアーカイブファイルの作成までを処理します。
     
-    - Team Leads: create your session at [exam.tools](https://exam.tools)
-    - Applicants register and complete their application through [HamStudy](https://hamstudy.org/sessions)
+    - チームリード:[exam.tools](https://exam.tools) でセッションを作成してください
+    - 受験者は [HamStudy](https://hamstudy.org/sessions) から登録し、申請手続きを完了します
 
-[ExamTools](https://exam.tools) supports three in-person exam formats:
+[ExamTools](https://exam.tools) は、対面試験の三つの形式に対応しています：
 
-- **Tablet/laptop:** applicants log in and take the exam in a browser; preferred method. Tablets locked to the [ExamTools](https://exam.tools) site are strongly recommended.
-- **Printed/GradeCam:** exams printed from [ExamTools](https://exam.tools), graded by photographing the answer sheet with the GradeCam feature.
-- **Hybrid:** some applicants use tablets, others use printed exams in the same session.
+- **タブレット/ノートパソコン:** 受験者がログインし、ブラウザー上で受験します。推奨される方法です。 [ExamTools](https://exam.tools) のサイトのみを表示するようロックしたタブレットの使用を強く推奨します。
+- **印刷/GradeCam:** [ExamTools](https://exam.tools) から印刷した試験問題を使用し、解答用紙を GradeCam 機能で撮影して採点します。
+- **ハイブリッド:** 同一セッション内で、一部の受験者はタブレットを、他の受験者は印刷された試験問題を使用します。
 
-## Test Site Requirements
+## 試験会場の要件
 
-- The testing environment MUST be quiet and free from distractions. Observers are permitted (see [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers)), but anyone whose presence disrupts the exam should be asked to step out.
-- If applicants completing paperwork after the exam are in the same room as applicants still testing, all post-exam activity MUST be conducted as quietly as possible.
-- Suitable locations include schools, libraries, community centers, fire stations, and club meeting rooms.
+- 試験環境は静かで、気が散る要素がない状態でなければなりません。 見学者の立ち会いは認められていますが([家族および見学者](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers) を参照)、その場にいることで試験の妨げとなる人には退室を求めてください。
+- 試験終了後に書類を記入している受験者が、まだ受験中の受験者と同じ部屋にいる場合、試験後のすべての作業はできる限り静かに行わなければなりません。
+- 適した会場としては、学校、図書館、コミュニティセンター、消防署、クラブの会議室などが挙げられます。
