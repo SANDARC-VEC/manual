@@ -1,21 +1,21 @@
-# Working with Other VECs
+# Samenwerken met andere VEC's
 
 **Teams are free to work with other VECs in addition to SANDARC.
 However, please be mindful of the following circumstances:**
 
-## Scheduling Sessions Under Multiple VECs at the Same Time
+## Sessies gelijktijdig onder meerdere VEC's plannen
 
-There is no benefit in running one session under multiple VECs.
+Het heeft geen enkel voordeel om één sessie onder meerdere VEC's te laten verlopen.
 Please decide which VEC your team is affiliated with, and stick with it.
-Scheduling sessions on top of each other will just pollute the [HamStudy](https://hamstudy.org/) listing and ultimately confuse applicants.
+Sessies die elkaar overlappen, vervuilen alleen maar de [HamStudy](https://hamstudy.org/)-lijst en zorgen uiteindelijk voor verwarring bij kandidaten.
 
 !!! note
-    The only exception is when the other VEC reimburses students/youths for their FCC application fee. Still, you should hide the other session to avoid creating duplicate sessions on the [HamStudy](https://hamstudy.org/) listing.
+    De enige uitzondering is wanneer de andere VEC studenten/jongeren de FCC-aanvraagkosten vergoedt. Still, you should hide the other session to avoid creating duplicate sessions on the [HamStudy](https://hamstudy.org/) listing.
 
-SANDARC reserves the right to take action against teams who run concurrent sessions, a single session under multiple VECs,
-spreading applicants across multiple sessions, or employing other _innovative means to game the system_.
+SANDARC behoudt zich het recht voor om maatregelen te nemen tegen teams die gelijktijdige sessies houden, één sessie onder meerdere VEC's laten verlopen,
+kandidaten over meerdere sessies verspreiden of andere _innovatieve manieren gebruiken om het systeem te omzeilen_.
 
-## Branding and Publications
+## Branding en publicaties
 
-No branding of any other VECs is permitted at SANDARC exam sessions.
+Branding van andere VEC's is niet toegestaan tijdens SANDARC-examensessies.
 You are, however, encouraged to use your club logo and slogan at the exam sessions and promote your club.
