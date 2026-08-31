@@ -1,78 +1,78 @@
-# Registering Applicants
+# 受験者の登録
 
-## Creating Session on ExamTools
+## ExamTools でのセッション作成
 
-Once you have a set date and time for your session(s), you must create these sessions on [ExamTools](https://exam.tools).
-[ExamTools](https://exam.tools) will automatically list your sessions on [HamStudy](https://hamstudy.org/) which is where applicants will find and register for your session.
+セッションの日程と時刻が決まったら、[ExamTools](https://exam.tools) 上でこれらのセッション(s)を作成する必要があります。
+[ExamTools](https://exam.tools) は作成したセッションを自動的に [HamStudy](https://hamstudy.org/) に掲載します。受験者はここでセッションを見つけて登録します。
 
-[ExamTools](https://exam.tools) will give a handful of options to customize how your sessions are displayed on [HamStudy](https://hamstudy.org/).
+[ExamTools](https://exam.tools) では、セッションを [HamStudy](https://hamstudy.org/) にどのように表示するかをカスタマイズできる複数のオプションが用意されています。
 Please make use of these options to create a smooth user experience for your applicants.
 
-!!! warning "Applicants under 13"
-    An applicant under 13 cannot register on [HamStudy](https://hamstudy.org/) until their parent or guardian has submitted
-    the ExamTools COPPA Parental Consent Form. See
-    [Minors and the COPPA Process](COPPA-and-Minors.md) before scheduling a young applicant.
+!!! warning "13歳未満の受験者"
+    13歳未満の受験者は、保護者が ExamTools の COPPA 保護者同意フォームを提出するまで
+    [HamStudy](https://hamstudy.org/) に登録できません。 年少の受験者の日程を組む前に、
+    [未成年者と COPPA の手続き](COPPA-and-Minors.md) を参照してください。
 
-!!! warning "Known Bug"
-    [ExamTools](https://exam.tools) sets the SANDARC session fee to `NaN` by default. This is a known bug. Please manually reset this field to `0`.
+!!! warning "既知の不具合"
+    [ExamTools](https://exam.tools) では、SANDARC のセッション料金が既定で `NaN` に設定されます。 これは既知の不具合です。 Please manually reset this field to `0`.
 
-### Session Notes
+### セッションの注記
 
-When creating your session, [ExamTools](https://exam.tools) provides two note fields. These are the primary way
+セッションを作成する際、[ExamTools](https://exam.tools) には二つの注記欄が用意されています。 These are the primary way
 applicants learn the details of your session, so take the time to fill both out well.
 
-**Publicly visible notes** appear with your session listing on [HamStudy](https://hamstudy.org/) and are visible to
-everyone, including people who have not registered. This field supports
-[Markdown](https://www.markdownguide.org/), so you can use headers, bullets, links, and images (images must be
-hosted elsewhere). Include anything not already covered by the rest of the listing:
+**一般公開される注記** は [HamStudy](https://hamstudy.org/) のセッション掲載情報に表示され、未登録の人を含む
+すべての人が閲覧できます。 この欄は
+[Markdown](https://www.markdownguide.org/) に対応しているため、見出し、箇条書き、リンク、画像を使用できます（画像は
+外部でホストする必要があります）。 Include anything not already covered by the rest of the listing:
 
-- Any special rules your session has (walk-in policy, arrival time, what to bring, calculator policy, etc.)
-- A way for prospective applicants to contact your team, such as your team email address
-- For remote sessions: the time and time zone again, links to instructions, and how to pay
+- セッション独自の規定（当日受付の可否、集合時刻、持ち物、電卓の取り扱いなど）
+- 受験希望者がチームに連絡する手段。たとえばチームのメールアドレスなど
+- リモートセッションの場合：時刻とタイムゾーンの再掲、手順書へのリンク、支払い方法
 
-**Notes for applicant (email)** are emailed to applicants when they register for your session. They are never
-shown to anyone who has not registered, making this the right place for less-public information such as the
-video conference link for a remote session or specific directions to your physical location.
+**受験者向けの注記（メール）** は、受験者がセッションに登録した際にメールで送信されます。 未登録の人には一切
+表示されないため、リモートセッションのビデオ会議リンクや会場までの詳しい道順など、公開に適さない情報は
+こちらに記載します。
 
-!!! warning "Email notes replace the public notes — they do not add to them"
-    If the email notes field is filled in, it is emailed **instead of** the public notes. Copy over anything
-    from the public notes that applicants need in their registration email. If the email notes field is left
-    empty, the public notes are emailed instead.
+!!! warning "メール用の注記は公開注記を置き換えます — 追加されるのではありません"
+    メール用注記欄に入力がある場合、公開注記の**代わりに**その内容がメール送信されます。 Copy over anything
+    from the public notes that applicants need in their registration email. メール用注記欄を空欄にした場合は、
+    代わりに公開注記がメール送信されます。
 
-The templates below are a starting point for each field. Copy one, paste it into the matching field
+以下のテンプレートは、各欄を記入する際の出発点としてご利用ください。 Copy one, paste it into the matching field
 in [ExamTools](https://exam.tools), and replace the bracketed placeholders with your team's information.
 
-??? example "Template: Publicly visible notes"
+??? example "テンプレート：一般公開される注記"
 
     `markdown     ![SANDARC](https://assets.sandarc.org/logo/current-logo.png)          Join [Your Club Name] for a ham license exam! There are no fees to test     or upgrade your license.          Walk-ins are [welcome / not accepted] - please register for an FRN in     advance (or stop by and we can help!)          Questions? [team-email@example.org]     `
 
-??? example "Template: Notes for applicant (email)"
+??? example "テンプレート：受験者向けの注記（メール）"
 
-    `markdown     ![SANDARC](https://assets.sandarc.org/logo/current-logo.png)          This exam session is held at [location, with any specific directions:     building, room number, parking].          Questions? [team-email@example.org]          Please review these reminders:          1. Bring a pencil / pen / marking implement of your choice.     2. Bring one legal photo ID from this list: State Driver's License,        Government-issued Passport, Military or Law Enforcement Officer        Photo ID card, Student School Photo ID card, State Photo ID card.     3. If you are upgrading, bring a copy of your current license or        reference copy from the FCC CORES system.     4. [Your Club Name] does not provide calculators. Bring one if you        would prefer a physical calculator - an examiner must be able to        clear its memory. The online test software has a built-in digital        calculator.     `
+    `markdown     ![SANDARC](https://assets.sandarc.org/logo/current-logo.png)          This exam session is held at [location, with any specific directions:     building, room number, parking].          Questions? [team-email@example.org]          Please review these reminders:          1. Bring a pencil / pen / marking implement of your choice.     2. Bring one legal photo ID from this list: State Driver's License,        Government-issued Passport, Military or Law Enforcement Officer        Photo ID card, Student School Photo ID card, State Photo ID card.     3. 上級資格へのアップグレードの場合は、現在の免許のコピー、または        FCC CORES システムの参照用コピーをお持ちください。     4. [Your Club Name] では電卓の貸し出しは行っていません。 Bring one if you        would prefer a physical calculator - an examiner must be able to        clear its memory. オンライン試験ソフトウェアには、デジタル電卓が        内蔵されています。     `
 
-Review your listing carefully before saving.
+保存する前に、掲載内容をよく確認してください。
 
-Please refer to [ExamTools Documentation](https://docs.exam.tools) to learn more about scheduling your sessions on [ExamTools](https://exam.tools).
+[ExamTools](https://exam.tools) でのセッションのスケジュール設定について詳しくは、[ExamTools ドキュメント](https://docs.exam.tools)を参照してください。
 
-[ExamTools](https://exam.tools) in conjunction with [HamStudy](https://hamstudy.org/) is the only authorized platform to register applicants.
-Teams are encouraged to use other appropriate means to advertise their sessions such as your club's website and local nets,
-in which case you should direct applicants to [HamStudy](https://hamstudy.org/) to register for your session.
+[HamStudy](https://hamstudy.org/) と連携した [ExamTools](https://exam.tools) が、受験者を登録できる唯一の公認プラットフォームです。
+各チームは、クラブのウェブサイトや地域のネットなど、他の適切な手段でセッションを告知することが推奨されます。
+その場合は、受験者に [HamStudy](https://hamstudy.org/) でセッションに登録するよう案内してください。
 
-## ARRL VEC Session Listing
+## ARRL VEC のセッション一覧
 
-A substantial number of applicants use the ARRL VEC Session listing to find local exam sessions.
-The ARRL VEC will list non-ARRL sessions on their website as a courtesy, and we encourage all teams to
-take advantage of this opportunity.
-All you need to do is submit a [session registration form](https://www.arrl.org/non-arrl-exam-session-form) to the ARRL VEC.
-It is best to submit your team email along with this form and when applicants get in touch with you, please direct them to your session
-on [HamStudy](https://hamstudy.org/) to complete their registration.
+多くの受験者が、地元の試験セッションを探すために ARRL VEC のセッション一覧を利用しています。
+ARRL VEC は厚意により ARRL 以外のセッションも自らのウェブサイトに掲載しています。すべてのチームがこの機会を
+活用することをお勧めします。
+必要なのは、ARRL VEC に[セッション登録フォーム](https://www.arrl.org/non-arrl-exam-session-form)を提出することだけです。
+このフォームにはチームのメールアドレスを併せて記載するのが望ましく、受験者から連絡があった際は、登録を完了できるよう
+[HamStudy](https://hamstudy.org/) 上のご自分のセッションへ案内してください。
 
-## Registering Walk-in Applicants
+## 当日飛び込み受験者の登録
 
-If your team allows applicants to walk in, they should register similar to other applicants via [HamStudy](https://hamstudy.org/).
+チームが当日の飛び込み受験を認めている場合でも、その受験者は他の受験者と同様に [HamStudy](https://hamstudy.org/) から登録する必要があります。
 
-It is worth noting that there is a feature on [ExamTools](https://exam.tools) that allows you to bypass [HamStudy](https://hamstudy.org/) and directly add applicants to your session.
-**Please refrain from using this feature unless under extenuating circumstances.**
-Applicants must complete the entirety of the registration process on [HamStudy](https://hamstudy.org/) which entails agreeing to [ExamTools](https://exam.tools) ToS,
-providing personal info, which later will be used on their form NCVEC 605 and answering the felony question.
-Applicants also need an FRN before their application can be processed — see [Getting an FRN](Getting-an-FRN.md).
+なお、[ExamTools](https://exam.tools) には [HamStudy](https://hamstudy.org/) を経由せずに受験者を直接セッションへ追加できる機能があります。
+**やむを得ない事情がある場合を除き、この機能の使用は控えてください。**
+受験者は [HamStudy](https://hamstudy.org/) 上で登録手続きをすべて完了する必要があります。この手続きには、[ExamTools](https://exam.tools) の利用規約への同意、
+後に NCVEC 605 フォームで使用される個人情報の入力、および重罪に関する質問への回答が含まれます。
+また、申請を処理するには受験者に FRN が必要です。[FRN の取得](Getting-an-FRN.md)を参照してください。
