@@ -1,79 +1,77 @@
-# Remote Testing
+# リモート試験
 
-SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.tools) combined with a video conferencing platform (Zoom, Google Meet, or any other suitable platform). Remote sessions follow the same FCC rules and SANDARC policies as in-person sessions, with the additional requirements in this section.
+SANDARCでは、[ExamTools](https://exam.tools)とビデオ会議プラットフォーム（Zoom、Google Meet、またはその他の適切なプラットフォーム）を組み合わせて実施するリモート試験セッションに対応しています。 リモートセッションには、対面セッションと同じFCC規則およびSANDARCの方針が適用され、さらに本セクションの追加要件が加わります。
 
-!!! info "SANDARC Policy"
-    - All recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
-    - The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, or exam screens) and are never used to monitor applicants or document suspected cheating.
+!!! info "SANDARCの方針"
+    - SANDARCのリモートセッションでは、あらゆる録音・録画が禁止されています。 セッション、受験者の身分証明書、試験画面、その他セッション中の活動を録音・録画しないでください。 これはすべてのVEおよび受験者に適用されます。
+    - 唯一の例外として、SANDARCの広報を目的とした静止画の撮影は歓迎されます。ただし、個人情報（身分証明書、Form 605、試験画面）が決して写り込まないこと、また受験者の監視や不正行為の疑いの記録に決して使用しないことが条件です。
 
-## Disabling AI Assistants, Note-Taking, and Recording
+## AIアシスタント、メモ作成機能、録画機能の無効化
 
-AI meeting assistants transcribe and summarize everything said in a session — that is a
-recording, and it is prohibited at SANDARC sessions just like any other recording. Both
-platforms now ship with these features, so the hosting team must switch them off
-**before** the session.
+AIミーティングアシスタントは、セッション中に話された内容をすべて文字起こしして要約します。これは
+記録に該当するため、他の録音・録画と同様にSANDARCのセッションでは禁止されています。 どちらの
+プラットフォームにも現在これらの機能が標準搭載されているため、主催チームはセッションの**前に**
+これらをオフにする必要があります。
 
 ### Zoom
 
-- In the [Zoom web portal](https://zoom.us) under **Settings → AI Companion**, turn off
-  **Meeting Summary with AI Companion**, **AI Companion Questions**, and any other AI
-  Companion features. Account admins can instead use the universal
-  [Zoom AI toggle](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076668)
-  (Admin Center → **Settings → Zoom AI**) to shut off all AI features at once.
-- Under **Settings → Recording**, turn off **Local recording**, **Cloud recording**, and
-  **Automatic recording**. With these disabled, participants cannot record either.
-- If AI Companion is somehow active in a meeting (participants see an on-screen notice
-  and a sparkle icon), the host clicks the **AI Companion** icon and selects
-  **Stop summary**, then **Turn off**.
+- [Zoomウェブポータル](https://zoom.us)の\*\*「設定 → AI Companion」**で、
+  **「AI Companionによるミーティング要約」**、**「AI Companionの質問機能」\*\*、およびその他のAI
+  Companion機能をオフにします。 アカウント管理者は、代わりに一括設定の
+  [Zoom AIトグル](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076668)
+  （管理者センター → **「設定 → Zoom AI」**）を使用して、すべてのAI機能を一度にオフにすることもできます。
+- **「設定 → レコーディング」**で、**「ローカルレコーディング」**、**「クラウドレコーディング」**、
+  \*\*「自動レコーディング」\*\*をオフにします。 これらを無効にすると、参加者も録画できなくなります。
+- 何らかの理由でミーティング中にAI Companionが有効になっている場合（参加者に画面上の通知と
+  きらめきアイコンが表示されます）、ホストは\*\*「AI Companion」**アイコンをクリックし、
+  **「要約を停止」**、続いて**「オフにする」\*\*を選択します。
 
 ### Google Meet
 
-- Gemini's **"Take notes for me"**, meeting **transcripts**, and **recording** are three
-  separate features — all three must stay off. Unlike Zoom, there is no per-meeting
-  setting to disable them ahead of time: they remain available in the meeting (including
-  on the SANDARC-provided account), so it is on the hosting team to make sure none of
-  them is ever started.
-- Turn **Host management** on for the meeting. Then only the host and co-hosts can start
-  notes, transcripts, or a recording — and they simply never do.
-- If Gemini note-taking is running, a pencil icon is visible to everyone and the host
-  can stop it from the same
-  ["Take notes for me"](https://support.google.com/meet/answer/14754931) control.
+- Geminiの\*\*「メモを作成」**、ミーティングの**文字起こし\*\*、**録画**は、それぞれ
+  別々の機能であり、いずれもオフのままにしておく必要があります。 Zoomとは異なり、事前にこれらを無効化する
+  ミーティング単位の設定はありません。ミーティング中は（SANDARC提供のアカウントでも）利用可能な
+  ままとなるため、いずれも決して開始されないようにするのは主催チームの責任です。
+- そのミーティングで\*\*「主催者の管理機能」\*\*をオンにします。 そうすれば、メモ、文字起こし、録画を開始できるのは
+  主催者と共同主催者だけになります。あとは決して開始しなければよいのです。
+- Geminiのメモ作成機能が実行中の場合、全員に鉛筆アイコンが表示され、主催者は同じ
+  [「メモを作成」](https://support.google.com/meet/answer/14754931)コントロールから停止できます。
 
-### Third-Party Notetaker Bots
+### サードパーティ製メモ作成ボット
 
-Applicants and VEs sometimes have AI notetakers (Otter.ai, Fireflies, Read.ai, and
-similar) hooked to their calendars; these join meetings as ordinary participants,
-usually with a name like "Fred's Otter.ai". The waiting room (Zoom) or knocking
-(Google Meet) is your checkpoint: never admit a bot, and immediately remove any that
-appears in the participant list mid-session.
+受験者やVEが、AIメモ作成ツール（Otter.ai、Fireflies、Read.aiなど）を
+カレンダーに連携させている場合があります。これらは通常の参加者としてミーティングに参加し、
+多くの場合「Fred's Otter.ai」のような名前で表示されます。 待機室（Zoom）またはノック機能
+（Google Meet）が確認のポイントです。ボットは決して入室させず、セッション中に参加者リストに
+現れた場合は直ちに削除してください。
 
-## VE Technical Requirements for Remote Sessions
+## リモートセッションにおけるVEの技術要件
 
-- Working computer or laptop with a webcam, microphone, and speaker.
-- Reliable internet connection.
-- Zoom (or another agreed platform) is installed and tested before the session.
-- Test your camera, microphone, and speaker before each remote session.
+- ウェブカメラ、マイク、スピーカーを備えた正常に動作するデスクトップまたはノートパソコン。
+- 安定したインターネット接続。
+- セッション前にZoom（または合意した他のプラットフォーム）をインストールし、動作確認を済ませておくこと。
+- リモートセッションのたびに、カメラ、マイク、スピーカーをテストしてください。
 
-## Applicant Technical Requirements for Remote Sessions
+## リモートセッションにおける受験者の技術要件
 
-- Working computer, laptop, tablet, or phone with a webcam, microphone, and speaker. No headphones or earbuds are permitted.
-- Reliable internet connection.
-- Zoom (or agreed platform).
-- Only one active monitor or screen. Additional monitors must be disconnected or covered.
-- No virtual or blurred backgrounds.
+- ウェブカメラ、マイク、スピーカーを備えた正常に動作するデスクトップパソコン、ノートパソコン、タブレット、またはスマートフォン。 ヘッドホンやイヤホンの使用は認められません。
+- 安定したインターネット接続。
+- Zoom（または合意したプラットフォーム）。
+- 使用できるモニターまたは画面は一つのみ。 追加のモニターは取り外すか、覆っておく必要があります。
+- バーチャル背景やぼかし背景の使用は不可。
 
-Most teams run remote sessions using breakout rooms — a main room as the lobby and a
-private room per applicant under exam. See [Breakout Rooms](Breakout-Rooms.md) for
-platform-specific setup on Zoom and Google Meet.
+多くのチームは、ブレイクアウトルームを使ってリモートセッションを運営しています。メインルームをロビーとし、
+受験中の受験者ごとに個別のルームを用意します。 ZoomおよびGoogle Meetでのプラットフォーム別の設定方法については、
+[ブレイクアウトルーム](Breakout-Rooms.md)を参照してください。
 
-## Remote Session Procedures
+## リモートセッションの手順
 
-1. Start the video conference early so VEs can convene before applicants arrive.
-2. Verify the applicant's identity via camera by visually inspecting their photo ID. Do not record or photograph the ID.
-3. Conduct a 360° slow camera pan of the room to verify no unauthorized materials are present. Check the desk, floor near the testing area, and walls for notes, posters, or whiteboards.
-4. Verify the desktop is clear. The only items permitted are the computer, keyboard, mouse, one sheet of scratch paper, and a writing instrument. Physical calculators are **not** authorized for remote exams.
-5. Have the applicant share their screen and open [ExamTools](https://exam.tools). Verify no unauthorized programs are running.
-6. Instruct the applicant of the exam rules and begin the exam.
-7. VEs will turn off cameras while the applicant is taking the exam; mute microphones unless speaking.
-8. If the applicant looks away from the exam area repeatedly, warn them; further violations terminate the exam.
+1. 受験者が入室する前にVEが集まれるよう、ビデオ会議を早めに開始します。
+2. カメラ越しに写真付き身分証明書を目視で確認し、受験者の本人確認を行います。 身分証明書を録画・撮影しないでください。
+3. カメラをゆっくり360°回して部屋を映してもらい、許可されていない資料がないことを確認します。 机の上、試験場所付近の床、壁を確認し、メモ、ポスター、ホワイトボードなどがないかチェックします。
+4. Verify the desktop is clear. 持ち込みが許可されるのは、パソコン、キーボード、マウス、メモ用紙一枚、筆記用具のみです。 リモート試験では、実物の電卓の使用は**認められていません**。
+5. 受験者に画面を共有させ、[ExamTools](https://exam.tools) を開かせます。 許可されていないプログラムが実行されていないことを確認します。
+6. 受験者に試験のルールを説明し、試験を開始します。
+7. 受験者が試験を受けている間、VE はカメラをオフにし、発言する場合を除いてマイクをミュートにします。
+8. 受験者が試験エリアから繰り返し目をそらす場合は警告し、それ以降も違反が続く場合は試験を中止します。
 9. If the video connection drops please contact the team lead immediately. You can evict the applicant until they rejoin the video chat, or if the connection drop is too long you may need to invalidate the exam entirely!
