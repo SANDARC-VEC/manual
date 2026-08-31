@@ -1,153 +1,154 @@
-# Breakout Rooms
+# Breakout rooms
 
-Breakout rooms let you split one video conference into separate private rooms, which maps
-naturally onto a remote exam session:
+Met breakout rooms kun je één videovergadering opsplitsen in afzonderlijke privéruimtes,
+wat naadloos aansluit op een examensessie op afstand:
 
-- **Main room:** the lobby. Applicants arrive here, are greeted, and wait their turn.
-- **One breakout room per applicant under exam:** the applicant plus the three VEs
-  observing them. Audio, video, and chat in a breakout room are private to that room, so
-  multiple applicants can test simultaneously without disturbing each other.
-- **A spare room** is handy for private ID verification or VE-only discussion.
+- **Hoofdruimte:** de lobby. Kandidaten komen hier binnen, worden verwelkomd en wachten op hun beurt.
+- **Eén breakout room per kandidaat die examen doet:** de kandidaat plus de drie VE's
+  die hem of haar observeren. Audio, video en chat in een breakout room zijn privé binnen die ruimte, zodat
+  meerdere kandidaten tegelijk examen kunnen doen zonder elkaar te storen.
+- **Een extra ruimte** is handig voor privé-identiteitscontrole of overleg tussen VE's onderling.
 
-Both Zoom and Google Meet support breakout rooms, but they behave differently in ways
-that matter for an exam session. Details for each platform are below.
+Zowel Zoom als Google Meet ondersteunen breakout rooms, maar ze gedragen zich anders op
+manieren die van belang zijn voor een examensessie. Hieronder vind je de details voor elk platform.
 
 ## Zoom
 
-Zoom's breakout rooms are the more capable of the two: rooms can be pre-built before the
-meeting, participants can be locked into their rooms, and hosts can broadcast to every
-room at once. See Zoom's
-[Managing meeting breakout rooms](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062540)
-for the full reference.
+De breakout rooms van Zoom zijn van de twee het meest uitgebreid: ruimtes kunnen vóór de
+vergadering worden aangemaakt, deelnemers kunnen in hun ruimte worden vastgezet en hosts
+kunnen naar alle ruimtes tegelijk uitzenden. Zie Zooms
+[Breakout rooms in vergaderingen beheren](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0062540)
+voor de volledige naslaginformatie.
 
-### Before the meeting
+### Vóór de vergadering
 
-Breakout rooms must be enabled for your account before they appear in a meeting. In the
-Zoom **web portal** (not the desktop app), go to **Settings → Meeting → In Meeting
-(Advanced)** and confirm **Meeting breakout rooms** is on. Enable the
-**Assign participants to breakout rooms when scheduling** sub-option if you want to
-pre-build rooms.
+Breakout rooms moeten voor je account ingeschakeld zijn voordat ze in een vergadering verschijnen. Ga in het
+Zoom-**webportaal** (niet de desktop-app) naar **Instellingen → Vergadering → In vergadering
+(geavanceerd)** en controleer of **Breakout rooms in vergaderingen** aan staat. Schakel de
+subinstelling **Deelnemers bij het plannen aan breakout rooms toewijzen** in als je ruimtes
+vooraf wilt aanmaken.
 
-With that enabled, you can pre-assign rooms while scheduling the meeting: check
-**Breakout Room pre-assign** in the meeting options, then either build rooms in the
-web portal (add participants by email) or import a CSV using Zoom's template. Limits are
-100 rooms and 1,000 pre-assigned participants.
+Als dat is ingeschakeld, kun je ruimtes vooraf toewijzen bij het plannen van de vergadering: vink
+**Breakout room vooraf toewijzen** aan bij de vergaderopties en maak vervolgens ruimtes aan in het
+webportaal (deelnemers toevoegen op e-mailadres) of importeer een CSV-bestand met de sjabloon van Zoom. De limieten zijn
+100 ruimtes en 1.000 vooraf toegewezen deelnemers.
 
-!!! warning "Pre-assignment only works for signed-in Zoom users"
-    A pre-assignment only takes effect if the participant joins **signed in to the Zoom
-    account matching the email you pre-assigned**. Applicants frequently join from a
-    bare meeting link without a Zoom account, so their pre-assignment silently fails and
-    they land in the main room. Pre-assignments are also only applied the **first** time
-    rooms are opened.
+!!! warning "Vooraf toewijzen werkt alleen voor aangemelde Zoom-gebruikers"
+    Een vooraf toegewezen plaatsing werkt alleen als de deelnemer deelneemt terwijl hij of zij
+    **is aangemeld bij het Zoom-account dat hoort bij het e-mailadres dat je vooraf hebt toegewezen**. Kandidaten nemen vaak deel via
+    een kale vergaderlink zonder Zoom-account, waardoor hun voorafgaande toewijzing stilzwijgend
+    mislukt en ze in de hoofdruimte terechtkomen. Voorafgaande toewijzingen worden bovendien alleen de **eerste** keer
+    toegepast dat de ruimtes worden geopend.
 
-    The reliable pattern: pre-assign only your **VEs** (who can be told to sign in), and
-    drag applicants into rooms manually during the session.
+    De betrouwbare aanpak: wijs alleen je **VE's** vooraf toe (die kun je vragen zich aan te melden) en
+    sleep kandidaten tijdens de sessie handmatig naar de ruimtes.
 
-### During the meeting
+### Tijdens de vergadering
 
-1. Click **Breakout Rooms** in the meeting toolbar.
-2. Choose the number of rooms and an assignment mode: **Assign automatically**,
-   **Assign manually**, or **Let participants choose room**. For an exam session, choose
-   **Assign manually**.
-3. Click **Create**. Rooms are built but not opened yet — you can rename rooms
-   (e.g. "Exam Room 1") and drag participants in.
-4. Click **Open All Rooms** when ready.
+1. Klik op **Breakout rooms** in de werkbalk van de vergadering.
+2. Kies het aantal ruimtes en een toewijzingsmodus: **Automatisch toewijzen**,
+   **Handmatig toewijzen** of **Deelnemers ruimte laten kiezen**. Kies voor een examensessie
+   **Handmatig toewijzen**.
+3. Klik op **Maken**. De ruimtes zijn aangemaakt, maar nog niet geopend — je kunt ruimtes hernoemen
+   (bijv. "Examenruimte 1") en deelnemers erin slepen.
+4. Klik op **Alle ruimtes openen** wanneer je klaar bent.
 
-While rooms are open, the host and co-hosts can move freely between rooms, move
-participants between rooms, and **broadcast a text message or their microphone audio to
-every room at once** — useful for announcements like "session ends in 15 minutes."
-Participants in a room can click **Ask for Help**, which pings the host to join their
-room. Make your VE team co-hosts so they share these controls.
+Zolang de ruimtes open zijn, kunnen de host en co-hosts vrij tussen de ruimtes bewegen, deelnemers
+tussen ruimtes verplaatsen en **een tekstbericht of hun microfoongeluid naar alle ruimtes tegelijk
+uitzenden** — handig voor mededelingen zoals "de sessie eindigt over 15 minuten".
+Deelnemers in een ruimte kunnen op **Om hulp vragen** klikken, waarmee de host een melding krijgt om
+naar hun ruimte te komen. Maak je VE-team co-host zodat zij over dezelfde bedieningsopties beschikken.
 
-Clicking **Close All Rooms** starts a 60-second countdown visible to everyone, after
-which participants return to the main room.
+Klikken op **Alle ruimtes sluiten** start een aftelling van 60 seconden die voor iedereen zichtbaar is,
+waarna de deelnemers terugkeren naar de hoofdruimte.
 
-### Recommended Zoom settings for exam sessions
+### Aanbevolen Zoom-instellingen voor examensessies
 
-In the breakout rooms **Options** panel (gear icon), change these defaults:
+Wijzig in het paneel **Opties** van de breakout rooms (tandwielpictogram) deze standaardinstellingen:
 
-- **Uncheck "Allow participants to choose room"** — applicants go where VEs put them.
-- **Uncheck "Allow participants to return to the main session at any time"** — the
-  applicant stays in their exam room until the VEs release them; they use **Ask for
-  Help** if they need the host.
-- **Check "Automatically move all assigned participants into breakout rooms"** — without
-  this, each participant must click an invitation to join, which confuses first-timers.
-- **Leave "Auto close breakout rooms after X minutes" off** — exams are untimed; a
-  countdown timer appearing mid-exam is exactly the distraction you don't want.
+- **Vink "Deelnemers toestaan een ruimte te kiezen" uit** — kandidaten gaan waar de VE's hen plaatsen.
+- **Vink "Deelnemers toestaan op elk moment terug te keren naar de hoofdsessie" uit** — de
+  kandidaat blijft in zijn of haar examenruimte tot de VE's hem of haar vrijgeven; hij of zij gebruikt **Om
+  hulp vragen** als de host nodig is.
+- **Vink "Alle toegewezen deelnemers automatisch naar breakout rooms verplaatsen" aan** — zonder
+  dit moet elke deelnemer op een uitnodiging klikken om deel te nemen, wat verwarrend is voor wie het
+  voor het eerst meemaakt.
+- **Laat "Breakout rooms automatisch sluiten na X minuten" uit staan** — examens zijn niet aan tijd
+  gebonden; een afteltimer die midden in het examen verschijnt, is precies de afleiding die je niet wilt.
 
-In the meeting itself:
+In de vergadering zelf:
 
-- **Enable the Waiting Room** so applicants can be admitted one at a time for check-in.
-- **Mute participants upon entry.**
-- Set screen sharing to **All Participants** (**Security** menu or **Share Screen**
-  arrow → Advanced Sharing Options). Some accounts default to host-only sharing, which
-  blocks the applicant screen-share required by the
-  [Remote Session Procedures](Remote-Testing.md#remote-session-procedures).
+- **Schakel de wachtkamer in** zodat kandidaten één voor één kunnen worden toegelaten voor de check-in.
+- **Deelnemers dempen bij binnenkomst.**
+- Stel schermdelen in op **Alle deelnemers** (menu **Beveiliging** of pijltje bij **Scherm delen**
+  → Geavanceerde opties voor delen). Bij sommige accounts staat delen standaard alleen voor de host aan, waardoor
+  het schermdelen door de kandidaat wordt geblokkeerd dat vereist is volgens de
+  [Procedures voor sessies op afstand](Remote-Testing.md#remote-session-procedures).
 
 ## Google Meet
 
-!!! warning "Breakout rooms require a paid Google Workspace edition"
-    Breakout rooms are **not available on free personal Google accounts** or Business
-    Starter. The meeting host needs an eligible edition such as Business Standard/Plus,
-    Enterprise, Education Plus, the Teaching and Learning Upgrade, or Workspace
-    Individual. Anyone (including free accounts) can _join_ a breakout room; only
-    creating them is restricted.
+!!! warning "Voor breakout rooms is een betaalde Google Workspace-editie vereist"
+    Breakout rooms zijn **niet beschikbaar bij gratis persoonlijke Google-accounts** of bij
+    Business Starter. De host van de vergadering heeft een geschikte editie nodig, zoals Business Standard/Plus,
+    Enterprise, Education Plus, de Teaching and Learning Upgrade of Workspace
+    Individual. Iedereen (ook met een gratis account) kan _deelnemen_ aan een breakout room; alleen het
+    aanmaken ervan is beperkt.
 
-    SANDARC maintains a paid account that teams can use to host sessions with Meet
-    breakout rooms — contact the VEC at [vec@sandarc.org](mailto:vec@sandarc.org) (see
-    [Key Contacts](../../Intro/Key-Contacts.md)) to arrange access.
+    SANDARC beschikt over een betaald account dat teams kunnen gebruiken om sessies met
+    breakoutrooms in Meet te hosten — neem contact op met de VEC via [vec@sandarc.org](mailto:vec@sandarc.org) (zie
+    [Belangrijke contactpersonen](../../Intro/Key-Contacts.md)) om toegang te regelen.
 
-See Google's
-[Use breakout rooms in Google Meet](https://support.google.com/meet/answer/13054147)
-host guide for the full reference.
+Zie de hostgids van Google,
+[Breakoutrooms gebruiken in Google Meet](https://support.google.com/meet/answer/13054147),
+voor de volledige naslaginformatie.
 
-### Before the meeting
+### Vóór de vergadering
 
-Rooms can be pre-built from Google Calendar when creating or editing the event:
+Rooms kunnen vooraf worden aangemaakt in Google Agenda bij het maken of bewerken van het evenement:
 
-1. In the event, click **Add Google Meet video conferencing**, then the gear icon
-   (**Change conference settings**).
-2. Select **Breakout rooms** in the left menu.
-3. Choose the number of rooms (up to 100), then drag invitees into rooms, type names
-   directly, or shuffle randomly.
+1. Klik in het evenement op **Google Meet-videovergadering toevoegen** en daarna op het tandwielpictogram
+   (**Instellingen voor videovergadering wijzigen**).
+2. Selecteer **Breakoutrooms** in het menu links.
+3. Kies het aantal rooms (maximaal 100) en sleep vervolgens genodigden naar de rooms, typ namen
+   direct in of verdeel ze willekeurig.
 4. Save.
 
-This works well for pre-assigning VEs to their exam rooms. As with Zoom, applicants who
-join by link rather than as signed-in invitees will need to be placed manually.
+Dit werkt goed om VE's vooraf aan hun examenroom toe te wijzen. Net als bij Zoom moeten kandidaten die
+via een link deelnemen in plaats van als ingelogde genodigde, handmatig worden ingedeeld.
 
-### During the meeting
+### Tijdens de vergadering
 
-1. Click the **Meeting tools** button (bottom right), then **Breakout rooms**. This is
-   only available to the **meeting host**, and only from a **computer browser** — rooms
-   cannot be created or managed from the mobile app.
-2. Choose the number of rooms, distribute participants manually or shuffle, and click
-   **Open rooms**.
+1. Klik op de knop **Vergaderingstools** (rechtsonder) en daarna op **Breakoutrooms**. Dit is
+   alleen beschikbaar voor de **host van de vergadering** en alleen via een **browser op een computer** — rooms
+   kunnen niet worden aangemaakt of beheerd via de mobiele app.
+2. Kies het aantal rooms, verdeel de deelnemers handmatig of willekeurig en klik op
+   **Rooms openen**.
 
-The host can join any room to observe, edit assignments while rooms are open, and click
-**End rooms** to bring everyone back. Participants get an **Ask for help** button that
-notifies the host. An optional timer can auto-end rooms with a 30-second warning — as
-with Zoom, **leave the timer off** for untimed exams.
+De host kan elke room binnengaan om mee te kijken, de indeling aanpassen terwijl de rooms open zijn en op
+**Rooms beëindigen** klikken om iedereen terug te halen. Deelnemers krijgen een knop **Om hulp vragen** waarmee
+de host een melding krijgt. Een optionele timer kan de rooms automatisch beëindigen met een waarschuwing van 30 seconden — laat,
+net als bij Zoom, **de timer uitgeschakeld** voor examens zonder tijdslimiet.
 
-### Google Meet limitations to plan around
+### Beperkingen van Google Meet waarmee je rekening moet houden
 
-- **Participants can always leave their room.** Meet shows every breakout participant a
-  **Return to main call** control and there is no way to lock them in. VEs in each exam
-  room must watch that their applicant stays put; an applicant bouncing to the main room
-  mid-exam should be treated like any other exam-area violation.
-- **There is no broadcast to all rooms.** To make an announcement, visit each room in
-  turn or end the rooms.
-- **Breakout chat is ephemeral** — messages sent in a room are deleted when the room
-  ends, and the host cannot see messages sent while they were not in the room.
-- Dial-in phone participants cannot use **Ask for help**, and third-party conferencing
-  hardware cannot join breakout rooms at all.
+- **Deelnemers kunnen hun room altijd verlaten.** Meet toont elke breakoutdeelnemer de optie
+  **Terug naar hoofdgesprek** en er is geen manier om ze vast te zetten. De VE's in elke examenroom
+  moeten erop letten dat hun kandidaat blijft zitten; een kandidaat die tijdens het examen naar de hoofdroom
+  overstapt, moet worden behandeld als elke andere overtreding in het examengebied.
+- **Er is geen mogelijkheid om naar alle rooms te broadcasten.** Om een mededeling te doen, ga je één
+  voor één elke room binnen of beëindig je de rooms.
+- **Chat in een breakoutroom is tijdelijk** — berichten die in een room zijn verstuurd, worden verwijderd wanneer de room
+  wordt beëindigd, en de host kan geen berichten zien die zijn verstuurd toen hij niet in de room was.
+- Deelnemers die inbellen via de telefoon kunnen **Om hulp vragen** niet gebruiken, en vergaderhardware van
+  derden kan helemaal niet aan breakoutrooms deelnemen.
 
-## Zoom vs. Google Meet at a glance
+## Zoom vs. Google Meet in één oogopslag
 
-| Capability                         | Zoom                                       | Google Meet                                                                 |
-| ---------------------------------- | ------------------------------------------ | --------------------------------------------------------------------------- |
-| Pre-build rooms before the meeting | Yes (web portal or CSV) | Yes (Calendar event)                                     |
-| Who can manage rooms               | Host and co-hosts                          | Host only, computer browser only                                            |
-| Keep applicants in their room      | Yes (option)            | No — participants can always return                                         |
-| Broadcast to all rooms             | Yes (text and audio)    | No                                                                          |
-| Ask for help button                | Yes                                        | Yes (not for dial-in)                                    |
-| Extra cost                         | Included in free and paid plans            | Paid Workspace editions only (SANDARC account available) |
+| Mogelijkheid                              | Zoom                                          | Google Meet                                                                        |
+| ----------------------------------------- | --------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Rooms vooraf aanmaken vóór de vergadering | Ja (webportal of CSV)      | Ja (agenda-item)                                                |
+| Wie rooms kan beheren                     | Host en co-hosts                              | Alleen de host, alleen via een browser op een computer                             |
+| Kandidaten in hun room houden             | Ja (optie)                 | Nee — deelnemers kunnen altijd terugkeren                                          |
+| Broadcasten naar alle rooms               | Ja (tekst en audio)        | Nee                                                                                |
+| Knop Om hulp vragen                       | Ja                                            | Ja (niet voor inbellers)                                        |
+| Extra kosten                              | Inbegrepen in gratis en betaalde abonnementen | Alleen betaalde Workspace-edities (SANDARC-account beschikbaar) |
