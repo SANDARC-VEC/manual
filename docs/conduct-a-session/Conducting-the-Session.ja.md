@@ -1,118 +1,115 @@
-# Conducting the Session
+# セッションの運営
 
-## Applicant Check-In
+## 受験者の受付
 
-1. Greet each applicant warmly. Many are nervous, so a friendly welcome goes a long way.
-2. Verify photo identification. Acceptable forms include any government-issued photo ID (driver's license, passport, state ID card, military ID, etc.). For applicants under 18 who do not have a government-issued photo ID, a parent or guardian may present their own ID and confirm the applicant's identity.
-3. Confirm the applicant's name on Form 605 matches their ID. For upgrades, confirm that the ID, existing license, and Form 605 all refer to the same person.
-4. Confirm the FRN is present on Form 605 and that the applicant has answered the Basic Qualification Question (BQQ), the felony question. If the applicant answered **yes**, see [Felony Question Information](Felony-Question.md) for the steps they must follow.
-5. Review any element credit documents the applicant has brought. If element credit is required, update [ExamTools](https://exam.tools) with the credit.
-6. Add the applicant to the [ExamTools](https://exam.tools) session roster.
-
-!!! note
-    Do not write down any numbers from the applicant's ID. Do not photograph or video the ID. Examining both sides of a physical ID card is good practice, since some fraudulent IDs appear valid on the front but are blank on the back. If you do not feel comfortable with the ID presented, please let the team lead make the decision on whether to proceed with the applicant testing.
-
-## Element Credit
-
-Applicants may receive credit for exam elements based on their current or former license class, or a valid CSCE from a previous session. The applicant is responsible for providing documentation, not the VE team.
-
-| Applicant's License Status                                                                               | Credit Given                                                                                   |
-| -------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
-| Unexpired Amateur Extra                                                                                  | Already holds that class; no new credit needed.                                |
-| Unexpired General, Advanced, or Technician issued before 3/21/1987                                       | Elements 2 & 3; must still pass Element 4 for Extra.       |
-| Expired Amateur Extra (beyond 2-year grace period)                                    | Elements 3 & 4 credit; must still take and pass Element 2. |
-| Expired General, Advanced, or pre-3/21/1987 Technician (beyond grace period)          | Element 3 credit; must still take and pass Element 2.                          |
-| Expired Technician Plus or Technician issued on/after 3/21/1987 (beyond grace period) | No credit.                                                                     |
-| Valid CSCE from a prior session (within 365 days)                                     | Credit for elements shown on the CSCE.                                         |
+1. Greet each applicant warmly. 多くの受験者は緊張しているため、親しみやすい歓迎が大きな助けになります。
+2. 写真付き身分証明書を確認します。 政府発行の写真付き身分証明書（運転免許証、パスポート、州発行のIDカード、軍のIDなど）であれば受け付けられます。 政府発行の写真付き身分証明書を持たない18歳未満の受験者については、親または保護者が自身の身分証明書を提示し、受験者の身元を確認することができます。
+3. Form 605に記載された受験者の氏名が身分証明書と一致していることを確認します。 アップグレードの場合は、身分証明書、現在の免許、Form 605のすべてが同一人物のものであることを確認します。
+4. Form 605にFRNが記載されていること、および受験者が基本資格質問（BQQ／重罪に関する質問）に回答していることを確認します。 受験者が**はい**と回答した場合は、[重罪に関する質問の情報](Felony-Question.md)を参照し、必要な手順を確認してください。
+5. 受験者が持参した科目免除の証明書類を確認します。 科目免除が必要な場合は、[ExamTools](https://exam.tools)にその情報を登録します。
+6. [ExamTools](https://exam.tools)のセッション名簿に受験者を追加します。
 
 !!! note
-    A CSCE is valid for element credit for 365 days from the date it was issued, or until the FCC updates the applicant's ULS record, whichever comes first. The applicant must present the original CSCE. Photocopies are generally not acceptable.
+    受験者の身分証明書の番号類を書き写さないでください。 身分証明書を写真や動画で撮影しないでください。 実物のIDカードは両面を確認することが望ましい実務です。偽造IDの中には、表面は正当に見えても裏面が白紙のものがあるためです。 If you do not feel comfortable with the ID presented, please let the team lead make the decision on whether to proceed with the applicant testing.
 
-## Acceptable Documents for Element Credit
+## 科目免除（エレメントクレジット）
 
-- Current unexpired FCC amateur license (or ULS reference copy)
-- Expired FCC license copy, or a ULS reference copy or screenshot showing the expired license record
-- FCC License Verification Letter (for older records not in the online ULS)
-- Radio Amateur Callbook listing (Fall 1967 or later editions show license class)
-- CSCE from a prior VE session, issued within the last 365 days
+受験者は、現在または過去の免許クラス、あるいは前回のセッションで発行された有効なCSCEに基づき、試験科目の免除を受けられる場合があります。 証明書類を用意する責任は受験者にあり、VEチームにはありません。
 
-## Session Announcements
+| 受験者の免許状況                                                     | 付与される免除                                    |
+| ------------------------------------------------------------ | ------------------------------------------ |
+| 有効期限内のAmateur Extra                                          | すでに当該クラスを保有しているため、新たな免除は不要。                |
+| 1987年3月21日より前に発行された、有効期限内のGeneral、Advanced、またはTechnician     | エレメント2および3。Extraを取得するにはエレメント4に合格する必要があります。 |
+| 失効したAmateur Extra（2年の猶予期間を超過）                                | エレメント3および4の免除。エレメント2は受験して合格する必要があります。      |
+| 失効したGeneral、Advanced、または1987年3月21日より前のTechnician（猶予期間を超過）    | エレメント3の免除。エレメント2は受験して合格する必要があります。          |
+| 失効したTechnician Plus、または1987年3月21日以降に発行されたTechnician（猶予期間を超過） | 免除なし。                                      |
+| 前回のセッションで発行された有効なCSCE（365日以内）                                | CSCEに記載されたエレメントの免除。                        |
 
-At the start of each session, inform all applicants of the following:
+!!! note
+    CSCEは、発行日から365日間、またはFCCが受験者のULS記録を更新するまでのいずれか早い時点まで、科目免除の証明として有効です。 受験者はCSCEの原本を提示しなければなりません。 コピーは原則として受け付けられません。
 
-- Retest policy (VE team's discretion; see Retesting below)
-- Rules about leaving the exam room: once the exam has started, the applicant may not leave until all materials are turned in; leaving prematurely voids the exam
-- Calculators must have memory cleared. Cell phones and smart devices may not be used as calculators.
-- No written notes, books, or study materials in the exam area.
-- Cell phones must be silenced or turned off.
+## 科目免除に使用できる書類
 
-## During the Exam
+- 有効期限内の現行のFCCアマチュア免許（またはULSのリファレンスコピー）
+- 失効したFCC免許の写し、または失効した免許記録が確認できるULSのリファレンスコピーやスクリーンショット
+- FCC免許確認書（オンラインのULSに記録がない古い免許の場合）
+- Radio Amateur Callbookの記載（1967年秋号以降の版には免許クラスが記載されています）
+- 過去365日以内に前回のVEセッションで発行されたCSCE
 
-- Issue the exam through [ExamTools](https://exam.tools) for tablet sessions. For printed exams, verify the applicant receives the correct element and exam version.
-- At least three VEs must observe every candidate actively and continuously throughout the exam.
-- VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
-- Provide the next element exam only after the previous one has been graded and passed.
-- VEs shall NOT authorize exams to applicants unless they have direct contact with that applicant!
-- The team lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
+## セッション開始時のアナウンス
+
+各セッションの開始時に、すべての受験者へ以下の内容を伝えてください：
+
+- 再受験の方針（VEチームの裁量による。下記の「再受験」を参照）
+- 試験室からの退出に関する規則：試験開始後は、すべての試験資料を提出するまで退出できません。途中で退出した場合、その試験は無効となります
+- 電卓はメモリーを消去しておく必要があります。 携帯電話やスマートデバイスを電卓として使用することはできません。
+- 試験エリアへの手書きメモ、書籍、学習用資料の持ち込みは禁止です。
+- 携帯電話はマナーモードにするか、電源を切ってください。
+
+## 試験中
+
+- タブレットを使用するセッションでは、[ExamTools](https://exam.tools) から試験を配布します。 紙の試験の場合は、受験者に正しいエレメントおよび試験バージョンが渡されていることを確認してください。
+- 少なくとも三名の VE が、試験中は常に各受験者を積極的かつ継続的に監督しなければなりません。
+- VE は試験中に不必要な会話をしてはなりません。 The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
+- 次のエレメントの試験は、前の試験の採点が終わり合格が確認された後にのみ実施してください。
+- VE は、当該受験者と直接やり取りしていない限り、その受験者に試験を許可してはなりません！
+- チームリードは、対面またはリモートハイブリッドのいずれかの形で試験セッションに立ち会わなければなりません（やむを得ない事情がある場合を除く）
 
 !!! danger "Important"
-    All recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
+    SANDARC のセッションでは、対面・オンラインを問わず、画面キャプチャを含むあらゆる録画・録音が禁止されています。 受験者の身分証、試験画面、セッションの様子などを記録しないでください。
 
-    The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, exam screens, or answer sheets) and are never used to monitor applicants, document suspected cheating, or for any purpose other than promotion.
+    唯一の例外として、SANDARC の広報用の静止画撮影は歓迎されます。ただし、個人情報（身分証、Form 605、試験画面、解答用紙）が写り込まないこと、および受験者の監視、不正行為の疑いの記録、その他広報以外の目的に使用しないことが条件です。
 
-## Family Members and Observers
+## 家族および見学者
 
-FCC rules prohibit a VE from administering an examination to their spouse, children,
-grandchildren, stepchildren, parents, grandparents, stepparents, brothers, sisters, stepbrothers,
-stepsisters, aunts, uncles, nieces, nephews, or in-laws.
+FCC 規則により、VE が自身の配偶者、子、孫、継子、親、祖父母、継親、兄弟、姉妹、継兄弟、
+継姉妹、おば、おじ、姪、甥、または姻族に対して試験を実施することは禁止されています。
 \[[§97.509](https://www.ecfr.gov/current/title-47/section-97.509)\]
 
-That restriction applies to the three VEs who administer and certify that specific
-applicant's exam. It does not remove the related VE from the session.
+この制限は、当該受験者の試験を実施し認証する三名の VE に適用されます。 親族関係にある VE がセッションから外れる必要があるわけではありません。
 
-!!! info "SANDARC Policy"
-    So long as three VEs who are **not** barred by the FCC from administering that applicant's
-    exam are present and observing, there are no further restrictions on who else may be in the room.
+!!! info "SANDARC の方針"
+    当該受験者の試験を実施することを FCC により**禁止されていない** VE が三名立ち会い監督している限り、
+    それ以外に誰が室内にいてもよいかについての制限はありません。
 
-    - A VE who is related to an applicant may remain in the session and watch.
-    - That VE may continue to serve as an administering VE for **other** applicants in the same
-      session, provided they are not related to those applicants either.
-    - Family members and other guests may sit and observe.
+    - 受験者と親族関係にある VE も、セッションに留まり見学することができます。
+    - その VE は、同じセッション内の**他の**受験者については、親族関係がない限り、引き続き実施担当 VE を務めることができます。
+    - 家族やその他の来訪者も着席して見学できます。
 
-The three certifying VEs for each exam must always be unrelated to that applicant. Record the
-three unrelated VEs as the administering VEs for that applicant in [ExamTools](https://exam.tools).
+各試験を認証する三名の VE は、常にその受験者と親族関係がない者でなければなりません。 [ExamTools](https://exam.tools) では、当該受験者の実施担当 VE として
+親族関係のない三名の VE を記録してください。
 
-!!! warning "Observers are still bound by session rules"
-    Anyone present — related or not — must not disrupt the exam, communicate with a testing
-    applicant, or assist them in any way. The testing area must stay quiet, and the recording
-    prohibition above applies to observers exactly as it does to VEs. The Team Lead may ask
-    anyone whose presence is affecting the exam to step out.
+!!! warning "見学者もセッションの規則に従う必要があります"
+    親族であるか否かにかかわらず、その場にいる全員は、試験を妨げたり、受験中の受験者と
+    会話したり、いかなる形でも援助したりしてはなりません。 試験エリアは静粛に保たなければならず、上記の記録禁止は VE と同様に
+    見学者にも適用されます。 チームリードは、その存在が試験に影響を与えている者に対し、
+    退室を求めることができます。
 
-## Grading
+## 採点
 
-- [ExamTools](https://exam.tools) grades computerized exams automatically when the applicant clicks "Grade Exam" and a VE authorizes grading. For printed exams use GradeCam on [ExamTools](https://exam.tools).
-- Inform the applicant of their score (number correct out of total) promptly after grading. If the applicant asks which questions they missed, you may share/email the question identifier to them (e.g., T1E01).
+- [ExamTools](https://exam.tools) では、受験者が「Grade Exam」をクリックし、VE が採点を承認すると、コンピューター試験が自動的に採点されます。 紙の試験の場合は、[ExamTools](https://exam.tools) 上の GradeCam を使用してください。
+- 採点後は速やかに、受験者に得点（総問題数中の正答数）を伝えてください。 If the applicant asks which questions they missed, you may share/email the question identifier to them (e.g., T1E01).
 
-## Retesting
+## 再受験
 
-There is no mandatory waiting period before retaking a failed exam. Whether to allow an immediate retest is entirely at the VE team's discretion: it is the team's decision, not the applicant's right.
+不合格となった試験を再受験するにあたり、義務付けられた待機期間はありません。 その場での再受験を認めるかどうかは、完全に VE チームの裁量に委ねられています。これはチームが判断する事項であり、受験者の権利ではありません。
 
-- An applicant may not be given the same exam version they previously failed. \[[§97.509(f)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28f%29)\] [ExamTools](https://exam.tools) generates a new, unique exam automatically for retakes.
-- The VE team should consider the applicant's score on the failed attempt and the team's remaining availability when deciding whether to allow a retest.
-- If a retest is granted, the applicant continues under SANDARC's free-exam policy, so no additional fee is charged.
+- 受験者に、以前不合格となったものと同じバージョンの試験を実施することはできません。 \[[§97.509(f)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28f%29)\] [ExamTools](https://exam.tools) は、再受験用に新しい固有の試験を自動的に生成します。
+- VE チームは、再受験を認めるかどうかを判断する際に、不合格となった試験での得点とチームの残り時間・対応可能状況を考慮してください。
+- 再受験が認められた場合、受験者は引き続き SANDARC の無料試験方針の対象となるため、追加の費用は発生しません。
 
-## Cheating & Misconduct
+## 不正行為と違反行為
 
-- If cheating is suspected or observed, immediately inform the Team Lead.
-- The Team Lead should involve all VEs present in assessing the situation. If the team determines cheating has occurred, terminate the exam immediately and record a failing grade regardless of the applicant's score at that point.
-- Do not confiscate original documents. Make a copy and include it with the session materials submitted to SANDARC.
-- The VE team's role is to document and report, not to penalize. Any final determination of guilt rests with the FCC.
-- Report all confirmed cheating incidents to SANDARC immediately at vec@sandarc.org. Any other misconduct by an applicant or VE that cannot be resolved at the team level should also be escalated to vec@sandarc.org or by calling (619) 215-1886.
+- 不正行為が疑われる、または確認された場合は、直ちにチームリードに報告してください。
+- チームリードは、状況の判断にあたり、その場にいるすべての VE を関与させてください。 チームが不正行為があったと判断した場合は、直ちに試験を中止し、その時点での得点にかかわらず不合格として記録してください。
+- 原本を没収しないでください。 コピーを取り、SANDARC に提出するセッション書類に添付してください。
+- VE チームの役割は、記録して報告することであり、処罰することではありません。 最終的な有責の判断は FCC が行います。
+- 確認されたすべての不正行為は、直ちに vec@sandarc.org 宛てに SANDARC へ報告してください。 チームレベルで解決できない受験者またはVEによるその他の不適切な行為についても、vec@sandarc.org へのメール、または (619) 215-1886 への電話でエスカレーションしてください。
 
-## Accommodating Applicants with Disabilities
+## 障害のある受験者への配慮
 
-VE teams MUST accommodate applicants whose physical disabilities require a special examination procedure. \[[§97.509(k)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28k%29)\] No applicant with a disability may be refused service. If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
+VEチームは、身体障害により特別な試験手順が必要な受験者に対して、必ず配慮しなければなりません。 \[[§97.509(k)](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28k%29)\] 障害のある受験者へのサービス提供を拒否することはできません。 If the team is not prepared to provide a specific accommodation on a given date, offer an alternative session.
 
-- For visually impaired applicants, exams may be read aloud. [ExamTools](https://exam.tools) can generate exams without figures/schematics for this purpose.
-- For applicants with hearing impairment or group sensitivity, consider a separate room.
-- If testing in the applicant's home is necessary, this is permitted as long as at least three SANDARC-accredited VEs are present in-person or remote.
+- 視覚障害のある受験者には、試験問題を読み上げることができます。 この目的のために、[ExamTools](https://exam.tools) では図や回路図を含まない試験を作成できます。
+- 聴覚障害のある受験者や、集団での受験が苦手な受験者には、別室の用意を検討してください。
+- 受験者の自宅での試験実施が必要な場合、SANDARCの認定を受けたVEが少なくとも三名、対面またはリモートで立ち会う限り、これは認められます。
