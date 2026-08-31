@@ -1,75 +1,75 @@
-# Becoming a SANDARC Volunteer Examiner
+# SANDARC のボランティア試験官になるには
 
-## FCC VE Qualifications [(47 CFR 97.509(b))](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28b%29)
+## FCC が定める VE の資格要件 [(47 CFR 97.509(b))](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28b%29)
 
-To qualify as a Volunteer Examiner under FCC rules you must:
+FCC 規則に基づきボランティア試験官の資格を得るには、次の条件を満たす必要があります：
 
-- Be 18 years of age or older
-- Hold a valid General, Advanced, or Amateur Extra class Amateur Radio license
-- Never have had your Amateur Radio license suspended or revoked
+- 18 歳以上であること
+- 有効な General、Advanced、または Amateur Extra クラスのアマチュア無線免許を保有していること
+- アマチュア無線免許を停止または取り消された経歴が一度もないこと
 
-## VE Eligibility by License Class
+## 免許クラス別の VE 資格
 
-| VE License Class    | May Administer       |
-| ------------------- | -------------------- |
-| General Class       | Element 2            |
-| Advanced Class      | Elements 2 and 3     |
-| Amateur Extra Class | Elements 2, 3, and 4 |
+| VE の免許クラス         | May Administer  |
+| ----------------- | --------------- |
+| General クラス       | エレメント 2         |
+| Advanced クラス      | エレメント 2 および 3   |
+| Amateur Extra クラス | エレメント 2、3 および 4 |
 
-Those holding a Technician class license may not take part in administering or grading exams.
-However, they may assist with tasks such as responding to inquiries, setting up the exam room, or printing exam materials, including question booklets.
+Technician クラスの免許保有者は、試験の実施や採点に関与することはできません。
+ただし、問い合わせへの対応、試験会場の設営、問題冊子を含む試験資料の印刷といった業務を手伝うことは可能です。
 
-## Examiner Accreditation Process
+## 試験官の認定手続き
 
-SANDARC does not directly recruit examiners as accreditation is gained through existing teams.
-Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team at their sole discretion.
+認定は既存のチームを通じて取得する仕組みのため、SANDARC が直接試験官を募集することはありません。
+意欲と資格を備えたアマチュア無線家を見つけ、自チームへ迎え入れるかどうかは、チームリーダーの裁量に委ねられています。
 
-To add a new examiner to your team:
+新しい試験官をチームに追加するには、次の手順に従ってください：
 
-1. Have the prospective examiner fill out the current accreditation form.
-2. Submit the form to vec@sandarc.org
+1. 試験官候補者に最新の認定申請書を記入してもらいます。
+2. 記入済みの申請書を vec@sandarc.org へ送信します
 
 !!! note
     Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
-We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
-Team leads will receive an email as soon as their new examiner has been accredited.
-New examiners may have to wait up to four hours before [ExamTools](https://exam.tools) reflects their SANDARC credentials and allows them to be added to SANDARC sessions.
+認定申請書は 24 時間以内に処理します（たいていはもっとずっと早く完了します！）。 In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
+新しい試験官の認定が完了次第、チームリーダーにメールでお知らせします。
+新しい試験官の SANDARC 認定情報が [ExamTools](https://exam.tools) に反映され、SANDARC のセッションに追加できるようになるまで、最大四時間かかる場合があります。
 
 !!! note
-    Each team is issued an accreditation form that is digitally unique to that team. Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
+    各チームには、そのチーム専用にデジタル識別された認定申請書が発行されます。 Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
 
-## Deactivations
+## 資格の一時停止
 
-We reserve the right to deactivate examiners for the following reasons:
+次のいずれかに該当する場合、当会は試験官を一時停止扱いとする権利を留保します：
 
-- Not having participated in a session in two years
-- Unable to be reached via email (bounced email / no contact info)
-- Canceled or expired licenses
+- 二年間セッションに参加していない
+- メールで連絡が取れない（メールが不達、または連絡先情報がない）
+- 免許が取り消された、または失効している
 
-Inactive examiners wishing to be reactivated should contact us at [vec@sandarc.org](mailto:vec@sandarc.org).
+一時停止中の試験官で再開を希望される方は、[vec@sandarc.org](mailto:vec@sandarc.org) までご連絡ください。
 
 !!! note
-    Deactivation does not constitute disaccreditation. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on [ExamTools](https://exam.tools).
+    一時停止は認定の取り消しを意味するものではありません。 一時停止中の試験官も、認定を受けた状態のままです。 ただし、セッションに参加することはできず、[ExamTools](https://exam.tools) 上でセッションに追加することもできません。
 
-## Verifying Accreditation Status
+## 認定状況の確認
 
-Team leads can determine whether a given person is an active (or inactive) SANDARC examiner using the below methods:
+チームリーダーは、次の方法で対象者が SANDARC の有効な（または一時停止中の）試験官かどうかを確認できます：
 
-- Use the `/lookup` command on our Discord server.
-- Try adding them to a SANDARC session on [ExamTools](https://exam.tools) (may have a four-hour lag for new examiners)
-- Using the verification link on the certificate of accreditation issued to examiners.
+- 当会の Discord サーバーで `/lookup` コマンドを使用する。
+- [ExamTools](https://exam.tools) で SANDARC のセッションに追加してみる（新しい試験官の場合は反映まで四時間ほどかかることがあります）
+- 試験官に発行された認定証に記載の確認用リンクを使用する。
 
-## Updating Your Examiner Records
+## 試験官情報の更新
 
-SANDARC automatically syncs its records with the ULS Database. Therefore, you do not need to notify us for changes to the following items:
+SANDARC は自動的に ULS データベースと記録を同期しています。 そのため、次の項目が変更されても当会に届け出る必要はありません：
 
-- Name
-- Callsign
-- License Class
-- Zip Code
+- 氏名
+- コールサイン
+- 免許クラス
+- 郵便番号
 
 If your VE certificate needs to be updated as well, we will send you a new one automatically!
 
-Examiners must always maintain a valid email address on record with the VEC.
+試験官は、VEC に登録している有効なメールアドレスを常に維持しなければなりません。
 If your email address needs to be updated, please let your team lead know so that they can notify us accordingly.
