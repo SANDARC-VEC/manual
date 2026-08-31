@@ -1,12 +1,12 @@
-# Where to Start?
+# ¿Por dónde empezar?
 
-Organizations wishing to host an Amateur Radio exam session should delegate one of their members as the VE Team Lead.
+Las organizaciones que deseen albergar una sesión de examen de radioaficionados deben designar a uno de sus miembros como líder del equipo de VE.
 The Team Lead will serve as the main point of contact between SANDARC, examiners, and your organization.
 
 Your designated team lead should then contact SANDARC VEC via email at [vec@sandarc.org](mailto:vec@sandarc.org) on behalf of your organization.
-We reserve the right to accept or deny requests to start a new team at our sole discretion.
+Nos reservamos el derecho de aceptar o rechazar las solicitudes para formar un nuevo equipo, a nuestra entera discreción.
 
-SANDARC favors in-person teams that are attached to a club, organization, or a recurring tech-related event.
+SANDARC da preferencia a los equipos presenciales que estén vinculados a un club, una organización o un evento tecnológico recurrente.
 
 ## Create Your Team on ExamTools
 
@@ -18,21 +18,21 @@ SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.to
 !!! note
     Please bear in mind that SANDARC only accepts sessions that are run through the teams we have on file. In other words, SANDARC team leads are strictly forbidden from delegating their team lead privileges to a team that SANDARC has not approved.
 
-!!! danger "Important"
-    **All SANDARC Teams are required to add Austin Smith, W4PBL, to their team on [ExamTools](https://exam.tools) as a co-owner.
-    Failure to do so will result in immediate suspension.**
+!!! danger "Importante"
+    **Todos los equipos de SANDARC deben añadir a Austin Smith, W4PBL, a su equipo en [ExamTools](https://exam.tools) como copropietario.
+    No hacerlo dará lugar a la suspensión inmediata.**
 
 ## Information We Need About Your Team
 
-- **Team Lead**: This is the person in charge of communicating with the VEC. Furthermore,
-  the team lead is also responsible for conducting the exam session, ensuring the examiners
-  are well taken care of, and that the exam session adheres to [FCC Part 97 rules](https://www.ecfr.gov/current/title-47/part-97) and
-  SANDARC policies.
+- **Líder del equipo**: es la persona encargada de comunicarse con el VEC. Además,
+  el líder del equipo también es responsable de dirigir la sesión de examen, de asegurarse de que los examinadores
+  estén bien atendidos y de que la sesión de examen cumpla con las [reglas de la Part 97 de la FCC](https://www.ecfr.gov/current/title-47/part-97) y
+  las políticas de SANDARC.
 - **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
   in case we are unable to reach the team lead.
   Usually, Co-Leads are the co-owners of your [ExamTools](https://exam.tools) team.
-  Please note that co-leads are not granted team lead privileges and may not independently conduct exam sessions.
+  Tenga en cuenta que los colíderes no reciben los privilegios de líder del equipo y no pueden dirigir sesiones de examen de forma independiente.
 - **Team Email Address**: This email will be shared with potential applicants looking for an exam session in your area.
-  It could be the team lead's email address or an email address belonging to your organization.
+  Puede ser la dirección de correo electrónico del líder del equipo o una dirección de correo electrónico perteneciente a su organización.
   SANDARC will not use this email address to contact your team as we use the team lead's personal email address for that purpose.
 - **Zip Code**: This zip code corresponds to the approximate location of where your exam sessions are held.
