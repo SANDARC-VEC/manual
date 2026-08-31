@@ -6,6 +6,47 @@ SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.too
     - All recording at SANDARC remote sessions is prohibited. Do not record the session, applicant IDs, exam screens, or any other session activity. This applies to all VEs and applicants.
     - The one exception: still photos for the promotion of SANDARC are welcome, provided they never capture personal information (IDs, Form 605s, or exam screens) and are never used to monitor applicants or document suspected cheating.
 
+## Disabling AI Assistants, Note-Taking, and Recording
+
+AI meeting assistants transcribe and summarize everything said in a session — that is a
+recording, and it is prohibited at SANDARC sessions just like any other recording. Both
+platforms now ship with these features, so the hosting team must switch them off
+**before** the session.
+
+### Zoom
+
+- In the [Zoom web portal](https://zoom.us) under **Settings → AI Companion**, turn off
+  **Meeting Summary with AI Companion**, **AI Companion Questions**, and any other AI
+  Companion features. Account admins can instead use the universal
+  [Zoom AI toggle](https://support.zoom.com/hc/en/article?id=zm_kb&sysparm_article=KB0076668)
+  (Admin Center → **Settings → Zoom AI**) to shut off all AI features at once.
+- Under **Settings → Recording**, turn off **Local recording**, **Cloud recording**, and
+  **Automatic recording**. With these disabled, participants cannot record either.
+- If AI Companion is somehow active in a meeting (participants see an on-screen notice
+  and a sparkle icon), the host clicks the **AI Companion** icon and selects
+  **Stop summary**, then **Turn off**.
+
+### Google Meet
+
+- Gemini's **"Take notes for me"**, meeting **transcripts**, and **recording** are three
+  separate features — all three must stay off. Unlike Zoom, there is no per-meeting
+  setting to disable them ahead of time: they remain available in the meeting (including
+  on the SANDARC-provided account), so it is on the hosting team to make sure none of
+  them is ever started.
+- Turn **Host management** on for the meeting. Then only the host and co-hosts can start
+  notes, transcripts, or a recording — and they simply never do.
+- If Gemini note-taking is running, a pencil icon is visible to everyone and the host
+  can stop it from the same
+  ["Take notes for me"](https://support.google.com/meet/answer/14754931) control.
+
+### Third-Party Notetaker Bots
+
+Applicants and VEs sometimes have AI notetakers (Otter.ai, Fireflies, Read.ai, and
+similar) hooked to their calendars; these join meetings as ordinary participants,
+usually with a name like "Fred's Otter.ai". The waiting room (Zoom) or knocking
+(Google Meet) is your checkpoint: never admit a bot, and immediately remove any that
+appears in the participant list mid-session.
+
 ## VE Technical Requirements for Remote Sessions
 
 - Working computer or laptop with a webcam, microphone, and speaker.
@@ -20,6 +61,10 @@ SANDARC supports remote exam sessions conducted via [ExamTools](https://exam.too
 - Zoom (or agreed platform).
 - Only one active monitor or screen. Additional monitors must be disconnected or covered.
 - No virtual or blurred backgrounds.
+
+Most teams run remote sessions using breakout rooms — a main room as the lobby and a
+private room per applicant under exam. See [Breakout Rooms](Breakout-Rooms.md) for
+platform-specific setup on Zoom and Google Meet.
 
 ## Remote Session Procedures
 
