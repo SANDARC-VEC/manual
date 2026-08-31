@@ -16,10 +16,12 @@ naturally onto a remote exam session:
     connection, the room stays at quorum and the exam continues instead of pausing
     while they reconnect.
 
-The lobby-plus-exam-rooms layout above is one proven way to run a remote session, not
-the only way. SANDARC is always open to teams trying different formats, as long as
-applicants are comfortable, SANDARC policies are followed, and the session satisfies
-the [FCC rules governing exams](https://www.ecfr.gov/current/title-47/part-97).
+!!! note "Other formats are welcome"
+    The lobby-plus-exam-rooms layout above is one proven way to run a remote session,
+    not the only way. SANDARC is always open to teams trying different formats, as long
+    as applicants are comfortable, SANDARC policies are followed, and the session
+    satisfies the
+    [FCC rules governing exams](https://www.ecfr.gov/current/title-47/part-97).
 
 Both Zoom and Google Meet support breakout rooms, but they behave differently in ways
 that matter for an exam session. Details for each platform are below.
