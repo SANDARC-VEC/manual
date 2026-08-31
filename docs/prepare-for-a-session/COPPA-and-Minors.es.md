@@ -1,35 +1,35 @@
-# Minors and the COPPA Process
+# Los menores y el proceso COPPA
 
-There is **no minimum age** for an amateur radio license. The FCC sets no age floor, and young
-applicants pass exams regularly. SANDARC welcomes them.
+**No existe una edad mínima** para obtener una licencia de radioaficionado. La FCC no fija ningún límite de edad, y los
+aspirantes jóvenes aprueban los exámenes con regularidad. SANDARC les da la bienvenida.
 
-What changes for a young applicant is not the exam — it is the **registration**. Applicants under
-13 are covered by the Children's Online Privacy Protection Act (COPPA), which restricts how online
-services may collect personal information from children.
+Lo que cambia para un aspirante joven no es el examen, sino el **registro**. Los aspirantes menores de
+13 años están amparados por la Children's Online Privacy Protection Act (COPPA), que restringe la forma en que los servicios
+en línea pueden recopilar información personal de los niños.
 
-## What COPPA Is
+## Qué es la COPPA
 
-The **Children's Online Privacy Protection Act (COPPA)** is a federal law that gives parents
-control over what personal information websites and online services may collect from their
-children. It was enacted in 1998 (15 U.S.C. §§ 6501–6506) and is enforced by the
-**Federal Trade Commission (FTC)** through the Children's Online Privacy Protection Rule, or
-"COPPA Rule" ([16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312)).
+La **Children's Online Privacy Protection Act (COPPA)** es una ley federal que otorga a los padres
+control sobre qué información personal pueden recopilar de sus hijos los sitios web y los servicios
+en línea. Fue promulgada en 1998 (15 U.S.C. §§ 6501–6506) y la hace cumplir la
+**Federal Trade Commission (FTC)** a través de la Children's Online Privacy Protection Rule, o
+«regla COPPA» ([16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312)).
 
-COPPA applies to any website or online service — including apps — that is either directed to
-children **under 13**, or that has actual knowledge it is collecting personal information from
-children under 13. That second half matters here: a general-audience service is covered the moment
-it knows a user is under 13.
+La COPPA se aplica a cualquier sitio web o servicio en línea —incluidas las aplicaciones— que esté dirigido a
+niños **menores de 13 años** o que tenga conocimiento efectivo de que está recopilando información personal de
+niños menores de 13 años. Esa segunda parte es importante aquí: un servicio para público general queda cubierto en el momento
+en que sabe que un usuario es menor de 13 años.
 
-**"Personal information"** is broader than most people expect. It covers a name, home address,
-email address, telephone number, date of birth, photographs, and persistent identifiers that can
-be used to recognize a user over time.
+La **«información personal»** es más amplia de lo que la mayoría de la gente supone. Abarca el nombre, el domicilio,
+la dirección de correo electrónico, el número de teléfono, la fecha de nacimiento, las fotografías y los identificadores persistentes que permiten
+reconocer a un usuario a lo largo del tiempo.
 
-Before collecting any of it from a child under 13, a covered service must obtain
-**verifiable parental consent** — meaning it has to take reasonable steps to confirm that the
-person consenting really is the child's parent or legal guardian, not the child.
+Antes de recopilar cualquiera de esos datos de un niño menor de 13 años, el servicio cubierto debe obtener
+**el consentimiento paterno verificable**, es decir, debe tomar medidas razonables para confirmar que la
+persona que da el consentimiento es realmente el padre, la madre o el tutor legal del niño, y no el niño mismo.
 
-!!! info "Parents keep control after consenting"
-    COPPA is not a one-time checkbox. A parent who has given consent retains the right to:
+!!! info "Los padres mantienen el control después de dar su consentimiento"
+    La COPPA no es una casilla que se marca una sola vez. El padre, la madre o el tutor que haya dado su consentimiento conserva el derecho a:
 
     - **Review** the personal information the service has collected about their child
     - **Revoke** their consent at any time
@@ -38,30 +38,30 @@ person consenting really is the child's parent or legal guardian, not the child.
     A parent who wants to exercise any of these rights for exam registration data should contact
     ExamTools directly at [coppa@examtools.org](mailto:coppa@examtools.org).
 
-## Why It Applies to Exam Registration
+## Por qué se aplica al registro para el examen
 
-Registering for an exam session collects exactly the kind of information COPPA covers — legal
-name, date of birth, mailing address, and email address — through [HamStudy](https://hamstudy.org/) and
-[ExamTools](https://exam.tools). Both are general-audience services, and once an applicant is
-identified as under 13, they have actual knowledge that triggers the rule.
+Registrarse para una sesión de examen implica recopilar exactamente el tipo de información que cubre la COPPA —nombre
+legal, fecha de nacimiento, domicilio postal y dirección de correo electrónico— a través de [HamStudy](https://hamstudy.org/) y
+[ExamTools](https://exam.tools). Ambos son servicios para público general y, en cuanto se identifica a un aspirante
+como menor de 13 años, tienen el conocimiento efectivo que activa la regla.
 
-So when an applicant is under 13:
+Por lo tanto, cuando un aspirante es menor de 13 años:
 
-- The child **cannot** create their own [HamStudy](https://hamstudy.org/) account or agree to the Terms of Service on their
-  own behalf. A minor cannot form that agreement, and COPPA does not permit the collection.
-- A **parent or legal guardian** must provide verifiable consent before registration can proceed.
+- El niño **no puede** crear su propia cuenta de [HamStudy](https://hamstudy.org/) ni aceptar los Términos de Servicio en su
+  propio nombre. Un menor no puede celebrar ese acuerdo, y la COPPA no permite la recopilación.
+- El **padre, la madre o el tutor legal** debe otorgar un consentimiento verificable antes de que el registro pueda continuar.
 
-!!! info "The cutoff is 13, not 18"
-    COPPA applies only to applicants **under 13**. Applicants aged 13 to 17 register normally.
-    They are still minors for identification purposes — see [Identification](#identification-at-the-session)
-    below — but no COPPA consent step is required.
+!!! info "El límite son los 13 años, no los 18"
+    La COPPA solo se aplica a los aspirantes **menores de 13 años**. Los aspirantes de 13 a 17 años se registran con normalidad.
+    Siguen siendo menores a efectos de identificación —consulte [Identificación](#identification-at-the-session)
+    más abajo—, pero no se requiere ningún paso de consentimiento COPPA.
 
-## The COPPA Process
+## El proceso COPPA
 
-!!! danger "VEs and Team Leads: consent is required BEFORE registration"
-    An applicant under 13 **cannot register for any session** on [HamStudy](https://hamstudy.org/) or
-    [ExamTools](https://exam.tools) until their parent or guardian has emailed the ExamTools COPPA
-    Parental Consent Form to [coppa@examtools.org](mailto:coppa@examtools.org).
+!!! danger "VE y jefes de equipo: el consentimiento es obligatorio ANTES del registro"
+    Un aspirante menor de 13 años **no puede registrarse en ninguna sesión** en [HamStudy](https://hamstudy.org/) ni en
+    [ExamTools](https://exam.tools) hasta que su padre, madre o tutor haya enviado por correo electrónico el Formulario de Consentimiento Paterno COPPA de ExamTools
+    a [coppa@examtools.org](mailto:coppa@examtools.org).
 
     This is a **prerequisite to registration**, not a step during sign-up. Registration is blocked
     until the consent is on file.
@@ -70,97 +70,97 @@ So when an applicant is under 13:
     If an under-13 applicant is not registered, they **cannot test** — reschedule them and have the
     parent send the form.
 
-The parent or guardian handles this well before session day. The VE team's job is to recognize the
-requirement early and point the family at it.
+El padre, la madre o el tutor se encarga de esto bastante antes del día de la sesión. La labor del equipo de VE es detectar el
+requisito con antelación y orientar a la familia al respecto.
 
-1. The parent or guardian downloads the
-   [ExamTools COPPA Parental Consent Form](https://blog.hamstudy.org/wp-content/uploads/2020/05/ExamTools_COPPA_form.pdf).
-2. They complete it with the **child's full name and date of birth**, then sign it. Signing
-   certifies consent to the collection, use, and disclosure of the child's personal information.
-3. They **email the completed form to [coppa@examtools.org](mailto:coppa@examtools.org)**.
-   The form goes to ExamTools directly — not to SANDARC, and not to the VE team.
-4. Once ExamTools records the consent, the applicant can be registered for a session through
-   [HamStudy](https://hamstudy.org/sessions) as normal.
-5. The parent or guardian should plan to **attend the session**.
+1. El padre, la madre o el tutor descarga el
+   [Formulario de Consentimiento Paterno COPPA de ExamTools](https://blog.hamstudy.org/wp-content/uploads/2020/05/ExamTools_COPPA_form.pdf).
+2. Lo completa con el **nombre completo y la fecha de nacimiento del niño** y lo firma. La firma
+   certifica el consentimiento para la recopilación, el uso y la divulgación de la información personal del niño.
+3. **Envía el formulario cumplimentado por correo electrónico a [coppa@examtools.org](mailto:coppa@examtools.org)**.
+   El formulario se envía directamente a ExamTools, no a SANDARC ni al equipo de VE.
+4. Una vez que ExamTools registra el consentimiento, el aspirante puede inscribirse en una sesión a través de
+   [HamStudy](https://hamstudy.org/sessions) con normalidad.
+5. El padre, la madre o el tutor debe prever **asistir a la sesión**.
 
-The consent covers exactly what the exam process requires: the information is used to administer
-the examination and, if the applicant passes, is submitted to the VEC as part of the NCVEC Form 605
-application and from there to the FCC.
+El consentimiento cubre exactamente lo que exige el proceso de examen: la información se utiliza para administrar
+el examen y, si el aspirante aprueba, se envía al VEC como parte de la solicitud del Formulario NCVEC 605
+y de ahí a la FCC.
 
-!!! warning "Point families at this page as soon as they make contact"
-    The form has to be emailed and processed before registration is even possible, so a family that
-    waits until the last minute will not get their child registered in time. As soon as your team
+!!! warning "Remita a las familias a esta página en cuanto se pongan en contacto"
+    El formulario debe enviarse por correo electrónico y procesarse antes de que el registro sea siquiera posible, de modo que una familia que
+    espere hasta el último momento no logrará inscribir a su hijo a tiempo. As soon as your team
     hears from a family with an under-13 applicant, send them here — do not wait until they try to
     register.
 
 !!! danger "Never register a child on your own"
-    A VE must never create the account, submit the consent form, or agree to the Terms of Service
-    for a child applicant. The consent has to come from the parent or legal guardian. A VE standing
-    in for a parent is not valid consent and puts the session at risk.
+    Un VE nunca debe crear la cuenta, presentar el formulario de consentimiento ni aceptar los Términos de Servicio
+    en nombre de un aspirante menor de edad. El consentimiento debe provenir del padre, la madre o el tutor legal. Que un VE actúe
+    en lugar de un padre no constituye un consentimiento válido y pone en riesgo la sesión.
 
-## Getting an FRN for a Minor
+## Obtener un FRN para un menor
 
-A minor needs an FRN like any other applicant, and the FCC requires a Social Security Number to
-register one. Children generally have an SSN, but the **parent or guardian must handle the FRN
-registration** — including keeping the CORES password, which is needed later to pay the $35 FCC
-application fee.
+Un menor necesita un FRN igual que cualquier otro solicitante, y la FCC exige un número de Seguro Social para
+registrarlo. Los niños suelen tener un SSN, pero **el padre, la madre o el tutor debe encargarse del registro
+del FRN** —incluida la custodia de la contraseña de CORES, que se necesitará más adelante para pagar la tasa de
+solicitud de 35 USD de la FCC.
 
 See [Getting an FRN](Getting-an-FRN.md) for the full process.
 
-## Identification at the Session
+## Identificación en la sesión
 
-Minors frequently have no government-issued photo ID. This is expected and is not a reason to turn
-an applicant away.
+Con frecuencia, los menores no tienen una identificación oficial con foto. Esto es previsible y no es motivo para rechazar
+a un solicitante.
 
-- A **parent or guardian may present their own photo ID** and confirm the applicant's identity.
-- A school ID, library card, or similar document may be accepted at the Team Lead's discretion.
+- **El padre, la madre o el tutor puede presentar su propia identificación con foto** y confirmar la identidad del solicitante.
+- Se puede aceptar un carné escolar, una tarjeta de biblioteca o un documento similar, a criterio del jefe de equipo.
 - The usual rules still apply: do not write down any numbers from an ID, and do not photograph it.
 
 See [Applicant Check-In](../conduct-a-session/Conducting-the-Session.md#applicant-check-in) for the
 full identification procedure.
 
-## During the Exam
+## Durante el examen
 
-A young applicant sits the same exam under the same rules as everyone else. No accommodation is
-made for age, and the exam may not be read aloud or explained unless a documented disability
-requires it — see
-[Accommodating Applicants with Disabilities](../conduct-a-session/Conducting-the-Session.md#accommodating-applicants-with-disabilities).
+Un solicitante joven se examina con el mismo examen y las mismas reglas que todos los demás. No se hace ninguna
+adaptación por la edad, y el examen no puede leerse en voz alta ni explicarse salvo que lo exija una discapacidad
+documentada; consulte
+[Adaptaciones para solicitantes con discapacidad](../conduct-a-session/Conducting-the-Session.md#accommodating-applicants-with-disabilities).
 
-A parent or guardian **may remain in the room and observe**, but must not assist the applicant in
-any way. See
+El padre, la madre o el tutor **puede permanecer en la sala y observar**, pero no debe ayudar al solicitante de
+ninguna manera. See
 [Family Members and Observers](../conduct-a-session/Conducting-the-Session.md#family-members-and-observers).
 
-## Learning More About COPPA
+## Más información sobre COPPA
 
-These are the authoritative sources, maintained by the FTC. Nothing on this page replaces them,
-and the COPPA Rule has been amended over time — most recently in 2025 — so check the FTC directly
-for the current text.
+Estas son las fuentes autorizadas, mantenidas por la FTC. Nada de lo que figura en esta página las sustituye,
+y la Norma COPPA se ha modificado con el tiempo —la última vez en 2025—, así que consulte directamente a la FTC
+para ver el texto vigente.
 
-**For parents and guardians**
+**Para padres, madres y tutores**
 
 - [Protecting Your Child's Privacy Online](https://consumer.ftc.gov/articles/protecting-your-childs-privacy-online)
   — FTC consumer guidance written for parents: what your rights are and how to exercise them.
 
-**General reference**
+**Referencia general**
 
-- [Children's Privacy](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)
-  — the FTC's main COPPA hub.
-- [Complying with COPPA: Frequently Asked Questions](https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions)
-  — the FTC's detailed FAQ, and the best place to answer an unusual question.
-- [Verifiable Parental Consent and the Children's Online Privacy Rule](https://www.ftc.gov/business-guidance/privacy-security/verifiable-parental-consent-childrens-online-privacy-rule)
-  — what actually counts as verifiable consent.
+- [Privacidad de los menores](https://www.ftc.gov/business-guidance/privacy-security/childrens-privacy)
+  — el portal principal de la FTC sobre COPPA.
+- [Cumplimiento de COPPA: preguntas frecuentes](https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions)
+  — las preguntas frecuentes detalladas de la FTC y el mejor lugar para resolver una duda poco habitual.
+- [Consentimiento parental verificable y la Norma de Privacidad en Línea de los Menores](https://www.ftc.gov/business-guidance/privacy-security/verifiable-parental-consent-childrens-online-privacy-rule)
+  — qué se considera realmente un consentimiento verificable.
 
-**The law itself**
+**La ley en sí**
 
-- [Children's Online Privacy Protection Rule ("COPPA")](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)
-  — the FTC's rule page.
-- [16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312) — the current regulation text.
+- [Norma de Protección de la Privacidad en Línea de los Menores ("COPPA")](https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa)
+  — la página de la norma en el sitio de la FTC.
+- [16 CFR Part 312](https://www.ecfr.gov/current/title-16/part-312) — el texto vigente del reglamento.
 
-!!! question "Questions about a specific applicant"
-    Questions about **ExamTools' consent process** go to
-    [coppa@examtools.org](mailto:coppa@examtools.org). Questions about **SANDARC policy** or how to
-    handle a session go to [vec@sandarc.org](mailto:vec@sandarc.org) or the SANDARC Discord.
+!!! question "Dudas sobre un solicitante concreto"
+    Las dudas sobre el **proceso de consentimiento de ExamTools** se dirigen a
+    [coppa@examtools.org](mailto:coppa@examtools.org). Las dudas sobre la **política de SANDARC** o sobre cómo
+    gestionar una sesión se dirigen a [vec@sandarc.org](mailto:vec@sandarc.org) o al Discord de SANDARC.
 
 !!! note "Be encouraging"
-    A nervous ten-year-old who does not pass on the first attempt is a future ham. Keep the tone
+    Un niño de diez años nervioso que no aprueba en el primer intento es un futuro radioaficionado. Keep the tone
     positive, tell them what they did well, and let them know they are welcome back.
