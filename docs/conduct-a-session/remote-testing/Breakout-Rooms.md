@@ -21,7 +21,7 @@ naturally onto a remote exam session:
     not the only way. SANDARC is always open to teams trying different formats, as long
     as applicants are comfortable, SANDARC policies are followed, and the session
     satisfies the
-    [FCC rules governing exams](https://www.ecfr.gov/current/title-47/part-97).
+    [FCC rules governing exams](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97#subpart-F).
 
 Both Zoom and Google Meet support breakout rooms, but they behave differently in ways
 that matter for an exam session. Details for each platform are below.
