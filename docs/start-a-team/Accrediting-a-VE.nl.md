@@ -1,75 +1,75 @@
-# Becoming a SANDARC Volunteer Examiner
+# SANDARC Volunteer Examiner worden
 
-## FCC VE Qualifications [(47 CFR 97.509(b))](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28b%29)
+## FCC-kwalificaties voor VE's [(47 CFR 97.509(b))](https://www.ecfr.gov/current/title-47/section-97.509#p-97.509%28b%29)
 
 To qualify as a Volunteer Examiner under FCC rules you must:
 
-- Be 18 years of age or older
-- Hold a valid General, Advanced, or Amateur Extra class Amateur Radio license
+- 18 jaar of ouder zijn
+- Een geldige amateurradiolicentie van de klasse General, Advanced of Amateur Extra bezitten
 - Never have had your Amateur Radio license suspended or revoked
 
-## VE Eligibility by License Class
+## Bevoegdheid als VE per licentieklasse
 
-| VE License Class    | May Administer       |
-| ------------------- | -------------------- |
-| General Class       | Element 2            |
-| Advanced Class      | Elements 2 and 3     |
-| Amateur Extra Class | Elements 2, 3, and 4 |
+| Licentieklasse van de VE | May Administer      |
+| ------------------------ | ------------------- |
+| General Class            | Element 2           |
+| Advanced Class           | Elementen 2 en 3    |
+| Amateur Extra Class      | Elementen 2, 3 en 4 |
 
-Those holding a Technician class license may not take part in administering or grading exams.
-However, they may assist with tasks such as responding to inquiries, setting up the exam room, or printing exam materials, including question booklets.
+Houders van een licentie van de klasse Technician mogen niet meewerken aan het afnemen of beoordelen van examens.
+Ze mogen echter wel helpen met taken zoals het beantwoorden van vragen, het inrichten van de examenruimte of het printen van examenmateriaal, waaronder vragenboekjes.
 
-## Examiner Accreditation Process
+## Accreditatieproces voor examinatoren
 
-SANDARC does not directly recruit examiners as accreditation is gained through existing teams.
-Team leads are responsible for identifying and recruiting willing, qualified amateurs to join their team at their sole discretion.
+SANDARC werft zelf geen examinatoren; accreditatie verloopt via bestaande teams.
+Teamleiders zijn verantwoordelijk voor het vinden en aantrekken van bereidwillige, gekwalificeerde radioamateurs voor hun team, geheel naar eigen inzicht.
 
 To add a new examiner to your team:
 
 1. Have the prospective examiner fill out the current accreditation form.
-2. Submit the form to vec@sandarc.org
+2. Stuur het formulier naar vec@sandarc.org
 
 !!! note
-    Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
+    Please encourage your new team members to fill out the form digitally. Sommige handschriften doen onze ogen echt pijn 😫.
 
-We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
-Team leads will receive an email as soon as their new examiner has been accredited.
-New examiners may have to wait up to four hours before [ExamTools](https://exam.tools) reflects their SANDARC credentials and allows them to be added to SANDARC sessions.
-
-!!! note
-    Each team is issued an accreditation form that is digitally unique to that team. Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
-
-## Deactivations
-
-We reserve the right to deactivate examiners for the following reasons:
-
-- Not having participated in a session in two years
-- Unable to be reached via email (bounced email / no contact info)
-- Canceled or expired licenses
-
-Inactive examiners wishing to be reactivated should contact us at [vec@sandarc.org](mailto:vec@sandarc.org).
+We verwerken accreditatieformulieren binnen 24 uur (meestal veel, veel sneller!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
+Teamleiders ontvangen een e-mail zodra hun nieuwe examinator geaccrediteerd is.
+Nieuwe examinatoren moeten mogelijk tot vier uur wachten voordat [ExamTools](https://exam.tools) hun SANDARC-accreditatie weergeeft en het mogelijk maakt om hen aan SANDARC-sessies toe te voegen.
 
 !!! note
-    Deactivation does not constitute disaccreditation. Inactive examiners are still deemed accredited. However, they are not permitted to participate in sessions and cannot be added to sessions on [ExamTools](https://exam.tools).
+    Elk team krijgt een accreditatieformulier dat digitaal uniek is voor dat team. Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
 
-## Verifying Accreditation Status
+## Deactiveringen
 
-Team leads can determine whether a given person is an active (or inactive) SANDARC examiner using the below methods:
+Wij behouden ons het recht voor om examinatoren te deactiveren om de volgende redenen:
+
+- Twee jaar niet aan een sessie hebben deelgenomen
+- Niet bereikbaar via e-mail (e-mail komt terug / geen contactgegevens)
+- Ingetrokken of verlopen licenties
+
+Inactieve examinatoren die opnieuw geactiveerd willen worden, kunnen contact met ons opnemen via [vec@sandarc.org](mailto:vec@sandarc.org).
+
+!!! note
+    Deactivering betekent niet dat de accreditatie wordt ingetrokken. Inactieve examinatoren worden nog steeds als geaccrediteerd beschouwd. Ze mogen echter niet aan sessies deelnemen en kunnen niet aan sessies op [ExamTools](https://exam.tools) worden toegevoegd.
+
+## Accreditatiestatus controleren
+
+Teamleiders kunnen op de volgende manieren nagaan of iemand een actieve (of inactieve) SANDARC-examinator is:
 
 - Use the `/lookup` command on our Discord server.
-- Try adding them to a SANDARC session on [ExamTools](https://exam.tools) (may have a four-hour lag for new examiners)
-- Using the verification link on the certificate of accreditation issued to examiners.
+- Probeer de persoon toe te voegen aan een SANDARC-sessie op [ExamTools](https://exam.tools) (bij nieuwe examinatoren kan dit tot vier uur duren)
+- Via de verificatielink op het accreditatiecertificaat dat aan examinatoren wordt uitgereikt.
 
 ## Updating Your Examiner Records
 
-SANDARC automatically syncs its records with the ULS Database. Therefore, you do not need to notify us for changes to the following items:
+SANDARC synchroniseert zijn gegevens automatisch met de ULS-database. Therefore, you do not need to notify us for changes to the following items:
 
-- Name
-- Callsign
-- License Class
-- Zip Code
+- Naam
+- Roepletters
+- Licentieklasse
+- Postcode
 
 If your VE certificate needs to be updated as well, we will send you a new one automatically!
 
-Examiners must always maintain a valid email address on record with the VEC.
+Examinatoren moeten altijd een geldig e-mailadres geregistreerd hebben bij de VEC.
 If your email address needs to be updated, please let your team lead know so that they can notify us accordingly.
