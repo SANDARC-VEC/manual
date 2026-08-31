@@ -1,9 +1,9 @@
-# Fees & Expense Reimbursement
+# Kosten en vergoeding van uitgaven
 
-!!! danger "Important"
-    SANDARC charges NO exam fees. All examinations are completely free of charge to all applicants. No fees may be assessed against any applicant for any SANDARC exam session.
+!!! danger "Belangrijk"
+    SANDARC brengt GEEN examenkosten in rekening. Alle examens zijn volledig gratis voor alle kandidaten. Voor een examensessie van SANDARC mogen aan geen enkele kandidaat kosten in rekening worden gebracht.
 
-SANDARC does not provide reimbursement to VE teams for any session-related expenses. All costs associated with running a SANDARC exam session are the responsibility of the team. SANDARC may provide materials to teams as non-reimbursable expenses but these will be limited in scope and at the discretion of SANDARC.
+SANDARC vergoedt geen sessiegerelateerde kosten aan VE-teams. Alle kosten die verbonden zijn aan het organiseren van een SANDARC-examensessie komen ten laste van het team. SANDARC kan teams materialen verstrekken als niet-vergoedbare kosten, maar dit is beperkt van omvang en volledig ter beoordeling van SANDARC.
 
-!!! warning "FCC Application Fee"
-    All applicants for a new license must pay a mandatory $35 fee directly to the FCC. Applicants will receive an email from the FCC with payment instructions after SANDARC submits their session data. The payment link is [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) and the fee must be paid within 10 calendar days or the FCC will dismiss the application.
+!!! warning "FCC-aanvraagkosten"
+    Alle kandidaten die een nieuwe licentie aanvragen, moeten een verplichte vergoeding van $35 rechtstreeks aan de FCC betalen. Kandidaten ontvangen een e-mail van de FCC met betaalinstructies nadat SANDARC hun sessiegegevens heeft ingediend. De betaallink is [apps.fcc.gov/cores/paymentFrnLogin.do](https://apps.fcc.gov/cores/paymentFrnLogin.do) en de vergoeding moet binnen 10 kalenderdagen worden betaald, anders wijst de FCC de aanvraag af.
