@@ -53,7 +53,7 @@ At the start of each session, inform all applicants of the following:
 - Los VE NO deben mantener conversaciones innecesarias durante los exámenes. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - Entregue el examen del siguiente elemento solo después de que el anterior haya sido calificado y aprobado.
 - ¡Los VE NO deberán autorizar exámenes a los aspirantes salvo que tengan contacto directo con ese aspirante!
-- El líder del equipo debe estar presente en la sesión de examen, ya sea en persona o de forma remota-híbrida (salvo circunstancias atenuantes)
+- The team lead or a co-lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Importante"
     Toda grabación —incluida la captura de pantalla— está prohibida en las sesiones de SANDARC, tanto presenciales como en línea. Do not record applicant IDs, exam screens, or any session activity.
