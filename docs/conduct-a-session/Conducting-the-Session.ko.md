@@ -53,7 +53,7 @@
 - VE는 시험 시행 중 불필요한 대화를 해서는 안 됩니다. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - 다음 요소 시험은 이전 요소의 채점이 완료되어 합격한 이후에만 제공합니다.
 - VE는 해당 응시자와 직접 접촉하지 않은 경우 그 응시자에게 시험을 승인해서는 안 됩니다!
-- 팀 리드는 (불가피한 사정이 없는 한) 현장 또는 원격 하이브리드 방식으로 시험 세션에 참석해야 합니다
+- The team lead or a co-lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Important"
     SANDARC 세션에서는 현장이든 온라인이든 화면 캡처를 포함한 모든 녹화·녹음이 금지됩니다. 응시자 신분증, 시험 화면, 세션 활동은 어떤 것도 기록하지 마십시오.
