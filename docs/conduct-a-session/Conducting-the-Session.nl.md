@@ -53,7 +53,7 @@ At the start of each session, inform all applicants of the following:
 - VE's mogen tijdens examens GEEN onnodige gesprekken voeren. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - Geef het examen voor het volgende element pas nadat het vorige is nagekeken en behaald.
 - VE's mogen kandidaten GEEN examen toestaan tenzij zij rechtstreeks contact met die kandidaat hebben!
-- De teamleider moet bij de examensessie aanwezig zijn, hetzij fysiek, hetzij op afstand (remote-hybrid), tenzij er sprake is van verzachtende omstandigheden
+- The team lead or a co-lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Belangrijk"
     Elke vorm van opname — inclusief schermopnamen — is verboden bij SANDARC-sessies, of deze nu fysiek of online plaatsvinden. Maak geen opnamen van identiteitsbewijzen van kandidaten, examenschermen of enige sessieactiviteit.
