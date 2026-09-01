@@ -53,7 +53,7 @@ At the start of each session, inform all applicants of the following:
 - VEs must NOT engage in unnecessary conversation during examinations. The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - Provide the next element exam only after the previous one has been graded and passed.
 - VEs shall NOT authorize exams to applicants unless they have direct contact with that applicant!
-- The team lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
+- The team lead or a co-lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Important"
     All recording — including screen capture — is prohibited at SANDARC sessions, whether in-person or online. Do not record applicant IDs, exam screens, or any session activity.
