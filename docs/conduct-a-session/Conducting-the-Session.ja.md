@@ -53,7 +53,7 @@
 - VE は試験中に不必要な会話をしてはなりません。 The most common complaint about exam sessions is unnecessary VE chatter, so please do not talk unless necessary and if it is necessary please talk quietly.
 - 次のエレメントの試験は、前の試験の採点が終わり合格が確認された後にのみ実施してください。
 - VE は、当該受験者と直接やり取りしていない限り、その受験者に試験を許可してはなりません！
-- チームリードは、対面またはリモートハイブリッドのいずれかの形で試験セッションに立ち会わなければなりません（やむを得ない事情がある場合を除く）
+- The team lead or a co-lead must be present at the exam session either in-person or remote-hybrid (unless extenuating circumstances)
 
 !!! danger "Important"
     SANDARC のセッションでは、対面・オンラインを問わず、画面キャプチャを含むあらゆる録画・録音が禁止されています。 受験者の身分証、試験画面、セッションの様子などを記録しないでください。
