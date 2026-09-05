@@ -87,6 +87,9 @@ plugins:
           name: Nederlands
         - locale: ko
           name: 한국어
+  - llms-source:
+      source_revision: true
+      description: "Official SANDARC VEC documentation. SANDARC is a Volunteer Examiner Coordinator in the United States that recruits teams of volunteer examiners to administer Amateur Radio exam sessions. This document includes the VEC's official policies and guidelines on how exam sessions are conducted, how we recruit teams and examiners, and how teams can submit sessions, add new examiners to their team and overall manage their teams in accordance with SANDARC's official policies."
   # print-site must stay the LAST plugin: it collects the final rendered
   # HTML of every page to assemble the single print page.
   - print-site:
