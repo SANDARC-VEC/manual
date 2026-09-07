@@ -28,10 +28,11 @@ SANDARC only accepts sessions that are conducted via [ExamTools](https://exam.to
   el líder del equipo también es responsable de dirigir la sesión de examen, de asegurarse de que los examinadores
   estén bien atendidos y de que la sesión de examen cumpla con las [reglas de la Part 97 de la FCC](https://www.ecfr.gov/current/title-47/part-97) y
   las políticas de SANDARC.
-- **Co-Lead**: Your co-lead can be one or more SANDARC VE's on your team who we may reach out to
-  in case we are unable to reach the team lead.
-  Usually, Co-Leads are the co-owners of your [ExamTools](https://exam.tools) team.
-  Tenga en cuenta que los colíderes no reciben los privilegios de líder del equipo y no pueden dirigir sesiones de examen de forma independiente.
+- **Co-Lead**: At most two members of your team may be designated as Co-Leads. Co-Leads
+  automatically receive team lead privileges, letting them independently conduct exam sessions
+  for the team on which they are a co-lead. Like team leads, they may not create new teams without
+  the VEC's explicit authorization. SANDARC may authorize more than two co-leads only when
+  absolutely necessary.
 - **Team Email Address**: This email will be shared with potential applicants looking for an exam session in your area.
   Puede ser la dirección de correo electrónico del líder del equipo o una dirección de correo electrónico perteneciente a su organización.
   SANDARC will not use this email address to contact your team as we use the team lead's personal email address for that purpose.
