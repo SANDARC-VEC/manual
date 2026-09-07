@@ -28,10 +28,11 @@ SANDARC accepteert uitsluitend sessies die via [ExamTools](https://exam.tools) w
   is de teamleider ook verantwoordelijk voor het leiden van de examensessie, ervoor zorgen dat de examinatoren
   goed worden verzorgd en dat de examensessie voldoet aan de [FCC Part 97-regels](https://www.ecfr.gov/current/title-47/part-97) en
   het beleid van SANDARC.
-- **Mede-teamleider**: uw mede-teamleider kan een of meer SANDARC-VE's in uw team zijn met wie wij contact kunnen opnemen
-  als wij de teamleider niet kunnen bereiken.
-  Doorgaans zijn mede-teamleiders de mede-eigenaren van uw [ExamTools](https://exam.tools)-team.
-  Let op: mede-teamleiders krijgen geen teamleiderbevoegdheden en mogen niet zelfstandig examensessies leiden.
+- **Co-Lead**: At most two members of your team may be designated as Co-Leads. Co-Leads
+  automatically receive team lead privileges, letting them independently conduct exam sessions
+  for the team on which they are a co-lead. Like team leads, they may not create new teams without
+  the VEC's explicit authorization. SANDARC may authorize more than two co-leads only when
+  absolutely necessary.
 - **E-mailadres van het team**: dit e-mailadres wordt gedeeld met mogelijke kandidaten die een examensessie in uw regio zoeken.
   Dit kan het e-mailadres van de teamleider zijn of een e-mailadres van uw organisatie.
   SANDARC gebruikt dit e-mailadres niet om contact op te nemen met uw team; daarvoor gebruiken wij het persoonlijke e-mailadres van de teamleider.
