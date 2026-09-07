@@ -27,10 +27,11 @@ SANDARCは、[ExamTools](https://exam.tools) を通じて、かつ当方に登�
 - **チームリーダー**: VECとの連絡を担当する責任者です。 さらに、
   チームリーダーは試験セッションの実施、試験官への適切な対応、および試験セッションが [FCC Part 97 規則](https://www.ecfr.gov/current/title-47/part-97) と
   SANDARCのポリシーに準拠していることの確保についても責任を負います。
-- **副リーダー**: 副リーダーは、チームリーダーと連絡が取れない場合に当方が連絡するチーム内のSANDARC VE
-  で、一名以上を指定できます。
-  通常、副リーダーは [ExamTools](https://exam.tools) のチームにおける共同オーナーです。
-  副リーダーにはチームリーダー権限は付与されず、単独で試験セッションを実施することはできませんのでご注意ください。
+- **Co-Lead**: At most two members of your team may be designated as Co-Leads. Co-Leads
+  automatically receive team lead privileges, letting them independently conduct exam sessions
+  for the team on which they are a co-lead. Like team leads, they may not create new teams without
+  the VEC's explicit authorization. SANDARC may authorize more than two co-leads only when
+  absolutely necessary.
 - **チームのメールアドレス**: このメールアドレスは、貴地域で試験セッションを探している受験希望者に公開されます。
   チームリーダーのメールアドレスでも、貴団体のメールアドレスでも構いません。
   チームへの連絡にはチームリーダーの個人メールアドレスを使用するため、SANDARCがこのメールアドレスを連絡に使用することはありません。
