@@ -27,10 +27,11 @@ SANDARC는 [ExamTools](https://exam.tools)를 통해 진행되고, 등록된 팀
 - **팀 리드**: VEC와의 연락을 담당하는 사람입니다. 또한
   팀 리드는 시험 세션을 진행하고, 시험관들이 잘 지원받도록 하며, 시험 세션이 [FCC Part 97 규정](https://www.ecfr.gov/current/title-47/part-97)과
   SANDARC 정책을 준수하도록 할 책임이 있습니다.
-- **공동 리드**: 공동 리드는 팀 리드와 연락이 닿지 않을 경우 당사가 연락할 수 있는
-  팀 내 SANDARC VE 한 명 이상을 지정할 수 있습니다.
-  일반적으로 공동 리드는 [ExamTools](https://exam.tools) 팀의 공동 소유자입니다.
-  Please note that co-leads are not granted team lead privileges and may not independently conduct exam sessions.
+- **Co-Lead**: At most two members of your team may be designated as Co-Leads. Co-Leads
+  automatically receive team lead privileges, letting them independently conduct exam sessions
+  for the team on which they are a co-lead. Like team leads, they may not create new teams without
+  the VEC's explicit authorization. SANDARC may authorize more than two co-leads only when
+  absolutely necessary.
 - **팀 이메일 주소**: 이 이메일은 해당 지역에서 시험 세션을 찾는 잠재적 응시자에게 공개됩니다.
   팀 리드의 이메일 주소이거나 소속 단체의 이메일 주소일 수 있습니다.
   SANDARC는 팀 연락 시 팀 리드의 개인 이메일 주소를 사용하므로, 이 이메일 주소로는 팀에 연락하지 않습니다.
