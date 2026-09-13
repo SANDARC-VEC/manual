@@ -26,6 +26,11 @@ SANDARCは個人からの認定申請を直接受け付けておらず、
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **チームリーダーがSANDARCに提出する。** ご自身で送付する必要はありません。
 
+!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
+    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
+    accreditation will be delayed.
+
 !!! tip "Not on a team yet?"
     SANDARCに加盟しているクラブは[sandarc.org/clubs](https://sandarc.org/clubs)に掲載されています。 Find one
     in your area, go to one of their exam sessions, and ask the Team Lead about joining. 今後開催予定の
