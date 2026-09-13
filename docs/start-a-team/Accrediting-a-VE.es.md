@@ -27,10 +27,12 @@ Los líderes de equipo son responsables de identificar y reclutar, a su entera d
 To add a new examiner to your team:
 
 1. Have the prospective examiner fill out the current accreditation form.
-2. Submit the form to vec@sandarc.org
+2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
+   - The PDF, filled out digitally (preferred)
+   - A scan or screenshot of the form filled out by hand
 
-!!! note
-    Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
+!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+    If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 Procesamos los formularios de acreditación en un plazo de 24 horas (¡normalmente mucho, mucho más rápido!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
 Los líderes de equipo recibirán un correo electrónico en cuanto su nuevo examinador haya sido acreditado.
