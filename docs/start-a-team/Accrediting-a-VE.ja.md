@@ -27,10 +27,12 @@ Technician クラスの免許保有者は、試験の実施や採点に関与す
 新しい試験官をチームに追加するには、次の手順に従ってください：
 
 1. 試験官候補者に最新の認定申請書を記入してもらいます。
-2. 記入済みの申請書を vec@sandarc.org へ送信します
+2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
+   - The PDF, filled out digitally (preferred)
+   - A scan or screenshot of the form filled out by hand
 
-!!! note
-    Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
+!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+    If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 認定申請書は 24 時間以内に処理します（たいていはもっとずっと早く完了します！）。 In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
 新しい試験官の認定が完了次第、チームリーダーにメールでお知らせします。
