@@ -27,10 +27,12 @@ Teamleiders zijn verantwoordelijk voor het vinden en aantrekken van bereidwillig
 To add a new examiner to your team:
 
 1. Have the prospective examiner fill out the current accreditation form.
-2. Stuur het formulier naar vec@sandarc.org
+2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
+   - The PDF, filled out digitally (preferred)
+   - A scan or screenshot of the form filled out by hand
 
-!!! note
-    Please encourage your new team members to fill out the form digitally. Sommige handschriften doen onze ogen echt pijn 😫.
+!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+    If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Sommige handschriften doen onze ogen echt pijn 😫.
 
 We verwerken accreditatieformulieren binnen 24 uur (meestal veel, veel sneller!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
 Teamleiders ontvangen een e-mail zodra hun nieuwe examinator geaccrediteerd is.
