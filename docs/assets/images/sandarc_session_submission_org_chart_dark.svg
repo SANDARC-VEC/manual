@@ -1,6 +1,6 @@
 <svg width="100%" viewBox="0 0 680 810" role="img" font-family="&quot;Anthropic Sans&quot;, -apple-system, &quot;system-ui&quot;, &quot;Segoe UI&quot;, sans-serif" xmlns="http://www.w3.org/2000/svg">
   <title>SANDARC session submission process org chart</title>
-  <desc>Org chart showing the flow from exam session team lead through the SANDARC VEC team to FCC submission, license issuance, and notifications to the team lead, VEC, and applicant.</desc>
+  <desc>Org chart showing the flow from exam session team lead emailing the session URL through the SANDARC VEC team to FCC submission, license issuance, and notifications to the team lead, VEC, and applicant.</desc>
   <defs>
     <marker id="arr" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
       <path d="M2 1L8 5L2 9" fill="none" stroke="#4a5568" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
@@ -12,10 +12,10 @@
   <!-- Session team lead -->
   <rect x="190" y="30" width="300" height="56" rx="8" fill="#0c2a1e" stroke="#1d6b4a"/>
   <text font-size="14" font-weight="500" fill="#5dcaa5" x="340" y="52" text-anchor="middle" dominant-baseline="central">Session team lead</text>
-  <text font-size="12" fill="#2d8a62" x="340" y="70" text-anchor="middle" dominant-baseline="central">Compiles session file after exam</text>
+  <text font-size="12" fill="#2d8a62" x="340" y="70" text-anchor="middle" dominant-baseline="central">Finalizes session after exam</text>
 
   <line x1="340" y1="86" x2="340" y2="136" stroke="#4a5568" stroke-width="1.2" marker-end="url(#arr)"/>
-  <text font-size="12" fill="#8a94a6" x="356" y="103" dominant-baseline="central">Emails "VEC Archive" file</text>
+  <text font-size="12" fill="#8a94a6" x="356" y="103" dominant-baseline="central">Emails session URL</text>
   <text font-size="12" fill="#8a94a6" x="356" y="120" dominant-baseline="central">to vec@sandarc.org</text>
 
   <!-- VEC Email Inbox -->
