@@ -26,6 +26,11 @@ Zo werkt het:
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **Je Team Lead dient het in bij SANDARC.** Je stuurt het niet zelf op.
 
+!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
+    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
+    accreditation will be delayed.
+
 !!! tip "Nog geen team?"
     Clubs die zijn aangesloten bij SANDARC vind je op [sandarc.org/clubs](https://sandarc.org/clubs). Find one
     in your area, go to one of their exam sessions, and ask the Team Lead about joining. Aankomende
