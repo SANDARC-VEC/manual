@@ -28,7 +28,7 @@ hosted elsewhere). Include anything not already covered by the rest of the listi
 
 - Any special rules your session has (walk-in policy, arrival time, what to bring, calculator policy, etc.)
 - A way for prospective applicants to contact your team, such as your team email address
-- For remote sessions: the time and time zone again, links to instructions, and how to pay
+- For remote sessions: the time and time zone again, links to instructions
 
 **Notes for applicant (email)** are emailed to applicants when they register for your session. They are never
 shown to anyone who has not registered, making this the right place for less-public information such as the
