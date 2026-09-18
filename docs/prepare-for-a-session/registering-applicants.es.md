@@ -28,7 +28,7 @@ hosted elsewhere). Incluya todo aquello que no esté ya cubierto por el resto de
 
 - Cualquier norma especial de su sesión (política de admisión sin cita previa, hora de llegada, qué llevar, política sobre calculadoras, etc.)
 - Una forma de que los posibles solicitantes se pongan en contacto con su equipo, como la dirección de correo electrónico del equipo
-- Para sesiones remotas: la hora y la zona horaria de nuevo, enlaces a las instrucciones y la forma de pago
+- For remote sessions: the time and time zone again, links to instructions
 
 Las **notas para el solicitante (correo electrónico)** se envían por correo electrónico a los solicitantes cuando se registran en su sesión. Nunca se
 muestran a quienes no se han registrado, por lo que este es el lugar adecuado para la información menos pública, como el
