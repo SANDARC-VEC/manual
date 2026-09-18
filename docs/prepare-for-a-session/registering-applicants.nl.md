@@ -28,7 +28,7 @@ hosted elsewhere). Vermeld alles wat niet al elders in de vermelding staat:
 
 - Eventuele bijzondere regels voor uw sessie (beleid voor inschrijving ter plaatse, aankomsttijd, wat men moet meenemen, rekenmachinebeleid, enz.)
 - Een manier waarop potentiële kandidaten contact met uw team kunnen opnemen, zoals het e-mailadres van uw team
-- Voor sessies op afstand: nogmaals het tijdstip en de tijdzone, links naar instructies en hoe er betaald kan worden
+- For remote sessions: the time and time zone again, links to instructions
 
 **Notities voor kandidaat (e-mail)** worden per e-mail naar kandidaten gestuurd wanneer zij zich voor uw sessie inschrijven. Ze worden nooit
 getoond aan iemand die zich niet heeft ingeschreven, waardoor dit de juiste plek is voor minder openbare informatie, zoals de
