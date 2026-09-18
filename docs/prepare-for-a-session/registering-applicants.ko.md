@@ -28,7 +28,7 @@ applicants learn the details of your session, so take the time to fill both out 
 
 - Any special rules your session has (walk-in policy, arrival time, what to bring, calculator policy, etc.)
 - A way for prospective applicants to contact your team, such as your team email address
-- For remote sessions: the time and time zone again, links to instructions, and how to pay
+- For remote sessions: the time and time zone again, links to instructions
 
 \*\*응시자 안내 사항(이메일)\*\*은 응시자가 세션에 등록할 때 이메일로 발송됩니다. 등록하지 않은 사람에게는 절대
 표시되지 않으므로, 원격 세션의 화상 회의 링크나 시험장 위치에 대한 구체적인 안내처럼 공개하기 어려운 정보를
