@@ -12,10 +12,10 @@
 
 ## 認定を受ける
 
-**認定はVEチームを通じて行われます。 個人で直接SANDARCに申請することはできません。**
+**認定はVEチームを通じて行われます。個人で直接SANDARCに申請することはできません。**
 
 SANDARCは個人からの認定申請を直接受け付けておらず、
-試験官の募集も自ら行っていません。 認定を受けるには、既存のSANDARCチームに加入し、チームリーダーが
+試験官の募集も自ら行っていません。認定を受けるには、既存のSANDARCチームに加入し、チームリーダーが
 あなたに代わって申請を提出します。
 
 手順は次のとおりです：
@@ -26,10 +26,11 @@ SANDARCは個人からの認定申請を直接受け付けておらず、
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **チームリーダーがSANDARCに提出する。** ご自身で送付する必要はありません。
 
-!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
-    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
-    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
-    accreditation will be delayed.
+!!! warning "Send back a PDF, scan, or photo that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan or photo of the
+    form filled out by hand. A form filled out digitally must be sent as the PDF itself, not a
+    photo or screenshot of a screen. If any field cannot be read, SANDARC cannot process
+    the form and your accreditation will be delayed.
 
 !!! tip "Not on a team yet?"
     SANDARCに加盟しているクラブは[sandarc.org/clubs](https://sandarc.org/clubs)に掲載されています。 Find one
@@ -40,7 +41,7 @@ SANDARCは個人からの認定申請を直接受け付けておらず、
     先にSANDARCへ何かを送る必要はありません。
 
 !!! success "申請は個別に、その場で処理されます"
-    SANDARCは認定をまとめて処理したり、グループ単位で保留したりすることは**ありません**。 すべてのフォームは、チームリーダーが送信した時点で
+    SANDARCは認定をまとめて処理したり、グループ単位で保留したりすることは**ありません**。すべてのフォームは、チームリーダーが送信した時点で
     個別に処理されます。通常はほぼ即時、遅くとも24
     時間以内には完了します。
 
