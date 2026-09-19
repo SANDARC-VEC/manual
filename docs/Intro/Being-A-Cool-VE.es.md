@@ -26,10 +26,11 @@ Cómo funciona:
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
-!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
-    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
-    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
-    accreditation will be delayed.
+!!! warning "Send back a PDF, scan, or photo that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan or photo of the
+    form filled out by hand. A form filled out digitally must be sent as the PDF itself, not a
+    photo or screenshot of a screen. If any field cannot be read, SANDARC cannot process
+    the form and your accreditation will be delayed.
 
 !!! tip "¿Todavía no formas parte de un equipo?"
     Clubs affiliated with SANDARC are listed at [sandarc.org/clubs](https://sandarc.org/clubs). Find one
