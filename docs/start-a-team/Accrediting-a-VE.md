@@ -29,9 +29,9 @@ To add a new examiner to your team:
 1. Have the prospective examiner fill out the current accreditation form.
 2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
     - The PDF, filled out digitally (preferred)
-    - A scan or screenshot of the form filled out by hand
+    - A scan of the form filled out by hand
 
-!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+!!! warning "Forms must be a PDF or scan, and fully legible"
     If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 We process accreditation forms within 24 hours (usually much, much faster!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.

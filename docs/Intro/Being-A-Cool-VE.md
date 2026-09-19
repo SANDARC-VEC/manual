@@ -24,9 +24,9 @@ How it works:
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **Your Team Lead submits it to SANDARC.** You do not send it in yourself.
 
-!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
-    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
-    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
+!!! warning "Send back a PDF or scan that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan of the form filled
+    out by hand. If any field cannot be read, SANDARC cannot process the form and your
     accreditation will be delayed.
 
 !!! tip "Not on a team yet?"
