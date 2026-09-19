@@ -26,10 +26,11 @@ SANDARC는 개인이 직접 제출한 인증 신청은 받지 않으며, 시험�
 3. **Fill it out** (digitally, please) and return it to your Team Lead.
 4. **팀 리드가 SANDARC에 제출합니다.** 본인이 직접 보내지 않습니다.
 
-!!! warning "Send back a PDF, scan, or screenshot that is fully legible"
-    Return the form as the digitally filled-out PDF (preferred), or as a scan or screenshot of the
-    form filled out by hand. If any field cannot be read, SANDARC cannot process the form and your
-    accreditation will be delayed.
+!!! warning "Send back a PDF, scan, or photo that is fully legible"
+    Return the form as the digitally filled-out PDF (preferred), or as a scan or photo of the
+    form filled out by hand. A form filled out digitally must be sent as the PDF itself, not a
+    photo or screenshot of a screen. If any field cannot be read, SANDARC cannot process
+    the form and your accreditation will be delayed.
 
 !!! tip "Not on a team yet?"
     SANDARC에 가입된 클럽 목록은 [sandarc.org/clubs](https://sandarc.org/clubs)에서 확인할 수 있습니다. Find one
