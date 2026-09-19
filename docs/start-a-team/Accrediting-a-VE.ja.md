@@ -16,27 +16,26 @@ FCC 規則に基づきボランティア試験官の資格を得るには、次�
 | Advanced クラス      | エレメント 2 および 3   |
 | Amateur Extra クラス | エレメント 2、3 および 4 |
 
-Technician クラスの免許保有者は、試験の実施や採点に関与することはできません。
-ただし、問い合わせへの対応、試験会場の設営、問題冊子を含む試験資料の印刷といった業務を手伝うことは可能です。
+Technician クラスの免許保有者は、試験の実施や採点に関与することはできません。ただし、問い合わせへの対応、試験会場の設営、問題冊子を含む試験資料の印刷といった業務を手伝うことは可能です。
 
 ## 試験官の認定手続き
 
-認定は既存のチームを通じて取得する仕組みのため、SANDARC が直接試験官を募集することはありません。
-意欲と資格を備えたアマチュア無線家を見つけ、自チームへ迎え入れるかどうかは、チームリーダーの裁量に委ねられています。
+認定は既存のチームを通じて取得する仕組みのため、SANDARC が直接試験官を募集することはありません。意欲と資格を備えたアマチュア無線家を見つけ、自チームへ迎え入れるかどうかは、チームリーダーの裁量に委ねられています。
 
 新しい試験官をチームに追加するには、次の手順に従ってください：
 
 1. 試験官候補者に最新の認定申請書を記入してもらいます。
 2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
    - The PDF, filled out digitally (preferred)
-   - A scan or screenshot of the form filled out by hand
+   - A scan or photo of the form filled out by hand
 
-!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+!!! warning "Forms must be a PDF, scan, or photo, and fully legible"
+    A form filled out digitally must be sent as the PDF itself — we do not accept a photo or screenshot of a screen.
+
     If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 認定申請書は 24 時間以内に処理します（たいていはもっとずっと早く完了します！）。 In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
-新しい試験官の認定が完了次第、チームリーダーにメールでお知らせします。
-新しい試験官の SANDARC 認定情報が [ExamTools](https://exam.tools) に反映され、SANDARC のセッションに追加できるようになるまで、最大四時間かかる場合があります。
+新しい試験官の認定が完了次第、チームリーダーにメールでお知らせします。新しい試験官の SANDARC 認定情報が [ExamTools](https://exam.tools) に反映され、SANDARC のセッションに追加できるようになるまで、最大四時間かかる場合があります。
 
 !!! note
     各チームには、そのチーム専用にデジタル識別された認定申請書が発行されます。 Please do not use forms that are not issued to your team. If you need a copy of your team's accreditation form, kindly let us know.
@@ -52,7 +51,7 @@ Technician クラスの免許保有者は、試験の実施や採点に関与す
 一時停止中の試験官で再開を希望される方は、[vec@sandarc.org](mailto:vec@sandarc.org) までご連絡ください。
 
 !!! note
-    一時停止は認定の取り消しを意味するものではありません。 一時停止中の試験官も、認定を受けた状態のままです。 ただし、セッションに参加することはできず、[ExamTools](https://exam.tools) 上でセッションに追加することもできません。
+    一時停止は認定の取り消しを意味するものではありません。一時停止中の試験官も、認定を受けた状態のままです。ただし、セッションに参加することはできず、[ExamTools](https://exam.tools) 上でセッションに追加することもできません。
 
 ## 認定状況の確認
 
@@ -64,7 +63,7 @@ Technician クラスの免許保有者は、試験の実施や採点に関与す
 
 ## 試験官情報の更新
 
-SANDARC は自動的に ULS データベースと記録を同期しています。 そのため、次の項目が変更されても当会に届け出る必要はありません：
+SANDARC は自動的に ULS データベースと記録を同期しています。そのため、次の項目が変更されても当会に届け出る必要はありません：
 
 - 氏名
 - コールサイン
