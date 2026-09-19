@@ -29,9 +29,11 @@ SANDARC는 시험관을 직접 모집하지 않으며, 인증은 기존 팀을 �
 1. 시험관이 되려는 분에게 최신 인증 신청서를 작성하게 하십시오.
 2. Email the completed form to [vec@sandarc.org](mailto:vec@sandarc.org) in one of these formats:
    - The PDF, filled out digitally (preferred)
-   - A scan or screenshot of the form filled out by hand
+   - A scan or photo of the form filled out by hand
 
-!!! warning "Forms must be a PDF, scan, or screenshot, and fully legible"
+!!! warning "Forms must be a PDF, scan, or photo, and fully legible"
+    A form filled out digitally must be sent as the PDF itself — we do not accept a photo or screenshot of a screen.
+
     If we cannot read every field, we cannot process the form. Please encourage your new team members to fill out the form digitally. Some handwriting really does hurt our eyes 😫.
 
 인증 신청서는 24시간 이내에 처리됩니다(보통은 훨씬, 훨씬 더 빠릅니다!). In the extremely unlikely case that we do not meet that deadline, kindly send us a follow-up email.
