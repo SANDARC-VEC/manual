@@ -43,9 +43,15 @@ CTX_WORDS = 3
 # one snippet.
 GAP_WORDS = 2
 
-# Matches the closing tag of the reading-time meta row so the History
-# button lands inside it, and the first </h1> as a fallback anchor.
-_META_ROW = re.compile(r'(<div class="page-meta">.*?)(</div>)', re.DOTALL)
+# Matches the end of the reading-time meta row so the History button
+# lands inside it — before the page-actions slot comment that
+# hooks/reading_time.py keeps last in the row, or before </div> if there
+# is none — and the first </h1> as a fallback anchor.
+PAGE_ACTIONS_SLOT = "<!-- page-actions -->"
+_META_ROW = re.compile(
+    r'(<div class="page-meta">.*?)(' + re.escape(PAGE_ACTIONS_SLOT) + r"|</div>)",
+    re.DOTALL,
+)
 _H1_CLOSE = re.compile(r"</h1>", re.IGNORECASE)
 
 _HISTORY_SVG = (
@@ -366,5 +372,7 @@ def on_page_content(html, page, config, files, **kwargs):
         )
     # Fallback: page had no meta row (e.g. no word count) — make one.
     return _H1_CLOSE.sub(
-        f'</h1>\n<div class="page-meta">{widget}</div>', html, count=1
+        f'</h1>\n<div class="page-meta">{widget}{PAGE_ACTIONS_SLOT}</div>',
+        html,
+        count=1,
     )

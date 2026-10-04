@@ -63,6 +63,11 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/print-site.css
 
+# Copy as Markdown and keyboard handling for the page actions menu
+# (overrides/partials/page-actions.html). The menu's links work without it.
+extra_javascript:
+  - javascripts/page-actions.js
+
 plugins:
   - search
   # Translations live beside their English source as <name>.<locale>.md
