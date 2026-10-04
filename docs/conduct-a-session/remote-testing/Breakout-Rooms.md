@@ -4,10 +4,24 @@ Breakout rooms let you split one video conference into separate private rooms, w
 naturally onto a remote exam session:
 
 - **Main room:** the lobby. Applicants arrive here, are greeted, and wait their turn.
-- **One breakout room per applicant under exam:** the applicant plus the three VEs
-  observing them. Audio, video, and chat in a breakout room are private to that room, so
-  multiple applicants can test simultaneously without disturbing each other.
+- **One breakout room per applicant under exam:** the applicant plus the VEs observing
+  them. Audio, video, and chat in a breakout room are private to that room, so multiple
+  applicants can test simultaneously without disturbing each other.
 - **A spare room** is handy for private ID verification or VE-only discussion.
+
+!!! warning "At least three VEs in every exam room"
+    An exam is only valid with **three VEs observing** — that is the FCC minimum, and a
+    breakout room with an applicant under exam must hold at least three VEs at all
+    times. Staff rooms with **four VEs where you can**: if one VE drops their
+    connection, the room stays at quorum and the exam continues instead of pausing
+    while they reconnect.
+
+!!! note "Other formats are welcome"
+    The lobby-plus-exam-rooms layout above is one proven way to run a remote session,
+    not the only way. SANDARC is always open to teams trying different formats, as long
+    as applicants are comfortable, SANDARC policies are followed, and the session
+    satisfies the
+    [FCC rules governing exams](https://www.ecfr.gov/current/title-47/chapter-I/subchapter-D/part-97#subpart-F).
 
 Both Zoom and Google Meet support breakout rooms, but they behave differently in ways
 that matter for an exam session. Details for each platform are below.
