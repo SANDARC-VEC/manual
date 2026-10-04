@@ -1551,7 +1551,7 @@ body:not(:has(.hero-landing)) .md-content {
   outline-offset: -2px;
 }
 /* The display values above would otherwise beat the browser's own
-   [hidden] rule (the copy button is hidden where copying can't work). */
+   [hidden] rule (the copy button stays hidden until the script shows it). */
 .md-content .page-actions [hidden] {
   display: none;
 }

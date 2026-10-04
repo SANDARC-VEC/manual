@@ -3,7 +3,8 @@
   ChatGPT with a prefilled prompt; the disclosure beside it also offers
   Claude and copying the page's Markdown. The assistant links are plain
   links built here, so they work without JavaScript; the copy button is the
-  only part that needs it.
+  only part that needs it, so it is rendered hidden and
+  docs/javascripts/page-actions.js reveals it where copying can work.
 
   Rendered twice, as page_actions_variant: "title" floated beside the H1
   (partials/actions.html) and "meta" at the end of the "N min read ·
@@ -69,7 +70,7 @@ If something is still unclear or not covered by the manual, remind me that SANDA
     <div class="page-actions__panel">
       <a href="https://chatgpt.com/?hints=search&amp;q={{ page_q }}" target="_blank" rel="noopener noreferrer">Open in ChatGPT</a>
       <a href="https://claude.ai/new?q={{ page_q }}" target="_blank" rel="noopener noreferrer">Open in Claude</a>
-      <button type="button" data-page-actions-copy>Copy as Markdown</button>
+      <button type="button" data-page-actions-copy hidden>Copy as Markdown</button>
     </div>
   </details>
   {#- Outside <details> so announcements still land while the menu is
