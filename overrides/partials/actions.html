@@ -1,0 +1,33 @@
+{#-
+  Copied from mkdocs-material 9.7.6 partials/actions.html with one addition:
+  the AI page actions control (see partials/page-actions.html; styled
+  in docs/stylesheets/extra.css under "9 — PAGE ACTIONS"). This is the
+  theme's slot for buttons floated beside the page title; the edit/view
+  blocks are kept so they still work if edit_url is ever configured.
+
+  This copy is the one shown beside the title. When the page also has the
+  meta-row copy (see partials/content.html), it is marked so CSS can hide
+  it on phones.
+-#}
+{% if page.edit_url %}
+  {% if "content.action.edit" in features %}
+    <a href="{{ page.edit_url }}" title="{{ lang.t('action.edit') }}" class="md-content__button md-icon" rel="edit">
+      {% set icon = config.theme.icon.edit or "material/file-edit-outline" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </a>
+  {% endif %}
+  {% if "content.action.view" in features %}
+    {% if "/blob/" in page.edit_url %}
+      {% set part = "blob" %}
+    {% else %}
+      {% set part = "edit" %}
+    {% endif %}
+    <a href="{{ page.edit_url | replace(part, 'raw') }}" title="{{ lang.t('action.view') }}" class="md-content__button md-icon">
+      {% set icon = config.theme.icon.view or "material/file-eye-outline" %}
+      {% include ".icons/" ~ icon ~ ".svg" %}
+    </a>
+  {% endif %}
+{% endif %}
+{% set page_actions_variant = "title" %}
+{% set page_actions_has_meta = page_actions_slot is defined and page_actions_slot in page.content %}
+{% include "partials/page-actions.html" %}

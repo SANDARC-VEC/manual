@@ -21,6 +21,10 @@ WORDS_PER_MINUTE = 200
 _H1_CLOSE = re.compile(r"</h1>", re.IGNORECASE)
 # Strips HTML tags for a rough word count.
 _TAGS = re.compile(r"<[^>]+>")
+# Kept last in the meta row: overrides/partials/content.html swaps it for
+# the phone copy of the page actions, and hooks/git_changelog.py inserts
+# its History button before it. Keep the three in step.
+PAGE_ACTIONS_SLOT = "<!-- page-actions -->"
 
 _CLOCK_SVG = (
     '<svg width="14" height="14" viewBox="0 0 24 24" fill="none" '
@@ -43,7 +47,7 @@ def on_page_content(html, page, config, files, **kwargs):
     meta = (
         '<div class="page-meta">'
         f"{_CLOCK_SVG}{minutes} min read"
-        "</div>"
+        f"{PAGE_ACTIONS_SLOT}</div>"
     )
 
     # Insert immediately after the first </h1>. If a page has no H1

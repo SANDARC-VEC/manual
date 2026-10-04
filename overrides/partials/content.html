@@ -1,0 +1,27 @@
+{#-
+  Copied from mkdocs-material 9.7.6 partials/content.html with one change:
+  the page-actions slot comment that hooks/reading_time.py leaves at the
+  end of the "N min read · History" row is replaced with a second copy of
+  the page actions (partials/page-actions.html). CSS shows that copy on
+  phones and the one beside the title (partials/actions.html) elsewhere.
+  print-site renders its combined page through here too; page-actions.html
+  renders nothing there, so every slot simply disappears.
+-#}
+{%- set page_actions_slot = "<!-- page-actions -->" -%}
+{% include "partials/tags.html" %}
+{% include "partials/actions.html" %}
+{% if "<h1" not in page.content %}
+  <h1>{{ page.title | d(config.site_name, true)}}</h1>
+{% endif %}
+{% if page_actions_slot in page.content %}
+  {%- set page_actions_variant = "meta" -%}
+  {%- set page_actions_meta -%}
+    {% include "partials/page-actions.html" %}
+  {%- endset -%}
+  {{ page.content | replace(page_actions_slot, page_actions_meta) }}
+{% else %}
+  {{ page.content }}
+{% endif %}
+{% include "partials/source-file.html" %}
+{% include "partials/feedback.html" %}
+{% include "partials/comments.html" %}
