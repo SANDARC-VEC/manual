@@ -60,6 +60,10 @@ appears in the participant list mid-session.
 - 활성 모니터 또는 화면은 하나만 허용됩니다. 추가 모니터는 연결을 해제하거나 가려 두어야 합니다.
 - 가상 배경이나 흐린 배경은 사용할 수 없습니다.
 
+!!! info "SANDARC Policy"
+    One camera is the standard and the default for remote sessions. A second camera
+    is used only when it is necessary, never as a routine requirement.
+
 대부분의 팀은 소회의실을 이용해 원격 세션을 운영합니다. 메인 회의실을 대기실로 사용하고,
 시험을 치르는 응시자마다 별도의 개별 회의실을 배정합니다. See [Breakout Rooms](Breakout-Rooms.md) for
 platform-specific setup on Zoom and Google Meet.
