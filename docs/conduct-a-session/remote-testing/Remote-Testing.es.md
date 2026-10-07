@@ -62,6 +62,10 @@ appears in the participant list mid-session.
 - Un solo monitor o pantalla activa. Los monitores adicionales deben desconectarse o taparse.
 - Sin fondos virtuales ni desenfocados.
 
+!!! info "SANDARC Policy"
+    One camera is the standard and the default for remote sessions. A second camera
+    is used only when it is necessary, never as a routine requirement.
+
 La mayoría de los equipos realizan las sesiones remotas con salas de grupos: una sala principal como sala de espera y una
 sala privada para cada solicitante que está examinándose. See [Breakout Rooms](Breakout-Rooms.md) for
 platform-specific setup on Zoom and Google Meet.
