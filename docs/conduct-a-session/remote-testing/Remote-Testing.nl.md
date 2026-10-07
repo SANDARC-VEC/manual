@@ -62,6 +62,10 @@ midden in de sessie in de deelnemerslijst verschijnt.
 - Slechts één actieve monitor of beeldscherm. Extra monitoren moeten worden losgekoppeld of afgedekt.
 - Geen virtuele of vervaagde achtergronden.
 
+!!! info "SANDARC Policy"
+    One camera is the standard and the default for remote sessions. A second camera
+    is used only when it is necessary, never as a routine requirement.
+
 De meeste teams houden sessies op afstand met behulp van breakoutrooms — een hoofdruimte als lobby en een
 privéruimte per kandidaat die examen doet. Zie [Breakoutrooms](Breakout-Rooms.md) voor de
 platformspecifieke instellingen in Zoom en Google Meet.
