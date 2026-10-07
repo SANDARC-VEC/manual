@@ -62,6 +62,10 @@ appears in the participant list mid-session.
 - Only one active monitor or screen. Additional monitors must be disconnected or covered.
 - No virtual or blurred backgrounds.
 
+!!! info "SANDARC Policy"
+    One camera is the standard and the default for remote sessions. A second camera
+    is used only when it is necessary, never as a routine requirement.
+
 Most teams run remote sessions using breakout rooms — a main room as the lobby and a
 private room per applicant under exam. See [Breakout Rooms](Breakout-Rooms.md) for
 platform-specific setup on Zoom and Google Meet.
