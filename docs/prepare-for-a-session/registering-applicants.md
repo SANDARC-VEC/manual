@@ -16,6 +16,11 @@ Please make use of these options to create a smooth user experience for your app
 !!! warning "Known Bug"
     [ExamTools](https://exam.tools) sets the SANDARC session fee to `NaN` by default. This is a known bug. Please manually reset this field to `0`.
 
+!!! info "International Applicants"
+    Applicants residing outside the United States are welcome to register for examination sessions.
+    A valid U.S. mailing address, including an APO or FPO address, is required for the license
+    application. See [Getting an FRN](Getting-an-FRN.md#mailing-address-requirements) for details.
+
 ### Session Notes
 
 When creating your session, [ExamTools](https://exam.tools) provides two note fields. These are the primary way

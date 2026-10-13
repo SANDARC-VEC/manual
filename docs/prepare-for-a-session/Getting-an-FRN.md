@@ -46,6 +46,13 @@ An applicant registers for their own FRN directly with the FCC. It is free and t
     or other valid mailing address they can receive mail at. The FCC requires a working mailing
     address; a license can be revoked for undeliverable mail.
 
+### Mailing Address Requirements
+
+Applicants must provide a valid U.S. mailing address for their amateur radio license application.
+Applicants residing outside the United States are welcome to take examinations, provided they
+have a valid U.S. mailing address. Military APO and FPO mailing addresses are acceptable.
+Applicants should ensure they can receive correspondence at the mailing address provided.
+
 ### Applicants Without a Social Security Number
 
 The FCC normally requires an SSN or other Taxpayer Identification Number for an individual FRN.
