@@ -8,7 +8,7 @@
 | Dringende ondersteuning tijdens sessies | (619) 215-1886                                                                       |
 | Fastest Response                        | [SANDARC Discord](https://discord.sandarc.org)                                                          |
 | Nieuwe VE-aanvragen                     | Submit through your Team Lead to [vec@sandarc.org](mailto:vec@sandarc.org) |
-| Vragen van nieuwe teams                 | [vec@sandarc.org](mailto:vec@sandarc.org)                                  |
+| New Team Requests                       | [Team request form](https://vec.sandarc.org/team-request)                                               |
 | Inzendingen van sessies                 | VEC Archive file via email to [vec@sandarc.org](mailto:vec@sandarc.org)    |
 | Website van SANDARC                     | [sandarc.org](https://sandarc.org)                                                      |
 | Aangesloten clubs en VE-teams           | [sandarc.org/clubs](https://sandarc.org/clubs)                                          |
