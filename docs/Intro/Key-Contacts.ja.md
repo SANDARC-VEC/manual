@@ -2,16 +2,16 @@
 
 ## SANDARC VEC
 
-| リソース             | 連絡先 / URL                                                                                               |
-| ---------------- | ------------------------------------------------------------------------------------------------------- |
-| SANDARC VEC 総合窓口 | [vec@sandarc.org](mailto:vec@sandarc.org)                                  |
-| 緊急セッションサポート      | (619) 215-1886                                                                       |
-| Fastest Response | [SANDARC Discord](https://discord.sandarc.org)                                                          |
-| 新規 VE 申請         | Submit through your Team Lead to [vec@sandarc.org](mailto:vec@sandarc.org) |
-| 新規チームに関するお問い合わせ  | [vec@sandarc.org](mailto:vec@sandarc.org)                                  |
-| セッションの提出         | VEC Archive file via email to [vec@sandarc.org](mailto:vec@sandarc.org)    |
-| SANDARC ウェブサイト   | [sandarc.org](https://sandarc.org)                                                      |
-| 提携クラブと VE チーム    | [sandarc.org/clubs](https://sandarc.org/clubs)                                          |
+| リソース              | 連絡先 / URL                                                                                               |
+| ----------------- | ------------------------------------------------------------------------------------------------------- |
+| SANDARC VEC 総合窓口  | [vec@sandarc.org](mailto:vec@sandarc.org)                                  |
+| 緊急セッションサポート       | (619) 215-1886                                                                       |
+| Fastest Response  | [SANDARC Discord](https://discord.sandarc.org)                                                          |
+| 新規 VE 申請          | Submit through your Team Lead to [vec@sandarc.org](mailto:vec@sandarc.org) |
+| New Team Requests | [Team request form](https://vec.sandarc.org/team-request)                                               |
+| セッションの提出          | VEC Archive file via email to [vec@sandarc.org](mailto:vec@sandarc.org)    |
+| SANDARC ウェブサイト    | [sandarc.org](https://sandarc.org)                                                      |
+| 提携クラブと VE チーム     | [sandarc.org/clubs](https://sandarc.org/clubs)                                          |
 
 ## FCC および試験プラットフォームのリソース
 
