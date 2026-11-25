@@ -3,7 +3,7 @@
 Organizations wishing to host an Amateur Radio exam session should delegate one of their members as the VE Team Lead.
 The Team Lead will serve as the main point of contact between SANDARC, examiners, and your organization.
 
-Your designated team lead should then contact SANDARC VEC via email at [vec@sandarc.org](mailto:vec@sandarc.org) on behalf of your organization.
+Your designated team lead should then submit the [team request form](https://vec.sandarc.org/team-request) on behalf of your organization. We will send our decision to the team lead's email address.
 We reserve the right to accept or deny requests to start a new team at our sole discretion.
 
 SANDARC favors in-person teams that are attached to a club, organization, or a recurring tech-related event.

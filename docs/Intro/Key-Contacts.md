@@ -8,7 +8,7 @@
 | Urgent Session Support      | (619) 215-1886                                                 |
 | Fastest Response            | [SANDARC Discord](https://discord.sandarc.org)                 |
 | New VE Applications         | Submit through your Team Lead to [vec@sandarc.org](mailto:vec@sandarc.org) |
-| New Team Inquiries          | [vec@sandarc.org](mailto:vec@sandarc.org)                      |
+| New Team Requests           | [Team request form](https://vec.sandarc.org/team-request)      |
 | Session Submissions         | VEC Archive file via email to [vec@sandarc.org](mailto:vec@sandarc.org) |
 | SANDARC Website             | [sandarc.org](https://sandarc.org)                             |
 | Affiliated Clubs & VE Teams | [sandarc.org/clubs](https://sandarc.org/clubs)                 |
