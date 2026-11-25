@@ -3,7 +3,7 @@
 Organisaties die een examensessie voor amateurradio willen organiseren, moeten een van hun leden aanwijzen als VE-teamleider.
 De teamleider fungeert als het belangrijkste aanspreekpunt tussen SANDARC, de examinatoren en uw organisatie.
 
-Uw aangewezen teamleider dient vervolgens namens uw organisatie contact op te nemen met SANDARC VEC via e-mail op [vec@sandarc.org](mailto:vec@sandarc.org).
+Your designated team lead should then submit the [team request form](https://vec.sandarc.org/team-request) on behalf of your organization. We will send our decision to the team lead's email address.
 Wij behouden ons het recht voor om verzoeken tot het starten van een nieuw team naar eigen inzicht te accepteren of af te wijzen.
 
 SANDARC geeft de voorkeur aan fysieke teams die verbonden zijn aan een club, organisatie of een terugkerend technisch evenement.
