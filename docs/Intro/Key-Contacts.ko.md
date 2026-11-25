@@ -8,7 +8,7 @@
 | Urgent Session Support | (619) 215-1886                                                                       |
 | Fastest Response       | [SANDARC Discord](https://discord.sandarc.org)                                                          |
 | 신규 VE 지원               | Submit through your Team Lead to [vec@sandarc.org](mailto:vec@sandarc.org) |
-| 신규 팀 문의                | [vec@sandarc.org](mailto:vec@sandarc.org)                                  |
+| New Team Requests      | [Team request form](https://vec.sandarc.org/team-request)                                               |
 | 세션 제출                  | VEC Archive file via email to [vec@sandarc.org](mailto:vec@sandarc.org)    |
 | SANDARC 웹사이트           | [sandarc.org](https://sandarc.org)                                                      |
 | 가맹 클럽 및 VE 팀           | [sandarc.org/clubs](https://sandarc.org/clubs)                                          |
