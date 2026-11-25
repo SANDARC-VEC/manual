@@ -3,7 +3,7 @@
 Las organizaciones que deseen albergar una sesión de examen de radioaficionados deben designar a uno de sus miembros como líder del equipo de VE.
 The Team Lead will serve as the main point of contact between SANDARC, examiners, and your organization.
 
-Your designated team lead should then contact SANDARC VEC via email at [vec@sandarc.org](mailto:vec@sandarc.org) on behalf of your organization.
+Your designated team lead should then submit the [team request form](https://vec.sandarc.org/team-request) on behalf of your organization. We will send our decision to the team lead's email address.
 Nos reservamos el derecho de aceptar o rechazar las solicitudes para formar un nuevo equipo, a nuestra entera discreción.
 
 SANDARC da preferencia a los equipos presenciales que estén vinculados a un club, una organización o un evento tecnológico recurrente.
