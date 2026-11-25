@@ -3,7 +3,7 @@
 아마추어 무선 시험 세션을 주최하려는 단체는 소속 구성원 중 한 명을 VE 팀 리드로 지정해야 합니다.
 팀 리드는 SANDARC, 시험관, 그리고 귀하의 단체 사이의 주요 연락 창구 역할을 합니다.
 
-Your designated team lead should then contact SANDARC VEC via email at [vec@sandarc.org](mailto:vec@sandarc.org) on behalf of your organization.
+Your designated team lead should then submit the [team request form](https://vec.sandarc.org/team-request) on behalf of your organization. We will send our decision to the team lead's email address.
 당사는 새 팀 개설 요청에 대해 전적인 재량으로 승인 또는 거부할 권리를 보유합니다.
 
 SANDARC는 클럽, 단체 또는 정기적으로 열리는 기술 관련 행사에 소속된 대면 팀을 선호합니다.
